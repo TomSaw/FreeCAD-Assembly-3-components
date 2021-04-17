@@ -1,0 +1,908 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="be56b691-1809-4050-a0f1-ba0603bc7226" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="767">
+<![CDATA[
+-1.0 0:backlash
+-1.0 0:beta 
+-1.0 0:clearance
+-1.0 0:double helix
+-1.0 0:pitch diameter
+-1.0 0:test
+-1.0 0:head_value * modul_value = additional length of head
+-1.0 0:height
+-1.0 0:module
+-1.0 0:number of points for spline
+-1.0 0:pressure angle
+-1.0 0:if beta is given and properties_from_tool is enabled,             gear parameters are internally recomputed for the rotated gear
+-1.0 0:backlash direction
+-1.0 0:shift
+-1.0 0:simple
+-1.0 0:number of teeth
+-1.0 0:transverse_pitch
+-1.0 0:undercut
+-1.0 0:;:M;FUS;:H59a:7,V
+-1.c.1 Vertex1
+-1.0 0:;:H59a,V
+-1.c.1 Vertex2
+-1.0 0:;:H59b,V
+-1.c.1 Vertex1
+-1.c.0 Vertex3
+-1.c.0 Vertex239
+-1.c.0 Vertex5
+-1.c.0 Vertex237
+-1.c.0 Vertex7
+-1.c.0 Vertex235
+-1.c.0 Vertex9
+-1.c.0 Vertex233
+-1.c.0 Vertex11
+-1.c.0 Vertex231
+-1.c.0 Vertex13
+-1.c.0 Vertex229
+-1.c.0 Vertex15
+-1.c.0 Vertex227
+-1.c.0 Vertex17
+-1.c.0 Vertex225
+-1.c.0 Vertex19
+-1.c.0 Vertex223
+-1.c.0 Vertex21
+-1.c.0 Vertex221
+-1.c.0 Vertex23
+-1.c.0 Vertex219
+-1.c.0 Vertex25
+-1.c.0 Vertex217
+-1.c.0 Vertex27
+-1.c.0 Vertex215
+-1.c.0 Vertex29
+-1.c.0 Vertex213
+-1.c.0 Vertex31
+-1.c.0 Vertex211
+-1.c.0 Vertex33
+-1.c.0 Vertex209
+-1.c.0 Vertex35
+-1.c.0 Vertex207
+-1.c.0 Vertex37
+-1.c.0 Vertex205
+-1.c.0 Vertex39
+-1.c.0 Vertex203
+-1.c.0 Vertex41
+-1.c.0 Vertex201
+-1.c.0 Vertex43
+-1.c.0 Vertex199
+-1.c.0 Vertex45
+-1.c.0 Vertex197
+-1.c.0 Vertex47
+-1.c.0 Vertex195
+-1.c.0 Vertex49
+-1.c.0 Vertex193
+-1.c.0 Vertex51
+-1.c.0 Vertex191
+-1.c.0 Vertex53
+-1.c.0 Vertex189
+-1.c.0 Vertex55
+-1.c.0 Vertex187
+-1.c.0 Vertex57
+-1.c.0 Vertex185
+-1.c.0 Vertex59
+-1.c.0 Vertex183
+-1.c.0 Vertex61
+-1.c.0 Vertex181
+-1.c.0 Vertex63
+-1.c.0 Vertex179
+-1.c.0 Vertex65
+-1.c.0 Vertex177
+-1.c.0 Vertex67
+-1.c.0 Vertex175
+-1.c.0 Vertex69
+-1.c.0 Vertex173
+-1.c.0 Vertex71
+-1.c.0 Vertex171
+-1.c.0 Vertex73
+-1.c.0 Vertex169
+-1.c.0 Vertex75
+-1.c.0 Vertex167
+-1.c.0 Vertex77
+-1.c.0 Vertex165
+-1.c.0 Vertex79
+-1.c.0 Vertex163
+-1.c.0 Vertex81
+-1.c.0 Vertex161
+-1.c.0 Vertex83
+-1.c.0 Vertex159
+-1.c.0 Vertex85
+-1.c.0 Vertex157
+-1.c.0 Vertex87
+-1.c.0 Vertex155
+-1.c.0 Vertex89
+-1.c.0 Vertex153
+-1.c.0 Vertex91
+-1.c.0 Vertex151
+-1.c.0 Vertex93
+-1.c.0 Vertex149
+-1.c.0 Vertex95
+-1.c.0 Vertex147
+-1.c.0 Vertex97
+-1.c.0 Vertex145
+-1.c.0 Vertex99
+-1.c.0 Vertex143
+-1.c.0 Vertex101
+-1.c.0 Vertex141
+-1.c.0 Vertex103
+-1.c.0 Vertex139
+-1.c.0 Vertex105
+-1.c.0 Vertex137
+-1.c.0 Vertex107
+-1.c.0 Vertex135
+-1.c.0 Vertex109
+-1.c.0 Vertex133
+-1.c.0 Vertex111
+-1.c.0 Vertex131
+-1.c.0 Vertex113
+-1.c.0 Vertex129
+-1.c.0 Vertex115
+-1.c.0 Vertex127
+-1.c.0 Vertex117
+-1.c.0 Vertex125
+-1.c.0 Vertex119
+-1.c.0 Vertex123
+-1.c.0 Vertex121
+-1.c.0 Vertex2
+-1.c.0 Vertex4
+-1.c.0 Vertex240
+-1.c.0 Vertex6
+-1.c.0 Vertex238
+-1.c.0 Vertex8
+-1.c.0 Vertex236
+-1.c.0 Vertex10
+-1.c.0 Vertex234
+-1.c.0 Vertex12
+-1.c.0 Vertex232
+-1.c.0 Vertex14
+-1.c.0 Vertex230
+-1.c.0 Vertex16
+-1.c.0 Vertex228
+-1.c.0 Vertex18
+-1.c.0 Vertex226
+-1.c.0 Vertex20
+-1.c.0 Vertex224
+-1.c.0 Vertex22
+-1.c.0 Vertex222
+-1.c.0 Vertex24
+-1.c.0 Vertex220
+-1.c.0 Vertex26
+-1.c.0 Vertex218
+-1.c.0 Vertex28
+-1.c.0 Vertex216
+-1.c.0 Vertex30
+-1.c.0 Vertex214
+-1.c.0 Vertex32
+-1.c.0 Vertex212
+-1.c.0 Vertex34
+-1.c.0 Vertex210
+-1.c.0 Vertex36
+-1.c.0 Vertex208
+-1.c.0 Vertex38
+-1.c.0 Vertex206
+-1.c.0 Vertex40
+-1.c.0 Vertex204
+-1.c.0 Vertex42
+-1.c.0 Vertex202
+-1.c.0 Vertex44
+-1.c.0 Vertex200
+-1.c.0 Vertex46
+-1.c.0 Vertex198
+-1.c.0 Vertex48
+-1.c.0 Vertex196
+-1.c.0 Vertex50
+-1.c.0 Vertex194
+-1.c.0 Vertex52
+-1.c.0 Vertex192
+-1.c.0 Vertex54
+-1.c.0 Vertex190
+-1.c.0 Vertex56
+-1.c.0 Vertex188
+-1.c.0 Vertex58
+-1.c.0 Vertex186
+-1.c.0 Vertex60
+-1.c.0 Vertex184
+-1.c.0 Vertex62
+-1.c.0 Vertex182
+-1.c.0 Vertex64
+-1.c.0 Vertex180
+-1.c.0 Vertex66
+-1.c.0 Vertex178
+-1.c.0 Vertex68
+-1.c.0 Vertex176
+-1.c.0 Vertex70
+-1.c.0 Vertex174
+-1.c.0 Vertex72
+-1.c.0 Vertex172
+-1.c.0 Vertex74
+-1.c.0 Vertex170
+-1.c.0 Vertex76
+-1.c.0 Vertex168
+-1.c.0 Vertex78
+-1.c.0 Vertex166
+-1.c.0 Vertex80
+-1.c.0 Vertex164
+-1.c.0 Vertex82
+-1.c.0 Vertex162
+-1.c.0 Vertex84
+-1.c.0 Vertex160
+-1.c.0 Vertex86
+-1.c.0 Vertex158
+-1.c.0 Vertex88
+-1.c.0 Vertex156
+-1.c.0 Vertex90
+-1.c.0 Vertex154
+-1.c.0 Vertex92
+-1.c.0 Vertex152
+-1.c.0 Vertex94
+-1.c.0 Vertex150
+-1.c.0 Vertex96
+-1.c.0 Vertex148
+-1.c.0 Vertex98
+-1.c.0 Vertex146
+-1.c.0 Vertex100
+-1.c.0 Vertex144
+-1.c.0 Vertex102
+-1.c.0 Vertex142
+-1.c.0 Vertex104
+-1.c.0 Vertex140
+-1.c.0 Vertex106
+-1.c.0 Vertex138
+-1.c.0 Vertex108
+-1.c.0 Vertex136
+-1.c.0 Vertex110
+-1.c.0 Vertex134
+-1.c.0 Vertex112
+-1.c.0 Vertex132
+-1.c.0 Vertex114
+-1.c.0 Vertex130
+-1.c.0 Vertex116
+-1.c.0 Vertex128
+-1.c.0 Vertex118
+-1.c.0 Vertex126
+-1.c.0 Vertex120
+-1.c.0 Vertex124
+-1.c.0 Vertex122
+-1.0 0:;:M;FUS;:H59a:7,E
+-1.c.1 Edge1
+-1.c.0 Edge2
+-1.0 0:;:H59a,E
+-1.c.1 Edge3
+-1.0 0:;:H59b,E
+-1.c.1 Edge3
+-1.c.0 Edge359
+-1.c.0 Edge6
+-1.c.0 Edge357
+-1.c.0 Edge9
+-1.c.0 Edge354
+-1.c.0 Edge12
+-1.c.0 Edge351
+-1.c.0 Edge15
+-1.c.0 Edge348
+-1.c.0 Edge18
+-1.c.0 Edge345
+-1.c.0 Edge21
+-1.c.0 Edge342
+-1.c.0 Edge24
+-1.c.0 Edge339
+-1.c.0 Edge27
+-1.c.0 Edge336
+-1.c.0 Edge30
+-1.c.0 Edge333
+-1.c.0 Edge33
+-1.c.0 Edge330
+-1.c.0 Edge36
+-1.c.0 Edge327
+-1.c.0 Edge39
+-1.c.0 Edge324
+-1.c.0 Edge42
+-1.c.0 Edge321
+-1.c.0 Edge45
+-1.c.0 Edge318
+-1.c.0 Edge48
+-1.c.0 Edge315
+-1.c.0 Edge51
+-1.c.0 Edge312
+-1.c.0 Edge54
+-1.c.0 Edge309
+-1.c.0 Edge57
+-1.c.0 Edge306
+-1.c.0 Edge60
+-1.c.0 Edge303
+-1.c.0 Edge63
+-1.c.0 Edge300
+-1.c.0 Edge66
+-1.c.0 Edge297
+-1.c.0 Edge69
+-1.c.0 Edge294
+-1.c.0 Edge72
+-1.c.0 Edge291
+-1.c.0 Edge75
+-1.c.0 Edge288
+-1.c.0 Edge78
+-1.c.0 Edge285
+-1.c.0 Edge81
+-1.c.0 Edge282
+-1.c.0 Edge84
+-1.c.0 Edge279
+-1.c.0 Edge87
+-1.c.0 Edge276
+-1.c.0 Edge90
+-1.c.0 Edge273
+-1.c.0 Edge93
+-1.c.0 Edge270
+-1.c.0 Edge96
+-1.c.0 Edge267
+-1.c.0 Edge99
+-1.c.0 Edge264
+-1.c.0 Edge102
+-1.c.0 Edge261
+-1.c.0 Edge105
+-1.c.0 Edge258
+-1.c.0 Edge108
+-1.c.0 Edge255
+-1.c.0 Edge111
+-1.c.0 Edge252
+-1.c.0 Edge114
+-1.c.0 Edge249
+-1.c.0 Edge117
+-1.c.0 Edge246
+-1.c.0 Edge120
+-1.c.0 Edge243
+-1.c.0 Edge123
+-1.c.0 Edge240
+-1.c.0 Edge126
+-1.c.0 Edge237
+-1.c.0 Edge129
+-1.c.0 Edge234
+-1.c.0 Edge132
+-1.c.0 Edge231
+-1.c.0 Edge135
+-1.c.0 Edge228
+-1.c.0 Edge138
+-1.c.0 Edge225
+-1.c.0 Edge141
+-1.c.0 Edge222
+-1.c.0 Edge144
+-1.c.0 Edge219
+-1.c.0 Edge147
+-1.c.0 Edge216
+-1.c.0 Edge150
+-1.c.0 Edge213
+-1.c.0 Edge153
+-1.c.0 Edge210
+-1.c.0 Edge156
+-1.c.0 Edge207
+-1.c.0 Edge159
+-1.c.0 Edge204
+-1.c.0 Edge162
+-1.c.0 Edge201
+-1.c.0 Edge165
+-1.c.0 Edge198
+-1.c.0 Edge168
+-1.c.0 Edge195
+-1.c.0 Edge171
+-1.c.0 Edge192
+-1.c.0 Edge174
+-1.c.0 Edge189
+-1.c.0 Edge177
+-1.c.0 Edge186
+-1.c.0 Edge180
+-1.c.0 Edge183
+-1.c.0 Edge1
+-1.c.0 Edge2
+-1.c.0 Edge4
+-1.c.0 Edge356
+-1.c.0 Edge360
+-1.c.0 Edge5
+-1.c.0 Edge7
+-1.c.0 Edge353
+-1.c.0 Edge358
+-1.c.0 Edge8
+-1.c.0 Edge10
+-1.c.0 Edge350
+-1.c.0 Edge355
+-1.c.0 Edge11
+-1.c.0 Edge13
+-1.c.0 Edge347
+-1.c.0 Edge352
+-1.c.0 Edge14
+-1.c.0 Edge16
+-1.c.0 Edge344
+-1.c.0 Edge349
+-1.c.0 Edge17
+-1.c.0 Edge19
+-1.c.0 Edge341
+-1.c.0 Edge346
+-1.c.0 Edge20
+-1.c.0 Edge22
+-1.c.0 Edge338
+-1.c.0 Edge343
+-1.c.0 Edge23
+-1.c.0 Edge25
+-1.c.0 Edge335
+-1.c.0 Edge340
+-1.c.0 Edge26
+-1.c.0 Edge28
+-1.c.0 Edge332
+-1.c.0 Edge337
+-1.c.0 Edge29
+-1.c.0 Edge31
+-1.c.0 Edge329
+-1.c.0 Edge334
+-1.c.0 Edge32
+-1.c.0 Edge34
+-1.c.0 Edge326
+-1.c.0 Edge331
+-1.c.0 Edge35
+-1.c.0 Edge37
+-1.c.0 Edge323
+-1.c.0 Edge328
+-1.c.0 Edge38
+-1.c.0 Edge40
+-1.c.0 Edge320
+-1.c.0 Edge325
+-1.c.0 Edge41
+-1.c.0 Edge43
+-1.c.0 Edge317
+-1.c.0 Edge322
+-1.c.0 Edge44
+-1.c.0 Edge46
+-1.c.0 Edge314
+-1.c.0 Edge319
+-1.c.0 Edge47
+-1.c.0 Edge49
+-1.c.0 Edge311
+-1.c.0 Edge316
+-1.c.0 Edge50
+-1.c.0 Edge52
+-1.c.0 Edge308
+-1.c.0 Edge313
+-1.c.0 Edge53
+-1.c.0 Edge55
+-1.c.0 Edge305
+-1.c.0 Edge310
+-1.c.0 Edge56
+-1.c.0 Edge58
+-1.c.0 Edge302
+-1.c.0 Edge307
+-1.c.0 Edge59
+-1.c.0 Edge61
+-1.c.0 Edge299
+-1.c.0 Edge304
+-1.c.0 Edge62
+-1.c.0 Edge64
+-1.c.0 Edge296
+-1.c.0 Edge301
+-1.c.0 Edge65
+-1.c.0 Edge67
+-1.c.0 Edge293
+-1.c.0 Edge298
+-1.c.0 Edge68
+-1.c.0 Edge70
+-1.c.0 Edge290
+-1.c.0 Edge295
+-1.c.0 Edge71
+-1.c.0 Edge73
+-1.c.0 Edge287
+-1.c.0 Edge292
+-1.c.0 Edge74
+-1.c.0 Edge76
+-1.c.0 Edge284
+-1.c.0 Edge289
+-1.c.0 Edge77
+-1.c.0 Edge79
+-1.c.0 Edge281
+-1.c.0 Edge286
+-1.c.0 Edge80
+-1.c.0 Edge82
+-1.c.0 Edge278
+-1.c.0 Edge283
+-1.c.0 Edge83
+-1.c.0 Edge85
+-1.c.0 Edge275
+-1.c.0 Edge280
+-1.c.0 Edge86
+-1.c.0 Edge88
+-1.c.0 Edge272
+-1.c.0 Edge277
+-1.c.0 Edge89
+-1.c.0 Edge91
+-1.c.0 Edge269
+-1.c.0 Edge274
+-1.c.0 Edge92
+-1.c.0 Edge94
+-1.c.0 Edge266
+-1.c.0 Edge271
+-1.c.0 Edge95
+-1.c.0 Edge97
+-1.c.0 Edge263
+-1.c.0 Edge268
+-1.c.0 Edge98
+-1.c.0 Edge100
+-1.c.0 Edge260
+-1.c.0 Edge265
+-1.c.0 Edge101
+-1.c.0 Edge103
+-1.c.0 Edge257
+-1.c.0 Edge262
+-1.c.0 Edge104
+-1.c.0 Edge106
+-1.c.0 Edge254
+-1.c.0 Edge259
+-1.c.0 Edge107
+-1.c.0 Edge109
+-1.c.0 Edge251
+-1.c.0 Edge256
+-1.c.0 Edge110
+-1.c.0 Edge112
+-1.c.0 Edge248
+-1.c.0 Edge253
+-1.c.0 Edge113
+-1.c.0 Edge115
+-1.c.0 Edge245
+-1.c.0 Edge250
+-1.c.0 Edge116
+-1.c.0 Edge118
+-1.c.0 Edge242
+-1.c.0 Edge247
+-1.c.0 Edge119
+-1.c.0 Edge121
+-1.c.0 Edge239
+-1.c.0 Edge244
+-1.c.0 Edge122
+-1.c.0 Edge124
+-1.c.0 Edge236
+-1.c.0 Edge241
+-1.c.0 Edge125
+-1.c.0 Edge127
+-1.c.0 Edge233
+-1.c.0 Edge238
+-1.c.0 Edge128
+-1.c.0 Edge130
+-1.c.0 Edge230
+-1.c.0 Edge235
+-1.c.0 Edge131
+-1.c.0 Edge133
+-1.c.0 Edge227
+-1.c.0 Edge232
+-1.c.0 Edge134
+-1.c.0 Edge136
+-1.c.0 Edge224
+-1.c.0 Edge229
+-1.c.0 Edge137
+-1.c.0 Edge139
+-1.c.0 Edge221
+-1.c.0 Edge226
+-1.c.0 Edge140
+-1.c.0 Edge142
+-1.c.0 Edge218
+-1.c.0 Edge223
+-1.c.0 Edge143
+-1.c.0 Edge145
+-1.c.0 Edge215
+-1.c.0 Edge220
+-1.c.0 Edge146
+-1.c.0 Edge148
+-1.c.0 Edge212
+-1.c.0 Edge217
+-1.c.0 Edge149
+-1.c.0 Edge151
+-1.c.0 Edge209
+-1.c.0 Edge214
+-1.c.0 Edge152
+-1.c.0 Edge154
+-1.c.0 Edge206
+-1.c.0 Edge211
+-1.c.0 Edge155
+-1.c.0 Edge157
+-1.c.0 Edge203
+-1.c.0 Edge208
+-1.c.0 Edge158
+-1.c.0 Edge160
+-1.c.0 Edge200
+-1.c.0 Edge205
+-1.c.0 Edge161
+-1.c.0 Edge163
+-1.c.0 Edge197
+-1.c.0 Edge202
+-1.c.0 Edge164
+-1.c.0 Edge166
+-1.c.0 Edge194
+-1.c.0 Edge199
+-1.c.0 Edge167
+-1.c.0 Edge169
+-1.c.0 Edge191
+-1.c.0 Edge196
+-1.c.0 Edge170
+-1.c.0 Edge172
+-1.c.0 Edge188
+-1.c.0 Edge193
+-1.c.0 Edge173
+-1.c.0 Edge175
+-1.c.0 Edge185
+-1.c.0 Edge190
+-1.c.0 Edge176
+-1.c.0 Edge178
+-1.c.0 Edge182
+-1.c.0 Edge187
+-1.c.0 Edge179
+-1.c.0 Edge181
+-1.c.0 Edge184
+-1.0 0:;:M;FUS;:H59a:7,F
+-1.c.1 Face1
+-1.0 0:;:M;FUS;:H59b:7,F
+-1.c.1 Face121
+-1.0 0:;:H59b,F
+-1.c.1 Face1
+-1.c.0 Face120
+-1.c.0 Face2
+-1.c.0 Face119
+-1.c.0 Face3
+-1.c.0 Face118
+-1.c.0 Face4
+-1.c.0 Face117
+-1.c.0 Face5
+-1.c.0 Face116
+-1.c.0 Face6
+-1.c.0 Face115
+-1.c.0 Face7
+-1.c.0 Face114
+-1.c.0 Face8
+-1.c.0 Face113
+-1.c.0 Face9
+-1.c.0 Face112
+-1.c.0 Face10
+-1.c.0 Face111
+-1.c.0 Face11
+-1.c.0 Face110
+-1.c.0 Face12
+-1.c.0 Face109
+-1.c.0 Face13
+-1.c.0 Face108
+-1.c.0 Face14
+-1.c.0 Face107
+-1.c.0 Face15
+-1.c.0 Face106
+-1.c.0 Face16
+-1.c.0 Face105
+-1.c.0 Face17
+-1.c.0 Face104
+-1.c.0 Face18
+-1.c.0 Face103
+-1.c.0 Face19
+-1.c.0 Face102
+-1.c.0 Face20
+-1.c.0 Face101
+-1.c.0 Face21
+-1.c.0 Face100
+-1.c.0 Face22
+-1.c.0 Face99
+-1.c.0 Face23
+-1.c.0 Face98
+-1.c.0 Face24
+-1.c.0 Face97
+-1.c.0 Face25
+-1.c.0 Face96
+-1.c.0 Face26
+-1.c.0 Face95
+-1.c.0 Face27
+-1.c.0 Face94
+-1.c.0 Face28
+-1.c.0 Face93
+-1.c.0 Face29
+-1.c.0 Face92
+-1.c.0 Face30
+-1.c.0 Face91
+-1.c.0 Face31
+-1.c.0 Face90
+-1.c.0 Face32
+-1.c.0 Face89
+-1.c.0 Face33
+-1.c.0 Face88
+-1.c.0 Face34
+-1.c.0 Face87
+-1.c.0 Face35
+-1.c.0 Face86
+-1.c.0 Face36
+-1.c.0 Face85
+-1.c.0 Face37
+-1.c.0 Face84
+-1.c.0 Face38
+-1.c.0 Face83
+-1.c.0 Face39
+-1.c.0 Face82
+-1.c.0 Face40
+-1.c.0 Face81
+-1.c.0 Face41
+-1.c.0 Face80
+-1.c.0 Face42
+-1.c.0 Face79
+-1.c.0 Face43
+-1.c.0 Face78
+-1.c.0 Face44
+-1.c.0 Face77
+-1.c.0 Face45
+-1.c.0 Face76
+-1.c.0 Face46
+-1.c.0 Face75
+-1.c.0 Face47
+-1.c.0 Face74
+-1.c.0 Face48
+-1.c.0 Face73
+-1.c.0 Face49
+-1.c.0 Face72
+-1.c.0 Face50
+-1.c.0 Face71
+-1.c.0 Face51
+-1.c.0 Face70
+-1.c.0 Face52
+-1.c.0 Face69
+-1.c.0 Face53
+-1.c.0 Face68
+-1.c.0 Face54
+-1.c.0 Face67
+-1.c.0 Face55
+-1.c.0 Face66
+-1.c.0 Face56
+-1.c.0 Face65
+-1.c.0 Face57
+-1.c.0 Face64
+-1.c.0 Face58
+-1.c.0 Face63
+-1.c.0 Face59
+-1.c.0 Face62
+-1.c.0 Face60
+-1.c.0 Face61
+-1.0 0:;:H59a,F
+-1.c.1 Face3
+-1.c.-79 Face122
+-1.0 0:;:G;OFS;:H5ab:7,F
+-1.c.1 Edge1
+-1.c.0 Face1
+-1.c.0 Edge3
+-1.0 0:;:U3;OFS;:H5ab:8,E
+-1.2c.1.4
+-1.0 0:;:U2;OFS;:H5ab:8,E
+-1.2c.1.5
+-1.2c.0.-1
+-1.2c.0.2
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-09-09T08:22:16Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Involute Gear"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T09:32:26Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value="Part"/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="be56b691-1809-4050-a0f1-ba0603bc7226"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="15" Dependencies="1">
+    <ObjectDeps Name="Cylinder" Count="0"/>
+    <ObjectDeps Name="involutegear" Count="1">
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fusion" Count="2">
+      <Dep Name="Cylinder"/>
+      <Dep Name="involutegear"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder001" Count="2">
+      <Dep Name="Cylinder"/>
+      <Dep Name="involutegear"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut" Count="2">
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part" Count="8">
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Fusion"/>
+      <Dep Name="Cut"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Cylinder"/>
+      <Dep Name="involutegear"/>
+      <Dep Name="Offset"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="XY_Plane"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="Y_Axis"/>
+      <Dep Name="Z_Axis"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Cylinder002" Count="2">
+      <Dep Name="Cylinder001"/>
+      <Dep Name="involutegear"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Offset" Count="1">
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <Object type="Part::Cylinder" name="Cylinder" id="1434" revision="2" file="Cylinder.xml" />
+    <Object type="Part::FeaturePython" name="involutegear" id="1435" revision="2" file="involutegear.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="1436" revision="2" file="Fusion.xml" />
+    <Object type="Part::Cylinder" name="Cylinder001" id="1437" revision="2" file="Cylinder001.xml" />
+    <Object type="Part::Cut" name="Cut" id="1438" revision="2" file="Cut.xml" />
+    <Object type="App::Part" name="Part" id="1443" revision="1" file="Part.xml" />
+    <Object type="App::Origin" name="Origin" id="1444" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="1445" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="1446" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="1447" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="1448" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="1449" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="1450" revision="0" file="YZ_Plane.xml" />
+    <Object type="Part::Cylinder" name="Cylinder002" id="1451" revision="2" file="Cylinder002.xml" />
+    <Object type="Part::Offset" name="Offset" id="1452" revision="2" file="Offset.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

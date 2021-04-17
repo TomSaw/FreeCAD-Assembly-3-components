@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="ac32103c-1c5c-4f7b-a461-41412cb6ea3d" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-01-21T13:00:14Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="VUVG-L10-B52-T-M5-1H2L"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T07:59:19Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="ac32103c-1c5c-4f7b-a461-41412cb6ea3d"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="11" Dependencies="1">
+    <ObjectDeps Name="Part__Feature" Count="0"/>
+    <ObjectDeps Name="Part__Feature001" Count="0"/>
+    <ObjectDeps Name="Part__Feature002" Count="0"/>
+    <ObjectDeps Name="_64212_VUVG_L10_B52_T_M5_1H2L" Count="4">
+      <Dep Name="Part__Feature002"/>
+      <Dep Name="Part__Feature001"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Part__Feature"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="Y_Axis"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="XY_Plane"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="Z_Axis"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <Object type="Part::Feature" name="Part__Feature" id="1675" revision="1" file="Part__Feature.xml" />
+    <Object type="Part::Feature" name="Part__Feature001" id="1676" revision="1" file="Part__Feature001.xml" />
+    <Object type="Part::Feature" name="Part__Feature002" id="1677" revision="1" file="Part__Feature002.xml" />
+    <Object type="App::Part" name="_64212_VUVG_L10_B52_T_M5_1H2L" id="1678" revision="1" file="_64212_VUVG_L10_B52_T_M5_1H2L.xml" />
+    <Object type="App::Origin" name="Origin" id="1679" revision="1" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="1680" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="1681" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="1682" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="1683" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="1684" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="1685" revision="0" file="YZ_Plane.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="16204bba-2abe-4473-b60d-ad62d6df4225" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="38">
+<![CDATA[
+-1.0 0:Source or Documentation
+-1.0 0:Description
+-1.0 0:Price of product or material (currency not specified yet)
+-1.0 0:Manufacturers SKU
+-1.0 0:URL or String of the product or machine to source from
+-1.0 0:Angle to cover with copies
+-1.0 3:The type of array to create.
+- Ortho: places the copies in the direction of the global X, Y, Z axes.
+- Polar: places the copies along a circular arc, up to a specified angle, and with certain orientation defined by a center and an axis.
+- Circular: places the copies in concentric circular layers around the base object.
+-1.0 0:The axis direction around which the elements in a polar or a circular array will be created
+-1.0 2:The axis object that overrides the value of 'Axis' and 'Center', for example, a datum line.
+Its placement, position and rotation, will be used when creating polar and circular arrays.
+Leave this property empty to be able to set 'Axis' and 'Center' manually.
+-1.0 0:The base object that will be duplicated
+-1.0 1:Center point for polar and circular arrays.
+The 'Axis' passes through this point.
+-1.0 1:Total number of elements in the array.
+This property is read-only, as the number depends on the parameters of the array.
+-1.0 0:Show the individual array elements (only for Link arrays)
+-1.0 0:Specifies if the copies should be fused together if they touch each other (slower)
+-1.0 0:Distance and orientation of intervals in 'Axis' direction
+-1.0 0:Distance and orientation of intervals in X direction
+-1.0 0:Distance and orientation of intervals in Y direction
+-1.0 0:Distance and orientation of intervals in Z direction
+-1.0 0:Number of circular layers. The 'Base' object counts as one layer.
+-1.0 0:Number of copies in the polar direction
+-1.0 0:Number of copies in X direction
+-1.0 0:Number of copies in Y direction
+-1.0 0:Number of copies in Z direction
+-1.0 0:Distance between circular layers
+-1.0 0:A parameter that determines how many symmetry planes  the circular array will have.
+-1.0 0:Distance between copies in the same circular layer
+-2.0 0:Force sync pattern placements even when array elements are expanded
+-a.0 0:Face1;I0;:T3785:5:F
+-2.0 0:Face1;I1;:T3785:5:F
+-1e.0 0:(Face2;K-2;:T3731:5:F)
+-1.0 0:(Face6;K-2;:T3731:5:F)
+-1.0 0:(Face6;K-1;:T3731:5:F)
+-1.0 0:(Face2;K-1;:T3731:5:F)
+-1.0 0:(Edge8;K-1;:T3731:5:E)
+-1.0 0:(Edge8;K-2;:T3731:5:E)
+-1.0 0:(Face1;K-1;:T3730:5:F)
+-1.0 0:(Edge2;K-1;:T3731:5:E)
+-1.0 0:(Face1;K-2;:T3730:5:F)
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-08-20T09:49:11Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="V-TEC 25D"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T09:39:05Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="16204bba-2abe-4473-b60d-ad62d6df4225"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="21" Dependencies="1">
+    <ObjectDeps Name="Cylinder" Count="1">
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Box" Count="1">
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder001" Count="1">
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder002" Count="0"/>
+    <ObjectDeps Name="Cylinder003" Count="1">
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet" Count="1">
+      <Dep Name="Cylinder003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder006" Count="1">
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder007" Count="3">
+      <Dep Name="Cylinder"/>
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Cylinder006"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fusion" Count="2">
+      <Dep Name="Cylinder007"/>
+      <Dep Name="Cut002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly" Count="7">
+      <Dep Name="Cylinder"/>
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Cylinder006"/>
+      <Dep Name="Constraints"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="3">
+      <Dep Name="Element001"/>
+      <Dep Name="Element"/>
+      <Dep Name="Element002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="5">
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Cut001"/>
+      <Dep Name="Fillet"/>
+      <Dep Name="Cut"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element001" Count="2">
+      <Dep Name="Cut001"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Fillet"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Cut"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut" Count="2">
+      <Dep Name="Cylinder"/>
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder009" Count="0"/>
+    <ObjectDeps Name="Cut001" Count="2">
+      <Dep Name="Array"/>
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Array" Count="1">
+      <Dep Name="Cylinder009"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut002" Count="2">
+      <Dep Name="Array"/>
+      <Dep Name="Cylinder006"/>
+    </ObjectDeps>
+    <Object type="Part::Cylinder" name="Cylinder" id="3730" revision="2" file="Cylinder.xml" />
+    <Object type="Part::Box" name="Box" id="3731" revision="4" file="Box.xml" />
+    <Object type="Part::Cylinder" name="Cylinder001" id="3733" revision="2" file="Cylinder001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder002" id="3734" revision="2" file="Cylinder002.xml" />
+    <Object type="Part::Cylinder" name="Cylinder003" id="3735" revision="2" file="Cylinder003.xml" />
+    <Object type="Part::Fillet" name="Fillet" id="3736" revision="2" file="Fillet.xml" />
+    <Object type="Part::Cylinder" name="Cylinder006" id="3758" revision="5" file="Cylinder006.xml" />
+    <Object type="Part::Cylinder" name="Cylinder007" id="3759" revision="5" file="Cylinder007.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="3760" revision="3" file="Fusion.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="3768" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="3769" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="3770" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="3771" revision="10" ViewType="Gui::ViewProviderLinkPython" Touched="1" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="3780" revision="4" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="3781" revision="3" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="3783" revision="4" file="Element.xml" />
+    <Object type="Part::Cut" name="Cut" id="3784" revision="2" file="Cut.xml" />
+    <Object type="Part::Cylinder" name="Cylinder009" id="3785" revision="2" file="Cylinder009.xml" />
+    <Object type="Part::Cut" name="Cut001" id="3788" revision="2" file="Cut001.xml" />
+    <Object type="Part::FeaturePython" name="Array" id="3787" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Array.xml" />
+    <Object type="Part::Cut" name="Cut002" id="3789" revision="3" file="Cut002.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

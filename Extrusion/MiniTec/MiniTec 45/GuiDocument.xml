@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
+<Expand  count="2">
+  <Expand name="Part013" count="3">
+    <Expand name="Part001"/>
+    <Expand name="Part005"/>
+    <Expand name="Part039"/>
+  </Expand>
+  <Expand name="Part014" count="5">
+    <Expand name="Part008"/>
+    <Expand name="Part029"/>
+    <Expand name="Part002"/>
+    <Expand name="Part030"/>
+    <Expand name="Part003"/>
+  </Expand>
+</Expand>
+>
+  <Camera extra="0" id="9" binding="0">
+<![CDATA[
+OrthographicCamera {
+  viewportMapping ADJUST_CAMERA
+  position 258.16602 -35.249088 775.29395
+  orientation 0.91493511 -0.30274108 0.26691118  0.014285908
+  nearDistance 527.90399
+  farDistance 790.56958
+  aspectRatio 1
+  focalDistance 775.36743
+  height 1550.7349
+
+}
+## overrideMode: As Is]]>
+  </Camera>
+</Document>

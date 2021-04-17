@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="c810014f-9f5f-4e75-ad89-3536d277e616" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2019-05-29T19:30:49Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Ratchet Socket Set"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T09:27:37Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value="Part001"/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="c810014f-9f5f-4e75-ad89-3536d277e616"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="114" Dependencies="1">
+    <ObjectDeps Name="Part__Feature" Count="0"/>
+    <ObjectDeps Name="Part__Feature001" Count="0"/>
+    <ObjectDeps Name="Part__Feature002" Count="0"/>
+    <ObjectDeps Name="Part__Feature003" Count="0"/>
+    <ObjectDeps Name="Part__Feature004" Count="0"/>
+    <ObjectDeps Name="Part__Feature005" Count="0"/>
+    <ObjectDeps Name="Part__Feature006" Count="0"/>
+    <ObjectDeps Name="Part__Feature007" Count="0"/>
+    <ObjectDeps Name="Part__Feature008" Count="0"/>
+    <ObjectDeps Name="Part__Feature009" Count="0"/>
+    <ObjectDeps Name="Part__Feature010" Count="0"/>
+    <ObjectDeps Name="Part__Feature011" Count="0"/>
+    <ObjectDeps Name="Part__Feature012" Count="0"/>
+    <ObjectDeps Name="Part__Feature013" Count="0"/>
+    <ObjectDeps Name="Part__Feature014" Count="0"/>
+    <ObjectDeps Name="Part__Feature015" Count="0"/>
+    <ObjectDeps Name="Part__Feature016" Count="0"/>
+    <ObjectDeps Name="Part__Feature017" Count="0"/>
+    <ObjectDeps Name="Part__Feature018" Count="0"/>
+    <ObjectDeps Name="Part__Feature019" Count="0"/>
+    <ObjectDeps Name="Part__Feature020" Count="0"/>
+    <ObjectDeps Name="Part__Feature021" Count="0"/>
+    <ObjectDeps Name="Part__Feature022" Count="0"/>
+    <ObjectDeps Name="Part__Feature023" Count="0"/>
+    <ObjectDeps Name="Part__Feature024" Count="0"/>
+    <ObjectDeps Name="Ratchet_R_360" Count="7">
+      <Dep Name="Part__Feature024"/>
+      <Dep Name="Part__Feature019"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Part__Feature022"/>
+      <Dep Name="Part__Feature023"/>
+      <Dep Name="Part__Feature021"/>
+      <Dep Name="Part__Feature020"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="X_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Y_Axis"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="YZ_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Part__Feature025" Count="0"/>
+    <ObjectDeps Name="Part__Feature026" Count="0"/>
+    <ObjectDeps Name="Spinner" Count="3">
+      <Dep Name="Part__Feature025"/>
+      <Dep Name="Part__Feature026"/>
+      <Dep Name="Origin001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin001" Count="6">
+      <Dep Name="YZ_Plane001"/>
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="X_Axis001"/>
+      <Dep Name="Y_Axis001"/>
+      <Dep Name="XZ_Plane001"/>
+      <Dep Name="Z_Axis001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis001" Count="0"/>
+    <ObjectDeps Name="Y_Axis001" Count="0"/>
+    <ObjectDeps Name="Z_Axis001" Count="0"/>
+    <ObjectDeps Name="XY_Plane001" Count="0"/>
+    <ObjectDeps Name="XZ_Plane001" Count="0"/>
+    <ObjectDeps Name="YZ_Plane001" Count="0"/>
+    <ObjectDeps Name="Part__Feature027" Count="0"/>
+    <ObjectDeps Name="Spinner001" Count="3">
+      <Dep Name="Spinner"/>
+      <Dep Name="Part__Feature027"/>
+      <Dep Name="Origin002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin002" Count="6">
+      <Dep Name="X_Axis002"/>
+      <Dep Name="Z_Axis002"/>
+      <Dep Name="YZ_Plane002"/>
+      <Dep Name="XZ_Plane002"/>
+      <Dep Name="XY_Plane002"/>
+      <Dep Name="Y_Axis002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis002" Count="0"/>
+    <ObjectDeps Name="Y_Axis002" Count="0"/>
+    <ObjectDeps Name="Z_Axis002" Count="0"/>
+    <ObjectDeps Name="XY_Plane002" Count="0"/>
+    <ObjectDeps Name="XZ_Plane002" Count="0"/>
+    <ObjectDeps Name="YZ_Plane002" Count="0"/>
+    <ObjectDeps Name="Part__Feature028" Count="0"/>
+    <ObjectDeps Name="Part__Feature029" Count="0"/>
+    <ObjectDeps Name="Part__Feature030" Count="0"/>
+    <ObjectDeps Name="Universal_Joint_R_240A" Count="4">
+      <Dep Name="Origin003"/>
+      <Dep Name="Part__Feature030"/>
+      <Dep Name="Part__Feature029"/>
+      <Dep Name="Part__Feature028"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin003" Count="6">
+      <Dep Name="X_Axis003"/>
+      <Dep Name="XZ_Plane003"/>
+      <Dep Name="Y_Axis003"/>
+      <Dep Name="YZ_Plane003"/>
+      <Dep Name="XY_Plane003"/>
+      <Dep Name="Z_Axis003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis003" Count="0"/>
+    <ObjectDeps Name="Y_Axis003" Count="0"/>
+    <ObjectDeps Name="Z_Axis003" Count="0"/>
+    <ObjectDeps Name="XY_Plane003" Count="0"/>
+    <ObjectDeps Name="XZ_Plane003" Count="0"/>
+    <ObjectDeps Name="YZ_Plane003" Count="0"/>
+    <ObjectDeps Name="Part__Feature031" Count="0"/>
+    <ObjectDeps Name="Part__Feature032" Count="0"/>
+    <ObjectDeps Name="Part__Feature033" Count="0"/>
+    <ObjectDeps Name="Part__Feature034" Count="0"/>
+    <ObjectDeps Name="Part__Feature035" Count="0"/>
+    <ObjectDeps Name="Part__Feature036" Count="0"/>
+    <ObjectDeps Name="Part__Feature037" Count="0"/>
+    <ObjectDeps Name="Part__Feature038" Count="0"/>
+    <ObjectDeps Name="Part__Feature039" Count="0"/>
+    <ObjectDeps Name="Part__Feature040" Count="0"/>
+    <ObjectDeps Name="Part__Feature041" Count="0"/>
+    <ObjectDeps Name="Part__Feature042" Count="0"/>
+    <ObjectDeps Name="Part__Feature043" Count="0"/>
+    <ObjectDeps Name="Part__Feature044" Count="0"/>
+    <ObjectDeps Name="Part__Feature045" Count="0"/>
+    <ObjectDeps Name="Part__Feature046" Count="0"/>
+    <ObjectDeps Name="Part__Feature047" Count="0"/>
+    <ObjectDeps Name="Part__Feature048" Count="0"/>
+    <ObjectDeps Name="Part__Feature049" Count="0"/>
+    <ObjectDeps Name="Part__Feature050" Count="0"/>
+    <ObjectDeps Name="Part__Feature051" Count="0"/>
+    <ObjectDeps Name="Part__Feature052" Count="0"/>
+    <ObjectDeps Name="Part__Feature053" Count="0"/>
+    <ObjectDeps Name="Part__Feature054" Count="0"/>
+    <ObjectDeps Name="Part__Feature055" Count="0"/>
+    <ObjectDeps Name="Part__Feature056" Count="0"/>
+    <ObjectDeps Name="Part__Feature057" Count="0"/>
+    <ObjectDeps Name="Ratchet_Socket_Set" Count="15">
+      <Dep Name="Spinner001"/>
+      <Dep Name="Ratchet_R_360"/>
+      <Dep Name="Part__Feature011"/>
+      <Dep Name="Part__Feature014"/>
+      <Dep Name="Origin004"/>
+      <Dep Name="Part__Feature015"/>
+      <Dep Name="Part__Feature013"/>
+      <Dep Name="Part__Feature017"/>
+      <Dep Name="Part__Feature012"/>
+      <Dep Name="Part__Feature"/>
+      <Dep Name="Part__Feature018"/>
+      <Dep Name="Part__Feature009"/>
+      <Dep Name="Part__Feature008"/>
+      <Dep Name="Part__Feature016"/>
+      <Dep Name="Part__Feature010"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin004" Count="6">
+      <Dep Name="XY_Plane004"/>
+      <Dep Name="X_Axis004"/>
+      <Dep Name="Y_Axis004"/>
+      <Dep Name="Z_Axis004"/>
+      <Dep Name="YZ_Plane004"/>
+      <Dep Name="XZ_Plane004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis004" Count="0"/>
+    <ObjectDeps Name="Y_Axis004" Count="0"/>
+    <ObjectDeps Name="Z_Axis004" Count="0"/>
+    <ObjectDeps Name="XY_Plane004" Count="0"/>
+    <ObjectDeps Name="XZ_Plane004" Count="0"/>
+    <ObjectDeps Name="YZ_Plane004" Count="0"/>
+    <ObjectDeps Name="Part" Count="36">
+      <Dep Name="Part__Feature033"/>
+      <Dep Name="Part__Feature055"/>
+      <Dep Name="Part__Feature002"/>
+      <Dep Name="Part__Feature035"/>
+      <Dep Name="Part__Feature041"/>
+      <Dep Name="Part__Feature038"/>
+      <Dep Name="Part__Feature036"/>
+      <Dep Name="Part__Feature048"/>
+      <Dep Name="Part__Feature005"/>
+      <Dep Name="Part__Feature003"/>
+      <Dep Name="Part__Feature006"/>
+      <Dep Name="Part__Feature031"/>
+      <Dep Name="Part__Feature039"/>
+      <Dep Name="Part__Feature034"/>
+      <Dep Name="Part__Feature057"/>
+      <Dep Name="Part__Feature046"/>
+      <Dep Name="Part__Feature051"/>
+      <Dep Name="Universal_Joint_R_240A"/>
+      <Dep Name="Part__Feature052"/>
+      <Dep Name="Part__Feature054"/>
+      <Dep Name="Origin005"/>
+      <Dep Name="Part__Feature045"/>
+      <Dep Name="Part__Feature050"/>
+      <Dep Name="Part__Feature004"/>
+      <Dep Name="Part__Feature007"/>
+      <Dep Name="Part__Feature053"/>
+      <Dep Name="Part__Feature042"/>
+      <Dep Name="Part__Feature056"/>
+      <Dep Name="Part__Feature032"/>
+      <Dep Name="Part__Feature001"/>
+      <Dep Name="Part__Feature049"/>
+      <Dep Name="Part__Feature043"/>
+      <Dep Name="Part__Feature040"/>
+      <Dep Name="Part__Feature037"/>
+      <Dep Name="Part__Feature044"/>
+      <Dep Name="Part__Feature047"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin005" Count="6">
+      <Dep Name="X_Axis005"/>
+      <Dep Name="Z_Axis005"/>
+      <Dep Name="XY_Plane005"/>
+      <Dep Name="YZ_Plane005"/>
+      <Dep Name="Y_Axis005"/>
+      <Dep Name="XZ_Plane005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis005" Count="0"/>
+    <ObjectDeps Name="Y_Axis005" Count="0"/>
+    <ObjectDeps Name="Z_Axis005" Count="0"/>
+    <ObjectDeps Name="XY_Plane005" Count="0"/>
+    <ObjectDeps Name="XZ_Plane005" Count="0"/>
+    <ObjectDeps Name="YZ_Plane005" Count="0"/>
+    <ObjectDeps Name="Part001" Count="3">
+      <Dep Name="Origin006"/>
+      <Dep Name="Ratchet_Socket_Set"/>
+      <Dep Name="Part"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin006" Count="6">
+      <Dep Name="YZ_Plane006"/>
+      <Dep Name="Z_Axis006"/>
+      <Dep Name="X_Axis006"/>
+      <Dep Name="Y_Axis006"/>
+      <Dep Name="XY_Plane006"/>
+      <Dep Name="XZ_Plane006"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis006" Count="0"/>
+    <ObjectDeps Name="Y_Axis006" Count="0"/>
+    <ObjectDeps Name="Z_Axis006" Count="0"/>
+    <ObjectDeps Name="XY_Plane006" Count="0"/>
+    <ObjectDeps Name="XZ_Plane006" Count="0"/>
+    <ObjectDeps Name="YZ_Plane006" Count="0"/>
+    <Object type="Part::Feature" name="Part__Feature" id="1" revision="1" file="Part__Feature.xml" />
+    <Object type="Part::Feature" name="Part__Feature001" id="2" revision="1" file="Part__Feature001.xml" />
+    <Object type="Part::Feature" name="Part__Feature002" id="3" revision="1" file="Part__Feature002.xml" />
+    <Object type="Part::Feature" name="Part__Feature003" id="4" revision="1" file="Part__Feature003.xml" />
+    <Object type="Part::Feature" name="Part__Feature004" id="5" revision="1" file="Part__Feature004.xml" />
+    <Object type="Part::Feature" name="Part__Feature005" id="6" revision="1" file="Part__Feature005.xml" />
+    <Object type="Part::Feature" name="Part__Feature006" id="7" revision="1" file="Part__Feature006.xml" />
+    <Object type="Part::Feature" name="Part__Feature007" id="8" revision="1" file="Part__Feature007.xml" />
+    <Object type="Part::Feature" name="Part__Feature008" id="9" revision="1" file="Part__Feature008.xml" />
+    <Object type="Part::Feature" name="Part__Feature009" id="10" revision="1" file="Part__Feature009.xml" />
+    <Object type="Part::Feature" name="Part__Feature010" id="11" revision="1" file="Part__Feature010.xml" />
+    <Object type="Part::Feature" name="Part__Feature011" id="12" revision="1" file="Part__Feature011.xml" />
+    <Object type="Part::Feature" name="Part__Feature012" id="13" revision="1" file="Part__Feature012.xml" />
+    <Object type="Part::Feature" name="Part__Feature013" id="14" revision="1" file="Part__Feature013.xml" />
+    <Object type="Part::Feature" name="Part__Feature014" id="15" revision="1" file="Part__Feature014.xml" />
+    <Object type="Part::Feature" name="Part__Feature015" id="16" revision="1" file="Part__Feature015.xml" />
+    <Object type="Part::Feature" name="Part__Feature016" id="17" revision="1" file="Part__Feature016.xml" />
+    <Object type="Part::Feature" name="Part__Feature017" id="18" revision="1" file="Part__Feature017.xml" />
+    <Object type="Part::Feature" name="Part__Feature018" id="19" revision="1" file="Part__Feature018.xml" />
+    <Object type="Part::Feature" name="Part__Feature019" id="20" revision="1" file="Part__Feature019.xml" />
+    <Object type="Part::Feature" name="Part__Feature020" id="21" revision="1" file="Part__Feature020.xml" />
+    <Object type="Part::Feature" name="Part__Feature021" id="22" revision="1" file="Part__Feature021.xml" />
+    <Object type="Part::Feature" name="Part__Feature022" id="23" revision="1" file="Part__Feature022.xml" />
+    <Object type="Part::Feature" name="Part__Feature023" id="24" revision="1" file="Part__Feature023.xml" />
+    <Object type="Part::Feature" name="Part__Feature024" id="25" revision="1" file="Part__Feature024.xml" />
+    <Object type="App::Part" name="Ratchet_R_360" id="26" revision="0" file="Ratchet_R_360.xml" />
+    <Object type="App::Origin" name="Origin" id="27" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="28" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="29" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="30" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="31" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="32" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="33" revision="0" file="YZ_Plane.xml" />
+    <Object type="Part::Feature" name="Part__Feature025" id="34" revision="1" file="Part__Feature025.xml" />
+    <Object type="Part::Feature" name="Part__Feature026" id="35" revision="1" file="Part__Feature026.xml" />
+    <Object type="App::Part" name="Spinner" id="36" revision="0" file="Spinner.xml" />
+    <Object type="App::Origin" name="Origin001" id="37" revision="0" file="Origin001.xml" />
+    <Object type="App::Line" name="X_Axis001" id="38" revision="0" file="X_Axis001.xml" />
+    <Object type="App::Line" name="Y_Axis001" id="39" revision="0" file="Y_Axis001.xml" />
+    <Object type="App::Line" name="Z_Axis001" id="40" revision="0" file="Z_Axis001.xml" />
+    <Object type="App::Plane" name="XY_Plane001" id="41" revision="0" file="XY_Plane001.xml" />
+    <Object type="App::Plane" name="XZ_Plane001" id="42" revision="0" file="XZ_Plane001.xml" />
+    <Object type="App::Plane" name="YZ_Plane001" id="43" revision="0" file="YZ_Plane001.xml" />
+    <Object type="Part::Feature" name="Part__Feature027" id="44" revision="1" file="Part__Feature027.xml" />
+    <Object type="App::Part" name="Spinner001" id="45" revision="0" file="Spinner001.xml" />
+    <Object type="App::Origin" name="Origin002" id="46" revision="0" file="Origin002.xml" />
+    <Object type="App::Line" name="X_Axis002" id="47" revision="0" file="X_Axis002.xml" />
+    <Object type="App::Line" name="Y_Axis002" id="48" revision="0" file="Y_Axis002.xml" />
+    <Object type="App::Line" name="Z_Axis002" id="49" revision="0" file="Z_Axis002.xml" />
+    <Object type="App::Plane" name="XY_Plane002" id="50" revision="0" file="XY_Plane002.xml" />
+    <Object type="App::Plane" name="XZ_Plane002" id="51" revision="0" file="XZ_Plane002.xml" />
+    <Object type="App::Plane" name="YZ_Plane002" id="52" revision="0" file="YZ_Plane002.xml" />
+    <Object type="Part::Feature" name="Part__Feature028" id="53" revision="1" file="Part__Feature028.xml" />
+    <Object type="Part::Feature" name="Part__Feature029" id="54" revision="1" file="Part__Feature029.xml" />
+    <Object type="Part::Feature" name="Part__Feature030" id="55" revision="1" file="Part__Feature030.xml" />
+    <Object type="App::Part" name="Universal_Joint_R_240A" id="56" revision="0" file="Universal_Joint_R_240A.xml" />
+    <Object type="App::Origin" name="Origin003" id="57" revision="0" file="Origin003.xml" />
+    <Object type="App::Line" name="X_Axis003" id="58" revision="0" file="X_Axis003.xml" />
+    <Object type="App::Line" name="Y_Axis003" id="59" revision="0" file="Y_Axis003.xml" />
+    <Object type="App::Line" name="Z_Axis003" id="60" revision="0" file="Z_Axis003.xml" />
+    <Object type="App::Plane" name="XY_Plane003" id="61" revision="0" file="XY_Plane003.xml" />
+    <Object type="App::Plane" name="XZ_Plane003" id="62" revision="0" file="XZ_Plane003.xml" />
+    <Object type="App::Plane" name="YZ_Plane003" id="63" revision="0" file="YZ_Plane003.xml" />
+    <Object type="Part::Feature" name="Part__Feature031" id="64" revision="1" file="Part__Feature031.xml" />
+    <Object type="Part::Feature" name="Part__Feature032" id="65" revision="1" file="Part__Feature032.xml" />
+    <Object type="Part::Feature" name="Part__Feature033" id="66" revision="1" file="Part__Feature033.xml" />
+    <Object type="Part::Feature" name="Part__Feature034" id="67" revision="1" file="Part__Feature034.xml" />
+    <Object type="Part::Feature" name="Part__Feature035" id="68" revision="1" file="Part__Feature035.xml" />
+    <Object type="Part::Feature" name="Part__Feature036" id="69" revision="1" file="Part__Feature036.xml" />
+    <Object type="Part::Feature" name="Part__Feature037" id="70" revision="1" file="Part__Feature037.xml" />
+    <Object type="Part::Feature" name="Part__Feature038" id="71" revision="1" file="Part__Feature038.xml" />
+    <Object type="Part::Feature" name="Part__Feature039" id="72" revision="1" file="Part__Feature039.xml" />
+    <Object type="Part::Feature" name="Part__Feature040" id="73" revision="1" file="Part__Feature040.xml" />
+    <Object type="Part::Feature" name="Part__Feature041" id="74" revision="1" file="Part__Feature041.xml" />
+    <Object type="Part::Feature" name="Part__Feature042" id="75" revision="1" file="Part__Feature042.xml" />
+    <Object type="Part::Feature" name="Part__Feature043" id="76" revision="1" file="Part__Feature043.xml" />
+    <Object type="Part::Feature" name="Part__Feature044" id="77" revision="1" file="Part__Feature044.xml" />
+    <Object type="Part::Feature" name="Part__Feature045" id="78" revision="1" file="Part__Feature045.xml" />
+    <Object type="Part::Feature" name="Part__Feature046" id="79" revision="1" file="Part__Feature046.xml" />
+    <Object type="Part::Feature" name="Part__Feature047" id="80" revision="1" file="Part__Feature047.xml" />
+    <Object type="Part::Feature" name="Part__Feature048" id="81" revision="1" file="Part__Feature048.xml" />
+    <Object type="Part::Feature" name="Part__Feature049" id="82" revision="1" file="Part__Feature049.xml" />
+    <Object type="Part::Feature" name="Part__Feature050" id="83" revision="1" file="Part__Feature050.xml" />
+    <Object type="Part::Feature" name="Part__Feature051" id="84" revision="1" file="Part__Feature051.xml" />
+    <Object type="Part::Feature" name="Part__Feature052" id="85" revision="1" file="Part__Feature052.xml" />
+    <Object type="Part::Feature" name="Part__Feature053" id="86" revision="1" file="Part__Feature053.xml" />
+    <Object type="Part::Feature" name="Part__Feature054" id="87" revision="1" file="Part__Feature054.xml" />
+    <Object type="Part::Feature" name="Part__Feature055" id="88" revision="1" file="Part__Feature055.xml" />
+    <Object type="Part::Feature" name="Part__Feature056" id="89" revision="1" file="Part__Feature056.xml" />
+    <Object type="Part::Feature" name="Part__Feature057" id="90" revision="1" file="Part__Feature057.xml" />
+    <Object type="App::Part" name="Ratchet_Socket_Set" id="91" revision="0" file="Ratchet_Socket_Set.xml" />
+    <Object type="App::Origin" name="Origin004" id="92" revision="0" file="Origin004.xml" />
+    <Object type="App::Line" name="X_Axis004" id="93" revision="0" file="X_Axis004.xml" />
+    <Object type="App::Line" name="Y_Axis004" id="94" revision="0" file="Y_Axis004.xml" />
+    <Object type="App::Line" name="Z_Axis004" id="95" revision="0" file="Z_Axis004.xml" />
+    <Object type="App::Plane" name="XY_Plane004" id="96" revision="0" file="XY_Plane004.xml" />
+    <Object type="App::Plane" name="XZ_Plane004" id="97" revision="0" file="XZ_Plane004.xml" />
+    <Object type="App::Plane" name="YZ_Plane004" id="98" revision="0" file="YZ_Plane004.xml" />
+    <Object type="App::Part" name="Part" id="99" revision="0" file="Part.xml" />
+    <Object type="App::Origin" name="Origin005" id="100" revision="0" file="Origin005.xml" />
+    <Object type="App::Line" name="X_Axis005" id="101" revision="0" file="X_Axis005.xml" />
+    <Object type="App::Line" name="Y_Axis005" id="102" revision="0" file="Y_Axis005.xml" />
+    <Object type="App::Line" name="Z_Axis005" id="103" revision="0" file="Z_Axis005.xml" />
+    <Object type="App::Plane" name="XY_Plane005" id="104" revision="0" file="XY_Plane005.xml" />
+    <Object type="App::Plane" name="XZ_Plane005" id="105" revision="0" file="XZ_Plane005.xml" />
+    <Object type="App::Plane" name="YZ_Plane005" id="106" revision="0" file="YZ_Plane005.xml" />
+    <Object type="App::Part" name="Part001" id="107" revision="0" file="Part001.xml" />
+    <Object type="App::Origin" name="Origin006" id="108" revision="0" file="Origin006.xml" />
+    <Object type="App::Line" name="X_Axis006" id="109" revision="0" file="X_Axis006.xml" />
+    <Object type="App::Line" name="Y_Axis006" id="110" revision="0" file="Y_Axis006.xml" />
+    <Object type="App::Line" name="Z_Axis006" id="111" revision="0" file="Z_Axis006.xml" />
+    <Object type="App::Plane" name="XY_Plane006" id="112" revision="0" file="XY_Plane006.xml" />
+    <Object type="App::Plane" name="XZ_Plane006" id="113" revision="0" file="XZ_Plane006.xml" />
+    <Object type="App::Plane" name="YZ_Plane006" id="114" revision="0" file="YZ_Plane006.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

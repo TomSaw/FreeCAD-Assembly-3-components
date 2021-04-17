@@ -1,0 +1,1019 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Hole001">
+  <Properties Count="48" TransientCount="2">
+    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="AddSubShape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 2
+1
+              1               0               0             -12 
+              0               1               0              11 
+              0               0               1              13 
+1
+              1               0               0              12 
+              0               1               0              11 
+              0               0               1              13 
+Curve2ds 9
+2 0 0 -1 0 0 1 6.9749999999999996
+1 0 0 1 0 
+1 0 172.85169626011793 1 0 
+1 0 0 1 0 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 0 8.1372679455769283 1 0 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+Curves 4
+2 0 0 0 -8.8817841970012523e-16 3.3306690738754711e-16 1 1 0 8.8817841970012523e-16 2.9582283945787956e-31 1 -3.3306690738754711e-16 6.9749999999999996
+2 1.5352314642679759e-13 -5.7571179910049122e-14 -172.85169626011793 -8.8817841970012523e-16 3.3306690738754711e-16 1 1 -1.5137505631996412e-30 8.8817841970012523e-16 1.8095734026575208e-30 1 -3.3306690738754711e-16 6.974999999999989
+1 6.9749999999999996 0 6.1950444774083732e-15 8.272798512577501e-16 -3.3306690738754716e-16 -1 
+1 6.9750000000001426 -5.7571179910049135e-14 -172.85169626011793 -0.85716730070211111 -1.7154213879712779e-16 -0.51503807491005626 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 3
+1 0 0 0 -8.8817841970012523e-16 3.3306690738754711e-16 1 -1 -0 -8.8817841970012523e-16 2.9582283945787956e-31 1 -3.3306690738754711e-16 
+2 0 0 0 8.8817841970012523e-16 -3.3306690738754711e-16 -1 1 0 8.8817841970012523e-16 2.9582283945787956e-31 1 -3.3306690738754711e-16 6.9749999999999996
+3 1.5352314642679759e-13 -5.7571179910049122e-14 -172.85169626011793 8.8817841970012523e-16 -3.3306690738754711e-16 -1 1 -1.5137505631996412e-30 8.8817841970012523e-16 1.8095734026575208e-30 1 -3.3306690738754711e-16 6.974999999999989
+-1.029744258676653
+Triangulations 0
+
+TShapes 17
+Ve
+1e-07
+6.975 0 6.19504447740837e-15
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 6.28318530717959
+2  1 1 0 0 6.28318530717959
+2  2 2 0 0 6.28318530717959
+0
+
+0101000
++17 0 -17 0 *
+Wi
+
+0101100
+-16 0 *
+Fa
+0  1e-07 1 0
+
+0111000
++15 0 *
+Ve
+1e-07
+6.97500000000014 -5.75711799100491e-14 -172.851696260118
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 6.28318530717959
+2  3 2 0 0 6.28318530717959
+2  4 3 0 0 6.28318530717959
+0
+
+0101000
++13 0 -13 0 *
+Ed
+ 1e-07 1 1 0
+1  3 0 0 172.851696260118
+3  5 6CN 2 0 0 172.851696260118
+0
+
+0101000
++17 0 -13 0 *
+Wi
+
+0101100
++16 0 -12 0 -11 0 +11 0 *
+Fa
+0  1e-07 2 0
+
+0111000
++10 0 *
+Ve
+1e-07
+1.57245504686396e-13 -5.89670642573987e-14 -177.042699077835
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 1
+2  7 3 0 0 6.28318530717959
+0
+
+0101000
++8 0 -8 0 *
+Ed
+ 1e-07 1 1 0
+1  4 0 0 8.13726794557692
+3  8 9CN 3 0 0 8.13726794557692
+0
+
+0101000
++13 0 -8 0 *
+Wi
+
+0101100
++12 0 -7 0 -6 0 +6 0 *
+Fa
+0  1e-07 3 0
+
+0111000
++5 0 *
+Sh
+
+0101100
++14 0 +9 0 +4 0 *
+So
+
+0100000
+-3 0 *
+Co
+
+1100000
++2 1 +2 2 *
+
++1 0 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="22">
+<![CDATA[
+18 PostfixCount 17
+Edge
+Face
+Vertex
+;:G2;MAK;:H19:8,F
+;:G3;MAK;:H19:8,F
+;:G;MAK;:H19:7,F
+;:U2;MAK;:H19:8,E
+;:U3;MAK;:H19:8,E
+;:U;MAK;:H19:7,E
+;:U;MAK;:H19:7,V
+;:G2;MAK;:H19:8,F;:H-1a,F
+;:G3;MAK;:H19:8,F;:H-1a,F
+;:G;MAK;:H19:7,F;:H-1a,F
+;:U2;MAK;:H19:8,E;:H-1a,E
+;:U3;MAK;:H19:8,E;:H-1a,E
+;:U;MAK;:H19:7,E;:H-1a,E
+;:U;MAK;:H19:7,V;:H-1a,V
+
+MapCount 2
+
+ElementMap 1 19 3
+
+Edge
+
+ChildCount 0
+
+NameCount 6
+0
+$#4f.9 0
+$#4f.7 0
+$#4f.8 0
+$#51.7 0
+$#51.8 0
+
+Face
+
+ChildCount 0
+
+NameCount 4
+0
+$#4c.6 0
+$#4c.4 0
+$#4c.5 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 4
+0
+$#53.a 0
+$#55.a 0
+$#56.a 0
+
+EndMap
+
+ElementMap 2 18 3
+
+Edge
+
+ChildCount 1
+1 0 5 -26 1 ;:H-1a,E 0
+
+NameCount 11
+0
+0
+0
+0
+0
+0
+$#57.10 0
+$#57.e 0
+$#57.f 0
+$#58.e 0
+$#58.f 0
+
+Face
+
+ChildCount 1
+1 0 3 -26 1 ;:H-1a,F 0
+
+NameCount 7
+0
+0
+0
+0
+$#4d.d 0
+$#4d.b 0
+$#4d.c 0
+
+Vertex
+
+ChildCount 1
+1 0 3 -26 1 ;:H-1a,V 0
+
+NameCount 7
+0
+0
+0
+0
+$#59.11 0
+$#5a.11 0
+$#5b.11 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="AllowMultiFace" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="BaseFeature" type="App::PropertyLink" status="8">
+      <Link value="Pad001"/>
+    </Property>
+    <Property name="ClaimChildren" type="App::PropertyBool" status="134217728">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="CustomThreadClearance" type="App::PropertyLength" status="4">
+      <Float value="0"/>
+    </Property>
+    <Property name="Depth" type="App::PropertyLength" status="4">
+      <Float value="25"/>
+    </Property>
+    <Property name="DepthType" type="App::PropertyEnumeration">
+      <Integer value="1"/>
+    </Property>
+    <Property name="Diameter" type="App::PropertyLength" status="4">
+      <Float value="13.95"/>
+    </Property>
+    <Property name="DrillForDepth" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="DrillPoint" type="App::PropertyEnumeration" status="4">
+      <Integer value="1"/>
+    </Property>
+    <Property name="DrillPointAngle" type="App::PropertyAngle">
+      <Float value="118"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Fit" type="App::PropertyDistance" status="8">
+      <Float value="0"/>
+    </Property>
+    <Property name="FitJoin" type="App::PropertyEnumeration" status="8">
+      <Integer value="0"/>
+    </Property>
+    <Property name="HoleCutCountersinkAngle" type="App::PropertyAngle" status="4">
+      <Float value="82"/>
+    </Property>
+    <Property name="HoleCutCustomValues" type="App::PropertyBool" status="4">
+      <Bool value="false"/>
+    </Property>
+    <Property name="HoleCutDepth" type="App::PropertyLength" status="4">
+      <Float value="0"/>
+    </Property>
+    <Property name="HoleCutDiameter" type="App::PropertyLength" status="4">
+      <Float value="0"/>
+    </Property>
+    <Property name="HoleCutType" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="InnerFit" type="App::PropertyDistance" status="8">
+      <Float value="0"/>
+    </Property>
+    <Property name="InnerFitJoin" type="App::PropertyEnumeration" status="8">
+      <Integer value="0"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Hole001"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Midplane" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ModelThread" type="App::PropertyBool" status="4">
+      <Bool value="false"/>
+    </Property>
+    <Property name="NewSolid" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388620">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.5" Q1="0.5" Q2="0.5" Q3="0.5000000000000001" A="2.094395102393195" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+    </Property>
+    <Property name="Profile" type="App::PropertyLinkSub">
+      <LinkSub value="Sketch004" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Refine" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Reversed" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 19
+1
+              0 -1.11022302462516e-16               1               0 
+              1 1.11022302462516e-16 1.23259516440783e-32               0 
+-1.11022302462516e-16               1 1.11022302462516e-16               0 
+1
+              0 -1.11022302462516e-16               1               0 
+              1 1.11022302462516e-16 1.23259516440783e-32               0 
+-1.11022302462516e-16               1 1.11022302462516e-16               0 
+1
+-2.22044604925031e-16               0               1               0 
+              1 -2.22044604925031e-16               0               0 
+              0               1 -2.22044604925031e-16               0 
+2  2 1 3 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+2.22044604925031e-16 -2.22044604925031e-16               1               0 
+              1 2.22044604925031e-16 -2.22044604925031e-16               0 
+-2.22044604925031e-16               1 2.22044604925031e-16               0 
+1
+-2.22044604925031e-16               0               1               0 
+              1 -2.22044604925031e-16               0               0 
+              0               1 -2.22044604925031e-16               0 
+1
+              1               0               0 5.77315972805081e-15 
+              0               1               0 -3.60822483003176e-15 
+              0               0               1             -13 
+2  5 1 6 1 7 -1 8 1 0
+1
+              1               0               0 -1.15463194561016e-14 
+              0               1               0 7.21644966006352e-15 
+              0               0               1              26 
+2  5 1 6 1 7 -1 8 1 10 1 0
+2  7 -1 8 1 2 1 3 -1 0
+2  5 1 6 1 7 -1 8 1 2 1 3 -1 0
+1
+              1               0               0              12 
+              0               1               0              11 
+              0               0               1              13 
+1
+              1               0               0             -12 
+              0               1               0              11 
+              0               0               1              13 
+2  7 -1 8 1 10 1 2 1 3 -1 0
+2  5 1 6 1 7 -1 8 1 10 1 2 1 3 -1 0
+2  14 -1 0
+2  15 -1 0
+Curve2ds 8
+2 0.96268656716417589 -8.596080581292707 1.1102230246251514e-16 -1 -1 -1.1102230246251514e-16 6.9749999999999996
+1 6.2831853071795862 26.000000000000007 -1 0 
+2 0.96268656716418033 15.403919418707307 1.1102230246251514e-16 -1 -1 -1.1102230246251514e-16 6.9749999999999996
+1 6.2831853071795862 26.000000000000011 -1 0 
+2 0 0 -1 0 0 1 6.9749999999999996
+1 0 0 1 0 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+Curves 20
+1 -35.511268835190336 1.2161946487761071e-14 -13.000000000000007 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 42.988731164809678 -2.2699056485468844e-14 -12.999999999999991 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 -35.511268835190336 0 0 1 0 0 
+1 -35.511268835190336 13.000000000000016 -13.000000000000014 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 -35.511268835190336 13 0 0 -1 0 
+1 42.988731164809678 12.99999999999998 -12.999999999999996 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 42.988731164809664 0 0 0 1 0 
+1 -28.5 13 0 -1 0 0 
+1 42.988731164809664 13 0 -1 0 0 
+1 -28.5 22 0 0 -1 0 
+1 28.5 13 0 0 1 0 
+1 28.5 22 0 -1 0 0 
+2 12.000000000000023 10.999999999999995 -13.000000000000007 8.8817841970012523e-16 -3.3306690738754711e-16 -1 1 0 8.8817841970012523e-16 -2.9582283945787956e-31 -1 3.3306690738754711e-16 6.9749999999999996
+2 -11.999999999999991 11.000000000000002 -13.000000000000021 8.8817841970012523e-16 -3.3306690738754711e-16 -1 1 0 8.8817841970012523e-16 -2.9582283945787956e-31 -1 3.3306690738754711e-16 6.9749999999999996
+2 0 0 0 -8.8817841970012523e-16 3.3306690738754711e-16 1 1 0 8.8817841970012523e-16 2.9582283945787956e-31 1 -3.3306690738754711e-16 6.9749999999999996
+1 -28.499999999999996 13.000000000000012 -13.000000000000012 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 28.500000000000018 12.999999999999988 -13 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 -28.499999999999996 22.000000000000014 -13.000000000000016 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 28.500000000000018 21.999999999999986 -13.000000000000004 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 6.9749999999999996 0 6.1950444774083732e-15 8.272798512577501e-16 -3.3306690738754716e-16 -1 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 11
+1 -35.511268835190336 1.2161946487761071e-14 -13.000000000000007 4.4408920985006257e-16 1 -2.7755575615628899e-16 1 -4.4408920985006252e-16 2.2204460492503136e-16 2.2204460492503123e-16 -2.7755575615628909e-16 -1 
+1 -35.511268835190336 13.000000000000016 -13.000000000000014 1 -2.2204460492503121e-16 4.4408920985006257e-16 -2.2204460492503141e-16 -1 4.4408920985006252e-16 4.4408920985006247e-16 -4.4408920985006262e-16 -1 
+1 42.988731164809678 -2.2699056485468844e-14 -12.999999999999991 -1 2.2204460492503121e-16 -4.4408920985006257e-16 2.2204460492503141e-16 1 -4.4408920985006252e-16 4.4408920985006247e-16 -4.4408920985006262e-16 -1 
+1 -1.4729093531792341e-15 3.4039194187073059 10.037313432835822 1 -2.2204460492503114e-16 2.2204460492503123e-16 -2.2204460492503123e-16 0 1 -2.2204460492503114e-16 -1 -4.9303806576313183e-32 
+2 0 0 0 8.8817841970012523e-16 -3.3306690738754711e-16 -1 1 0 8.8817841970012523e-16 2.9582283945787956e-31 1 -3.3306690738754711e-16 6.9749999999999996
+1 0 0 0 -8.8817841970012523e-16 3.3306690738754711e-16 1 -1 -0 -8.8817841970012523e-16 2.9582283945787956e-31 1 -3.3306690738754711e-16 
+1 -28.499999999999996 13.000000000000012 -13.000000000000012 -4.4408920985006257e-16 -1 2.7755575615628899e-16 -1 4.4408920985006252e-16 -2.2204460492503136e-16 2.2204460492503123e-16 -2.7755575615628909e-16 -1 
+1 42.988731164809678 12.99999999999998 -12.999999999999996 -4.4408920985006257e-16 -1 2.7755575615628899e-16 -1 4.4408920985006252e-16 -2.2204460492503136e-16 2.2204460492503123e-16 -2.7755575615628909e-16 -1 
+1 -28.499999999999996 22.000000000000014 -13.000000000000016 1 -2.2204460492503121e-16 4.4408920985006257e-16 -2.2204460492503141e-16 -1 4.4408920985006252e-16 4.4408920985006247e-16 -4.4408920985006262e-16 -1 
+1 28.500000000000018 12.999999999999988 -13 -1 2.2204460492503121e-16 -4.4408920985006257e-16 2.2204460492503141e-16 1 -4.4408920985006252e-16 4.4408920985006247e-16 -4.4408920985006262e-16 -1 
+1 28.500000000000018 21.999999999999986 -13.000000000000004 -4.4408920985006257e-16 -1 2.7755575615628899e-16 -1 4.4408920985006252e-16 -2.2204460492503136e-16 2.2204460492503123e-16 -2.7755575615628909e-16 -1 
+Triangulations 0
+
+TShapes 64
+Ve
+1e-07
+-35.5112688351903 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 26
+0
+
+0101000
++64 9 -64 11 *
+Ve
+1e-07
+42.9887311648097 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 26
+0
+
+0101000
++62 9 -62 11 *
+Ed
+ 1e-07 1 1 0
+1  3 0 0 78.5
+0
+
+0101000
++64 0 -62 0 *
+Wi
+
+0101100
++63 0 -61 0 -60 9 +60 11 *
+Fa
+0  1e-07 1 0
+
+0111000
++59 0 *
+Ve
+1e-07
+-35.5112688351903 13 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 26
+0
+
+0101000
++57 9 -57 11 *
+Ed
+ 1e-07 1 1 0
+1  5 0 0 13
+0
+
+0101000
++57 0 -64 0 *
+Wi
+
+0101100
++56 0 -63 0 -55 9 +55 11 *
+Fa
+0  1e-07 2 0
+
+0111000
++54 0 *
+Ve
+1e-07
+42.9887311648097 13 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 26
+0
+
+0101000
++52 9 -52 11 *
+Ed
+ 1e-07 1 1 0
+1  7 0 0 13
+0
+
+0101000
++62 0 -52 0 *
+Wi
+
+0101100
++61 0 -51 0 -50 9 +50 11 *
+Fa
+0  1e-07 3 0
+
+0111000
++49 0 *
+Ve
+1e-07
+-28.5 13 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  8 0 0 7.01126883519034
+0
+
+0101000
++47 0 -57 0 *
+Ve
+1e-07
+28.5 13 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  9 0 0 14.4887311648097
+0
+
+0101000
++52 0 -45 0 *
+Ve
+1e-07
+-28.5 22 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  10 0 0 9
+0
+
+0101000
++43 0 -47 0 *
+Ve
+1e-07
+28.5 22 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  11 0 0 9
+0
+
+0101000
++45 0 -41 0 *
+Ed
+ 1e-07 1 1 0
+1  12 0 0 57
+0
+
+0101000
++41 0 -43 0 *
+Wi
+
+0101100
++60 13 +55 13 +50 13 +46 13 +44 13 +42 13 +40 13 +39 13 *
+Ve
+1.00000001776357e-07
+18.975 11 -13
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  13 0 0 6.28318530717959
+2  1 4 12 0 6.28318530717959
+2  2 5 14 0 6.28318530717959
+0
+
+0101000
++37 0 -37 0 *
+Wi
+
+0101100
++36 0 *
+Ve
+1.00000004351168e-07
+-5.02499999999999 11 -13
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  14 0 0 6.28318530717959
+2  3 4 12 0 6.28318530717959
+2  4 5 15 0 6.28318530717959
+0
+
+0101000
++34 0 -34 0 *
+Wi
+
+0101100
++33 0 *
+Fa
+0  1e-07 4 12
+
+0101000
++38 0 +35 0 +32 0 *
+Wi
+
+0101100
++60 17 +55 17 +50 17 +46 17 +44 17 +42 17 +40 17 +39 17 *
+Ve
+1.00000003552714e-07
+18.975 11 13
+0 0
+
+0101101
+*
+Ed
+ 1.00000003552714e-07 1 1 0
+1  15 0 0 6.28318530717959
+2  5 6 0 0 6.28318530717959
+2  6 5 0 0 6.28318530717959
+0
+
+0101000
++29 18 -29 18 *
+Wi
+
+0101100
+-28 14 *
+Ve
+1.00000005329071e-07
+-5.02500000000001 11 13
+0 0
+
+0101101
+*
+Ed
+ 1.00000005329071e-07 1 1 0
+1  15 0 0 6.28318530717959
+2  5 6 0 0 6.28318530717959
+2  6 5 0 0 6.28318530717959
+0
+
+0101000
++26 19 -26 19 *
+Wi
+
+0101100
+-25 15 *
+Fa
+0  1e-07 4 16
+
+0101000
++30 0 +27 0 +24 0 *
+Ed
+ 1e-07 1 1 0
+1  16 0 0 26
+0
+
+0101000
++47 9 -47 11 *
+Wi
+
+0101100
++22 0 -56 0 -46 9 +46 11 *
+Fa
+0  1e-07 7 0
+
+0111000
++21 0 *
+Ed
+ 1e-07 1 1 0
+1  17 0 0 26
+0
+
+0101000
++45 9 -45 11 *
+Wi
+
+0101100
++51 0 -19 0 -44 9 +44 11 *
+Fa
+0  1e-07 8 0
+
+0111000
++18 0 *
+Ed
+ 1e-07 1 1 0
+1  18 0 0 26
+0
+
+0101000
++43 9 -43 11 *
+Wi
+
+0101100
++16 0 -22 0 -42 9 +42 11 *
+Fa
+0  1e-07 9 0
+
+0111000
++15 0 *
+Ed
+ 1e-07 1 1 0
+1  19 0 0 26
+0
+
+0101000
++41 9 -41 11 *
+Wi
+
+0101100
++19 0 -13 0 -40 9 +40 11 *
+Fa
+0  1e-07 10 0
+
+0111000
++12 0 *
+Wi
+
+0101100
++13 0 -16 0 -39 9 +39 11 *
+Fa
+0  1e-07 11 0
+
+0111000
++10 0 *
+Ed
+ 1e-07 1 1 0
+1  20 0 0 26
+3  7 8CN 5 0 0 26
+0
+
+0101000
++29 18 -37 18 *
+Wi
+
+0101100
+-8 14 +36 0 +8 14 +28 14 *
+Fa
+0  1e-07 5 14
+
+0101000
++7 0 *
+Ed
+ 1e-07 1 1 0
+1  20 0 0 26
+3  7 8CN 5 0 0 26
+0
+
+0101000
++26 19 -34 19 *
+Wi
+
+0101100
+-5 15 +33 0 +5 15 +25 15 *
+Fa
+0  1e-07 5 15
+
+0101000
++4 0 *
+Sh
+
+0101100
+-58 4 -53 4 -48 4 -31 0 +23 0 -20 4 -17 4 -14 4 -11 4 -9 4 
++6 0 +3 0 *
+So
+
+0100000
++2 0 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="70">
+<![CDATA[
+2 PostfixCount 14
+Edge
+Face
+Vertex
+;:Ha,V
+;:Ha,E
+;:Ha,F
+;:M;CUT;:Ha:7,F
+;:G#9c;CUT;:H-1a:a,E
+;:M;CUT;:H-1a:7,F
+;:G#9f;CUT;:H-1a:a,E
+;:M;CUT;:H-1a:7,E
+;:G#a8;CUT;:H-1a:a,V
+;:G#a9;CUT;:H-1a:a,V
+;:M;CUT;:H-1a:7,V
+
+MapCount 1
+
+ElementMap 1 2 3
+
+Edge
+
+ChildCount 0
+
+NameCount 31
+0
+$#77.5 0
+$#78.5 0
+$#7a.5 0
+$#7c.5 0
+$#8c.5 0
+$#8f.5 0
+$#90.5 0
+$#7d.5 0
+$#7e.5 0
+$#7f.5 0
+$#8d.5 0
+$#81.5 0
+$#8a.5 0
+$#84.5 0
+$#87.5 0
+$#9e.8 0
+$#a0.a 0
+$#8e.5 0
+$#82.5 0
+$#8b.5 0
+$#85.5 0
+$#88.5 0
+$#a2.b 0
+$#a3.b 0
+$#89.5 0
+$#80.5 0
+$#86.5 0
+$#83.5 0
+$#a5.b 0
+$#a6.b 0
+
+Face
+
+ChildCount 0
+
+NameCount 13
+0
+$#92.6 0
+$#99.6 0
+$#93.6 0
+$#9b.7 0
+$#a7.7 0
+$#98.6 0
+$#94.6 0
+$#97.6 0
+$#95.6 0
+$#96.6 0
+$#9e.9 0
+$#a0.9 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 21
+0
+$#5d.4 $#5e.4 0
+$#60.4 0
+$#61.4 $#62.4 0
+$#63.4 0
+$#73.4 $#74.4 0
+$#75.4 0
+$#64.4 $#65.4 0
+$#66.4 0
+$#70.4 $#71.4 0
+$#67.4 $#68.4 0
+$#6d.4 $#6e.4 0
+$#6a.4 $#6b.4 0
+$#a5.c 0
+$#a6.d 0
+$#72.4 0
+$#69.4 0
+$#6f.4 0
+$#6c.4 0
+$#ab.e 0
+$#ac.e 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="Suppress" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SuppressedShape" type="Part::PropertyPartShape">
+      <Part ElementMap="0.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 0
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 0
+Triangulations 0
+
+TShapes 0
+
+*]]>
+      </Part>
+      <ElementMap/>
+    </Property>
+    <Property name="Tapered" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="TaperedAngle" type="App::PropertyAngle" status="4">
+      <Float value="90"/>
+    </Property>
+    <Property name="ThreadClass" type="App::PropertyEnumeration" status="4">
+      <Integer value="0"/>
+    </Property>
+    <Property name="ThreadDepth" type="App::PropertyLength">
+      <Float value="23.5"/>
+    </Property>
+    <Property name="ThreadDepthType" type="App::PropertyEnumeration" status="4">
+      <Integer value="0"/>
+    </Property>
+    <Property name="ThreadDirection" type="App::PropertyEnumeration" status="4">
+      <Integer value="0"/>
+    </Property>
+    <Property name="ThreadFit" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="ThreadSize" type="App::PropertyEnumeration">
+      <Integer value="13"/>
+    </Property>
+    <Property name="ThreadType" type="App::PropertyEnumeration">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Threaded" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="UpToFace" type="App::PropertyLinkSub">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="UseCustomThreadClearance" type="App::PropertyBool" status="4">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+    <Property name="_Siblings" type="App::PropertyLinkList" status="218103808">
+      <LinkList count="0">
+      </LinkList>
+    </Property>
+  </Properties>
+</Object>
+</Document>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="8f159d34-3c59-421c-b598-1764dc857933" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2019-06-25T15:16:31Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="MiniTec 30"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T08:24:02Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value="Part003"/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="8f159d34-3c59-421c-b598-1764dc857933"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="40" Dependencies="1">
+    <ObjectDeps Name="Sketch" Count="0"/>
+    <ObjectDeps Name="ImagePlane" Count="0"/>
+    <ObjectDeps Name="Part" Count="3">
+      <Dep Name="ImagePlane"/>
+      <Dep Name="Sketch"/>
+      <Dep Name="Origin"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="Y_Axis"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="XY_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Part001" Count="3">
+      <Dep Name="Origin001"/>
+      <Dep Name="Sketch001"/>
+      <Dep Name="ImagePlane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin001" Count="6">
+      <Dep Name="XZ_Plane001"/>
+      <Dep Name="Z_Axis001"/>
+      <Dep Name="X_Axis001"/>
+      <Dep Name="Y_Axis001"/>
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="YZ_Plane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis001" Count="0"/>
+    <ObjectDeps Name="Y_Axis001" Count="0"/>
+    <ObjectDeps Name="Z_Axis001" Count="0"/>
+    <ObjectDeps Name="XY_Plane001" Count="0"/>
+    <ObjectDeps Name="XZ_Plane001" Count="0"/>
+    <ObjectDeps Name="YZ_Plane001" Count="0"/>
+    <ObjectDeps Name="ImagePlane001" Count="0"/>
+    <ObjectDeps Name="Sketch001" Count="0"/>
+    <ObjectDeps Name="Part002" Count="3">
+      <Dep Name="Sketch002"/>
+      <Dep Name="Origin002"/>
+      <Dep Name="ImagePlane002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin002" Count="6">
+      <Dep Name="Z_Axis002"/>
+      <Dep Name="Y_Axis002"/>
+      <Dep Name="YZ_Plane002"/>
+      <Dep Name="X_Axis002"/>
+      <Dep Name="XY_Plane002"/>
+      <Dep Name="XZ_Plane002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis002" Count="0"/>
+    <ObjectDeps Name="Y_Axis002" Count="0"/>
+    <ObjectDeps Name="Z_Axis002" Count="0"/>
+    <ObjectDeps Name="XY_Plane002" Count="0"/>
+    <ObjectDeps Name="XZ_Plane002" Count="0"/>
+    <ObjectDeps Name="YZ_Plane002" Count="0"/>
+    <ObjectDeps Name="ImagePlane002" Count="0"/>
+    <ObjectDeps Name="Sketch002" Count="1">
+      <Dep Name="ImagePlane002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part003" Count="3">
+      <Dep Name="Sketch003"/>
+      <Dep Name="ImagePlane003"/>
+      <Dep Name="Origin003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin003" Count="6">
+      <Dep Name="Z_Axis003"/>
+      <Dep Name="YZ_Plane003"/>
+      <Dep Name="XZ_Plane003"/>
+      <Dep Name="Y_Axis003"/>
+      <Dep Name="X_Axis003"/>
+      <Dep Name="XY_Plane003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis003" Count="0"/>
+    <ObjectDeps Name="Y_Axis003" Count="0"/>
+    <ObjectDeps Name="Z_Axis003" Count="0"/>
+    <ObjectDeps Name="XY_Plane003" Count="0"/>
+    <ObjectDeps Name="XZ_Plane003" Count="0"/>
+    <ObjectDeps Name="YZ_Plane003" Count="0"/>
+    <ObjectDeps Name="ImagePlane003" Count="0"/>
+    <ObjectDeps Name="Sketch003" Count="0"/>
+    <Object type="Sketcher::SketchObject" name="Sketch" id="1" revision="3" file="Sketch.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane" id="2" revision="0" file="ImagePlane.xml" />
+    <Object type="App::Part" name="Part" id="3" revision="1" file="Part.xml" />
+    <Object type="App::Origin" name="Origin" id="4" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="5" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="6" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="7" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="8" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="9" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="10" revision="0" file="YZ_Plane.xml" />
+    <Object type="App::Part" name="Part001" id="11" revision="1" file="Part001.xml" />
+    <Object type="App::Origin" name="Origin001" id="12" revision="0" file="Origin001.xml" />
+    <Object type="App::Line" name="X_Axis001" id="13" revision="0" file="X_Axis001.xml" />
+    <Object type="App::Line" name="Y_Axis001" id="14" revision="0" file="Y_Axis001.xml" />
+    <Object type="App::Line" name="Z_Axis001" id="15" revision="0" file="Z_Axis001.xml" />
+    <Object type="App::Plane" name="XY_Plane001" id="16" revision="0" file="XY_Plane001.xml" />
+    <Object type="App::Plane" name="XZ_Plane001" id="17" revision="0" file="XZ_Plane001.xml" />
+    <Object type="App::Plane" name="YZ_Plane001" id="18" revision="0" file="YZ_Plane001.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane001" id="19" revision="0" file="ImagePlane001.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="20" revision="3" file="Sketch001.xml" />
+    <Object type="App::Part" name="Part002" id="21" revision="1" file="Part002.xml" />
+    <Object type="App::Origin" name="Origin002" id="22" revision="0" file="Origin002.xml" />
+    <Object type="App::Line" name="X_Axis002" id="23" revision="0" file="X_Axis002.xml" />
+    <Object type="App::Line" name="Y_Axis002" id="24" revision="0" file="Y_Axis002.xml" />
+    <Object type="App::Line" name="Z_Axis002" id="25" revision="0" file="Z_Axis002.xml" />
+    <Object type="App::Plane" name="XY_Plane002" id="26" revision="0" file="XY_Plane002.xml" />
+    <Object type="App::Plane" name="XZ_Plane002" id="27" revision="0" file="XZ_Plane002.xml" />
+    <Object type="App::Plane" name="YZ_Plane002" id="28" revision="0" file="YZ_Plane002.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane002" id="29" revision="0" file="ImagePlane002.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch002" id="30" revision="3" file="Sketch002.xml" />
+    <Object type="App::Part" name="Part003" id="31" revision="1" file="Part003.xml" />
+    <Object type="App::Origin" name="Origin003" id="32" revision="0" file="Origin003.xml" />
+    <Object type="App::Line" name="X_Axis003" id="33" revision="0" file="X_Axis003.xml" />
+    <Object type="App::Line" name="Y_Axis003" id="34" revision="0" file="Y_Axis003.xml" />
+    <Object type="App::Line" name="Z_Axis003" id="35" revision="0" file="Z_Axis003.xml" />
+    <Object type="App::Plane" name="XY_Plane003" id="36" revision="0" file="XY_Plane003.xml" />
+    <Object type="App::Plane" name="XZ_Plane003" id="37" revision="0" file="XZ_Plane003.xml" />
+    <Object type="App::Plane" name="YZ_Plane003" id="38" revision="0" file="YZ_Plane003.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane003" id="39" revision="0" file="ImagePlane003.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch003" id="40" revision="3" file="Sketch003.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

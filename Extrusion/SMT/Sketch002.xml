@@ -1,0 +1,1467 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Sketch002" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="Part::AttachExtension" name="AttachExtension">
+    </Extension>
+  </Extensions>
+  <Properties Count="20" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="AttacherType" type="App::PropertyString" status="8">
+      <String value="Attacher::AttachEnginePlane"/>
+    </Property>
+    <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Constraints" type="Sketcher::PropertyConstraintList">
+      <ConstraintList count="41">
+        <Constrain Name="" Type="1" Value="0" First="0" FirstPos="2" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="1" FirstPos="2" Second="2" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="2" FirstPos="2" Second="3" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="3" FirstPos="2" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="4" FirstPos="2" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="5" FirstPos="2" Second="6" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="6" FirstPos="2" Second="7" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="7" FirstPos="2" Second="8" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="8" FirstPos="2" Second="9" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="9" FirstPos="2" Second="10" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="10" FirstPos="2" Second="11" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="11" FirstPos="2" Second="12" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="12" FirstPos="2" Second="13" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="13" FirstPos="2" Second="14" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="14" FirstPos="2" Second="15" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="15" FirstPos="2" Second="16" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="16" FirstPos="2" Second="17" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="17" FirstPos="2" Second="18" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="18" FirstPos="2" Second="19" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="19" FirstPos="2" Second="20" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="20" FirstPos="2" Second="21" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="21" FirstPos="2" Second="22" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="22" FirstPos="2" Second="23" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="23" FirstPos="2" Second="24" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="24" FirstPos="2" Second="25" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="25" FirstPos="2" Second="26" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="26" FirstPos="2" Second="27" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="27" FirstPos="2" Second="28" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="28" FirstPos="2" Second="29" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="29" FirstPos="2" Second="30" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="30" FirstPos="2" Second="31" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="31" FirstPos="2" Second="32" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="32" FirstPos="2" Second="33" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="33" FirstPos="2" Second="34" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="34" FirstPos="2" Second="35" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="35" FirstPos="2" Second="36" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="36" FirstPos="2" Second="37" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="37" FirstPos="2" Second="38" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="38" FirstPos="2" Second="39" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="39" FirstPos="2" Second="40" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="1" Value="0" First="40" FirstPos="2" Second="5" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+      </ConstraintList>
+    </Property>
+    <Property name="Exports" type="App::PropertyLinkListHidden" status="67108864">
+      <LinkList count="0">
+      </LinkList>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="ExternalGeo" type="Part::PropertyGeometryList" status="67108864">
+      <GeometryList count="2">
+        <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
+          <GeoExtensions count="2">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+          </GeoExtensions>
+          <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
+          <Construction value="1"/>
+        </Geometry>
+        <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
+          <GeoExtensions count="2">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+          </GeoExtensions>
+          <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
+          <Construction value="1"/>
+        </Geometry>
+      </GeometryList>
+    </Property>
+    <Property name="ExternalGeometry" type="App::PropertyLinkSubList" status="16777216">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="FullyConstrained" type="App::PropertyBool" status="218103808">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Geometry" type="Part::PropertyGeometryList" status="8192">
+      <GeometryList count="41">
+        <Geometry type="Part::GeomBSplineCurve" id="239" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="239" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="3" KnotsCount="2" Degree="2" IsPeriodic="0">
+            <Pole X="-0.0069054000000001" Y="3.312130000000001" Z="0" Weight="1"/>
+            <Pole X="-0.0035463800000008" Y="3.312133406713712" Z="0" Weight="0.9999994857008968"/>
+            <Pole X="-0.0001873600000008" Y="3.31213" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="3"/>
+            <Knot Value="0.0020283967013971" Mult="3"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="240" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="240" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="3" KnotsCount="2" Degree="2" IsPeriodic="0">
+            <Pole X="-0.0001873600000008" Y="3.31213" Z="0" Weight="1"/>
+            <Pole X="3.311702402113554" Y="3.312076762122191" Z="0" Weight="0.7071180900318949"/>
+            <Pole X="3.3117551" Y="0.0001870000000004" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="3"/>
+            <Knot Value="1.570764340294181" Mult="3"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="241" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="241" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="3" KnotsCount="2" Degree="2" IsPeriodic="0">
+            <Pole X="3.3117551" Y="0.0001870000000004" Z="0" Weight="1"/>
+            <Pole X="3.311701402161743" Y="-3.311701762454311" Z="0" Weight="0.7071181967457921"/>
+            <Pole X="-0.0001873602999997" Y="-3.311755" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="3"/>
+            <Knot Value="1.57076403845685" Mult="3"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="242" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="242" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="3" KnotsCount="2" Degree="2" IsPeriodic="0">
+            <Pole X="-0.0001873602999997" Y="-3.311755" Z="0" Weight="1"/>
+            <Pole X="-3.312076102162408" Y="-3.311701741855308" Z="0" Weight="0.7071181989447579"/>
+            <Pole X="-3.3121298" Y="0.0001869999999997" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="3"/>
+            <Knot Value="1.570764032237135" Mult="3"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="243" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="243" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="3" KnotsCount="2" Degree="2" IsPeriodic="0">
+            <Pole X="-3.3121298" Y="0.0001869999999997" Z="0" Weight="1"/>
+            <Pole X="-3.312084116019395" Y="3.305372623362115" Z="0" Weight="0.7078341257237324"/>
+            <Pole X="-0.0069054000000001" Y="3.312130000000001" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="3"/>
+            <Knot Value="1.568738026263369" Mult="3"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="244" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="244" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-20" Y="20" Z="0" Weight="1"/>
+            <Pole X="-20" Y="3.999942999999998" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.000057" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="245" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="245" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-20" Y="3.999942999999998" Z="0" Weight="1"/>
+            <Pole X="-15.500016" Y="3.999942999999998" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499984000000001" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="246" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="246" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-15.500016" Y="3.999942999999998" Z="0" Weight="1"/>
+            <Pole X="-15.500016" Y="11.749858" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.749915" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="247" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="247" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-15.500016" Y="11.749858" Z="0" Weight="1"/>
+            <Pole X="-7.750101899999999" Y="3.999942999999998" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.9600342638426" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="248" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="248" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-7.750101899999999" Y="3.999942999999998" Z="0" Weight="1"/>
+            <Pole X="-7.750101899999999" Y="-4.000085" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="8.000027999999999" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="249" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="249" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-7.750101899999999" Y="-4.000085" Z="0" Weight="1"/>
+            <Pole X="-15.500016" Y="-11.75" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.9600342638426" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="250" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="250" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-15.500016" Y="-11.75" Z="0" Weight="1"/>
+            <Pole X="-15.500016" Y="-4.000085" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.749915" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="251" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="251" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-15.500016" Y="-4.000085" Z="0" Weight="1"/>
+            <Pole X="-20" Y="-4.000085" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499984" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="252" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="252" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-20" Y="-4.000085" Z="0" Weight="1"/>
+            <Pole X="-20" Y="-20.000142" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.000057" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="253" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="253" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-20" Y="-20.000142" Z="0" Weight="1"/>
+            <Pole X="-3.999943299999998" Y="-20.000142" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.0000567" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="254" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="254" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-3.999943299999998" Y="-20.000142" Z="0" Weight="1"/>
+            <Pole X="-3.9999433" Y="-15.500159" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499983" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="255" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="255" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-3.9999433" Y="-15.500159" Z="0" Weight="1"/>
+            <Pole X="-11.749858" Y="-15.500159" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.7499147" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="256" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="256" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-11.749858" Y="-15.500159" Z="0" Weight="1"/>
+            <Pole X="-3.9999433" Y="-7.750243" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.96003539521347" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="257" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="257" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-3.9999433" Y="-7.750243" Z="0" Weight="1"/>
+            <Pole X="4.000085" Y="-7.750243" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="8.0000283" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="258" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="258" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="4.000085" Y="-7.750243" Z="0" Weight="1"/>
+            <Pole X="11.75" Y="-15.500159" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.96003560734549" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="259" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="259" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="11.75" Y="-15.500159" Z="0" Weight="1"/>
+            <Pole X="4.000085" Y="-15.500159" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.749915" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="260" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="260" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="4.000085" Y="-15.500159" Z="0" Weight="1"/>
+            <Pole X="4.000085" Y="-20.000142" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499983" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="261" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="261" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="4.000085" Y="-20.000142" Z="0" Weight="1"/>
+            <Pole X="20.000142" Y="-20.000142" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.000057" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="262" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="262" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="20.000142" Y="-20.000142" Z="0" Weight="1"/>
+            <Pole X="20.000142" Y="-4.000085000000002" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.000057" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="263" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="263" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="20.000142" Y="-4.000085000000002" Z="0" Weight="1"/>
+            <Pole X="15.500159" Y="-4.000085" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499983" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="264" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="264" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="15.500159" Y="-4.000085" Z="0" Weight="1"/>
+            <Pole X="15.500159" Y="-11.75" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.749915" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="265" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="265" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="15.500159" Y="-11.75" Z="0" Weight="1"/>
+            <Pole X="7.7502431" Y="-4.000085" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.96003553663481" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="266" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="266" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="7.7502431" Y="-4.000085" Z="0" Weight="1"/>
+            <Pole X="7.7502431" Y="3.999943" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="8.000028" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="267" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="267" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="7.7502431" Y="3.999943" Z="0" Weight="1"/>
+            <Pole X="15.500159" Y="11.749858" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.96003553663481" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="268" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="268" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="15.500159" Y="11.749858" Z="0" Weight="1"/>
+            <Pole X="15.500159" Y="3.999943" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.749915" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="269" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="269" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="15.500159" Y="3.999943" Z="0" Weight="1"/>
+            <Pole X="20.000142" Y="3.999943" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499983" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="270" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="270" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="20.000142" Y="3.999943" Z="0" Weight="1"/>
+            <Pole X="20.000142" Y="20" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.000057" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="271" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="271" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="20.000142" Y="20" Z="0" Weight="1"/>
+            <Pole X="4.000085000000002" Y="20" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.000057" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="272" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="272" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="4.000085000000002" Y="20" Z="0" Weight="1"/>
+            <Pole X="4.000085" Y="15.500017" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499983" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="273" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="273" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="4.000085" Y="15.500017" Z="0" Weight="1"/>
+            <Pole X="11.75" Y="15.500017" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.749915" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="274" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="274" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="11.75" Y="15.500017" Z="0" Weight="1"/>
+            <Pole X="4.000085" Y="7.750102" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.96003490023868" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="275" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="275" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="4.000085" Y="7.750102" Z="0" Weight="1"/>
+            <Pole X="-3.9999433" Y="7.750102" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="8.0000283" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="276" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="276" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-3.9999433" Y="7.750102" Z="0" Weight="1"/>
+            <Pole X="-11.749858" Y="15.500017" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="10.96003468810665" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="277" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="277" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-11.749858" Y="15.500017" Z="0" Weight="1"/>
+            <Pole X="-3.9999433" Y="15.500017" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="7.7499147" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="278" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="278" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-3.9999433" Y="15.500017" Z="0" Weight="1"/>
+            <Pole X="-3.9999433" Y="20" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="4.499983" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="279" migrated="1">
+          <GeoExtensions count="1">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="279" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="2" KnotsCount="2" Degree="1" IsPeriodic="0">
+            <Pole X="-3.9999433" Y="20" Z="0" Weight="1"/>
+            <Pole X="-20" Y="20" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="2"/>
+            <Knot Value="16.0000567" Mult="2"/>
+          </BSplineCurve>
+          <Construction value="0"/>
+        </Geometry>
+      </GeometryList>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Profile 8 40x40 heavy Sketch"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MapMode" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+      <Float value="0"/>
+    </Property>
+    <Property name="MapReversed" type="App::PropertyBool" status="8">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+Curve2ds 0
+Curves 41
+7 1 0  2 3 2  -0.0069054000000000997 3.3121300000000007 0  1 -0.0035463800000008002 3.3121334067137118 0  0.99999948570089681 -0.0001873600000008 3.3121300000000002 0  1
+ 0 3 0.0020283967013971001 3
+7 1 0  2 3 2  -0.0001873600000008 3.3121300000000002 0  1 3.3117024021135544 3.3120767621221914 0  0.70711809003189485 3.3117551000000001 0.00018700000000040001 0  1
+ 0 3 1.5707643402941811 3
+7 1 0  2 3 2  3.3117551000000001 0.00018700000000040001 0  1 3.3117014021617428 -3.3117017624543115 0  0.70711819674579213 -0.00018736029999969999 -3.3117549999999998 0  1
+ 0 3 1.5707640384568495 3
+7 1 0  2 3 2  -0.00018736029999969999 -3.3117549999999998 0  1 -3.3120761021624077 -3.3117017418553076 0  0.70711819894475791 -3.3121298000000001 0.00018699999999969999 0  1
+ 0 3 1.5707640322371346 3
+7 1 0  2 3 2  -3.3121298000000001 0.00018699999999969999 0  1 -3.312084116019395 3.305372623362115 0  0.70783412572373239 -0.0069054000000000997 3.3121300000000007 0  1
+ 0 3 1.5687380262633694 3
+7 1 0  1 2 2  -20 20 0  1 -20 3.9999429999999982 0  1
+ 0 2 16.000057000000002 2
+7 1 0  1 2 2  -20 3.9999429999999982 0  1 -15.500015999999999 3.9999429999999982 0  1
+ 0 2 4.4999840000000013 2
+7 1 0  1 2 2  -15.500015999999999 3.9999429999999982 0  1 -15.500015999999999 11.749857999999998 0  1
+ 0 2 7.7499149999999997 2
+7 1 0  1 2 2  -15.500015999999999 11.749857999999998 0  1 -7.7501018999999989 3.9999429999999982 0  1
+ 0 2 10.9600342638426 2
+7 1 0  1 2 2  -7.7501018999999989 3.9999429999999982 0  1 -7.7501018999999989 -4.0000850000000003 0  1
+ 0 2 8.0000279999999986 2
+7 1 0  1 2 2  -7.7501018999999989 -4.0000850000000003 0  1 -15.500015999999999 -11.75 0  1
+ 0 2 10.960034263842601 2
+7 1 0  1 2 2  -15.500015999999999 -11.75 0  1 -15.500016 -4.0000850000000003 0  1
+ 0 2 7.7499149999999997 2
+7 1 0  1 2 2  -15.500016 -4.0000850000000003 0  1 -20 -4.0000850000000003 0  1
+ 0 2 4.4999839999999995 2
+7 1 0  1 2 2  -20 -4.0000850000000003 0  1 -20 -20.000141999999997 0  1
+ 0 2 16.000056999999998 2
+7 1 0  1 2 2  -20 -20.000141999999997 0  1 -3.9999432999999982 -20.000142 0  1
+ 0 2 16.000056700000002 2
+7 1 0  1 2 2  -3.9999432999999982 -20.000142 0  1 -3.9999433 -15.500159 0  1
+ 0 2 4.4999830000000003 2
+7 1 0  1 2 2  -3.9999433 -15.500159 0  1 -11.749858 -15.500159 0  1
+ 0 2 7.7499146999999997 2
+7 1 0  1 2 2  -11.749858 -15.500159 0  1 -3.9999433 -7.7502430000000002 0  1
+ 0 2 10.96003539521347 2
+7 1 0  1 2 2  -3.9999433 -7.7502430000000002 0  1 4.0000850000000003 -7.7502430000000002 0  1
+ 0 2 8.0000283000000003 2
+7 1 0  1 2 2  4.0000850000000003 -7.7502430000000002 0  1 11.75 -15.500159 0  1
+ 0 2 10.960035607345489 2
+7 1 0  1 2 2  11.75 -15.500159 0  1 4.0000850000000003 -15.500159 0  1
+ 0 2 7.7499149999999997 2
+7 1 0  1 2 2  4.0000850000000003 -15.500159 0  1 4.0000850000000003 -20.000142 0  1
+ 0 2 4.4999830000000003 2
+7 1 0  1 2 2  4.0000850000000003 -20.000142 0  1 20.000141999999997 -20.000142 0  1
+ 0 2 16.000056999999998 2
+7 1 0  1 2 2  20.000141999999997 -20.000142 0  1 20.000142 -4.0000850000000021 0  1
+ 0 2 16.000056999999998 2
+7 1 0  1 2 2  20.000142 -4.0000850000000021 0  1 15.500159 -4.0000850000000003 0  1
+ 0 2 4.4999830000000003 2
+7 1 0  1 2 2  15.500159 -4.0000850000000003 0  1 15.500159 -11.75 0  1
+ 0 2 7.7499149999999997 2
+7 1 0  1 2 2  15.500159 -11.75 0  1 7.7502430999999996 -4.0000850000000003 0  1
+ 0 2 10.960035536634807 2
+7 1 0  1 2 2  7.7502430999999996 -4.0000850000000003 0  1 7.7502430999999996 3.999943 0  1
+ 0 2 8.0000280000000004 2
+7 1 0  1 2 2  7.7502430999999996 3.999943 0  1 15.500159 11.749858 0  1
+ 0 2 10.960035536634807 2
+7 1 0  1 2 2  15.500159 11.749858 0  1 15.500159 3.999943 0  1
+ 0 2 7.7499149999999997 2
+7 1 0  1 2 2  15.500159 3.999943 0  1 20.000142 3.999943 0  1
+ 0 2 4.4999830000000003 2
+7 1 0  1 2 2  20.000142 3.999943 0  1 20.000142 20 0  1
+ 0 2 16.000056999999998 2
+7 1 0  1 2 2  20.000142 20 0  1 4.0000850000000021 20 0  1
+ 0 2 16.000056999999998 2
+7 1 0  1 2 2  4.0000850000000021 20 0  1 4.0000850000000003 15.500017 0  1
+ 0 2 4.4999830000000003 2
+7 1 0  1 2 2  4.0000850000000003 15.500017 0  1 11.75 15.500017 0  1
+ 0 2 7.7499149999999997 2
+7 1 0  1 2 2  11.75 15.500017 0  1 4.0000850000000003 7.750102 0  1
+ 0 2 10.960034900238684 2
+7 1 0  1 2 2  4.0000850000000003 7.750102 0  1 -3.9999433 7.750102 0  1
+ 0 2 8.0000283000000003 2
+7 1 0  1 2 2  -3.9999433 7.750102 0  1 -11.749858 15.500017 0  1
+ 0 2 10.960034688106653 2
+7 1 0  1 2 2  -11.749858 15.500017 0  1 -3.9999433 15.500017 0  1
+ 0 2 7.7499146999999997 2
+7 1 0  1 2 2  -3.9999433 15.500017 0  1 -3.9999433 20 0  1
+ 0 2 4.4999830000000003 2
+7 1 0  1 2 2  -3.9999433 20 0  1 -20 20 0  1
+ 0 2 16.000056700000002 2
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 0
+Triangulations 0
+
+TShapes 85
+Ve
+1e-07
+-0.0069054000000001 3.31213 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+-0.0001873600000008 3.31213 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 0.0020283967013971
+0
+
+0101000
++85 0 -84 0 *
+Ve
+1e-07
+3.3117551 0.0001870000000004 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 1.57076434029418
+0
+
+0101000
++84 0 -82 0 *
+Ve
+1e-07
+-0.0001873602999997 -3.311755 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  3 0 0 1.57076403845685
+0
+
+0101000
++82 0 -80 0 *
+Ve
+1e-07
+-3.3121298 0.0001869999999997 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 1.57076403223713
+0
+
+0101000
++80 0 -78 0 *
+Ed
+ 1e-07 1 1 0
+1  5 0 0 1.56873802626337
+0
+
+0101000
++78 0 -85 0 *
+Wi
+
+0101100
++83 0 +81 0 +79 0 +77 0 +76 0 *
+Ve
+1e-07
+-20 20 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+-20 3.999943 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 16.000057
+0
+
+0101000
++74 0 -73 0 *
+Ve
+1e-07
+-15.500016 3.999943 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  7 0 0 4.499984
+0
+
+0101000
++73 0 -71 0 *
+Ve
+1e-07
+-15.500016 11.749858 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  8 0 0 7.749915
+0
+
+0101000
++71 0 -69 0 *
+Ve
+1e-07
+-7.7501019 3.999943 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  9 0 0 10.9600342638426
+0
+
+0101000
++69 0 -67 0 *
+Ve
+1e-07
+-7.7501019 -4.000085 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  10 0 0 8.000028
+0
+
+0101000
++67 0 -65 0 *
+Ve
+1e-07
+-15.500016 -11.75 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  11 0 0 10.9600342638426
+0
+
+0101000
++65 0 -63 0 *
+Ve
+1e-07
+-15.500016 -4.000085 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  12 0 0 7.749915
+0
+
+0101000
++63 0 -61 0 *
+Ve
+1e-07
+-20 -4.000085 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  13 0 0 4.499984
+0
+
+0101000
++61 0 -59 0 *
+Ve
+1e-07
+-20 -20.000142 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  14 0 0 16.000057
+0
+
+0101000
++59 0 -57 0 *
+Ve
+1e-07
+-3.9999433 -20.000142 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  15 0 0 16.0000567
+0
+
+0101000
++57 0 -55 0 *
+Ve
+1e-07
+-3.9999433 -15.500159 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  16 0 0 4.499983
+0
+
+0101000
++55 0 -53 0 *
+Ve
+1e-07
+-11.749858 -15.500159 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  17 0 0 7.7499147
+0
+
+0101000
++53 0 -51 0 *
+Ve
+1e-07
+-3.9999433 -7.750243 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  18 0 0 10.9600353952135
+0
+
+0101000
++51 0 -49 0 *
+Ve
+1e-07
+4.000085 -7.750243 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  19 0 0 8.0000283
+0
+
+0101000
++49 0 -47 0 *
+Ve
+1e-07
+11.75 -15.500159 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  20 0 0 10.9600356073455
+0
+
+0101000
++47 0 -45 0 *
+Ve
+1e-07
+4.000085 -15.500159 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  21 0 0 7.749915
+0
+
+0101000
++45 0 -43 0 *
+Ve
+1e-07
+4.000085 -20.000142 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  22 0 0 4.499983
+0
+
+0101000
++43 0 -41 0 *
+Ve
+1e-07
+20.000142 -20.000142 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  23 0 0 16.000057
+0
+
+0101000
++41 0 -39 0 *
+Ve
+1e-07
+20.000142 -4.000085 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  24 0 0 16.000057
+0
+
+0101000
++39 0 -37 0 *
+Ve
+1e-07
+15.500159 -4.000085 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  25 0 0 4.499983
+0
+
+0101000
++37 0 -35 0 *
+Ve
+1e-07
+15.500159 -11.75 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  26 0 0 7.749915
+0
+
+0101000
++35 0 -33 0 *
+Ve
+1e-07
+7.7502431 -4.000085 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  27 0 0 10.9600355366348
+0
+
+0101000
++33 0 -31 0 *
+Ve
+1e-07
+7.7502431 3.999943 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  28 0 0 8.000028
+0
+
+0101000
++31 0 -29 0 *
+Ve
+1e-07
+15.500159 11.749858 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  29 0 0 10.9600355366348
+0
+
+0101000
++29 0 -27 0 *
+Ve
+1e-07
+15.500159 3.999943 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  30 0 0 7.749915
+0
+
+0101000
++27 0 -25 0 *
+Ve
+1e-07
+20.000142 3.999943 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  31 0 0 4.499983
+0
+
+0101000
++25 0 -23 0 *
+Ve
+1e-07
+20.000142 20 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  32 0 0 16.000057
+0
+
+0101000
++23 0 -21 0 *
+Ve
+1e-07
+4.000085 20 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  33 0 0 16.000057
+0
+
+0101000
++21 0 -19 0 *
+Ve
+1e-07
+4.000085 15.500017 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  34 0 0 4.499983
+0
+
+0101000
++19 0 -17 0 *
+Ve
+1e-07
+11.75 15.500017 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  35 0 0 7.749915
+0
+
+0101000
++17 0 -15 0 *
+Ve
+1e-07
+4.000085 7.750102 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  36 0 0 10.9600349002387
+0
+
+0101000
++15 0 -13 0 *
+Ve
+1e-07
+-3.9999433 7.750102 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  37 0 0 8.0000283
+0
+
+0101000
++13 0 -11 0 *
+Ve
+1e-07
+-11.749858 15.500017 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  38 0 0 10.9600346881067
+0
+
+0101000
++11 0 -9 0 *
+Ve
+1e-07
+-3.9999433 15.500017 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  39 0 0 7.7499147
+0
+
+0101000
++9 0 -7 0 *
+Ve
+1e-07
+-3.9999433 20 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  40 0 0 4.499983
+0
+
+0101000
++7 0 -5 0 *
+Ed
+ 1e-07 1 1 0
+1  41 0 0 16.0000567
+0
+
+0101000
++5 0 -74 0 *
+Wi
+
+0101100
++72 0 +70 0 +68 0 +66 0 +64 0 +62 0 +60 0 +58 0 +56 0 +54 0 
++52 0 +50 0 +48 0 +46 0 +44 0 +42 0 +40 0 +38 0 +36 0 +34 0 
++32 0 +30 0 +28 0 +26 0 +24 0 +22 0 +20 0 +18 0 +16 0 +14 0 
++12 0 +10 0 +8 0 +6 0 +4 0 +3 0 *
+Co
+
+1100000
++75 0 +2 0 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="82">
+<![CDATA[
+1 PostfixCount 5
+Edge
+Vertex
+;:H,E;SKT
+;:H,V;SKT
+;SKT
+
+MapCount 2
+
+ElementMap 1 2 2
+
+Edge
+
+ChildCount 0
+
+NameCount 6
+0
+;g239.3 0
+;g240.5 0
+;g241.5 0
+;g242.5 0
+;g243.5 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 6
+0
+;g239v1.4 ;g243v2.5 0
+;g239v2.4 ;g240v1.5 0
+;g240v2.5 ;g241v1.5 0
+;g241v2.5 ;g242v1.5 0
+;g242v2.5 ;g243v1.5 0
+
+EndMap
+
+ElementMap 2 1 2
+
+Edge
+
+ChildCount 1
+1 0 5 0 1 ;:H,E 0
+
+NameCount 42
+0
+0
+0
+0
+0
+0
+;g244.5 0
+;g245.5 0
+;g246.5 0
+;g247.5 0
+;g248.5 0
+;g249.5 0
+;g250.5 0
+;g251.5 0
+;g252.5 0
+;g253.5 0
+;g254.5 0
+;g255.5 0
+;g256.5 0
+;g257.5 0
+;g258.5 0
+;g259.5 0
+;g260.5 0
+;g261.5 0
+;g262.5 0
+;g263.5 0
+;g264.5 0
+;g265.5 0
+;g266.5 0
+;g267.5 0
+;g268.5 0
+;g269.5 0
+;g270.5 0
+;g271.5 0
+;g272.5 0
+;g273.5 0
+;g274.5 0
+;g275.5 0
+;g276.5 0
+;g277.5 0
+;g278.5 0
+;g279.5 0
+
+Vertex
+
+ChildCount 1
+1 0 5 0 1 ;:H,V 0
+
+NameCount 42
+0
+0
+0
+0
+0
+0
+;g244v1.5 0
+;g244v2.5 0
+;g245v2.5 0
+;g246v2.5 0
+;g247v2.5 0
+;g248v2.5 0
+;g249v2.5 0
+;g250v2.5 0
+;g251v2.5 0
+;g252v2.5 0
+;g253v2.5 0
+;g254v2.5 0
+;g255v2.5 0
+;g256v2.5 0
+;g257v2.5 0
+;g258v2.5 0
+;g259v2.5 0
+;g260v2.5 0
+;g261v2.5 0
+;g262v2.5 0
+;g263v2.5 0
+;g264v2.5 0
+;g265v2.5 0
+;g266v2.5 0
+;g267v2.5 0
+;g268v2.5 0
+;g269v2.5 0
+;g270v2.5 0
+;g271v2.5 0
+;g272v2.5 0
+;g273v2.5 0
+;g274v2.5 0
+;g275v2.5 0
+;g276v2.5 0
+;g277v2.5 0
+;g278v2.5 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="Support" type="App::PropertyLinkSubList">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="URL" type="App::PropertyString" group="Base" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <String value="https://www.smt-montagetechnik.de/produkte/82.htm"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

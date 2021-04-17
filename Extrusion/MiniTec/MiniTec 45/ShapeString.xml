@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="ShapeString" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="Part::AttachExtension" name="AttachExtension">
+    </Extension>
+  </Extensions>
+  <Properties Count="18" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="AttacherType" type="App::PropertyString" status="8">
+      <String value="Attacher::AttachEnginePlane"/>
+    </Property>
+    <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="FontFile" type="App::PropertyFile" group="Draft" attr="0" ro="0" hide="0" docID="1" status="2097152">
+      <String value="/usr/share/fonts/open-sans/OpenSans-Regular.ttf"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="UL String"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MapMode" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+      <Float value="0"/>
+    </Property>
+    <Property name="MapReversed" type="App::PropertyBool" status="8">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="-21" Py="400" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0.7429058878773088" Oy="0.3077219535572215" Oz="0.5944729102794801"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="draftobjects.shapestring" class="ShapeString" cdata="1">
+<![CDATA[
+"ShapeString"
+]]>
+      </Python>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part ElementMap="0.15.70200.3" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+              1               0               0             -21 
+              0               1               0             400 
+              0               0               1               0 
+Curve2ds 0
+Curves 20
+1 21.06131229831481 23.406238795267122 0 0 -1 -0 
+1 18.318393689494442 23.406238795267122 0 1 0 0 
+1 18.318393689494442 8.4116170670491215 0 0 1 0 
+7 0 0  2 3 2  16.704912154894227 3.9584080315525281 0  18.318393689494442 5.5073503047687344 0  18.318393689494442 8.4116170670491215 0 
+ 0 3 1 3
+7 0 0  2 3 2  12.101111509501614 2.4094657583363213 0  15.091430620294012 2.4094657583363213 0  16.704912154894227 3.9584080315525281 0 
+ 0 3 1 3
+7 0 0  2 3 2  7.3574757977769814 3.9476514879885265 0  8.9709573323771963 2.4094657583363213 0  12.101111509501614 2.4094657583363213 0 
+ 0 3 1 3
+7 0 0  2 3 2  5.7439942631767664 8.3793474363571168 0  5.7439942631767664 5.4965937612047329 0  7.3574757977769814 3.9476514879885265 0 
+ 0 3 1 3
+1 5.7439942631767664 23.406238795267122 0 0 -1 -0 
+1 3.0010756543564003 23.406238795267122 0 1 0 0 
+1 3.0010756543564003 8.529939046253137 0 0 1 0 
+7 0 0  2 3 2  5.3352456077447119 2.2696306920043026 0  3.0010756543564003 4.5500179275726067 0  3.0010756543564003 8.529939046253137 0 
+ 0 3 1 3
+7 0 0  2 3 2  11.92900681247759 0 0  7.6694155611330226 0 0  5.3352456077447119 2.2696306920043026 0 
+ 0 3 1 3
+7 0 0  2 3 2  18.619576909286483 2.2588741484403014 0  16.188598063822159 0 0  11.92900681247759 0 0 
+ 0 3 1 3
+7 0 0  2 3 2  21.06131229831481 8.4653997848691294 0  21.06131229831481 4.5177482968806029 0  18.619576909286483 2.2588741484403014 0 
+ 0 3 1 3
+1 27.343133739691645 0 0 0 1 0 
+1 40.487629974901395 0 0 -1 0 0 
+1 40.487629974901395 2.4847615632843314 0 0 -1 0 
+1 30.086052348512013 2.4847615632843314 0 1 0 0 
+1 30.086052348512013 23.406238795267122 0 0 -1 0 
+1 27.343133739691645 23.406238795267122 0 1 0 0 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 2
+1 12.027125667334241 10.824007345572479 0 0 0 1 1 0 -0 -0 1 0 
+1 30.938473604894032 8.7262111452310673 0 0 0 1 1 0 -0 -0 1 0 
+Triangulations 0
+
+TShapes 47
+Ve
+1e-07
+21.0613122983148 23.4062387952671 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+21.0613122983148 8.46539978486913 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  1 0 0 14.940839010398
+0
+
+0101000
++47 0 -46 0 *
+Ve
+1e-07
+18.3183936894944 23.4062387952671 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  2 0 0 2.74291860882037
+0
+
+0101000
++44 0 -47 0 *
+Ve
+1e-07
+18.3183936894944 8.41161706704912 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  3 0 0 14.994621728218
+0
+
+0101000
++42 0 -44 0 *
+Ve
+1e-07
+16.7049121548942 3.95840803155253 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  4 0 0 1
+0
+
+0101000
++40 0 -42 0 *
+Ve
+1e-07
+12.1011115095016 2.40946575833632 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  5 0 0 1
+0
+
+0101000
++38 0 -40 0 *
+Ve
+1e-07
+7.35747579777698 3.94765148798853 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  6 0 0 1
+0
+
+0101000
++36 0 -38 0 *
+Ve
+1e-07
+5.74399426317677 8.37934743635712 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  7 0 0 1
+0
+
+0101000
++34 0 -36 0 *
+Ve
+1e-07
+5.74399426317677 23.4062387952671 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  8 0 0 15.02689135891
+0
+
+0101000
++32 0 -34 0 *
+Ve
+1e-07
+3.0010756543564 23.4062387952671 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  9 0 0 2.74291860882037
+0
+
+0101000
++30 0 -32 0 *
+Ve
+1e-07
+3.0010756543564 8.52993904625314 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  10 0 0 14.876299749014
+0
+
+0101000
++28 0 -30 0 *
+Ve
+1e-07
+5.33524560774471 2.2696306920043 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  11 0 0 1
+0
+
+0101000
++26 0 -28 0 *
+Ve
+1e-07
+11.9290068124776 0 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  12 0 0 1
+0
+
+0101000
++24 0 -26 0 *
+Ve
+1e-07
+18.6195769092865 2.2588741484403 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  13 0 0 1
+0
+
+0101000
++22 0 -24 0 *
+Ed
+ 1.075654e-09 1 1 0
+1  14 0 0 1
+0
+
+0101000
++46 0 -22 0 *
+Wi
+
+0101100
+-45 0 -43 0 -41 0 -39 0 -37 0 -35 0 -33 0 -31 0 -29 0 -27 0 
+-25 0 -23 0 -21 0 -20 0 *
+Fa
+0  1e-07 1 0
+
+0101000
++19 0 *
+Co
+
+0100000
++18 0 *
+Ve
+1e-07
+27.3431337396916 0 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+27.3431337396916 23.4062387952671 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  15 0 0 23.4062387952671
+0
+
+0101000
++16 0 -15 0 *
+Ve
+1e-07
+40.4876299749014 0 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  16 0 0 13.1444962352098
+0
+
+0101000
++13 0 -16 0 *
+Ve
+1e-07
+40.4876299749014 2.48476156328433 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  17 0 0 2.48476156328433
+0
+
+0101000
++11 0 -13 0 *
+Ve
+1e-07
+30.086052348512 2.48476156328433 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  18 0 0 10.4015776263894
+0
+
+0101000
++9 0 -11 0 *
+Ve
+1e-07
+30.086052348512 23.4062387952671 0
+0 0
+
+0101101
+*
+Ed
+ 1.075654e-09 1 1 0
+1  19 0 0 20.9214772319828
+0
+
+0101000
++7 0 -9 0 *
+Ed
+ 1.075654e-09 1 1 0
+1  20 0 0 2.74291860882037
+0
+
+0101000
++15 0 -7 0 *
+Wi
+
+0101100
+-14 0 -12 0 -10 0 -8 0 -6 0 -5 0 *
+Fa
+0  1e-07 2 0
+
+0101000
++4 0 *
+Co
+
+0100000
++3 0 *
+Co
+
+1100000
++17 0 +2 0 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap/>
+    </Property>
+    <Property name="Size" type="App::PropertyLength" group="Draft" attr="0" ro="0" hide="0" docID="2" status="2097152">
+      <Float value="30"/>
+    </Property>
+    <Property name="String" type="App::PropertyString" group="Draft" attr="0" ro="0" hide="0" docID="3" status="2097152">
+      <String value="UL"/>
+    </Property>
+    <Property name="Support" type="App::PropertyLinkSubList">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="Tracking" type="App::PropertyLength" group="Draft" attr="0" ro="0" hide="0" docID="4" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

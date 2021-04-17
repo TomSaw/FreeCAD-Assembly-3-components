@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="816d2d82-a35e-4db2-b22e-91dabb1a00f5" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="58">
+<![CDATA[
+-1.0 0:backlash
+-1.0 0:beta 
+-1.0 0:clearance
+-1.0 0:double helix
+-1.0 0:pitch diameter
+-1.0 0:test
+-1.0 0:head_value * modul_value = additional length of head
+-1.0 0:height
+-1.0 0:module
+-1.0 0:number of points for spline
+-1.0 0:pressure angle
+-1.0 0:if beta is given and properties_from_tool is enabled,             gear parameters are internally recomputed for the rotated gear
+-1.0 0:backlash direction
+-1.0 0:shift
+-1.0 0:simple
+-1.0 0:number of teeth
+-1.0 0:transverse_pitch
+-1.0 0:undercut
+-1.0 0:Sets how to align the values within span.
+-1.0 0:Starting cell of first value (the rest are scanned downwards till an empty cell is encountered)
+-1.0 0:Number of values to generate
+-1.0 0:If True, the last value in series will equal SpanEnd. If False, the value equal to SpanEnd will be dropped.
+-1.0 0:Makes the placement synchronized to Placement property. This will often make this object unmovable. Not applicable to arrays.
+-1.0 0:Choose the preferred shape of placement markers.
+-1.0 0:Size of placement markers (set to zero for automatic).
+-1.0 0:Info: number of placements in the array
+-1.0 0:Object to make series from. Can be any generic shape, as well as an array of placements.
+-1.0 0:Extra offset for the series, expressed as fraction of step.
+-1.0 0:Reference to the parameter to vary. Syntax: ObjectName.Property. Examples: 'Box.Height'; 'Sketch.Constraints.myLength'.
+-1.0 0:Data type of parameter to vary.
+-1.0 0:Sets recomputing policy.
+-1.0 0:Ending value for value series generator
+-1.0 0:Starting value for value series generator
+-1.0 0:Link to spreadsheet to take values from.
+-1.0 0:Step for value generator. For exponential law, it is a natural logarithm of change ratio.
+-1.0 0:module_name.class_name of this object, for proxy recovery
+-1.0 0:Interface version
+-1.0 0:List of parameter values to compute object for.
+-1.0 0:Select where to take the value series from.
+-1.0 0:Sets whether this object should be treated as a lattice by further operations
+-1.0 0:Vector that defines axis direction
+-1.0 0:If True, Dir property is driven by link.
+-1.0 0:Select, which property is to be driven by length of axis link.
+-1.0 0:Link to the axis (Edge1 is used for the axis).
+-1.0 0:subelement to take from axis link shape
+-1.0 0:Orientation of elements
+-1.0 0:Position of base (the point through which the axis passes, and from which positions of elements are measured)
+-1.0 0:If True, AxisPoint is not updated based on the link.
+-1.0 0:Set to true to reverse direction
+-1.0 0:Mirror of Object+SubNames properties
+-1.0 0:List of distances. Distance is measured from Point, along Dir, in millimeters.
+-1.0 0:Sets, what method to use for copying shapes.
+-1.0 0:If true, children of Object will be traversed in a loop if there are more placements than children. Otherwise, extra placements will be dropped.
+-1.0 0:Compound containing objects to be copied.
+-1.0 0:Sets whether first-level compound is traversed, or the whole compounding tree.
+-1.0 0:Placement or array of placements to be treated as origins for PlacementsTo.
+-1.0 0:Placement or array of placements, containing target locations.
+-1.0 0:Reference for array of placements.
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-08-21T19:22:12Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="InvoluteGear Series Mod 1"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T09:31:53Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="816d2d82-a35e-4db2-b22e-91dabb1a00f5"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="4" Dependencies="1">
+    <ObjectDeps Name="involutegear" Count="0"/>
+    <ObjectDeps Name="ParaSeries" Count="1">
+      <Dep Name="involutegear"/>
+    </ObjectDeps>
+    <ObjectDeps Name="LinearArray" Count="0"/>
+    <ObjectDeps Name="Populate" Count="2">
+      <Dep Name="LinearArray"/>
+      <Dep Name="ParaSeries"/>
+    </ObjectDeps>
+    <Object type="Part::FeaturePython" name="involutegear" id="3589" revision="2" file="involutegear.xml" />
+    <Object type="Part::FeaturePython" name="ParaSeries" id="3590" revision="2" file="ParaSeries.xml" />
+    <Object type="Part::FeaturePython" name="LinearArray" id="3592" revision="2" file="LinearArray.xml" />
+    <Object type="Part::FeaturePython" name="Populate" id="3593" revision="2" file="Populate.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

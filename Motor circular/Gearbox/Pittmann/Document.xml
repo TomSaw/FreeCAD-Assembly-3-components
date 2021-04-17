@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="4fce3f30-a331-4343-a634-6df80e4452f6" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-08-20T07:56:58Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Pittmann"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T08:30:07Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="4fce3f30-a331-4343-a634-6df80e4452f6"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="12" Dependencies="1">
+    <ObjectDeps Name="Cylinder" Count="1">
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder001" Count="1">
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder002" Count="0"/>
+    <ObjectDeps Name="Cylinder003" Count="0"/>
+    <ObjectDeps Name="Fusion" Count="3">
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Cylinder"/>
+      <Dep Name="Cylinder001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Parts"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Constraints"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="3">
+      <Dep Name="Element001"/>
+      <Dep Name="Element"/>
+      <Dep Name="Element002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="2">
+      <Dep Name="Cylinder003"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Cylinder003"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element001" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <Object type="Part::Cylinder" name="Cylinder" id="421" revision="2" file="Cylinder.xml" />
+    <Object type="Part::Cylinder" name="Cylinder001" id="422" revision="2" file="Cylinder001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder002" id="423" revision="2" file="Cylinder002.xml" />
+    <Object type="Part::Cylinder" name="Cylinder003" id="424" revision="2" file="Cylinder003.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="425" revision="2" file="Fusion.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="426" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="427" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="428" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="429" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="430" revision="3" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="431" revision="6" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="432" revision="6" file="Element002.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40mm"
+   height="40mm"
+   viewBox="0 0 40 40"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="SMT.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:snap-page="true"
+     inkscape:snap-global="true"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="98.879762"
+     inkscape:cy="-14.489788"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       dotted="true"
+       type="xygrid"
+       id="grid833"
+       originx="19.999999"
+       originy="19.999999"
+       spacingx="0.24999999"
+       spacingy="0.24999999"
+       empspacing="4"
+       units="mm" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       y="0"
+       x="0"
+       height="40"
+       width="40"
+       id="rect967"
+       style="fill:#ff7f2a;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <circle
+       r="3.3119957"
+       cy="20"
+       cx="20"
+       id="path839"
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       inkscape:transform-center-y="13,875"
+       inkscape:transform-center-x="0"
+       inkscape:tile-y0="27.499997"
+       inkscape:tile-x0="8.0000351"
+       inkscape:tile-h="12.750001"
+       inkscape:tile-w="23.999927"
+       inkscape:tile-cy="19.999997"
+       inkscape:tile-cx="19.999999"
+       sodipodi:nodetypes="ccccccccc"
+       id="path841"
+       d="m 15.999999,39.999999 v -4.500002 l -7.7499995,10e-7 7.7499995,-7.750001 h 8 l 7.75,7.750001 -7.75,-10e-7 v 4.500002 z"
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;image-rendering:auto" />
+    <use
+       height="100%"
+       width="100%"
+       inkscape:transform-center-y="28.583332"
+       inkscape:transform-center-x="-14.708333"
+       id="use959"
+       xlink:href="#path841"
+       inkscape:tiled-clone-of="#path841"
+       y="0"
+       x="0" />
+    <use
+       height="100%"
+       width="100%"
+       inkscape:transform-center-y="14.708331"
+       inkscape:transform-center-x="-0.83333168"
+       id="use961"
+       transform="rotate(90,19.999999,19.999997)"
+       xlink:href="#path841"
+       inkscape:tiled-clone-of="#path841"
+       y="0"
+       x="0" />
+    <use
+       height="100%"
+       width="100%"
+       inkscape:transform-center-y="0.83333001"
+       inkscape:transform-center-x="-14.708332"
+       id="use963"
+       transform="rotate(180,19.999999,19.999997)"
+       xlink:href="#path841"
+       inkscape:tiled-clone-of="#path841"
+       y="0"
+       x="0" />
+    <use
+       height="100%"
+       width="100%"
+       inkscape:transform-center-y="14.708331"
+       inkscape:transform-center-x="-28.583334"
+       id="use965"
+       transform="rotate(-90,19.999999,19.999997)"
+       xlink:href="#path841"
+       inkscape:tiled-clone-of="#path841"
+       y="0"
+       x="0" />
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
+<Expand  count="1">
+  <Expand name="Revolve005"/>
+</Expand>
+>
+  <Camera extra="0" id="44" binding="0">
+<![CDATA[
+PerspectiveCamera {
+  viewportMapping ADJUST_CAMERA
+  position 20.015127 -12.515118 15.510117
+  orientation 0.74290609 0.30772209 0.59447283  1.2171158
+  nearDistance 14.546421
+  farDistance 30.222435
+  aspectRatio 1
+  focalDistance 21.676825
+  heightAngle 0.78539819
+
+}
+## overrideMode: As Is]]>
+  </Camera>
+</Document>

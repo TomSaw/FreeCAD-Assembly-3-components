@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="6505cc89-1177-404b-86f8-2ea346c04bfb" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="495">
+<![CDATA[
+-1.0 0:Sets how to align the values within span.
+-1.0 0:Starting cell of first value (the rest are scanned downwards till an empty cell is encountered)
+-1.0 0:Number of values to generate
+-1.0 0:Vector that defines axis direction
+-1.0 0:If True, Dir property is driven by link.
+-1.0 0:Select, which property is to be driven by length of axis link.
+-1.0 0:If True, the last value in series will equal SpanEnd. If False, the value equal to SpanEnd will be dropped.
+-1.0 0:Makes the placement synchronized to Placement property. This will oftem make this object unmovable. Not applicable to arrays.
+-1.0 0:Link to the axis (Edge1 is used for the axis).
+-1.0 0:subelement to take from axis link shape
+-1.0 0:Choose the preferred shape of placement markers.
+-1.0 0:Size of placement markers (set to zero for automatic).
+-1.0 0:Info: number of placements in the array
+-1.0 0:Extra offset for the series, expressed as fraction of step.
+-1.0 0:Orientation of elements
+-1.0 0:Position of base (the point through which the axis passes, and from which positions of elements are measured)
+-1.0 0:If True, AxisPoint is not updated based on the link.
+-1.0 0:Set to true to reverse direction
+-1.0 0:Ending value for value series generator
+-1.0 0:Starting value for value series generator
+-1.0 0:Link to spreadsheet to take values from.
+-1.0 0:Step for value generator. For exponential law, it is a natural logarithm of change ratio.
+-1.0 0:Mirror of Object+SubNames properties
+-1.0 0:module_name.class_name of this object, for proxy recovery
+-1.0 0:Interface version
+-1.0 0:List of distances. Distance is measured from Point, along Dir, in millimeters.
+-1.0 0:Select where to take the value series from.
+-1.0 0:Sets whether this object should be treated as a lattice by further operations
+-1.0 0:Features to be copied (can be a body)
+-1.0 0:Skip unsupported features such as fillets, instead of throwing errors
+-1.0 0:Reference placement (placement that marks where the original feature is)
+-1.0 0:Target placements
+-1.0 0:Reference placement mode (sets what to grab the feature by).
+-1.0 0:If True, remove redundant edges after this operation.
+-1.0 0:If True, take care of intersections between occurrences. If False, you get a slight speed boost.
+-1.0 0:Use it to change Pockets into Pads.
+-1.0 0:If True, discard solids not joined with the base.
+-1.0 0:Skip first body feature (which may be used as support for the important features).
+-2.0 0:;SKT
+-1.c.1 g171v1
+-1.c.0 g168v1
+-1.0 0:;:H,V;SKT
+-1.c.1 g166v1
+-1.c.-3 g171v2
+-1.c.3 g166v2
+-1.c.-3 g167v1
+-1.c.0 g167v2
+-1.c.0 g172v2
+-1.c.0 g172v1
+-1.c.0 g173v2
+-1.c.0 g173v1
+-1.c.0 g174v1
+-1.c.0 g174v2
+-1.c.0 g175v1
+-1.c.0 g175v2
+-1.c.0 g176v1
+-1.c.0 g176v2
+-1.c.0 g177v1
+-1.c.0 g170v2
+-1.c.0 g177v2
+-1.c.0 g169v2
+-1.c.0 g170v1
+-1.c.0 g168v2
+-1.c.0 g169v1
+-1.c.0 g171
+-1.0 0:;:H,E;SKT
+-1.c.1 g166
+-1.c.-1b g167
+-1.c.0 g172
+-1.c.0 g173
+-1.c.0 g174
+-1.c.0 g175
+-1.c.0 g176
+-1.c.0 g177
+-1.c.0 g170
+-1.c.0 g169
+-1.c.0 g168
+-1.0 0:;:Hbbf,E
+-1.2c.1.e
+-1.0 0:;:Hbbf,V
+-1.2c.1.29
+-1.2c.0.3
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.-2.4
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;XTR;:Hbbf:7,F
+-1.2c.1.1a
+-1.2c.0.e
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;XTR;:Hbbf:7,E
+-1.2c.1.25
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:(#6b;:U;XTR;:Hbbf:7,E,#6c;:U;XTR;:Hbbf:7,E,#6d;:U;XTR;:Hbbf:7,E,#6e;:U;XTR;:Hbbf:7,E)
+-1.0 0:;:U;XTR;:Hbbf:7,E
+-1.2c.1.1b.1a.2.15.14.13.12.19.18.17.16.11.10
+-2.c.-5c g178
+-1.0 0:;:Hbc1,E
+-1.2c.1.2
+-1.0 0:;:G2;MAK;:Hbc1:8,F
+-1.2c.1.2
+-1.0 0:;:G3;MAK;:Hbc1:8,F
+-1.2c.1.4
+-1.0 0:;:G4;MAK;:Hbc1:8,F
+-1.2c.1.6
+-1.0 0:;:G5;MAK;:Hbc1:8,F
+-1.2c.1.8
+-1.0 0:;:U3;MAK;:Hbc1:8,E
+-1.2c.1.8
+-1.0 0:;:U2;MAK;:Hbc1:8,E
+-1.2c.1.a
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.0 0:;:Hbbf,V;:H-bc0,V
+-1.2c.1.71
+-1.2c.0.1
+-1.0 0:;:U;XTR;:Hbbf:7,V;:H-bc0,V
+-1.2c.1.26
+-1.2c.-3.-4b
+-1.2c.0.1
+-1.2c.3.4b
+-1.2c.-3.-4a
+-1.2c.0.1
+-1.2c.3.4a
+-1.2c.-3.-49
+-1.2c.0.1
+-1.2c.3.49
+-1.2c.-3.-48
+-1.2c.0.1
+-1.2c.3.48
+-1.2c.-3.-47
+-1.2c.0.1
+-1.2c.3.47
+-1.2c.-3.-46
+-1.2c.0.1
+-1.2c.3.46
+-1.2c.-3.-45
+-1.2c.0.1
+-1.2c.3.45
+-1.2c.-3.-44
+-1.2c.0.1
+-1.2c.3.44
+-1.2c.-3.-43
+-1.2c.0.1
+-1.2c.3.43
+-1.2c.-3.-42
+-1.2c.0.1
+-1.2c.3.42
+-1.2c.-3.-41
+-1.2c.0.1
+-1.2c.3.41
+-1.0 0:;:G;XTR;:Hbbf:7,E;:H-bc0,E
+-1.2c.1.6e
+-1.2c.0.1
+-1.0 0:;:Hbbf,E;:H-bc0,E
+-1.2c.1.81
+-1.0 0:;:U;XTR;:Hbbf:7,E;:H-bc0,E
+-1.2c.1.5b
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-5.-16
+-1.2c.3.-10
+-1.2c.2.27
+-1.2c.-2.-26
+-1.2c.2.27
+-1.0 0:;:G;XTR;:Hbbf:7,F;:H-bc0,F
+-1.2c.1.97
+-1.2c.0.f
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;FAC;:Hbbf:4,F;:H-bc0,F
+-1.2c.1.a2
+-1.28.-6c ;:L#83;XTR;:Hbbf:a,F;:H-bc0,F
+-1.c.61.6b #5e
+-1.0 0:(#f4;K-2;:Hbc0:4,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:H-bc2,F
+-1.c.1.3.99.2 #89
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:H-bc2,E
+-1.2c.1.6a
+-1.0 0:;:U;MAK;:Hbc1:7,E;:H-bc2,E
+-1.2c.1.70
+-1.2c.-2.0
+-1.2c.-12.-27
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:H-bc2,F
+-1.2c.1.76
+-2.0 0:;:U;MAK;:Hbc1:7,V;:H-bc2,V
+-1.2c.1.6f
+-1.0 0:;:Hbc0,V
+-1.2c.1.6a
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1c
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.-1d
+-1.2c.0.1
+-1.2c.0.1
+-1.28.-a ;:G#100;CUT;:H-bc2:b,V
+-1.2c.a.6d
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.-14
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.-2.-25
+-1.0 0:;:M;CUT;:H-bc2:7,V
+-1.2c.1.29
+-1.2c.-29.-6d
+-1.0 0:;:Hbc0,E
+-1.2c.1.6e
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.1c
+-1.2c.0.3
+-1.2c.0.1
+-1.2c.0.-1e
+-1.2c.0.1
+-1.2c.0.-2
+-1.28.-36 ;:G#f5;CUT;:H-bc2:a,E
+-1.2c.36.6f
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.-17
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.-5
+-1.2c.0.-15
+-1.0 0:;:M;CUT;:H-bc2:7,E
+-1.2c.1.55
+-1.0 0:;:U2;MAK;:Hbc1:8,E;:H-bc2,E
+-1.2c.1.c3
+-1.2c.-22.3f
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.0.3
+-1.2c.20.23
+-1.2c.-20.-20
+-1.2c.22.-50
+-1.2c.-2.71
+-1.0 0:;:Hbc0,F
+-1.2c.1.74
+-1.2c.0.9
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.-4
+-1.2c.0.-7
+-1.0 0:;:M;CUT;:H-bc2:7,F
+-1.2c.1.6b
+-1.2c.-7.-e
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G3;MAK;:Hbc1:8,F;:H-bc2,F
+-1.2c.1.e1
+-1.2c.-8.76
+-1.0 0:;:M;CUT;:Hbc0:7,F
+-1.c.1.e4 #f4
+-1.0 0:(#16d;K-23;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:Ca;:H-bc2,F
+-1.c.1.3.7c.2 #89
+-1.0 0:(#16d;K-21;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C8;:H-bc2,F
+-1.c.1.6.7f.2 #89
+-1.0 0:(#16d;K-19;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C6;:H-bc2,F
+-1.c.1.9.82.2 #89
+-1.0 0:(#16d;K-17;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C4;:H-bc2,F
+-1.c.1.c.85.2 #89
+-1.0 0:(#16d;K-15;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C2;:H-bc2,F
+-1.c.1.f.88.2 #89
+-2.0 0:(#16d;K-14;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C1;:H-bc2,F
+-1.c.1.13.8c.2 #89
+-1.0 0:(#16d;K-16;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C3;:H-bc2,F
+-1.c.1.16.8f.2 #89
+-1.0 0:(#16d;K-18;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C5;:H-bc2,F
+-1.c.1.19.92.2 #89
+-1.0 0:(#16d;K-20;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C7;:H-bc2,F
+-1.c.1.1c.95.2 #89
+-1.0 0:(#16d;K-22;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:C9;:H-bc2,F
+-1.c.1.1f.98.2 #89
+-1.0 0:(#16d;K-24;:Hbc2:5,F)
+-1.0 0:;:G4;MAK;:Hbc1:8,F;:Cb;:H-bc2,F
+-1.c.1.22.9b.2 #89
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:Ca;:H-bc2,E
+-1.2c.1.102
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C8;:H-bc2,E
+-1.2c.1.104
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C6;:H-bc2,E
+-1.2c.1.106
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C4;:H-bc2,E
+-1.2c.1.108
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C2;:H-bc2,E
+-1.2c.1.10a
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C1;:H-bc2,E
+-1.2c.1.10c
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C3;:H-bc2,E
+-1.2c.1.10e
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C5;:H-bc2,E
+-1.2c.1.110
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C7;:H-bc2,E
+-1.2c.1.112
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:C9;:H-bc2,E
+-1.2c.1.114
+-1.0 0:;:U3;MAK;:Hbc1:8,E;:Cb;:H-bc2,E
+-1.2c.1.116
+-1.0 0:;:U;MAK;:Hbc1:7,E;:Ca;:H-bc2,E
+-1.2c.1.11c
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C8;:H-bc2,E
+-1.2c.1.11e
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C6;:H-bc2,E
+-1.2c.1.120
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C4;:H-bc2,E
+-1.2c.1.122
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C2;:H-bc2,E
+-1.2c.1.124
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C1;:H-bc2,E
+-1.2c.1.126
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C3;:H-bc2,E
+-1.2c.1.128
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C5;:H-bc2,E
+-1.2c.1.12a
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C7;:H-bc2,E
+-1.2c.1.12c
+-1.0 0:;:U;MAK;:Hbc1:7,E;:C9;:H-bc2,E
+-1.2c.1.12e
+-1.0 0:;:U;MAK;:Hbc1:7,E;:Cb;:H-bc2,E
+-1.2c.1.130
+-1.2c.-2a.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.2.0
+-1.2c.-38.72
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:Ca;:H-bc2,F
+-1.2c.1.140
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C8;:H-bc2,F
+-1.2c.1.142
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C6;:H-bc2,F
+-1.2c.1.144
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C4;:H-bc2,F
+-1.2c.1.146
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C2;:H-bc2,F
+-1.2c.1.148
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C1;:H-bc2,F
+-1.2c.1.14a
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C3;:H-bc2,F
+-1.2c.1.14c
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C5;:H-bc2,F
+-1.2c.1.14e
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C7;:H-bc2,F
+-1.2c.1.150
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:C9;:H-bc2,F
+-1.2c.1.152
+-1.0 0:;:G2;MAK;:Hbc1:8,F;:Cb;:H-bc2,F
+-1.2c.1.154
+-d.0 0:;:U;MAK;:Hbc1:7,V;:Ca;:H-bc2,V
+-1.2c.1.158
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C8;:H-bc2,V
+-1.2c.1.15a
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C6;:H-bc2,V
+-1.2c.1.15c
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C4;:H-bc2,V
+-1.2c.1.15e
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C2;:H-bc2,V
+-1.2c.1.160
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C1;:H-bc2,V
+-1.2c.1.162
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C3;:H-bc2,V
+-1.2c.1.164
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C5;:H-bc2,V
+-1.2c.1.166
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C7;:H-bc2,V
+-1.2c.1.168
+-1.0 0:;:U;MAK;:Hbc1:7,V;:C9;:H-bc2,V
+-1.2c.1.16a
+-1.0 0:;:U;MAK;:Hbc1:7,V;:Cb;:H-bc2,V
+-1.2c.1.16c
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T10:30:25Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Small Linear Bearing"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T10:32:59Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="6505cc89-1177-404b-86f8-2ea346c04bfb"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="14" Dependencies="1">
+    <ObjectDeps Name="YZ_Plane002" Count="0"/>
+    <ObjectDeps Name="Sketch005" Count="1">
+      <Dep Name="YZ_Plane002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad002" Count="2">
+      <Dep Name="Sketch005"/>
+      <Dep Name="Body002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch007" Count="1">
+      <Dep Name="Pad002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Hole003" Count="3">
+      <Dep Name="Sketch007"/>
+      <Dep Name="Pad002"/>
+      <Dep Name="Body002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="LinearArray" Count="1">
+      <Dep Name="Pad002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="LatticePattern" Count="3">
+      <Dep Name="Hole003"/>
+      <Dep Name="LinearArray"/>
+      <Dep Name="Body002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis002" Count="0"/>
+    <ObjectDeps Name="Y_Axis002" Count="0"/>
+    <ObjectDeps Name="Z_Axis002" Count="0"/>
+    <ObjectDeps Name="XY_Plane002" Count="0"/>
+    <ObjectDeps Name="XZ_Plane002" Count="0"/>
+    <ObjectDeps Name="Origin002" Count="6">
+      <Dep Name="X_Axis002"/>
+      <Dep Name="Y_Axis002"/>
+      <Dep Name="Z_Axis002"/>
+      <Dep Name="XY_Plane002"/>
+      <Dep Name="XZ_Plane002"/>
+      <Dep Name="YZ_Plane002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body002" Count="7">
+      <Dep Name="Sketch007"/>
+      <Dep Name="Sketch005"/>
+      <Dep Name="Pad002"/>
+      <Dep Name="Hole003"/>
+      <Dep Name="LinearArray"/>
+      <Dep Name="LatticePattern"/>
+      <Dep Name="Origin002"/>
+    </ObjectDeps>
+    <Object type="App::Plane" name="YZ_Plane002" id="3006" revision="0" file="YZ_Plane002.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch005" id="3007" revision="6" file="Sketch005.xml" />
+    <Object type="PartDesign::Pad" name="Pad002" id="3008" revision="12" file="Pad002.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch007" id="3009" revision="12" file="Sketch007.xml" />
+    <Object type="PartDesign::Hole" name="Hole003" id="3010" revision="12" file="Hole003.xml" />
+    <Object type="Part::Part2DObjectPython" name="LinearArray" id="3011" revision="4" file="LinearArray.xml" />
+    <Object type="PartDesign::FeaturePython" name="LatticePattern" id="3012" revision="6" file="LatticePattern.xml" />
+    <Object type="App::Line" name="X_Axis002" id="3013" revision="0" file="X_Axis002.xml" />
+    <Object type="App::Line" name="Y_Axis002" id="3014" revision="0" file="Y_Axis002.xml" />
+    <Object type="App::Line" name="Z_Axis002" id="3015" revision="0" file="Z_Axis002.xml" />
+    <Object type="App::Plane" name="XY_Plane002" id="3016" revision="0" file="XY_Plane002.xml" />
+    <Object type="App::Plane" name="XZ_Plane002" id="3017" revision="0" file="XZ_Plane002.xml" />
+    <Object type="App::Origin" name="Origin002" id="3018" revision="0" file="Origin002.xml" />
+    <Object type="PartDesign::Body" name="Body002" id="3019" revision="6" file="Body002.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

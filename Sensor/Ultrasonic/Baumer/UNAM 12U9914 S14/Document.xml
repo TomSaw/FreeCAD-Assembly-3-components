@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="e20e0bac-320d-4d41-97be-b82b1e8d27cf" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="27">
+<![CDATA[
+-1.0 0:Price of product or material (currency not specified yet)
+-1.0 0:Technology of Manufacturing
+-1.0 0:Manufacturers SKU
+-1.0 0:URL or String of the product or machine to source from
+-1.0 0:Time to manufacture / order / assembly in sec
+-1.0 0:Base object
+-1.0 0:Screw diameter standard
+-1.0 0:Invert screw direction
+-1.0 0:Match outer thread diameter
+-1.0 0:Offset from surface
+-1.0 0:Generate real thread
+-1.0 0:Screw type
+-2.0 0:;:H,V;SKT
+-1.c.1 g771v1
+-1.0 0:;SKT
+-1.c.1 g775v2
+-1.c.-2 g771v2
+-1.c.2 g774v1
+-3.0 0:;:H,E;SKT
+-1.c.1 g771
+-3.0 0:;:H99f,E
+-1.2c.1.4
+-1.0 0:;:H99f,V
+-1.2c.1.e
+-1.2c.0.3
+-1.0 0:;:G;RVL;:H99f:7,E
+-1.2c.1.2
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-06-05T16:11:58Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="UNAM 12U9914 S14"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T08:35:58Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="e20e0bac-320d-4d41-97be-b82b1e8d27cf"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="27" Dependencies="1">
+    <ObjectDeps Name="Part__Feature019" Count="0"/>
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Elements"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Constraints"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="4">
+      <Dep Name="Element003"/>
+      <Dep Name="Element"/>
+      <Dep Name="Element001"/>
+      <Dep Name="Element002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="4">
+      <Dep Name="Part__Feature019"/>
+      <Dep Name="Workplane"/>
+      <Dep Name="Assembly001"/>
+      <Dep Name="Workplane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Nut" Count="0"/>
+    <ObjectDeps Name="Workplane" Count="0"/>
+    <ObjectDeps Name="Body" Count="3">
+      <Dep Name="Revolution"/>
+      <Dep Name="Sketch"/>
+      <Dep Name="Origin"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="Y_Axis"/>
+      <Dep Name="XY_Plane"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="X_Axis"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Sketch" Count="1">
+      <Dep Name="XZ_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Revolution" Count="2">
+      <Dep Name="Sketch"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element001" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Workplane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Part__Feature019"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Part__Feature019"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Workplane001" Count="0"/>
+    <ObjectDeps Name="Element003" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Workplane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly001" Count="3">
+      <Dep Name="Elements001"/>
+      <Dep Name="Constraints001"/>
+      <Dep Name="Parts001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints001" Count="0"/>
+    <ObjectDeps Name="Elements001" Count="1">
+      <Dep Name="Element004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts001" Count="1">
+      <Dep Name="Nut"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element004" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Nut"/>
+    </ObjectDeps>
+    <Object type="Part::Feature" name="Part__Feature019" id="2444" revision="1" file="Part__Feature019.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="2448" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="2449" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="2450" revision="6" ViewType="Gui::ViewProviderLinkPython" Touched="1" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="2451" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Nut" id="2452" revision="2" file="Nut.xml" />
+    <Object type="Part::FeaturePython" name="Workplane" id="2453" revision="2" file="Workplane.xml" />
+    <Object type="PartDesign::Body" name="Body" id="2455" revision="2" file="Body.xml" />
+    <Object type="App::Origin" name="Origin" id="2456" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="2457" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="2458" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="2459" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="2460" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="2461" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="2462" revision="0" file="YZ_Plane.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="2463" revision="4" file="Sketch.xml" />
+    <Object type="PartDesign::Revolution" name="Revolution" id="2464" revision="8" file="Revolution.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="2466" revision="3" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="2467" revision="3" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="2468" revision="3" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Workplane001" id="2469" revision="2" file="Workplane001.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="2470" revision="3" file="Element003.xml" />
+    <Object type="Part::FeaturePython" name="Assembly001" id="2474" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Assembly001.xml" />
+    <Object type="App::FeaturePython" name="Constraints001" id="2475" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints001.xml" />
+    <Object type="App::FeaturePython" name="Elements001" id="2476" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements001.xml" />
+    <Object type="Part::FeaturePython" name="Parts001" id="2477" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Parts001.xml" />
+    <Object type="Part::FeaturePython" name="Element004" id="2478" revision="3" file="Element004.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

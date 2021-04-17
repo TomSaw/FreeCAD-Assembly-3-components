@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
+<Expand  count="1">
+  <Expand name="Populate" count="1">
+    <Expand name="ParaSeries"/>
+  </Expand>
+</Expand>
+>
+  <Camera extra="0" id="75" binding="0">
+<![CDATA[
+OrthographicCamera {
+  viewportMapping ADJUST_CAMERA
+  position 118.24261 -118.24255 296.74255
+  orientation 0.74290609 0.30772209 0.59447283  1.2171158
+  nearDistance 19.742994
+  farDistance 390.95694
+  aspectRatio 1
+  focalDistance 204.80214
+  height 409.60428
+
+}
+## overrideMode: As Is]]>
+  </Camera>
+</Document>

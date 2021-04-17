@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="6d072eb9-32c3-4843-95bd-a65d9c9453f0" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="47">
+<![CDATA[
+-1.0 0:Price of product or material (currency not specified yet)
+-1.0 0:URL to Product
+-1.0 0:Manufacturers SKU
+-1.0 0:g108v1;SKT;:T4559:10:V
+-1.0 0:g113v2;SKT;:T4559:10:V
+-1.0 0:g114v2;SKT;:T4559:10:V
+-1.0 0:g115v2;SKT;:T4559:10:V
+-1.0 0:g116v2;SKT;:T4559:10:V
+-1.0 0:g118v2;SKT;:T4559:10:V
+-1.0 0:g108v2;SKT;:T4559:10:V
+-1.0 0:g109v2;SKT;:T4559:10:V
+-1.0 0:g110v2;SKT;:T4559:10:V
+-1.0 0:g111v2;SKT;:T4559:10:V
+-1.0 0:g112v2;SKT;:T4559:10:V
+-1.0 0:g108;SKT;:T4559:8:E
+-1.0 0:g120;SKT;:T4559:8:E
+-1.0 0:g110;SKT;:T4559:8:E
+-1.0 0:g112;SKT;:T4559:8:E
+-1.0 0:g114;SKT;:T4559:8:E
+-1.0 0:g116;SKT;:T4559:8:E
+-1.0 0:#b;:G;RVL;:T4559:2:E
+-1.0 0:#d;:G;RVL;:T4559:2:E
+-1.0 0:#e;:G;RVL;:T4559:2:E
+-1.0 0:#6;:G;RVL;:T4559:2:E
+-1.0 0:#8;:G;RVL;:T4559:2:E
+-1.0 0:g108v1;SKT;:T4561:10:V
+-1.0 0:g113v2;SKT;:T4561:10:V
+-1.0 0:g114v2;SKT;:T4561:10:V
+-1.0 0:g115v2;SKT;:T4561:10:V
+-1.0 0:g116v2;SKT;:T4561:10:V
+-1.0 0:g118v2;SKT;:T4561:10:V
+-1.0 0:g108v2;SKT;:T4561:10:V
+-1.0 0:g109v2;SKT;:T4561:10:V
+-1.0 0:g110v2;SKT;:T4561:10:V
+-1.0 0:g111v2;SKT;:T4561:10:V
+-1.0 0:g112v2;SKT;:T4561:10:V
+-1.0 0:g108;SKT;:T4561:8:E
+-1.0 0:g120;SKT;:T4561:8:E
+-1.0 0:g110;SKT;:T4561:8:E
+-1.0 0:g112;SKT;:T4561:8:E
+-1.0 0:g114;SKT;:T4561:8:E
+-1.0 0:g116;SKT;:T4561:8:E
+-1.0 0:#21;:G;RVL;:T4561:3:E
+-1.0 0:#23;:G;RVL;:T4561:3:E
+-1.0 0:#24;:G;RVL;:T4561:3:E
+-1.0 0:#1c;:G;RVL;:T4561:3:E
+-1.0 0:#1e;:G;RVL;:T4561:3:E
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-02-03T11:03:57Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="THT"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T09:08:22Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="6d072eb9-32c3-4843-95bd-a65d9c9453f0"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="4" Dependencies="1">
+    <ObjectDeps Name="Revolve" Count="1">
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch" Count="0"/>
+    <ObjectDeps Name="Revolve001" Count="1">
+      <Dep Name="Sketch001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch001" Count="0"/>
+    <Object type="Part::Revolution" name="Revolve" id="4558" revision="12" Touched="1" file="Revolve.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="4559" revision="273" file="Sketch.xml" />
+    <Object type="Part::Revolution" name="Revolve001" id="4560" revision="23" Touched="1" file="Revolve001.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="4561" revision="279" file="Sketch001.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

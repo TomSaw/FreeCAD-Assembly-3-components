@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="LinearArray">
+  <Properties Count="38" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="Alignment" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="19" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="5">
+<Enum value="Low"/>
+<Enum value="Center"/>
+<Enum value="High"/>
+<Enum value="Justify"/>
+<Enum value="Mirrored"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="CellStart" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" docID="20" status="2097156">
+      <String value="A1"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Count" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="21" status="2097152">
+      <Float value="45"/>
+    </Property>
+    <Property name="Dir" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" docID="41" status="2097152">
+      <PropertyVector valueX="0" valueY="0" valueZ="1"/>
+    </Property>
+    <Property name="DirIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="42" status="2097156">
+      <Bool value="true"/>
+    </Property>
+    <Property name="DistributionLaw" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="Linear"/>
+<Enum value="Exponential"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="DrivenProperty" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="43" status="2097156">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="5">
+<Enum value="None"/>
+<Enum value="Span"/>
+<Enum value="SpanStart"/>
+<Enum value="SpanEnd"/>
+<Enum value="Step"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="EndInclusive" type="App::PropertyBool" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="22" status="2097152">
+      <Bool value="true"/>
+    </Property>
+    <Property name="ExposePlacement" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" docID="23" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="GeneratorMode" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="4">
+<Enum value="SpanN"/>
+<Enum value="StepN"/>
+<Enum value="SpanStep"/>
+<Enum value="Random"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="LinearArray"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Link" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" docID="44" status="2097152">
+      <Link value=""/>
+    </Property>
+    <Property name="LinkSubelement" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" docID="45" status="2097152">
+      <String value=""/>
+    </Property>
+    <Property name="MarkerShape" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" docID="24" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="tetra-orimarker"/>
+<Enum value="paperplane-orimarker"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="MarkerSize" type="App::PropertyLength" group="Lattice" attr="0" ro="0" hide="0" docID="25" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="NumElements" type="App::PropertyInteger" group="Lattice" attr="0" ro="0" hide="0" docID="26" status="2097156">
+      <Integer value="45"/>
+    </Property>
+    <Property name="Offset" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="28" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="OrientMode" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="46" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="None"/>
+<Enum value="Along axis"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Point" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" docID="47" status="2097152">
+      <PropertyVector valueX="0" valueY="0" valueZ="0"/>
+    </Property>
+    <Property name="PointIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="48" status="2097156">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="lattice2LinearArray" class="LinearArray" value="null"/>
+    </Property>
+    <Property name="Reverse" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="49" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 55
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0              -0               0 
+             -0 2.22044604925031e-16              -1               0 
+              0               1 2.22044604925031e-16               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  4 1 5 1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  7 -1 5 -1 4 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  9 1 3 1 0
+2  7 -1 3 -1 9 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               8 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              16 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              24 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              32 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              40 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              48 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              56 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              64 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              72 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              80 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              88 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              96 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             104 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             112 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             120 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             128 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             136 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             144 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             152 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             160 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             168 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             176 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             184 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             192 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             200 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             208 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             216 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             224 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             232 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             240 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             248 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             256 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             264 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             272 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             280 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             288 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             296 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             304 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             312 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             320 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             328 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             336 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             344 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             352 
+Curve2ds 0
+Curves 7
+1 0 0 0 1 0 0 
+1 3.9111111111111105 0 0 -0.93465529130606351 -0.35555518057479879 0 
+1 -1.1007670442189825 -1.9065844478846956 0 0.49999999999999983 0.86602540378443882 0 
+1 1.6283271027835628e-16 1.5440422915164546e-16 0 -0.49999999999999989 0.86602540378443882 0 
+1 -1.1007670442189821 1.9065844478846952 0 0.93465529130606351 -0.35555518057479868 0 
+1 0 -1.1170133333333334 0 0 1 0 
+1 3.9111111111111097 0 0 -0.96155297028741438 -0.27461952831408565 0 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 3
+1 1.6283271027835628e-16 1.5440422915164546e-16 0 0 0 1 1 0 0 0 1 0 
+1 1.6283271027835628e-16 1.5440422915164546e-16 0 0 0 1 1 0 0 0 1 0 
+1 0 0 0 0 -1 2.2204460492503136e-16 0 -2.2204460492503136e-16 -1 1 0 0 
+Triangulations 0
+
+TShapes 20
+Ve
+3.91111111285425e-07
+9.49857430441779e-17 9.28786220453645e-17 0
+0 0
+
+0101101
+*
+Ve
+3.9111111154533e-07
+3.91111111111111 0 0
+0 0
+
+0101101
+*
+Ed
+ 3.91111111111111e-07 1 1 0
+1  1 0 0 3.91111111111111
+0
+
+0101000
++20 8 -19 8 *
+Ve
+3.91111111328221e-07
+-1.10076704421898 -1.9065844478847 0
+0 0
+
+0101101
+*
+Ed
+ 3.91111111111111e-07 1 1 0
+1  2 0 0 5.36227441490928
+0
+
+0101000
++19 11 -17 11 *
+Ed
+ 3.91111111111111e-07 1 1 0
+1  3 0 0 2.20153408843797
+0
+
+0101000
++17 11 -20 11 *
+Wi
+
+0101000
+-18 6 -16 10 -15 10 *
+Fa
+0  3.91111111111111e-07 1 3
+
+0101000
++14 0 *
+Ve
+3.91111111111111e-07
+-1.10076704421898 1.9065844478847 0
+0 0
+
+0101101
+*
+Ed
+ 3.91111111111111e-07 1 1 0
+1  4 0 0 2.20153408843797
+0
+
+0101000
++20 11 -12 11 *
+Ed
+ 3.91111111111111e-07 1 1 0
+1  5 0 0 5.36227441490928
+0
+
+0101000
++12 11 -19 11 *
+Wi
+
+0101000
+-11 10 -10 10 +18 6 *
+Fa
+0  3.91111111111111e-07 2 3
+
+0101000
++9 0 *
+Ve
+3.91111111111111e-07
+0 -2.48026784295992e-16 -1.11701333333333
+0 0
+
+0101101
+*
+Ed
+ 3.91111111111111e-07 1 1 0
+1  6 0 0 1.11701333333333
+0
+
+0101000
++7 8 -20 8 *
+Ed
+ 3.91111111111111e-07 1 1 0
+1  7 0 0 4.06749418073355
+0
+
+0101000
++19 8 -7 8 *
+Wi
+
+0101000
+-18 6 -6 6 -5 6 *
+Fa
+0  3.91111111111111e-07 3 5
+
+0101000
++4 0 *
+Sh
+
+0101000
++13 0 +8 0 +3 0 *
+Co
+
+1100000
++2 2 +2 12 +2 13 +2 14 +2 15 +2 16 +2 17 +2 18 +2 19 +2 20 
++2 21 +2 22 +2 23 +2 24 +2 25 +2 26 +2 27 +2 28 +2 29 +2 30 
++2 31 +2 32 +2 33 +2 34 +2 35 +2 36 +2 37 +2 38 +2 39 +2 40 
++2 41 +2 42 +2 43 +2 44 +2 45 +2 46 +2 47 +2 48 +2 49 +2 50 
++2 51 +2 52 +2 53 +2 54 +2 55 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="675">
+<![CDATA[
+2 PostfixCount 3
+Edge
+Face
+Vertex
+
+MapCount 1
+
+ElementMap 1 2 3
+
+Edge
+
+ChildCount 45
+1 0 7 0 0 ;:H,E;:H:5,E 0
+1 7 7 0 0 ;:C1;:H:4,E;:H:b,E 0
+1 14 7 0 0 ;:C2;:H:4,E;:H:b,E 0
+1 21 7 0 0 ;:C3;:H:4,E;:H:b,E 0
+1 28 7 0 0 ;:C4;:H:4,E;:H:b,E 0
+1 35 7 0 0 ;:C5;:H:4,E;:H:b,E 0
+1 42 7 0 0 ;:C6;:H:4,E;:H:b,E 0
+1 49 7 0 0 ;:C7;:H:4,E;:H:b,E 0
+1 56 7 0 0 ;:C8;:H:4,E;:H:b,E 0
+1 63 7 0 0 ;:C9;:H:4,E;:H:b,E 0
+1 70 7 0 0 ;:Ca;:H:4,E;:H:b,E 0
+1 77 7 0 0 ;:Cb;:H:4,E;:H:b,E 0
+1 84 7 0 0 ;:Cc;:H:4,E;:H:b,E 0
+1 91 7 0 0 ;:Cd;:H:4,E;:H:b,E 0
+1 98 7 0 0 ;:Ce;:H:4,E;:H:b,E 0
+1 105 7 0 0 ;:Cf;:H:4,E;:H:b,E 0
+1 112 7 0 0 ;:C10;:H:5,E;:H:c,E 0
+1 119 7 0 0 ;:C11;:H:5,E;:H:c,E 0
+1 126 7 0 0 ;:C12;:H:5,E;:H:c,E 0
+1 133 7 0 0 ;:C13;:H:5,E;:H:c,E 0
+1 140 7 0 0 ;:C14;:H:5,E;:H:c,E 0
+1 147 7 0 0 ;:C15;:H:5,E;:H:c,E 0
+1 154 7 0 0 ;:C16;:H:5,E;:H:c,E 0
+1 161 7 0 0 ;:C17;:H:5,E;:H:c,E 0
+1 168 7 0 0 ;:C18;:H:5,E;:H:c,E 0
+1 175 7 0 0 ;:C19;:H:5,E;:H:c,E 0
+1 182 7 0 0 ;:C1a;:H:5,E;:H:c,E 0
+1 189 7 0 0 ;:C1b;:H:5,E;:H:c,E 0
+1 196 7 0 0 ;:C1c;:H:5,E;:H:c,E 0
+1 203 7 0 0 ;:C1d;:H:5,E;:H:c,E 0
+1 210 7 0 0 ;:C1e;:H:5,E;:H:c,E 0
+1 217 7 0 0 ;:C1f;:H:5,E;:H:c,E 0
+1 224 7 0 0 ;:C20;:H:5,E;:H:c,E 0
+1 231 7 0 0 ;:C21;:H:5,E;:H:c,E 0
+1 238 7 0 0 ;:C22;:H:5,E;:H:c,E 0
+1 245 7 0 0 ;:C23;:H:5,E;:H:c,E 0
+1 252 7 0 0 ;:C24;:H:5,E;:H:c,E 0
+1 259 7 0 0 ;:C25;:H:5,E;:H:c,E 0
+1 266 7 0 0 ;:C26;:H:5,E;:H:c,E 0
+1 273 7 0 0 ;:C27;:H:5,E;:H:c,E 0
+1 280 7 0 0 ;:C28;:H:5,E;:H:c,E 0
+1 287 7 0 0 ;:C29;:H:5,E;:H:c,E 0
+1 294 7 0 0 ;:C2a;:H:5,E;:H:c,E 0
+1 301 7 0 0 ;:C2b;:H:5,E;:H:c,E 0
+1 308 7 0 0 ;:C2c;:H:5,E;:H:c,E 0
+
+NameCount 0
+
+Face
+
+ChildCount 45
+1 0 3 0 0 ;:H,F;:H:5,F 0
+1 3 3 0 0 ;:C1;:H:4,F;:H:b,F 0
+1 6 3 0 0 ;:C2;:H:4,F;:H:b,F 0
+1 9 3 0 0 ;:C3;:H:4,F;:H:b,F 0
+1 12 3 0 0 ;:C4;:H:4,F;:H:b,F 0
+1 15 3 0 0 ;:C5;:H:4,F;:H:b,F 0
+1 18 3 0 0 ;:C6;:H:4,F;:H:b,F 0
+1 21 3 0 0 ;:C7;:H:4,F;:H:b,F 0
+1 24 3 0 0 ;:C8;:H:4,F;:H:b,F 0
+1 27 3 0 0 ;:C9;:H:4,F;:H:b,F 0
+1 30 3 0 0 ;:Ca;:H:4,F;:H:b,F 0
+1 33 3 0 0 ;:Cb;:H:4,F;:H:b,F 0
+1 36 3 0 0 ;:Cc;:H:4,F;:H:b,F 0
+1 39 3 0 0 ;:Cd;:H:4,F;:H:b,F 0
+1 42 3 0 0 ;:Ce;:H:4,F;:H:b,F 0
+1 45 3 0 0 ;:Cf;:H:4,F;:H:b,F 0
+1 48 3 0 0 ;:C10;:H:5,F;:H:c,F 0
+1 51 3 0 0 ;:C11;:H:5,F;:H:c,F 0
+1 54 3 0 0 ;:C12;:H:5,F;:H:c,F 0
+1 57 3 0 0 ;:C13;:H:5,F;:H:c,F 0
+1 60 3 0 0 ;:C14;:H:5,F;:H:c,F 0
+1 63 3 0 0 ;:C15;:H:5,F;:H:c,F 0
+1 66 3 0 0 ;:C16;:H:5,F;:H:c,F 0
+1 69 3 0 0 ;:C17;:H:5,F;:H:c,F 0
+1 72 3 0 0 ;:C18;:H:5,F;:H:c,F 0
+1 75 3 0 0 ;:C19;:H:5,F;:H:c,F 0
+1 78 3 0 0 ;:C1a;:H:5,F;:H:c,F 0
+1 81 3 0 0 ;:C1b;:H:5,F;:H:c,F 0
+1 84 3 0 0 ;:C1c;:H:5,F;:H:c,F 0
+1 87 3 0 0 ;:C1d;:H:5,F;:H:c,F 0
+1 90 3 0 0 ;:C1e;:H:5,F;:H:c,F 0
+1 93 3 0 0 ;:C1f;:H:5,F;:H:c,F 0
+1 96 3 0 0 ;:C20;:H:5,F;:H:c,F 0
+1 99 3 0 0 ;:C21;:H:5,F;:H:c,F 0
+1 102 3 0 0 ;:C22;:H:5,F;:H:c,F 0
+1 105 3 0 0 ;:C23;:H:5,F;:H:c,F 0
+1 108 3 0 0 ;:C24;:H:5,F;:H:c,F 0
+1 111 3 0 0 ;:C25;:H:5,F;:H:c,F 0
+1 114 3 0 0 ;:C26;:H:5,F;:H:c,F 0
+1 117 3 0 0 ;:C27;:H:5,F;:H:c,F 0
+1 120 3 0 0 ;:C28;:H:5,F;:H:c,F 0
+1 123 3 0 0 ;:C29;:H:5,F;:H:c,F 0
+1 126 3 0 0 ;:C2a;:H:5,F;:H:c,F 0
+1 129 3 0 0 ;:C2b;:H:5,F;:H:c,F 0
+1 132 3 0 0 ;:C2c;:H:5,F;:H:c,F 0
+
+NameCount 0
+
+Vertex
+
+ChildCount 45
+1 0 5 0 0 ;:H,V;:H:5,V 0
+1 5 5 0 0 ;:C1;:H:4,V;:H:b,V 0
+1 10 5 0 0 ;:C2;:H:4,V;:H:b,V 0
+1 15 5 0 0 ;:C3;:H:4,V;:H:b,V 0
+1 20 5 0 0 ;:C4;:H:4,V;:H:b,V 0
+1 25 5 0 0 ;:C5;:H:4,V;:H:b,V 0
+1 30 5 0 0 ;:C6;:H:4,V;:H:b,V 0
+1 35 5 0 0 ;:C7;:H:4,V;:H:b,V 0
+1 40 5 0 0 ;:C8;:H:4,V;:H:b,V 0
+1 45 5 0 0 ;:C9;:H:4,V;:H:b,V 0
+1 50 5 0 0 ;:Ca;:H:4,V;:H:b,V 0
+1 55 5 0 0 ;:Cb;:H:4,V;:H:b,V 0
+1 60 5 0 0 ;:Cc;:H:4,V;:H:b,V 0
+1 65 5 0 0 ;:Cd;:H:4,V;:H:b,V 0
+1 70 5 0 0 ;:Ce;:H:4,V;:H:b,V 0
+1 75 5 0 0 ;:Cf;:H:4,V;:H:b,V 0
+1 80 5 0 0 ;:C10;:H:5,V;:H:c,V 0
+1 85 5 0 0 ;:C11;:H:5,V;:H:c,V 0
+1 90 5 0 0 ;:C12;:H:5,V;:H:c,V 0
+1 95 5 0 0 ;:C13;:H:5,V;:H:c,V 0
+1 100 5 0 0 ;:C14;:H:5,V;:H:c,V 0
+1 105 5 0 0 ;:C15;:H:5,V;:H:c,V 0
+1 110 5 0 0 ;:C16;:H:5,V;:H:c,V 0
+1 115 5 0 0 ;:C17;:H:5,V;:H:c,V 0
+1 120 5 0 0 ;:C18;:H:5,V;:H:c,V 0
+1 125 5 0 0 ;:C19;:H:5,V;:H:c,V 0
+1 130 5 0 0 ;:C1a;:H:5,V;:H:c,V 0
+1 135 5 0 0 ;:C1b;:H:5,V;:H:c,V 0
+1 140 5 0 0 ;:C1c;:H:5,V;:H:c,V 0
+1 145 5 0 0 ;:C1d;:H:5,V;:H:c,V 0
+1 150 5 0 0 ;:C1e;:H:5,V;:H:c,V 0
+1 155 5 0 0 ;:C1f;:H:5,V;:H:c,V 0
+1 160 5 0 0 ;:C20;:H:5,V;:H:c,V 0
+1 165 5 0 0 ;:C21;:H:5,V;:H:c,V 0
+1 170 5 0 0 ;:C22;:H:5,V;:H:c,V 0
+1 175 5 0 0 ;:C23;:H:5,V;:H:c,V 0
+1 180 5 0 0 ;:C24;:H:5,V;:H:c,V 0
+1 185 5 0 0 ;:C25;:H:5,V;:H:c,V 0
+1 190 5 0 0 ;:C26;:H:5,V;:H:c,V 0
+1 195 5 0 0 ;:C27;:H:5,V;:H:c,V 0
+1 200 5 0 0 ;:C28;:H:5,V;:H:c,V 0
+1 205 5 0 0 ;:C29;:H:5,V;:H:c,V 0
+1 210 5 0 0 ;:C2a;:H:5,V;:H:c,V 0
+1 215 5 0 0 ;:C2b;:H:5,V;:H:c,V 0
+1 220 5 0 0 ;:C2c;:H:5,V;:H:c,V 0
+
+NameCount 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="SpanEnd" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="32" status="2097152">
+      <Float value="20"/>
+    </Property>
+    <Property name="SpanStart" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="33" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="SpreadsheetLink" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" docID="34" status="2097156">
+      <Link value=""/>
+    </Property>
+    <Property name="Step" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="35" status="2097152">
+      <Float value="8"/>
+    </Property>
+    <Property name="SubLink" type="App::PropertyLinkSub" group="Lattice Array" attr="0" ro="0" hide="0" docID="50" status="2097152">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Type" type="App::PropertyString" group="Lattice" attr="0" ro="1" hide="1" docID="36" status="85983232">
+      <String value="lattice2LinearArray.LinearArray"/>
+    </Property>
+    <Property name="VSGVersion" type="App::PropertyInteger" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="37" status="2097160">
+      <Integer value="1"/>
+    </Property>
+    <Property name="Values" type="App::PropertyStringList" group="Lattice Array" attr="0" ro="0" hide="0" docID="51" status="2097156">
+      <StringList count="45" >
+<String value="0.0"/>
+<String value="8.0"/>
+<String value="16.0"/>
+<String value="24.0"/>
+<String value="32.0"/>
+<String value="40.0"/>
+<String value="48.0"/>
+<String value="56.0"/>
+<String value="64.0"/>
+<String value="72.0"/>
+<String value="80.0"/>
+<String value="88.0"/>
+<String value="96.0"/>
+<String value="104.0"/>
+<String value="112.0"/>
+<String value="120.0"/>
+<String value="128.0"/>
+<String value="136.0"/>
+<String value="144.0"/>
+<String value="152.0"/>
+<String value="160.0"/>
+<String value="168.0"/>
+<String value="176.0"/>
+<String value="184.0"/>
+<String value="192.0"/>
+<String value="200.0"/>
+<String value="208.0"/>
+<String value="216.0"/>
+<String value="224.0"/>
+<String value="232.0"/>
+<String value="240.0"/>
+<String value="248.0"/>
+<String value="256.0"/>
+<String value="264.0"/>
+<String value="272.0"/>
+<String value="280.0"/>
+<String value="288.0"/>
+<String value="296.0"/>
+<String value="304.0"/>
+<String value="312.0"/>
+<String value="320.0"/>
+<String value="328.0"/>
+<String value="336.0"/>
+<String value="344.0"/>
+<String value="352.0"/>
+      </StringList>
+    </Property>
+    <Property name="ValuesSource" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="39" status="2097152">
+      <Integer value="2" CustomEnum="true"/>
+      <CustomEnumList count="3">
+<Enum value="Values Property"/>
+<Enum value="Spreadsheet"/>
+<Enum value="Generator"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="isLattice" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" docID="40" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="4">
+<Enum value="Auto-Off"/>
+<Enum value="Auto-On"/>
+<Enum value="Force-Off"/>
+<Enum value="Force-On"/>
+      </CustomEnumList>
+    </Property>
+  </Properties>
+</Object>
+</Document>

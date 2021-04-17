@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="1b08dcd6-5340-41ad-af2a-a72ca9e0c6b3" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="196">
+<![CDATA[
+-2.0 0:URL to Product
+-1.0 0:Price of product or material (currency not specified yet)
+-1.0 0:Manufacturers SKU
+-1.0 0:g23985v1;SKT;:T4993:12:V
+-1.0 0:g23988v2;SKT;:T4993:12:V
+-1.0 0:g23987v2;SKT;:T4993:12:V
+-1.0 0:g23986v2;SKT;:T4993:12:V
+-1.0 0:g23985v2;SKT;:T4993:12:V
+-1.0 0:g23993v2;SKT;:T4993:12:V
+-1.0 0:g23991v2;SKT;:T4993:12:V
+-1.0 0:g23990v2;SKT;:T4993:12:V
+-1.0 0:g23989v2;SKT;:T4993:12:V
+-1.0 0:g23985;SKT;:T4993:10:E
+-1.0 0:g23994;SKT;:T4993:10:E
+-1.0 0:g23991;SKT;:T4993:10:E
+-1.0 0:g23989;SKT;:T4993:10:E
+-1.0 0:g23987;SKT;:T4993:10:E
+-1.0 0:#b;:G;RVL;:T4993:2:E
+-1.0 0:#d;:G;RVL;:T4993:2:E
+-1.0 0:#6;:G;RVL;:T4993:2:E
+-1.0 0:#8;:G;RVL;:T4993:2:E
+-a.0 0:#5;:G;RVL;:T4993:2:E
+-1.0 0:#9;:G;RVL;:T4993:2:E
+-1.0 0:#a;:G;RVL;:T4993:2:E
+-1.0 0:#c;:G;RVL;:T4993:2:E
+-1.0 0:#7;:G;RVL;:T4993:2:E
+-1.0 0:#e;:G;RVL;:T4993:2:F
+-1.0 0:#f;:G;RVL;:T4993:2:F
+-1.0 0:#13;Edge6;:L;RVL;:T4993:3:F
+-1.0 0:#10;:G;RVL;:T4993:3:F
+-1.0 0:#14;Edge9;:L;RVL;:T4993:3:F
+-1.0 0:#11;:G;RVL;:T4993:3:F
+-1.0 0:#15;Edge10;:L;RVL;:T4993:3:F
+-1.0 0:#12;:G;RVL;:T4993:3:F
+-1.0 0:#16;Edge13;:L;RVL;:T4993:3:F
+-2.0 0:g24003;SKT
+-1.0 0:#2f;:T5009:3:E
+-1.0 0:#30;:G2;MAK;:T5009:3:F
+-1.0 0:#30;:G3;MAK;:T5009:3:F
+-1.0 0:#31;:U3;MAK;:T5009:3:E
+-1.0 0:#31;:U2;MAK;:T5009:3:E
+-1.0 0:#32;:U2;MAK;:T5009:3:E
+-1.0 0:#33;:U;MAK;:T5009:3:V
+-1.0 0:#34;:U;MAK;:T5009:3:V
+-1.0 0:#35;:U;MAK;:T5009:3:V
+-1.0 0:#31;:U;MAK;:T5009:3:E
+-1.0 0:#32;:U3;MAK;:T5009:3:E
+-1.0 0:#30;:G;MAK;:T5009:3:F
+-13.0 0:#20;:T5011:3:E
+-1.0 0:#21;:T5011:3:E
+-2.0 0:#22;:T5011:3:E
+-2.0 0:#13;:T5011:3:E
+-1.0 0:#23;:T5011:3:E
+-2.0 0:#14;:T5011:3:E
+-1.0 0:#15;:T5011:3:E
+-2.0 0:#24;:T5011:3:E
+-1.0 0:#16;:T5011:3:E
+-2.0 0:#25;:T5011:3:F
+-1.0 0:#26;:T5011:3:F
+-1.0 0:#28;:T5011:3:F
+-1.0 0:#29;:T5011:3:F
+-1.0 0:#2a;:T5011:3:F
+-1.0 0:#2b;:T5011:3:F
+-1.0 0:#2c;:T5011:3:F
+-1.0 0:#2d;:T5011:3:F
+-1.0 0:#39;:T-5023:3:E
+-1.0 0:#33;:T-5023:3:E
+-1.0 0:#31;:T-5023:3:F
+-1.0 0:#27;:T5011:3:F
+-1.0 0:#36;:T-5023:3:V
+-1.0 0:g23999v1;SKT
+-1.0 0:g24001v1;SKT
+-1.0 0:g23999v2;SKT
+-1.0 0:g24000v1;SKT
+-1.0 0:g24000v2;SKT
+-1.0 0:g24002v1;SKT
+-1.0 0:g24001v2;SKT
+-1.0 0:g24002v2;SKT
+-1.0 0:g23999;SKT
+-1.0 0:g24000;SKT
+-1.0 0:g24002;SKT
+-1.0 0:g24001;SKT
+-1.0 0:#71;:T5005:3:E
+-1.0 0:#69;:T5005:3:V
+-1.0 0:#6b;:T5005:3:V
+-1.0 0:#6d;:T5005:3:V
+-1.0 0:#6f;:T5005:3:V
+-1.0 0:#72;:T5005:3:E
+-1.0 0:#73;:T5005:3:E
+-1.0 0:#74;:T5005:3:E
+-1.0 0:#7b;:G;XTR;:T5005:3:F
+-1.0 0:#7c;:G;XTR;:T5005:3:F
+-1.0 0:#75;:G;XTR;:T5005:3:F
+-1.0 0:#7a;:G;XTR;:T5005:3:F
+-1.0 0:#76;:G;XTR;:T5005:3:E
+-1.0 0:#77;:G;XTR;:T5005:3:E
+-1.0 0:#78;:G;XTR;:T5005:3:E
+-1.0 0:#79;:G;XTR;:T5005:3:E
+-1.0 0:(#7e;:U;XTR;:T5005:3:E,#7f;:U;XTR;:T5005:3:E,#80;:U;XTR;:T5005:3:E)
+-1.0 0:#7d;:U;XTR;:T5005:3:E
+-11.0 0:#37;:T-5023:3:V
+-1.0 0:#38;:T-5023:3:V
+-1.0 0:#4e;:T5020:3:E
+-1.0 0:#4f;:T5020:3:E
+-2.0 0:#5a;:T5020:3:E
+-1.0 0:#51;:T5020:3:E
+-2.0 0:#59;:T5020:3:E
+-2.0 0:#57;:T5020:3:E
+-1.0 0:#56;:T5020:3:E
+-2.0 0:#54;:T5020:3:E
+-1.0 0:#34;:T-5023:3:E
+-1.0 0:#35;:T-5023:3:E
+-1.0 0:#3a;:T-5023:3:E
+-1.0 0:#5c;:T5020:3:F
+-1.0 0:#63;:T5020:3:F
+-1.0 0:#5d;:T5020:3:F
+-1.0 0:#62;:T5020:3:F
+-1.0 0:#61;:T5020:3:F
+-1.0 0:#60;:T5020:3:F
+-1.0 0:#5f;:T5020:3:F
+-1.0 0:#32;:T-5023:3:F
+-1.0 0:#55;:T5020:3:E
+-1.0 0:#5e;:T5020:3:F
+-1.0 0:(#b1;K-6;:T5023:3:F)
+-1.0 0:(#b1;K-3;:T5023:3:F)
+-1.0 0:#53;:T5020:3:E
+-1.0 0:(#b1;K-4;:T5023:3:F)
+-1.0 0:(#b1;K-5;:T5023:3:F)
+-1.0 0:#66;:M;CUT;:T-5023:3:F
+-1.0 0:(#b7;K-6;:T5023:3:F)
+-1.0 0:(#b7;K-5;:T5023:3:F)
+-1.0 0:(#b7;K-4;:T5023:3:F)
+-1.0 0:#64;:M;CUT;:T-5023:3:E
+-1.0 0:(#b7;K-3;:T5023:3:F)
+-1.0 0:#65;:M;CUT;:T-5023:3:E
+-1.0 0:#67;:M;CUT;:T5020:3:F
+-1.0 0:(#b1;K-2;:T5023:3:F)
+-1.0 0:(#b4;K-1;:T5023:3:E)
+-1.0 0:(#b4;K-2;:T5023:3:E)
+-1.0 0:(#b1;K-1;:T5023:3:F)
+-1.0 0:(#b7;K-2;:T5023:3:F)
+-1.0 0:(#7d;K-1;:T-5024:3:F)
+-1.0 0:(#b7;K-1;:T5023:3:F)
+-1.0 0:(#bb;K-1;:T5023:3:E)
+-1.0 0:(#bb;K-2;:T5023:3:E)
+-13.0 0:#83;:G2#bf;CUT;:T-5024:3:V
+-1.0 0:#82;:G#c0;CUT;:T-5024:3:V
+-1.0 0:#82;:G2#c1;CUT;:T-5024:3:V
+-1.0 0:#83;:G#c2;CUT;:T-5024:3:V
+-1.0 0:#83;:G4#c3;CUT;:T-5024:3:V
+-1.0 0:#bd;:G#c4;CUT;:T5023:3:V
+-1.0 0:#83;:G3#c5;CUT;:T-5024:3:V
+-1.0 0:#82;:G3#c6;CUT;:T-5024:3:V
+-1.0 0:#82;:G4#c7;CUT;:T-5024:3:V
+-1.0 0:#97;:T5023:3:V
+-1.0 0:#98;:T5023:3:V
+-1.0 0:#99;:T5023:3:E
+-1.0 0:#9a;:T5023:3:E
+-2.0 0:#9c;:T5023:3:E
+-1.0 0:#9d;:T5023:3:E
+-2.0 0:#9f;:T5023:3:E
+-2.0 0:#a1;:T5023:3:E
+-1.0 0:#a2;:T5023:3:E
+-2.0 0:#a4;:T5023:3:E
+-2.0 0:#7d;:G3#b2;CUT;:T-5024:3:E
+-1.0 0:#80;:G#b3;CUT;:T-5024:3:E
+-1.0 0:#b4;:M;CUT;:T5023:3:E
+-1.0 0:#80;:G2#b5;CUT;:T-5024:3:E
+-1.0 0:#7d;:G2#b6;CUT;:T-5024:3:E
+-1.0 0:#83;:M2;CUT;:T-5024:3:E
+-1.0 0:#7d;:G5#b8;CUT;:T-5024:3:E
+-1.0 0:#7d;:G4#b9;CUT;:T-5024:3:E
+-1.0 0:#83;:M;CUT;:T-5024:3:E
+-1.0 0:#80;:G4#ba;CUT;:T-5024:3:E
+-1.0 0:#82;:M2;CUT;:T-5024:3:E
+-1.0 0:#bb;:M;CUT;:T5023:3:E
+-1.0 0:#82;:M;CUT;:T-5024:3:E
+-1.0 0:#80;:G3#bc;CUT;:T-5024:3:E
+-1.0 0:#bd;:M;CUT;:T5023:3:E
+-1.0 0:#a5;:T5023:3:E
+-1.0 0:#a6;:T5023:3:E
+-1.0 0:#a7;:T5023:3:E
+-1.0 0:#a8;:T5023:3:F
+-1.0 0:#a9;:T5023:3:F
+-1.0 0:#aa;:T5023:3:F
+-1.0 0:#ab;:T5023:3:F
+-1.0 0:#ac;:T5023:3:F
+-1.0 0:#ad;:T5023:3:F
+-1.0 0:#ae;:T5023:3:F
+-1.0 0:#b1;:M;CUT;:T5023:3:F
+-1.0 0:#7d;:M;CUT;:T-5024:3:F
+-1.0 0:#80;:M2;CUT;:T-5024:3:F
+-1.0 0:#be;:M;CUT;:T5023:3:F
+-1.0 0:#80;:M;CUT;:T-5024:3:F
+-1.0 0:#b7;:M;CUT;:T5023:3:F
+-1.0 0:#af;:T5023:3:F
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-01-30T10:32:32Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Soldercup"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T09:07:53Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="1b08dcd6-5340-41ad-af2a-a72ca9e0c6b3"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="19" Dependencies="1">
+    <ObjectDeps Name="Sketch" Count="0"/>
+    <ObjectDeps Name="Sketch001" Count="1">
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch002" Count="1">
+      <Dep Name="BaseFeature"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Revolve" Count="1">
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body" Count="7">
+      <Dep Name="Sketch001"/>
+      <Dep Name="Hole"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Pocket"/>
+      <Dep Name="Revolve"/>
+      <Dep Name="Sketch002"/>
+      <Dep Name="BaseFeature"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="Z_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="XY_Plane"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="Y_Axis"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="BaseFeature" Count="2">
+      <Dep Name="Revolve"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Hole" Count="3">
+      <Dep Name="Sketch002"/>
+      <Dep Name="Body"/>
+      <Dep Name="BaseFeature"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pocket" Count="3">
+      <Dep Name="Sketch001"/>
+      <Dep Name="Hole"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Constraints"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="0"/>
+    <ObjectDeps Name="Parts" Count="2">
+      <Dep Name="Revolve"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <Object type="Sketcher::SketchObject" name="Sketch" id="4993" revision="3" file="Sketch.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="5005" revision="6" file="Sketch001.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch002" id="5009" revision="4" file="Sketch002.xml" />
+    <Object type="Part::Revolution" name="Revolve" id="5011" revision="2" file="Revolve.xml" />
+    <Object type="PartDesign::Body" name="Body" id="5012" revision="8" file="Body.xml" />
+    <Object type="App::Origin" name="Origin" id="5013" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="5014" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="5015" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="5016" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="5017" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="5018" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="5019" revision="0" file="YZ_Plane.xml" />
+    <Object type="PartDesign::FeatureBase" name="BaseFeature" id="5020" revision="3" file="BaseFeature.xml" />
+    <Object type="PartDesign::Hole" name="Hole" id="5023" revision="5" file="Hole.xml" />
+    <Object type="PartDesign::Pocket" name="Pocket" id="5024" revision="5" file="Pocket.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="5025" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="5026" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="5027" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="5028" revision="3" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

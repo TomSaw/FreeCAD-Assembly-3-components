@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="LinearArray" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="Part::AttachExtension" name="AttachExtension">
+    </Extension>
+  </Extensions>
+  <Properties Count="44" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="Alignment" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="1" status="2097152">
+      <Integer value="4" CustomEnum="true"/>
+      <CustomEnumList count="5">
+<Enum value="Low"/>
+<Enum value="Center"/>
+<Enum value="High"/>
+<Enum value="Justify"/>
+<Enum value="Mirrored"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="AttacherType" type="App::PropertyString" status="8">
+      <String value="Attacher::AttachEngine3D"/>
+    </Property>
+    <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="CellStart" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" docID="2" status="2097156">
+      <String value="A1"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Count" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="3" status="2097156">
+      <Float value="7"/>
+    </Property>
+    <Property name="Dir" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" docID="4" status="2097152">
+      <PropertyVector valueX="1" valueY="0" valueZ="0"/>
+    </Property>
+    <Property name="DirIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="5" status="2097156">
+      <Bool value="true"/>
+    </Property>
+    <Property name="DistributionLaw" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="Linear"/>
+<Enum value="Exponential"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="DrivenProperty" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="6" status="2097156">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="5">
+<Enum value="None"/>
+<Enum value="Span"/>
+<Enum value="SpanStart"/>
+<Enum value="SpanEnd"/>
+<Enum value="Step"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="EndInclusive" type="App::PropertyBool" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="7" status="2097152">
+      <Bool value="true"/>
+    </Property>
+    <Property name="ExposePlacement" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" docID="8" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="1" cdata="1">
+        <Expressions><![CDATA[
+0:SpanEnd
+0:<<Rail Pad>>.Length / 2
+0:
+
+]]>
+        </Expressions>
+      </ExpressionEngine>
+    </Property>
+    <Property name="GeneratorMode" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <Integer value="2" CustomEnum="true"/>
+      <CustomEnumList count="4">
+<Enum value="SpanN"/>
+<Enum value="StepN"/>
+<Enum value="SpanStep"/>
+<Enum value="Random"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="LinearArray"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Link" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" docID="9" status="2097152">
+      <Link value=""/>
+    </Property>
+    <Property name="LinkSubelement" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" docID="10" status="2097152">
+      <String value=""/>
+    </Property>
+    <Property name="MapMode" type="App::PropertyEnumeration" status="8">
+      <Integer value="0"/>
+    </Property>
+    <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+      <Float value="0"/>
+    </Property>
+    <Property name="MapReversed" type="App::PropertyBool" status="8">
+      <Bool value="false"/>
+    </Property>
+    <Property name="MarkerShape" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" docID="11" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="tetra-orimarker"/>
+<Enum value="paperplane-orimarker"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="MarkerSize" type="App::PropertyLength" group="Lattice" attr="0" ro="0" hide="0" docID="12" status="2097152">
+      <Float value="6"/>
+    </Property>
+    <Property name="NumElements" type="App::PropertyInteger" group="Lattice" attr="0" ro="0" hide="0" docID="13" status="2097156">
+      <Integer value="13"/>
+    </Property>
+    <Property name="Offset" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="14" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="OrientMode" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="15" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="None"/>
+<Enum value="Along axis"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Point" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" docID="16" status="2097152">
+      <PropertyVector valueX="0" valueY="0" valueZ="0"/>
+    </Property>
+    <Property name="PointIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="17" status="2097156">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="lattice2LinearArray" class="LinearArray" value="null"/>
+    </Property>
+    <Property name="Reverse" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="18" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 23
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0              -0               0 
+             -0 2.22044604925031e-16              -1               0 
+              0               1 2.22044604925031e-16               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  4 1 5 1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  7 -1 5 -1 4 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  9 1 3 1 0
+2  7 -1 3 -1 9 -1 0
+1
+              1               0               0              20 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0             -20 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0              40 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0             -40 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0              60 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0             -60 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0              80 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0             -80 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0             100 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0            -100 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0             120 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0            -120 
+              0               1               0               0 
+              0               0               1               0 
+Curve2ds 0
+Curves 7
+1 0 0 0 1 0 0 
+1 5.9999999999999991 0 0 -0.93465529130606351 -0.35555518057479879 0 
+1 -1.6886767155632119 -2.9248738689140219 0 0.49999999999999983 0.86602540378443882 0 
+1 2.4980018054066022e-16 2.3687012426672881e-16 0 -0.49999999999999989 0.86602540378443882 0 
+1 -1.6886767155632112 2.9248738689140215 0 0.93465529130606351 -0.35555518057479868 0 
+1 0 -1.7136 0 0 1 0 
+1 5.9999999999999982 0 0 -0.96155297028741438 -0.27461952831408565 0 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 3
+1 2.4980018054066022e-16 2.3687012426672881e-16 0 0 0 1 1 0 0 0 1 0 
+1 2.4980018054066022e-16 2.3687012426672881e-16 0 0 0 1 1 0 0 0 1 0 
+1 0 0 0 0 -1 2.2204460492503136e-16 0 -2.2204460492503136e-16 -1 1 0 0 
+Triangulations 0
+
+TShapes 20
+Ve
+6.00000000267414e-07
+1.45716764897318e-16 1.42484249728684e-16 0
+0 0
+
+0101101
+*
+Ve
+6.00000000666132e-07
+6 0 0
+0 0
+
+0101101
+*
+Ed
+ 6e-07 1 1 0
+1  1 0 0 6
+0
+
+0101000
++20 8 -19 8 *
+Ve
+6.00000000333066e-07
+-1.68867671556321 -2.92487386891402 0
+0 0
+
+0101101
+*
+Ed
+ 6e-07 1 1 0
+1  2 0 0 8.2262164319631
+0
+
+0101000
++19 11 -17 11 *
+Ed
+ 6e-07 1 1 0
+1  3 0 0 3.37735343112643
+0
+
+0101000
++17 11 -20 11 *
+Wi
+
+0101000
+-18 6 -16 10 -15 10 *
+Fa
+0  6e-07 1 3
+
+0101000
++14 0 *
+Ve
+6e-07
+-1.68867671556321 2.92487386891402 0
+0 0
+
+0101101
+*
+Ed
+ 6e-07 1 1 0
+1  4 0 0 3.37735343112643
+0
+
+0101000
++20 11 -12 11 *
+Ed
+ 6e-07 1 1 0
+1  5 0 0 8.2262164319631
+0
+
+0101000
++12 11 -19 11 *
+Wi
+
+0101000
+-11 10 -10 10 +18 6 *
+Fa
+0  6e-07 2 3
+
+0101000
++9 0 *
+Ve
+6e-07
+0 -3.80495634999533e-16 -1.7136
+0 0
+
+0101101
+*
+Ed
+ 6e-07 1 1 0
+1  6 0 0 1.7136
+0
+
+0101000
++7 8 -20 8 *
+Ed
+ 6e-07 1 1 0
+1  7 0 0 6.23990584544352
+0
+
+0101000
++19 8 -7 8 *
+Wi
+
+0101000
+-18 6 -6 6 -5 6 *
+Fa
+0  6e-07 3 5
+
+0101000
++4 0 *
+Sh
+
+0101000
++13 0 +8 0 +3 0 *
+Co
+
+1100000
++2 2 +2 12 +2 13 +2 14 +2 15 +2 16 +2 17 +2 18 +2 19 +2 20 
++2 21 +2 22 +2 23 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="195">
+<![CDATA[
+8 PostfixCount 3
+Edge
+Face
+Vertex
+
+MapCount 1
+
+ElementMap 1 8 3
+
+Edge
+
+ChildCount 13
+1 0 7 0 0 ;:H,E;:H:5,E 0
+1 7 7 0 0 ;:C1;:H:4,E;:H:b,E 0
+1 14 7 0 0 ;:C2;:H:4,E;:H:b,E 0
+1 21 7 0 0 ;:C3;:H:4,E;:H:b,E 0
+1 28 7 0 0 ;:C4;:H:4,E;:H:b,E 0
+1 35 7 0 0 ;:C5;:H:4,E;:H:b,E 0
+1 42 7 0 0 ;:C6;:H:4,E;:H:b,E 0
+1 49 7 0 0 ;:C7;:H:4,E;:H:b,E 0
+1 56 7 0 0 ;:C8;:H:4,E;:H:b,E 0
+1 63 7 0 0 ;:C9;:H:4,E;:H:b,E 0
+1 70 7 0 0 ;:Ca;:H:4,E;:H:b,E 0
+1 77 7 0 0 ;:Cb;:H:4,E;:H:b,E 0
+1 84 7 0 0 ;:Cc;:H:4,E;:H:b,E 0
+
+NameCount 0
+
+Face
+
+ChildCount 13
+1 0 3 0 0 ;:H,F;:H:5,F 0
+1 3 3 0 0 ;:C1;:H:4,F;:H:b,F 0
+1 6 3 0 0 ;:C2;:H:4,F;:H:b,F 0
+1 9 3 0 0 ;:C3;:H:4,F;:H:b,F 0
+1 12 3 0 0 ;:C4;:H:4,F;:H:b,F 0
+1 15 3 0 0 ;:C5;:H:4,F;:H:b,F 0
+1 18 3 0 0 ;:C6;:H:4,F;:H:b,F 0
+1 21 3 0 0 ;:C7;:H:4,F;:H:b,F 0
+1 24 3 0 0 ;:C8;:H:4,F;:H:b,F 0
+1 27 3 0 0 ;:C9;:H:4,F;:H:b,F 0
+1 30 3 0 0 ;:Ca;:H:4,F;:H:b,F 0
+1 33 3 0 0 ;:Cb;:H:4,F;:H:b,F 0
+1 36 3 0 0 ;:Cc;:H:4,F;:H:b,F 0
+
+NameCount 0
+
+Vertex
+
+ChildCount 13
+1 0 5 0 0 ;:H,V;:H:5,V 0
+1 5 5 0 0 ;:C1;:H:4,V;:H:b,V 0
+1 10 5 0 0 ;:C2;:H:4,V;:H:b,V 0
+1 15 5 0 0 ;:C3;:H:4,V;:H:b,V 0
+1 20 5 0 0 ;:C4;:H:4,V;:H:b,V 0
+1 25 5 0 0 ;:C5;:H:4,V;:H:b,V 0
+1 30 5 0 0 ;:C6;:H:4,V;:H:b,V 0
+1 35 5 0 0 ;:C7;:H:4,V;:H:b,V 0
+1 40 5 0 0 ;:C8;:H:4,V;:H:b,V 0
+1 45 5 0 0 ;:C9;:H:4,V;:H:b,V 0
+1 50 5 0 0 ;:Ca;:H:4,V;:H:b,V 0
+1 55 5 0 0 ;:Cb;:H:4,V;:H:b,V 0
+1 60 5 0 0 ;:Cc;:H:4,V;:H:b,V 0
+
+NameCount 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="SpanEnd" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="19" status="2097152">
+      <Float value="130"/>
+    </Property>
+    <Property name="SpanStart" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="20" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="SpreadsheetLink" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" docID="21" status="2097156">
+      <Link value=""/>
+    </Property>
+    <Property name="Step" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="22" status="2097152">
+      <Float value="20"/>
+    </Property>
+    <Property name="SubLink" type="App::PropertyLinkSub" group="Lattice Array" attr="0" ro="0" hide="0" docID="23" status="2097152">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Support" type="App::PropertyLinkSubList" status="8">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="Type" type="App::PropertyString" group="Lattice" attr="0" ro="1" hide="1" docID="24" status="85983232">
+      <String value="lattice2LinearArray.LinearArray"/>
+    </Property>
+    <Property name="VSGVersion" type="App::PropertyInteger" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="25" status="2097160">
+      <Integer value="1"/>
+    </Property>
+    <Property name="Values" type="App::PropertyStringList" group="Lattice Array" attr="0" ro="0" hide="0" docID="26" status="2097156">
+      <StringList count="13" >
+<String value="0.0"/>
+<String value="20.0"/>
+<String value="-20.0"/>
+<String value="40.0"/>
+<String value="-40.0"/>
+<String value="60.0"/>
+<String value="-60.0"/>
+<String value="80.0"/>
+<String value="-80.0"/>
+<String value="100.0"/>
+<String value="-100.0"/>
+<String value="120.0"/>
+<String value="-120.0"/>
+      </StringList>
+    </Property>
+    <Property name="ValuesSource" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="27" status="2097152">
+      <Integer value="2" CustomEnum="true"/>
+      <CustomEnumList count="3">
+<Enum value="Values Property"/>
+<Enum value="Spreadsheet"/>
+<Enum value="Generator"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="isLattice" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" docID="28" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="4">
+<Enum value="Auto-Off"/>
+<Enum value="Auto-On"/>
+<Enum value="Force-Off"/>
+<Enum value="Force-On"/>
+      </CustomEnumList>
+    </Property>
+  </Properties>
+</Object>
+</Document>

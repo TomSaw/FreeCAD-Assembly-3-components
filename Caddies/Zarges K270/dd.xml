@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="dd">
+  <Properties Count="7" TransientCount="0">
+    <Property name="DynamicData" type="App::PropertyStringList" group="" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <StringList count="7" >
+<String value="Created with DynamicData (v1.32) workbench."/>
+<String value="This is a simple container object built"/>
+<String value="for holding custom properties.  Worbench"/>
+<String value="installation is not required to use the"/>
+<String value="container object -- instead only for"/>
+<String value="adding / removing custom properties."/>
+<String value="(But this can also be done via scripting.)"/>
+      </StringList>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="ddMaster"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  json="yes" value="null"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+    <Property name="ddMaterial_Strength" type="App::PropertyLength" group="Rigidity" attr="0" ro="0" hide="0" docID="1" status="2097152">
+      <Float value="1"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

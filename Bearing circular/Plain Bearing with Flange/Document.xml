@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="3c76611d-7051-465e-b6de-aaa43edc40d5" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="55">
+<![CDATA[
+-3.0 0:;:H,V;SKT
+-1.c.1 g550v1
+-1.0 0:;SKT
+-1.c.1 g555v2
+-1.c.-2 g550v2
+-1.c.2 g551v1
+-1.c.0 g551v2
+-1.c.0 g552v1
+-1.c.0 g552v2
+-1.c.0 g553v1
+-1.c.0 g553v2
+-1.c.0 g554v1
+-1.c.0 g554v2
+-1.c.0 g555v1
+-1.0 0:;:H,E;SKT
+-1.c.1 g550
+-2.c.-c g552
+-2.c.0 g554
+-2.0 0:;:Haa1,E
+-1.2c.1.7
+-1.0 0:;:Haa1,V
+-1.2c.1.17
+-1.2c.0.3
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.-2.5
+-1.2c.0.2
+-1.0 0:;:G;RVL;:Haa1:7,E
+-1.2c.1.7
+-1.2c.0.1
+-1.2c.0.2
+-3.c.-20 g556v2
+-1.c.2 g557v1
+-1.c.0 g557v2
+-1.c.0 g558v1
+-1.c.0 g558v2
+-1.c.0 g559v1
+-1.c.0 g559v2
+-1.c.0 g560v1
+-4.c.0 g557
+-2.c.0 g559
+-3.0 0:;:Haae,E
+-2.0 0:;:Haae,V
+-1.2c.1.13
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.-2.5
+-1.2c.0.2
+-1.0 0:;:G;RVL;:Haae:7,E
+-1.2c.1.7
+-1.2c.0.1
+-1.2c.0.2
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-09-10T20:29:05Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Plain Bearing with Flange"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T09:13:46Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="3c76611d-7051-465e-b6de-aaa43edc40d5"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="26" Dependencies="1">
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Parts"/>
+      <Dep Name="Constraints"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="1">
+      <Dep Name="Element"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="2">
+      <Dep Name="Body"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body" Count="3">
+      <Dep Name="Sketch"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Revolution"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="Y_Axis"/>
+      <Dep Name="YZ_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Sketch" Count="1">
+      <Dep Name="XZ_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Revolution" Count="2">
+      <Dep Name="Body"/>
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body001" Count="4">
+      <Dep Name="Sketch001"/>
+      <Dep Name="Origin001"/>
+      <Dep Name="Revolution001"/>
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin001" Count="6">
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="XZ_Plane001"/>
+      <Dep Name="Y_Axis001"/>
+      <Dep Name="Z_Axis001"/>
+      <Dep Name="X_Axis001"/>
+      <Dep Name="YZ_Plane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis001" Count="0"/>
+    <ObjectDeps Name="Y_Axis001" Count="0"/>
+    <ObjectDeps Name="Z_Axis001" Count="0"/>
+    <ObjectDeps Name="XY_Plane001" Count="0"/>
+    <ObjectDeps Name="XZ_Plane001" Count="0"/>
+    <ObjectDeps Name="YZ_Plane001" Count="0"/>
+    <ObjectDeps Name="Binder" Count="2">
+      <Dep Name="Body"/>
+      <Dep Name="Assembly"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch001" Count="3">
+      <Dep Name="Sketch"/>
+      <Dep Name="XZ_Plane001"/>
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Revolution001" Count="2">
+      <Dep Name="Sketch001"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Body"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <Object type="Part::FeaturePython" name="Assembly" id="2709" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="2710" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="2711" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="2712" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="PartDesign::Body" name="Body" id="2713" revision="2" file="Body.xml" />
+    <Object type="App::Origin" name="Origin" id="2714" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="2715" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="2716" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="2717" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="2718" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="2719" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="2720" revision="0" file="YZ_Plane.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="2721" revision="3" file="Sketch.xml" />
+    <Object type="PartDesign::Revolution" name="Revolution" id="2722" revision="8" file="Revolution.xml" />
+    <Object type="PartDesign::Body" name="Body001" id="2723" revision="2" file="Body001.xml" />
+    <Object type="App::Origin" name="Origin001" id="2724" revision="0" file="Origin001.xml" />
+    <Object type="App::Line" name="X_Axis001" id="2725" revision="0" file="X_Axis001.xml" />
+    <Object type="App::Line" name="Y_Axis001" id="2726" revision="0" file="Y_Axis001.xml" />
+    <Object type="App::Line" name="Z_Axis001" id="2727" revision="0" file="Z_Axis001.xml" />
+    <Object type="App::Plane" name="XY_Plane001" id="2728" revision="0" file="XY_Plane001.xml" />
+    <Object type="App::Plane" name="XZ_Plane001" id="2729" revision="0" file="XZ_Plane001.xml" />
+    <Object type="App::Plane" name="YZ_Plane001" id="2730" revision="0" file="YZ_Plane001.xml" />
+    <Object type="PartDesign::SubShapeBinder" name="Binder" id="2733" revision="2" file="Binder.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="2734" revision="5" file="Sketch001.xml" />
+    <Object type="PartDesign::Revolution" name="Revolution001" id="2735" revision="7" file="Revolution001.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="2736" revision="4" file="Element.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

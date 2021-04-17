@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="31c68ea2-0ec5-419c-aff6-2e02aabdddfd" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="299">
+<![CDATA[
+-2.0 0:;:H,V;SKT
+-1.c.1 g806v1
+-1.0 0:;SKT
+-1.c.1 g811v2
+-1.c.-2 g806v2
+-1.c.2 g807v1
+-1.c.0 g807v2
+-1.c.0 g808v1
+-1.c.0 g808v2
+-1.c.0 g809v1
+-1.c.0 g809v2
+-1.c.0 g810v1
+-1.c.0 g810v2
+-1.c.0 g811v1
+-1.0 0:;:H,E;SKT
+-1.c.1 g806
+-2.c.-c g808
+-2.c.0 g810
+-2.0 0:;:H1,E
+-1.2c.1.7
+-1.0 0:;:H1,V
+-1.2c.1.17
+-1.2c.0.3
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.-2.5
+-1.2c.0.2
+-1.0 0:;:G;RVL;:H1:7,E
+-1.2c.1.8
+-1.2c.0.2
+-1.2c.0.-3
+-3.0 0:;:H,E;SKT;:H,E
+-1.c.1 g812
+-2.c.-24 g813
+-1.0 0:;:Hb,E
+-1.2c.1.2
+-1.2c.0.-2
+-1.0 0:;:G2;MAK;:Hb:8,F
+-1.2c.1.3
+-1.0 0:;:G3;MAK;:Hb:8,F
+-1.2c.1.5
+-1.0 0:;:U3;MAK;:Hb:8,E
+-1.2c.1.4
+-1.0 0:;:U2;MAK;:Hb:8,E
+-1.2c.1.6
+-1.2c.0.2
+-1.2c.-6.-4
+-1.2c.2.0
+-1.2c.2.a
+-1.2c.2.0
+-1.2c.0.1
+-1.0 0:;:H1,V;:H-a,V
+-1.2c.1.3b
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;RVL;:H1:7,E;:H-a,E
+-1.2c.1.31
+-1.2c.0.1
+-1.0 0:;:H1,E;:H-a,E
+-1.2c.1.3d
+-1.2c.-3.b
+-1.2c.0.1
+-1.2c.3.-a
+-1.2c.-3.b
+-1.2c.0.1
+-1.2c.3.-a
+-1.0 0:;:G;RVL;:H1:7,F;:H-a,F
+-1.2c.1.3e
+-1.2c.0.8
+-1.0 0:;:L;RVL;:H1:7,F;:L;RVL;:H1:16,F;:H-a,F
+-1.2c.1.35
+-1.2c.-3.-3
+-1.0 0:;:L;RVL;:H1:7,F;:L;RVL;:H1:16,F;:L;RVL;:H1:26,F;:H-a,F
+-1.c.1.2f #25
+-1.0 0:(#5c;K-3;:Ha:4,F)
+-1.0 0:;:G2;MAK;:Hb:8,F;:H-c,F
+-1.c.1.3.3a.2 #2d
+-1.0 0:(#5c;K-4;:Ha:4,F)
+-1.c.3.5.3c.1 #2e
+-1.0 0:;:U;MAK;:Hb:7,E;:H-c,E
+-1.2c.1.2b
+-1.2c.0.-8
+-1.0 0:;:U3;MAK;:Hb:8,E;:H-c,E
+-1.2c.1.36
+-1.2c.0.8
+-1.0 0:;:L;RVL;:H1:7,F;:H-a,F
+-1.2c.1.46
+-3.0 0:;:U;MAK;:Hb:7,V;:H-c,V
+-1.2c.1.33
+-1.2c.0.-6
+-1.0 0:;:Ha,V
+-1.2c.1.32
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.7
+-1.2c.0.1
+-1.28.-9 ;:G#6a;CUT;:H-c:a,V
+-1.28.1 ;:G#6b;CUT;:H-c:a,V
+-1.2c.8.36
+-1.2c.0.1
+-1.0 0:;:M;CUT;:H-c:7,V
+-1.2c.1.e
+-1.2c.0.1
+-1.2c.-b.-28
+-1.2c.0.1
+-1.2c.0.-3
+-1.2c.0.1
+-1.0 0:;:Ha,E
+-1.2c.1.37
+-1.2c.0.1
+-1.2c.0.2
+-1.2c.0.5
+-1.28.-22 ;:G#5d;CUT;:H-c:a,E
+-1.28.2 ;:G#60;CUT;:H-c:a,E
+-1.2c.20.39
+-1.0 0:;:M;CUT;:H-c:7,E
+-1.2c.1.27
+-1.2c.0.1
+-1.2c.-8.-12
+-1.2c.0.2
+-1.2c.8.12
+-1.2c.0.1
+-1.2c.-8.-17
+-1.2c.0.1
+-1.0 0:;:Ha,F
+-1.2c.1.3d
+-1.2c.0.4
+-1.0 0:;:M;CUT;:H-c:7,F
+-1.2c.1.37
+-1.2c.0.2
+-1.2c.-3.-a
+-1.2c.0.2
+-1.0 0:;:M;CUT;:Ha:7,F
+-1.c.1.6e #5c
+-1.0 0:(#9b;K-7;:Hc:4,F)
+-1.0 0:;:G2;MAK;:Hb:8,F;:H-c,FI2;:H:9,F
+-1.c.1.3.42.2 #2d
+-1.0 0:(#9b;K-8;:Hc:4,F)
+-1.0 0:(#9b;K-6;:Hc:4,F)
+-1.0 0:(#9b;K-5;:Hc:4,F)
+-1.0 0:;:G2;MAK;:Hb:8,F;:H-c,FI1;:H:9,F
+-1.c.1.8.47.2 #2d
+-1.0 0:;:U;MAK;:Hb:7,E;:H-c,EI1;:H:9,E
+-1.2c.1.75
+-1.0 0:;:U;MAK;:Hb:7,E;:H-c,EI2;:H:9,E
+-1.2c.1.77
+-1.c.-1d Edge6
+-1.0 0:;:U3;MAK;:Hb:8,E;:H-c,EI2;:H:9,E
+-1.2c.1.7a
+-1.c.-20 Edge8
+-1.0 0:;:U3;MAK;:Hb:8,E;:H-c,EI1;:H:9,E
+-1.2c.1.7d
+-1.2c.-12.39
+-1.c.-5 Face5
+-2.0 0:(#9b;K-4;:Hc:4,F)
+-1.0 0:(#9b;K-2;:Hc:4,F)
+-2.0 0:;:U;MAK;:Hb:7,V;:H-c,VI1;:H:9,V
+-1.2c.1.81
+-1.0 0:;:U;MAK;:Hb:7,V;:H-c,VI2;:H:9,V
+-1.2c.1.83
+-1.c.-3c Vertex4
+-1.0 0:;:H-c,EI1;:H:9,E;:H-c:10,E
+-1.0 0:;:H-c,EI2;:H:9,E;:H-c:10,E
+-1.0 0:;:H-c,FI1;:H:9,F;:H-c:10,F
+-1.0 0:;:H-c,FI2;:H:9,F;:H-c:10,F
+-1.0 0:;:H-c,VI1;:H:9,V;:H-c:10,V
+-1.0 0:;:H-c,VI2;:H:9,V;:H-c:10,V
+-1.c.bd g815v1
+-1.c.2 g818v2
+-5.c.0 g817v2
+-1.c.0 g819v2
+-1.c.0 g818v1
+-1.c.0 g819v1
+-4.c.0 g819
+-1.c.0 g818
+-1.0 0:;:H16,E
+-2.0 0:;:H16,V
+-1.2c.1.12
+-1.2c.0.6
+-1.2c.0.2
+-1.2c.-2.5
+-1.2c.0.1
+-1.0 0:;:G;RVL;:H16:7,E
+-1.2c.1.6
+-1.2c.0.1
+-1.c.-d2 g820v1
+-1.c.0 g820
+-1.0 0:;:H20,E
+-1.2c.1.2
+-1.0 0:;:H20,V
+-1.2c.1.5
+-1.0 0:;:G;XTR;:H20:7,F
+-1.2c.1.4
+-1.0 0:;:G;XTR;:H20:7,E
+-1.2c.1.4
+-1.0 0:;:U;XTR;:H20:7,E
+-1.2c.1.4
+-1.0 0:;:H16,V;:H-17,V
+-1.2c.1.27
+-1.2c.0.1
+-1.2c.0.5
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;RVL;:H16:7,E;:H-17,E
+-1.2c.1.1c
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:H16,E;:H-17,E
+-1.2c.1.25
+-1.2c.0.1
+-1.0 0:;:L;RVL;:H16:7,F;:H-17,F
+-1.2c.1.1d
+-1.0 0:;:L;RVL;:H16:7,F;:L;RVL;:H16:17,F;:H-17,F
+-1.2c.1.1e
+-1.0 0:;:G;RVL;:H16:7,F;:H-17,F
+-1.2c.1.24
+-1.0 0:;FAC;:H20:4,F
+-1.2c.1.1e
+-1.c.-2.0 #d5
+-3.c.-f5 g821v1
+-1.c.2 g824v2
+-5.c.0 g823v2
+-1.c.0 g824v1
+-4.c.0 g824
+-1.0 0:;:H2a,E
+-2.0 0:;:H2a,V
+-1.2c.1.f
+-1.2c.0.6
+-1.2c.-2.5
+-1.0 0:;:G;RVL;:H2a:7,E
+-1.2c.1.4
+-1.2c.0.1
+-f.0 0:(#112;:L;RVL;:H2a:7,F;:L;RVL;:H2a:17,F;:H-2c,F;:H2c:8,F)
+-1.0 0:;:G;RVL;:H2a:7,F;:H-2c,F
+-1.2c.1.14.11.2
+-1.28.1 ;:M#121;PSM;:H2c:b,F
+-1.0 0:;:U4;PSM;:H2c:8,E
+-1.2c.1.2
+-1.0 0:;:U2;PSM;:H2c:8,E
+-1.2c.1.4
+-1.0 0:;:U3;PSM;:H2c:8,E
+-1.2c.1.6
+-1.0 0:(#128;:U2;PSM;:H2c:8,V)
+-1.0 0:;:U2;PSM;:H2c:8,V
+-1.2c.1.7.5.2
+-1.0 0:(#12a;:U2;PSM;:H2c:8,V)
+-1.0 0:;:U;PSM;:H2c:7,V
+-1.2c.1.8.6.2
+-1.0 0:(#124;:U;PSM;:H2c:7,E,#12d;:L#12b;PSM;:H2c:b,E)
+-1.0 0:;:U5;PSM;:H2c:8,E
+-1.2c.1.f.6.f.2
+-3.28.-5 ;:L#12b;PSM;:H2c:b,E
+-1.0 0:;:G;RVL;:H2a:7,E;:H-2c,E
+-1.2c.1.2b
+-1.28.-7 ;:L#12e;PSM;:H2c:b,E
+-1.0 0:;:L;RVL;:H2a:7,F;:H-2c,F
+-1.2c.1.2a
+-1.28.-12 ;:L#134;PSM;:H2c:b,F
+-1.28.2 ;:L#135;PSM;:H2c:b,F
+-1.2c.2.16
+-1.2c.0.2
+-1.0 0:;:H2a,V;:H-2c,V;:H2c:8,V
+-1.2c.1.3d
+-1.2c.0.1
+-1.0 0:;:G;RVL;:H2a:7,E;:H-2c,E;:H2c:8,E
+-1.2c.1.36
+-1.0 0:;:L;RVL;:H2a:7,F;:L;RVL;:H2a:17,F;:H-2c,F;:H2c:8,F
+-1.2c.1.34
+-1.0 0:;:H2a,E;:H-2c,E;:H2c:8,E
+-1.2c.1.3f
+-1.28.-14 ;:L#131;PSM;:H2c:b,F
+-1.0 0:;:U;PSM;:H2c:7,E
+-1.2c.1.27
+-1.0 0:;:M;FLT;:H2e:7,F
+-1.2c.1.4
+-1.0 0:;:G;FLT;:H2e:7,F
+-1.2c.1.1c
+-1.2c.-2.9
+-1.2c.0.-18
+-1.0 0:;:M;FLT;:H2e:7,E
+-1.2c.1.1d
+-1.0 0:;:U;FLT;:H2e:7,E
+-1.2c.1.8
+-1.2c.-2.-25
+-1.2c.0.-2
+-1.2c.0.22
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2019-05-31T23:56:13Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="LPD3806-400BM-G5-24C"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T08:38:07Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value="Part"/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="31c68ea2-0ec5-419c-aff6-2e02aabdddfd"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="47" Dependencies="1">
+    <ObjectDeps Name="Sketch" Count="0"/>
+    <ObjectDeps Name="Body" Count="6">
+      <Dep Name="Revolution"/>
+      <Dep Name="Sketch"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Hole"/>
+      <Dep Name="Sketch001"/>
+      <Dep Name="PolarPattern"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="Y_Axis"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="XY_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Revolution" Count="2">
+      <Dep Name="Sketch"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch001" Count="1">
+      <Dep Name="Revolution"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Hole" Count="3">
+      <Dep Name="Revolution"/>
+      <Dep Name="Sketch001"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="PolarPattern" Count="3">
+      <Dep Name="Hole"/>
+      <Dep Name="Sketch001"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body001" Count="5">
+      <Dep Name="Sketch003"/>
+      <Dep Name="Origin001"/>
+      <Dep Name="Pocket"/>
+      <Dep Name="Revolution001"/>
+      <Dep Name="Sketch004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin001" Count="6">
+      <Dep Name="Y_Axis001"/>
+      <Dep Name="YZ_Plane001"/>
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="Z_Axis001"/>
+      <Dep Name="XZ_Plane001"/>
+      <Dep Name="X_Axis001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis001" Count="0"/>
+    <ObjectDeps Name="Y_Axis001" Count="0"/>
+    <ObjectDeps Name="Z_Axis001" Count="0"/>
+    <ObjectDeps Name="XY_Plane001" Count="0"/>
+    <ObjectDeps Name="XZ_Plane001" Count="0"/>
+    <ObjectDeps Name="YZ_Plane001" Count="0"/>
+    <ObjectDeps Name="Sketch003" Count="1">
+      <Dep Name="XZ_Plane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Revolution001" Count="2">
+      <Dep Name="Sketch003"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part" Count="4">
+      <Dep Name="Origin002"/>
+      <Dep Name="Body002"/>
+      <Dep Name="Body"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin002" Count="6">
+      <Dep Name="XZ_Plane002"/>
+      <Dep Name="XY_Plane002"/>
+      <Dep Name="Y_Axis002"/>
+      <Dep Name="Z_Axis002"/>
+      <Dep Name="X_Axis002"/>
+      <Dep Name="YZ_Plane002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis002" Count="0"/>
+    <ObjectDeps Name="Y_Axis002" Count="0"/>
+    <ObjectDeps Name="Z_Axis002" Count="0"/>
+    <ObjectDeps Name="XY_Plane002" Count="0"/>
+    <ObjectDeps Name="XZ_Plane002" Count="0"/>
+    <ObjectDeps Name="YZ_Plane002" Count="0"/>
+    <ObjectDeps Name="Sketch004" Count="1">
+      <Dep Name="YZ_Plane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pocket" Count="3">
+      <Dep Name="Revolution001"/>
+      <Dep Name="Sketch004"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body002" Count="7">
+      <Dep Name="Pocket001"/>
+      <Dep Name="Origin003"/>
+      <Dep Name="Sketch005"/>
+      <Dep Name="Revolution002"/>
+      <Dep Name="Fillet"/>
+      <Dep Name="ShapeBinder"/>
+      <Dep Name="Sketch006"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin003" Count="6">
+      <Dep Name="YZ_Plane003"/>
+      <Dep Name="Y_Axis003"/>
+      <Dep Name="XZ_Plane003"/>
+      <Dep Name="Z_Axis003"/>
+      <Dep Name="X_Axis003"/>
+      <Dep Name="XY_Plane003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis003" Count="0"/>
+    <ObjectDeps Name="Y_Axis003" Count="0"/>
+    <ObjectDeps Name="Z_Axis003" Count="0"/>
+    <ObjectDeps Name="XY_Plane003" Count="0"/>
+    <ObjectDeps Name="XZ_Plane003" Count="0"/>
+    <ObjectDeps Name="YZ_Plane003" Count="0"/>
+    <ObjectDeps Name="Sketch005" Count="2">
+      <Dep Name="XZ_Plane003"/>
+      <Dep Name="ShapeBinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ShapeBinder" Count="1">
+      <Dep Name="Revolution"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Revolution002" Count="2">
+      <Dep Name="Sketch005"/>
+      <Dep Name="Body002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch006" Count="1">
+      <Dep Name="Revolution002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pocket001" Count="4">
+      <Dep Name="Revolution002"/>
+      <Dep Name="Body002"/>
+      <Dep Name="ShapeBinder"/>
+      <Dep Name="Sketch006"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet" Count="2">
+      <Dep Name="Pocket001"/>
+      <Dep Name="Body002"/>
+    </ObjectDeps>
+    <Object type="Sketcher::SketchObject" name="Sketch" id="1" revision="3" file="Sketch.xml" />
+    <Object type="PartDesign::Body" name="Body" id="2" revision="2" file="Body.xml" />
+    <Object type="App::Origin" name="Origin" id="3" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="4" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="5" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="6" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="7" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="8" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="9" revision="0" file="YZ_Plane.xml" />
+    <Object type="PartDesign::Revolution" name="Revolution" id="10" revision="5" file="Revolution.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="11" revision="6" file="Sketch001.xml" />
+    <Object type="PartDesign::Hole" name="Hole" id="12" revision="5" file="Hole.xml" />
+    <Object type="PartDesign::PolarPattern" name="PolarPattern" id="13" revision="4" file="PolarPattern.xml" />
+    <Object type="PartDesign::Body" name="Body001" id="14" revision="2" file="Body001.xml" />
+    <Object type="App::Origin" name="Origin001" id="15" revision="0" file="Origin001.xml" />
+    <Object type="App::Line" name="X_Axis001" id="16" revision="0" file="X_Axis001.xml" />
+    <Object type="App::Line" name="Y_Axis001" id="17" revision="0" file="Y_Axis001.xml" />
+    <Object type="App::Line" name="Z_Axis001" id="18" revision="0" file="Z_Axis001.xml" />
+    <Object type="App::Plane" name="XY_Plane001" id="19" revision="0" file="XY_Plane001.xml" />
+    <Object type="App::Plane" name="XZ_Plane001" id="20" revision="0" file="XZ_Plane001.xml" />
+    <Object type="App::Plane" name="YZ_Plane001" id="21" revision="0" file="YZ_Plane001.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch003" id="22" revision="3" file="Sketch003.xml" />
+    <Object type="PartDesign::Revolution" name="Revolution001" id="23" revision="5" file="Revolution001.xml" />
+    <Object type="App::Part" name="Part" id="24" revision="4" file="Part.xml" />
+    <Object type="App::Origin" name="Origin002" id="25" revision="0" file="Origin002.xml" />
+    <Object type="App::Line" name="X_Axis002" id="26" revision="0" file="X_Axis002.xml" />
+    <Object type="App::Line" name="Y_Axis002" id="27" revision="0" file="Y_Axis002.xml" />
+    <Object type="App::Line" name="Z_Axis002" id="28" revision="0" file="Z_Axis002.xml" />
+    <Object type="App::Plane" name="XY_Plane002" id="29" revision="0" file="XY_Plane002.xml" />
+    <Object type="App::Plane" name="XZ_Plane002" id="30" revision="0" file="XZ_Plane002.xml" />
+    <Object type="App::Plane" name="YZ_Plane002" id="31" revision="0" file="YZ_Plane002.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch004" id="32" revision="3" file="Sketch004.xml" />
+    <Object type="PartDesign::Pocket" name="Pocket" id="33" revision="5" file="Pocket.xml" />
+    <Object type="PartDesign::Body" name="Body002" id="34" revision="2" file="Body002.xml" />
+    <Object type="App::Origin" name="Origin003" id="35" revision="0" file="Origin003.xml" />
+    <Object type="App::Line" name="X_Axis003" id="36" revision="0" file="X_Axis003.xml" />
+    <Object type="App::Line" name="Y_Axis003" id="37" revision="0" file="Y_Axis003.xml" />
+    <Object type="App::Line" name="Z_Axis003" id="38" revision="0" file="Z_Axis003.xml" />
+    <Object type="App::Plane" name="XY_Plane003" id="39" revision="0" file="XY_Plane003.xml" />
+    <Object type="App::Plane" name="XZ_Plane003" id="40" revision="0" file="XZ_Plane003.xml" />
+    <Object type="App::Plane" name="YZ_Plane003" id="41" revision="0" file="YZ_Plane003.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch005" id="42" revision="3" file="Sketch005.xml" />
+    <Object type="PartDesign::ShapeBinder" name="ShapeBinder" id="43" revision="3" file="ShapeBinder.xml" />
+    <Object type="PartDesign::Revolution" name="Revolution002" id="44" revision="6" file="Revolution002.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch006" id="45" revision="6" file="Sketch006.xml" />
+    <Object type="PartDesign::Pocket" name="Pocket001" id="46" revision="5" file="Pocket001.xml" />
+    <Object type="PartDesign::Fillet" name="Fillet" id="47" revision="4" file="Fillet.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

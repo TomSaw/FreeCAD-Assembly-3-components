@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="c57e7990-b7bf-46fc-9e55-d3d9ab81da75" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-02-08T18:41:49Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="SUR"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T08:42:16Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="c57e7990-b7bf-46fc-9e55-d3d9ab81da75"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="13" Dependencies="1">
+    <ObjectDeps Name="Box" Count="0"/>
+    <ObjectDeps Name="Box001" Count="0"/>
+    <ObjectDeps Name="Box002" Count="0"/>
+    <ObjectDeps Name="Box003" Count="0"/>
+    <ObjectDeps Name="Box004" Count="0"/>
+    <ObjectDeps Name="Box005" Count="0"/>
+    <ObjectDeps Name="Box006" Count="0"/>
+    <ObjectDeps Name="Box007" Count="0"/>
+    <ObjectDeps Name="Box008" Count="0"/>
+    <ObjectDeps Name="Box009" Count="0"/>
+    <ObjectDeps Name="Box010" Count="0"/>
+    <ObjectDeps Name="Box011" Count="0"/>
+    <ObjectDeps Name="Box012" Count="0"/>
+    <Object type="Part::Box" name="Box" id="4786" revision="29" file="Box.xml" />
+    <Object type="Part::Box" name="Box001" id="4791" revision="36" file="Box001.xml" />
+    <Object type="Part::Box" name="Box002" id="4792" revision="36" file="Box002.xml" />
+    <Object type="Part::Box" name="Box003" id="4793" revision="37" file="Box003.xml" />
+    <Object type="Part::Box" name="Box004" id="4794" revision="36" file="Box004.xml" />
+    <Object type="Part::Box" name="Box005" id="4795" revision="36" file="Box005.xml" />
+    <Object type="Part::Box" name="Box006" id="4796" revision="37" file="Box006.xml" />
+    <Object type="Part::Box" name="Box007" id="4797" revision="37" file="Box007.xml" />
+    <Object type="Part::Box" name="Box008" id="4798" revision="39" file="Box008.xml" />
+    <Object type="Part::Box" name="Box009" id="4799" revision="37" file="Box009.xml" />
+    <Object type="Part::Box" name="Box010" id="4800" revision="37" file="Box010.xml" />
+    <Object type="Part::Box" name="Box011" id="4801" revision="36" file="Box011.xml" />
+    <Object type="Part::Box" name="Box012" id="4802" revision="36" file="Box012.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

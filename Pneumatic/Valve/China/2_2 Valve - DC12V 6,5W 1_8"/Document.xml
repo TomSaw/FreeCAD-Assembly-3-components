@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="325d5c75-57b5-4071-a736-d751f674830a" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="236">
+<![CDATA[
+-1.0 0:Base object
+-1.0 0:Screw diameter standard
+-1.0 0:Invert screw direction
+-1.0 0:Match outer thread diameter
+-1.0 0:Offset from surface
+-1.0 0:Generate real thread
+-1.0 0:Screw type
+-11.0 0:;:H,V;SKT;:H,V
+-1.c.1 g1994v1
+-1.0 0:;:H,E;SKT;:H,E
+-1.c.1 g1994
+-1.0 0:;SKT
+-1.c.1 g1995v1
+-1.c.0 g1995v2
+-1.c.0 g1996v2
+-1.c.0 g1997v2
+-1.c.0 g1995
+-1.c.0 g1996
+-1.c.0 g1997
+-1.c.0 g1998
+-1.0 0:;:H9,E
+-1.2c.1.5
+-1.0 0:;:H9,V
+-1.2c.1.b
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.-7
+-1.2c.-2.9
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.-9
+-1.0 0:;:G;XTR;:H9:7,F
+-1.2c.1.c
+-1.2c.0.7
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;XTR;:H9:7,E
+-1.2c.1.10
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:(#33;:U;XTR;:H9:7,E,#34;:U;XTR;:H9:7,E,#35;:U;XTR;:H9:7,E)
+-1.0 0:;:U;XTR;:H9:7,E
+-1.2c.1.d.c.b.a.2
+-1.c.-22 g1999v1
+-1.c.0 g1999
+-1.0 0:;:Hb,E
+-1.2c.1.2
+-1.0 0:;:Hb,V
+-1.2c.1.5
+-1.0 0:;:G;XTR;:Hb:7,F
+-1.2c.1.4
+-1.0 0:;:G;XTR;:Hb:7,E
+-1.2c.1.4
+-1.0 0:;:U;XTR;:Hb:7,E
+-1.2c.1.4
+-1.0 0:;:H9,V;:H-a,V
+-1.2c.1.30
+-1.0 0:;:U;XTR;:H9:7,V;:H-a,V
+-1.2c.1.17
+-1.2c.-2.-1a
+-1.2c.2.1b
+-1.2c.-2.-1a
+-1.2c.2.1b
+-1.2c.-2.-1a
+-1.2c.2.1b
+-1.2c.-2.-22
+-1.2c.2.23
+-1.0 0:;:G;XTR;:H9:7,E;:H-a,E
+-1.2c.1.31
+-1.2c.0.1
+-1.0 0:;:H9,E;:H-a,E
+-1.2c.1.3b
+-1.0 0:;:U;XTR;:H9:7,E;:H-a,E
+-1.2c.1.2c
+-1.2c.-5.-8
+-1.2c.3.-8
+-1.2c.2.11
+-1.2c.-5.-8
+-1.2c.3.-8
+-1.2c.2.11
+-1.2c.-2.-10
+-1.2c.2.11
+-1.2c.-5.-9
+-1.2c.3.-11
+-1.2c.2.1b
+-1.0 0:;:G;XTR;:H9:7,F;:H-a,F
+-1.2c.1.3e
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;FAC;:H9:4,F;:H-a,F
+-1.2c.1.4a
+-1.28.-30 ;:L#3d;XTR;:H9:a,F;:H-a,F
+-1.0 0:;:U;XTR;:Hb:7,V
+-1.2c.1.2a
+-1.0 0:;:U;XTR;:Hb:7,V;:L;XTR;:Hb:16,F
+-1.2c.1.2a
+-1.2c.-a.-25
+-1.c.-52 g2000v1
+-1.0 0:;SKT;:H,V
+-1.c.1 g2003v2
+-1.c.-60 g2000v2
+-1.c.60 g2001v1
+-1.c.0 g2001v2
+-1.c.0 g2002v1
+-1.c.0 g2002v2
+-1.c.0 g2003v1
+-1.c.-5e g2000
+-1.0 0:;SKT;:H,E
+-1.c.1 g2001
+-1.c.0 g2002
+-1.c.0 g2003
+-1.c.-65 g2004v1
+-1.c.0 g2004
+-1.0 0:;:H19,E
+-1.2c.1.8
+-1.0 0:;:H19,V
+-1.2c.1.13
+-1.2c.0.3
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.7
+-1.2c.-2.-3
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.2
+-1.0 0:;:G;XTR;:H19:7,F
+-1.2c.1.c
+-1.2c.0.7
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;XTR;:H19:7,E
+-1.2c.1.10
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:(#95;:U;XTR;:H19:7,E,#96;:U;XTR;:H19:7,E,#97;:U;XTR;:H19:7,E)
+-1.0 0:;:U;XTR;:H19:7,E
+-1.2c.1.d.c.b.a.2
+-1.0 0:;:H,V;SKT
+-1.c.1 g2005v1
+-1.c.-86 g2008v2
+-1.c.86 g2005v2
+-1.c.-86 g2006v1
+-1.c.0 g2006v2
+-1.c.0 g2007v1
+-1.c.0 g2007v2
+-1.c.0 g2008v1
+-1.0 0:;:H,E;SKT
+-1.c.1 g2005
+-1.c.-8f g2006
+-1.c.0 g2007
+-1.c.0 g2008
+-1.0 0:;:H1b,E
+-1.2c.1.5
+-1.0 0:;:H1b,V
+-1.2c.1.10
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.-2.4
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;XTR;:H1b:7,F
+-1.2c.1.a
+-1.2c.0.6
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;XTR;:H1b:7,E
+-1.2c.1.d
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:(#bc;:U;XTR;:H1b:7,E,#bd;:U;XTR;:H1b:7,E,#be;:U;XTR;:H1b:7,E)
+-1.0 0:;:U;XTR;:H1b:7,E
+-1.2c.1.b.a.9.8.2
+-1.0 0:;:H19,V;:H-1a,V
+-1.2c.1.51
+-1.2c.0.2
+-1.0 0:;:U;XTR;:H19:7,V;:H-1a,V
+-1.2c.1.31
+-1.2c.-3.-20
+-1.2c.0.1
+-1.2c.3.20
+-1.2c.-3.-1f
+-1.2c.0.1
+-1.2c.3.1f
+-1.2c.-3.-1e
+-1.2c.0.1
+-1.2c.3.1e
+-1.2c.-3.-18
+-1.2c.3.19
+-1.0 0:;:G;XTR;:H19:7,E;:H-1a,E
+-1.2c.1.4e
+-1.2c.0.1
+-1.0 0:;:H19,E;:H-1a,E
+-1.2c.1.5b
+-1.0 0:;:U;XTR;:H19:7,E;:H-1a,E
+-1.2c.1.49
+-1.2c.-5.-8
+-1.2c.3.-a
+-1.2c.2.13
+-1.2c.-5.-8
+-1.2c.3.-a
+-1.2c.2.13
+-1.2c.-2.-12
+-1.2c.2.13
+-1.2c.-5.-9
+-1.2c.3.-8
+-1.2c.2.12
+-1.0 0:;:G;XTR;:H19:7,F;:H-1a,F
+-1.2c.1.5b
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;FAC;:H19:4,F;:H-1a,F
+-1.2c.1.67
+-1.28.-4d ;:L#9f;XTR;:H19:a,F;:H-1a,F
+-1.0 0:;:U;XTR;:H1b:7,V
+-1.2c.1.32
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.-2c.-7
+-1.2c.0.1
+-1.2c.0.1
+-1.28.1 ;:L#c4;XTR;:H1b:a,F
+-1.2c.23.72
+-1.0 0:Source or Documentation
+-1.0 0:Shape cache
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2019-07-13T14:55:53Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="2_2 Valve - DC12V 6,5W 1_8&quot;"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-17T08:35:07Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value="Part"/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="325d5c75-57b5-4071-a736-d751f674830a"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="28" Dependencies="1">
+    <ObjectDeps Name="Body" Count="5">
+      <Dep Name="Sketch001"/>
+      <Dep Name="Sketch"/>
+      <Dep Name="Pad001"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Pad"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="Y_Axis"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Sketch" Count="1">
+      <Dep Name="XY_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad" Count="2">
+      <Dep Name="Sketch"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch001" Count="1">
+      <Dep Name="Pad"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad001" Count="3">
+      <Dep Name="Sketch001"/>
+      <Dep Name="Pad"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Nut" Count="0"/>
+    <ObjectDeps Name="Body001" Count="6">
+      <Dep Name="Pad003"/>
+      <Dep Name="ShapeBinder"/>
+      <Dep Name="Pad002"/>
+      <Dep Name="Origin001"/>
+      <Dep Name="Sketch002"/>
+      <Dep Name="Sketch003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin001" Count="6">
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="Y_Axis001"/>
+      <Dep Name="Z_Axis001"/>
+      <Dep Name="YZ_Plane001"/>
+      <Dep Name="X_Axis001"/>
+      <Dep Name="XZ_Plane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis001" Count="0"/>
+    <ObjectDeps Name="Y_Axis001" Count="0"/>
+    <ObjectDeps Name="Z_Axis001" Count="0"/>
+    <ObjectDeps Name="XY_Plane001" Count="0"/>
+    <ObjectDeps Name="XZ_Plane001" Count="0"/>
+    <ObjectDeps Name="YZ_Plane001" Count="0"/>
+    <ObjectDeps Name="ShapeBinder" Count="1">
+      <Dep Name="Pad001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch002" Count="1">
+      <Dep Name="ShapeBinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad002" Count="2">
+      <Dep Name="Body001"/>
+      <Dep Name="Sketch002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch003" Count="1">
+      <Dep Name="Pad002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad003" Count="3">
+      <Dep Name="Body001"/>
+      <Dep Name="Pad002"/>
+      <Dep Name="Sketch003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part" Count="4">
+      <Dep Name="Body001"/>
+      <Dep Name="Origin002"/>
+      <Dep Name="Body"/>
+      <Dep Name="Nut"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin002" Count="0"/>
+    <Object type="PartDesign::Body" name="Body" id="1" revision="13" file="Body.xml" />
+    <Object type="App::Origin" name="Origin" id="2" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="3" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="4" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="5" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="6" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="7" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="8" revision="0" file="YZ_Plane.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="9" revision="3" file="Sketch.xml" />
+    <Object type="PartDesign::Pad" name="Pad" id="10" revision="5" file="Pad.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="11" revision="4" file="Sketch001.xml" />
+    <Object type="PartDesign::Pad" name="Pad001" id="12" revision="5" file="Pad001.xml" />
+    <Object type="Part::FeaturePython" name="Nut" id="13" revision="11" file="Nut.xml" />
+    <Object type="PartDesign::Body" name="Body001" id="16" revision="2" file="Body001.xml" />
+    <Object type="App::Origin" name="Origin001" id="17" revision="0" file="Origin001.xml" />
+    <Object type="App::Line" name="X_Axis001" id="18" revision="0" file="X_Axis001.xml" />
+    <Object type="App::Line" name="Y_Axis001" id="19" revision="0" file="Y_Axis001.xml" />
+    <Object type="App::Line" name="Z_Axis001" id="20" revision="0" file="Z_Axis001.xml" />
+    <Object type="App::Plane" name="XY_Plane001" id="21" revision="0" file="XY_Plane001.xml" />
+    <Object type="App::Plane" name="XZ_Plane001" id="22" revision="0" file="XZ_Plane001.xml" />
+    <Object type="App::Plane" name="YZ_Plane001" id="23" revision="0" file="YZ_Plane001.xml" />
+    <Object type="PartDesign::ShapeBinder" name="ShapeBinder" id="24" revision="3" file="ShapeBinder.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch002" id="25" revision="3" file="Sketch002.xml" />
+    <Object type="PartDesign::Pad" name="Pad002" id="26" revision="5" file="Pad002.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch003" id="27" revision="8" file="Sketch003.xml" />
+    <Object type="PartDesign::Pad" name="Pad003" id="28" revision="5" file="Pad003.xml" />
+    <Object type="App::Part" name="Part" id="29" revision="23" file="Part.xml" />
+    <Object type="App::Origin" name="Origin002" id="30" revision="0" file="Origin002.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

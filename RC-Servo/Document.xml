@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="529ba611-92a9-4914-975d-d9977914acf4" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="160">
+<![CDATA[
+-75.0 0:g1v1;SKT
+-1.0 0:g4v2;SKT
+-1.0 0:g1v2;SKT
+-1.0 0:g2v1;SKT
+-1.0 0:g2v2;SKT
+-1.0 0:g3v1;SKT
+-1.0 0:g3v2;SKT
+-1.0 0:g4v1;SKT
+-1.0 0:g1;SKT
+-1.0 0:g2;SKT
+-1.0 0:g3;SKT
+-1.0 0:g4;SKT
+-1.0 0:#7d;:T4401:3:E
+-1.0 0:#75;:T4401:3:V
+-1.0 0:#77;:T4401:3:V
+-1.0 0:#79;:T4401:3:V
+-1.0 0:#7b;:T4401:3:V
+-1.0 0:#7e;:T4401:3:E
+-1.0 0:#7f;:T4401:3:E
+-1.0 0:#80;:T4401:3:E
+-1.0 0:#87;:G;XTR;:T4401:3:F
+-1.0 0:#88;:G;XTR;:T4401:3:F
+-1.0 0:#81;:G;XTR;:T4401:3:F
+-1.0 0:#86;:G;XTR;:T4401:3:F
+-1.0 0:#82;:G;XTR;:T4401:3:E
+-1.0 0:#83;:G;XTR;:T4401:3:E
+-1.0 0:#84;:G;XTR;:T4401:3:E
+-1.0 0:#85;:G;XTR;:T4401:3:E
+-1.0 0:(#8a;:U;XTR;:T4401:3:E,#8b;:U;XTR;:T4401:3:E,#8c;:U;XTR;:T4401:3:E)
+-1.0 0:#89;:U;XTR;:T4401:3:E
+-1.0 0:#76;:T4401:3:V
+-1.0 0:#8d;:U;XTR;:T4401:3:V
+-1.0 0:#78;:T4401:3:V
+-1.0 0:#8e;:U;XTR;:T4401:3:V
+-1.0 0:#7a;:T4401:3:V
+-1.0 0:#8f;:U;XTR;:T4401:3:V
+-1.0 0:#7c;:T4401:3:V
+-1.0 0:#90;:U;XTR;:T4401:3:V
+-1.0 0:#8b;:U;XTR;:T4401:3:E
+-1.0 0:#8c;:U;XTR;:T4401:3:E
+-1.0 0:#8a;:U;XTR;:T4401:3:E
+-1.0 0:#81;FAC;:T4401:3:F
+-1.0 0:#92;:L#91;XTR;:T4401:3:F
+-1.0 0:#82;:T-4402:3:V
+-1.0 0:#93;:T-4402:3:V
+-1.0 0:#94;:T-4402:3:V
+-1.0 0:#83;:T-4402:3:V
+-1.0 0:#95;:T-4402:3:V
+-1.0 0:#96;:T-4402:3:V
+-1.0 0:#84;:T-4402:3:V
+-1.0 0:#97;:T-4402:3:V
+-1.0 0:#98;:T-4402:3:V
+-1.0 0:#85;:T-4402:3:V
+-1.0 0:#99;:T-4402:3:V
+-1.0 0:#9a;:T-4402:3:V
+-1.0 0:#8d;:T-4402:3:E
+-1.0 0:#8e;:T-4402:3:E
+-1.0 0:#81;:T-4402:3:E
+-1.0 0:#9b;:T-4402:3:E
+-1.0 0:#8f;:T-4402:3:E
+-1.0 0:#86;:T-4402:3:E
+-1.0 0:#9c;:T-4402:3:E
+-1.0 0:#90;:T-4402:3:E
+-1.0 0:#87;:T-4402:3:E
+-1.0 0:#92;:T-4402:3:E
+-1.0 0:#88;:T-4402:3:E
+-1.0 0:#9d;:T-4402:3:E
+-1.0 0:#8b;:T-4402:3:F
+-1.0 0:#8c;:T-4402:3:F
+-1.0 0:#89;:T-4402:3:F
+-1.0 0:#8a;:T-4402:3:F
+-1.0 0:#9e;:T-4402:3:F
+-1.0 0:#9f;:T-4402:3:F
+-1.0 0:#7d;:T4403:3:E
+-1.0 0:#7e;:T4403:3:E
+-3.0 0:#be;FAC;:T4403:3:F
+-1.0 0:#bf;FAC;:T4403:3:F
+-7.0 0:#a0;:T4402:3:V
+-1.0 0:#a1;:T4402:3:V
+-1.0 0:#a2;:T4402:3:V
+-1.0 0:#a3;:T4402:3:V
+-1.0 0:#a4;:T4402:3:V
+-1.0 0:#a5;:T4402:3:V
+-1.0 0:#a6;:T4402:3:V
+-1.0 0:#a7;:T4402:3:V
+-1.0 0:#a8;:T4402:3:V
+-1.0 0:#a9;:T4402:3:V
+-1.0 0:#aa;:T4402:3:V
+-1.0 0:#ab;:T4402:3:V
+-3.0 0:#ac;:T4402:3:E
+-1.0 0:#ad;:T4402:3:E
+-1.0 0:#ae;:T4402:3:E
+-1.0 0:#af;:T4402:3:E
+-1.0 0:#b0;:T4402:3:E
+-1.0 0:#b1;:T4402:3:E
+-1.0 0:#b2;:T4402:3:E
+-1.0 0:#b3;:T4402:3:E
+-1.0 0:#b4;:T4402:3:E
+-1.0 0:#b5;:T4402:3:E
+-1.0 0:#b6;:T4402:3:E
+-1.0 0:#b7;:T4402:3:E
+-3.0 0:#b8;:T4402:3:F
+-1.0 0:#b9;:T4402:3:F
+-1.0 0:#ba;:T4402:3:F
+-1.0 0:#bb;:T4402:3:F
+-1.0 0:#bc;:M;CUT;:T4402:3:F
+-e.0 0:#bd;:M;CUT;:T4402:3:F
+-3.0 0:#d8;:T4404:3:E
+-1.0 0:#de;:T4404:3:E
+-1.0 0:#e0;:T4404:3:E
+-3.0 0:#e1;:T4404:3:E
+-5.0 0:#d9;:T4404:3:E
+-1.0 0:#da;:T4404:3:E
+-1.0 0:#db;:T4404:3:E
+-1.0 0:#df;:T4404:3:E
+-1.0 0:#e2;:T4404:3:E
+-1.0 0:#e3;:T4404:3:E
+-1.0 0:#dc;:T4404:3:E
+-1.0 0:#dd;:T4404:3:E
+-1.0 0:#e6;:T4404:3:F
+-1.0 0:#e9;:T4404:3:F
+-1.0 0:#e7;:T4404:3:F
+-1.0 0:#ea;:T4404:3:F
+-1.0 0:#f8;:T4404:3:F
+-1.0 0:#e8;:T4404:3:F
+-3.0 0:#ca;:T4404:3:V
+-4.0 0:#cc;:T4404:3:V
+-1.0 0:#cd;:T4404:3:V
+-1.0 0:#cf;:T4404:3:V
+-1.0 0:#d3;:T4404:3:V
+-1.0 0:#d5;:T4404:3:V
+-1.0 0:#d0;:T4404:3:V
+-1.0 0:#d2;:T4404:3:V
+-2.0 0:#11a;:M;MIR;:T4393:4:V
+-1.0 0:#11b;:M;MIR;:T4393:4:V
+-1.0 0:#11e;:M;MIR;:T4393:4:V
+-1.0 0:#11f;:M;MIR;:T4393:4:V
+-5.0 0:#105;:M;MIR;:T4393:4:E
+-1.0 0:#10b;:M;MIR;:T4393:4:E
+-1.0 0:#10c;:M;MIR;:T4393:4:E
+-1.0 0:#fc;:M;MIR;:T4393:3:E
+-7.0 0:#10f;:M;MIR;:T4393:4:F
+-3.0 0:#106;:M;MIR;:T4393:4:E
+-1.0 0:#fd;:M;MIR;:T4393:3:E
+-1.0 0:#100;:M;MIR;:T4393:4:E
+-1.0 0:#107;:M;MIR;:T4393:4:E
+-1.0 0:#109;:M;MIR;:T4393:4:E
+-1.0 0:#108;:M;MIR;:T4393:4:E
+-1.0 0:#10a;:M;MIR;:T4393:4:E
+-1.0 0:#fb;:M;MIR;:T4393:3:E
+-1.0 0:#110;:M;MIR;:T4393:4:F
+-1.0 0:#112;:M;MIR;:T4393:4:F
+-1.0 0:#111;:M;MIR;:T4393:4:F
+-1.0 0:#10d;:M;MIR;:T4393:4:F
+-1.0 0:#11c;:M;MIR;:T4393:4:V
+-1.0 0:#115;:M;MIR;:T4393:4:V
+-1.0 0:#11d;:M;MIR;:T4393:4:V
+-1.0 0:#119;:M;MIR;:T4393:4:V
+-1.0 0:#ce;:T4404:3:V
+-1.0 0:#d1;:T4404:3:V
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-09-09T13:45:57Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="RC-Servo"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T08:21:24Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="529ba611-92a9-4914-975d-d9977914acf4"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="17" Dependencies="1">
+    <ObjectDeps Name="Box" Count="1">
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder" Count="0"/>
+    <ObjectDeps Name="Fusion" Count="5">
+      <Dep Name="Box"/>
+      <Dep Name="Cylinder"/>
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Body"/>
+      <Dep Name="Part__Mirroring"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder002" Count="0"/>
+    <ObjectDeps Name="Body" Count="6">
+      <Dep Name="Box"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Sketch"/>
+      <Dep Name="Pad"/>
+      <Dep Name="Sketch001"/>
+      <Dep Name="Pocket"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="Y_Axis"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="XY_Plane"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="X_Axis"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Sketch" Count="1">
+      <Dep Name="XY_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad" Count="2">
+      <Dep Name="Body"/>
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch001" Count="1">
+      <Dep Name="XY_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pocket" Count="3">
+      <Dep Name="Body"/>
+      <Dep Name="Pad"/>
+      <Dep Name="Sketch001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part__Mirroring" Count="2">
+      <Dep Name="Box"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <Object type="Part::Box" name="Box" id="4366" revision="8" file="Box.xml" />
+    <Object type="Part::Cylinder" name="Cylinder" id="4367" revision="7" file="Cylinder.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="4391" revision="20" file="Fusion.xml" />
+    <Object type="Part::Cylinder" name="Cylinder002" id="4392" revision="6" file="Cylinder002.xml" />
+    <Object type="PartDesign::Body" name="Body" id="4393" revision="74" file="Body.xml" />
+    <Object type="App::Origin" name="Origin" id="4394" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="4395" revision="1" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="4396" revision="2" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="4397" revision="2" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="4398" revision="1" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="4399" revision="2" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="4400" revision="2" file="YZ_Plane.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="4401" revision="66" file="Sketch.xml" />
+    <Object type="PartDesign::Pad" name="Pad" id="4402" revision="16" file="Pad.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="4403" revision="21" file="Sketch001.xml" />
+    <Object type="PartDesign::Pocket" name="Pocket" id="4404" revision="19" file="Pocket.xml" />
+    <Object type="Part::Mirroring" name="Part__Mirroring" id="4405" revision="39" file="Part__Mirroring.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

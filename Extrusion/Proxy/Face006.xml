@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Face006">
+  <Properties Count="9" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="FaceMakerClass" type="App::PropertyString">
+      <String value="Part::FaceMakerBullseye"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Proxy 45 x 60 Face"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 4
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 1 3 1 0
+Curve2ds 0
+Curves 9
+1 -22.5 30 0 1 0 0 
+1 0 30 0 1 0 0 
+1 22.5 30 0 0 -1 0 
+1 22.5 0 0 0 -1 0 
+1 22.5 -30 0 -1 0 0 
+1 0 -30 0 -1 0 0 
+1 -22.5 -30 0 0 1 0 
+1 -22.5 0 0 0 1 0 
+2 0 0 0 0 0 1 1 0 0 0 1 0 4
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 1
+1 0 0 0 0 0 1 1 0 -0 -0 1 0 
+Triangulations 0
+
+TShapes 21
+Ve
+1e-07
+-22.5 30 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 30 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 22.5
+0
+
+0101000
++21 0 -20 0 *
+Ve
+1e-07
+22.5 30 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 22.5
+0
+
+0101000
++20 0 -18 0 *
+Ve
+1e-07
+22.5 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  3 0 0 30
+0
+
+0101000
++18 0 -16 0 *
+Ve
+1e-07
+22.5 -30 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 30
+0
+
+0101000
++16 0 -14 0 *
+Ve
+1e-07
+0 -30 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  5 0 0 22.5
+0
+
+0101000
++14 0 -12 0 *
+Ve
+1e-07
+-22.5 -30 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 22.5
+0
+
+0101000
++12 0 -10 0 *
+Ve
+1e-07
+-22.5 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  7 0 0 30
+0
+
+0101000
++10 0 -8 0 *
+Ed
+ 1e-07 1 1 0
+1  8 0 0 30
+0
+
+0101000
++8 0 -21 0 *
+Wi
+
+0101100
++19 0 +17 0 +15 0 +13 0 +11 0 +9 0 +7 0 +6 0 *
+Ve
+1e-07
+4 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  9 0 0 6.28318530717959
+0
+
+0101000
++4 0 -4 0 *
+Wi
+
+0101100
++3 0 *
+Fa
+0  1e-07 1 0
+
+1101000
+-5 4 -2 4 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="19">
+<![CDATA[
+15 PostfixCount 6
+Edge
+Face
+Vertex
+;:H31,V
+;:H31,E
+;FAC;:H31:4,F
+
+MapCount 1
+
+ElementMap 1 15 3
+
+Edge
+
+ChildCount 0
+
+NameCount 10
+0
+$#46.5 0
+$#47.5 0
+$#48.5 0
+$#49.5 0
+$#4a.5 0
+$#4b.5 0
+$#4c.5 0
+$#4d.5 0
+$#3d.5 0
+
+Face
+
+ChildCount 0
+
+NameCount 2
+0
+$#4f.6 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 10
+0
+$#3e.4 0
+$#3f.4 0
+$#40.4 0
+$#41.4 0
+$#42.4 0
+$#43.4 0
+$#44.4 0
+$#45.4 0
+$#3c.4 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="Sources" type="App::PropertyLinkList">
+      <LinkList count="1">
+        <Link value="Sketch045"/>
+      </LinkList>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

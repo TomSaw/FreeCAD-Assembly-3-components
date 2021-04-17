@@ -1,0 +1,880 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Pad001">
+  <Properties Count="35" TransientCount="2">
+    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="AddSubShape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 11
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  1 1 2 1 3 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             1.8 
+2  1 1 2 1 3 -1 5 1 0
+2  3 1 2 -1 1 -1 0
+2  5 -1 3 1 2 -1 1 -1 0
+2  3 -1 0
+2  1 1 2 1 0
+2  3 -1 5 1 0
+Curve2ds 8
+1 0 0 0 -1 
+1 6.2831853071795862 0 0 -1 
+1 0 0 1 0 
+1 0 -1.8 1 0 
+1 0 0 0 -1 
+1 6.2831853071795862 0 0 -1 
+1 0 0 1 0 
+1 0 -1.8 1 0 
+Curves 12
+1 -10 12 0 0 0 1 
+1 10 12 0 0 0 1 
+1 -10 12 0 1 0 0 
+1 10 -12 0 0 0 1 
+1 10 12 0 0 -1 0 
+1 -10 -12 0 0 0 1 
+1 10 -12 0 -1 0 0 
+1 -10 -12 0 0 1 0 
+1 9.0999999999999996 -9.5 0 0 0 1 
+2 7.5 -9.5 0 0 0 1 1 0 0 0 1 0 1.6000000000000001
+1 -5.9000000000000004 -9.5 0 0 0 1 
+2 -7.5 -9.5 0 0 0 1 1 0 0 0 1 0 1.6000000000000001
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 7
+1 -10 12 0 0 1 0 1 0 0 0 0 -1 
+1 10 12 0 1 0 -0 0 -1 0 0 -0 -1 
+1 10 -12 0 0 -1 0 -1 0 0 -0 -0 -1 
+1 -10 -12 0 -1 0 0 0 1 0 0 0 -1 
+2 7.5 -9.5 0 -0 -0 -1 1 0 0 0 1 0 1.6000000000000001
+2 -7.5 -9.5 0 -0 -0 -1 1 0 0 0 1 0 1.6000000000000001
+1 -3.395576978819487e-17 -1.5097632093686766 0 0 0 1 1 0 -0 -0 1 0 
+Triangulations 0
+
+TShapes 36
+Ve
+1e-07
+-10 12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 1.8
+0
+
+0101000
++36 4 -36 6 *
+Ve
+1e-07
+10 12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 1.8
+0
+
+0101000
++34 4 -34 6 *
+Ed
+ 1e-07 1 1 0
+1  3 0 0 20
+0
+
+0101000
++36 0 -34 0 *
+Wi
+
+0101100
++35 0 -33 0 -32 4 +32 6 *
+Fa
+0  1e-07 1 0
+
+0111000
++31 0 *
+Ve
+1e-07
+10 -12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 1.8
+0
+
+0101000
++29 4 -29 6 *
+Ed
+ 1e-07 1 1 0
+1  5 0 0 24
+0
+
+0101000
++34 0 -29 0 *
+Wi
+
+0101100
++33 0 -28 0 -27 4 +27 6 *
+Fa
+0  1e-07 2 0
+
+0111000
++26 0 *
+Ve
+1e-07
+-10 -12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 1.8
+0
+
+0101000
++24 4 -24 6 *
+Ed
+ 1e-07 1 1 0
+1  7 0 0 20
+0
+
+0101000
++29 0 -24 0 *
+Wi
+
+0101100
++28 0 -23 0 -22 4 +22 6 *
+Fa
+0  1e-07 3 0
+
+0111000
++21 0 *
+Ed
+ 1e-07 1 1 0
+1  8 0 0 24
+0
+
+0101000
++24 0 -36 0 *
+Wi
+
+0101100
++23 0 -35 0 -19 4 +19 6 *
+Fa
+0  1e-07 4 0
+
+0111000
++18 0 *
+Ve
+1e-07
+9.1 -9.5 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  9 0 0 1.8
+3  1 2CN 5 0 0 1.8
+0
+
+0101000
++16 4 -16 6 *
+Ed
+ 1e-07 1 1 0
+1  10 0 0 6.28318530717959
+2  3 5 7 0 6.28318530717959
+2  4 5 8 0 6.28318530717959
+0
+
+0101000
++16 0 -16 0 *
+Wi
+
+0101100
++15 0 -15 0 -14 4 +14 6 *
+Fa
+0  1e-07 5 0
+
+0111000
++13 0 *
+Ve
+1e-07
+-5.9 -9.5 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  11 0 0 1.8
+3  5 6CN 6 0 0 1.8
+0
+
+0101000
++11 4 -11 6 *
+Ed
+ 1e-07 1 1 0
+1  12 0 0 6.28318530717959
+2  7 6 7 0 6.28318530717959
+2  8 6 8 0 6.28318530717959
+0
+
+0101000
++11 0 -11 0 *
+Wi
+
+0101100
++10 0 -10 0 -9 4 +9 6 *
+Fa
+0  1e-07 6 0
+
+0111000
++8 0 *
+Wi
+
+0101100
++32 0 +27 0 +22 0 +19 0 *
+Wi
+
+0101100
++14 0 *
+Wi
+
+0101100
++9 0 *
+Fa
+0  1e-07 7 0
+
+0111000
+-6 10 -5 10 -4 10 *
+Sh
+
+0101100
+-30 0 -25 0 -20 0 -17 0 -12 0 -7 0 +3 9 -3 11 *
+So
+
+1100000
+-2 0 *
+
++1 0 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="42">
+<![CDATA[
+3 PostfixCount 11
+Edge
+Face
+Vertex
+;:Hd39,E
+;:Hd39,V
+;:G;XTR;:Hd39:7,F
+;FAC;:Hd39:4,F
+;:G;XTR;:Hd39:7,E
+;:U;XTR;:Hd39:7,E
+;:U;XTR;:Hd39:7,V
+;:L#32;XTR;:Hd39:a,F
+
+MapCount 1
+
+ElementMap 1 3 3
+
+Edge
+
+ChildCount 0
+
+NameCount 19
+0
+$#19.8 0
+$#1a.8 0
+$#c.4 0
+$#25.9 0
+$#1b.8 0
+$#e.4 0
+$#26.9 0
+$#1c.8 0
+$#f.4 0
+$#27.9 0
+$#10.4 0
+$#28.9 0
+$#1d.8 0
+$#15.4 0
+$#29.9 0
+$#1e.8 0
+$#13.4 0
+$#2a.9 0
+
+Face
+
+ChildCount 0
+
+NameCount 9
+0
+$#17.6 0
+$#1f.6 0
+$#20.6 0
+$#21.6 0
+$#22.6 0
+$#23.6 0
+$#17.7 0
+$#34.b 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 13
+0
+$#2.5 $#4.5 0
+$#2c.a 0
+$#5.5 $#6.5 0
+$#2d.a 0
+$#7.5 $#8.5 0
+$#2e.a 0
+$#9.5 $#a.5 0
+$#2f.a 0
+$#14.5 0
+$#30.a 0
+$#12.5 0
+$#31.a 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="AllowMultiFace" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="BaseFeature" type="App::PropertyLink" status="8">
+      <Link value=""/>
+    </Property>
+    <Property name="ClaimChildren" type="App::PropertyBool" status="134217728">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Direction" type="App::PropertyVector">
+      <PropertyVector valueX="1" valueY="1" valueZ="1"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Fit" type="App::PropertyDistance">
+      <Float value="0"/>
+    </Property>
+    <Property name="FitJoin" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="InnerFit" type="App::PropertyDistance">
+      <Float value="0"/>
+    </Property>
+    <Property name="InnerFitJoin" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="InnerTaperAngle" type="App::PropertyAngle">
+      <Float value="0"/>
+    </Property>
+    <Property name="InnerTaperAngleRev" type="App::PropertyAngle">
+      <Float value="0"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Pad DRV8871"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Length" type="App::PropertyLength">
+      <Float value="1.8"/>
+    </Property>
+    <Property name="Length2" type="App::PropertyLength">
+      <Float value="100"/>
+    </Property>
+    <Property name="Midplane" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="NewSolid" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Offset" type="App::PropertyLength">
+      <Float value="0"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388620">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Profile" type="App::PropertyLinkSub">
+      <LinkSub value="Sketch011" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Refine" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Reversed" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 12
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 1 3 1 4 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             1.8 
+2  2 1 3 1 4 -1 6 1 0
+2  4 1 3 -1 2 -1 0
+2  6 -1 4 1 3 -1 2 -1 0
+2  4 -1 0
+2  2 1 3 1 0
+2  4 -1 6 1 0
+Curve2ds 8
+1 0 0 0 -1 
+1 6.2831853071795862 0 0 -1 
+1 0 0 1 0 
+1 0 -1.8 1 0 
+1 0 0 0 -1 
+1 6.2831853071795862 0 0 -1 
+1 0 0 1 0 
+1 0 -1.8 1 0 
+Curves 12
+1 -10 12 0 0 0 1 
+1 10 12 0 0 0 1 
+1 -10 12 0 1 0 0 
+1 10 -12 0 0 0 1 
+1 10 12 0 0 -1 0 
+1 -10 -12 0 0 0 1 
+1 10 -12 0 -1 0 0 
+1 -10 -12 0 0 1 0 
+1 9.0999999999999996 -9.5 0 0 0 1 
+2 7.5 -9.5 0 0 0 1 1 0 0 0 1 0 1.6000000000000001
+1 -5.9000000000000004 -9.5 0 0 0 1 
+2 -7.5 -9.5 0 0 0 1 1 0 0 0 1 0 1.6000000000000001
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 7
+1 -10 12 0 0 1 0 1 0 0 0 0 -1 
+1 10 12 0 1 0 -0 0 -1 0 0 -0 -1 
+1 10 -12 0 0 -1 0 -1 0 0 -0 -0 -1 
+1 -10 -12 0 -1 0 0 0 1 0 0 0 -1 
+2 7.5 -9.5 0 -0 -0 -1 1 0 0 0 1 0 1.6000000000000001
+2 -7.5 -9.5 0 -0 -0 -1 1 0 0 0 1 0 1.6000000000000001
+1 -3.395576978819487e-17 -1.5097632093686766 0 0 0 1 1 0 -0 -0 1 0 
+Triangulations 0
+
+TShapes 36
+Ve
+1e-07
+-10 12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 1.8
+0
+
+0101000
++36 5 -36 7 *
+Ve
+1e-07
+10 12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 1.8
+0
+
+0101000
++34 5 -34 7 *
+Ed
+ 1e-07 1 1 0
+1  3 0 0 20
+0
+
+0101000
++36 0 -34 0 *
+Wi
+
+0101100
++35 0 -33 0 -32 5 +32 7 *
+Fa
+0  1e-07 1 0
+
+0111000
++31 0 *
+Ve
+1e-07
+10 -12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 1.8
+0
+
+0101000
++29 5 -29 7 *
+Ed
+ 1e-07 1 1 0
+1  5 0 0 24
+0
+
+0101000
++34 0 -29 0 *
+Wi
+
+0101100
++33 0 -28 0 -27 5 +27 7 *
+Fa
+0  1e-07 2 0
+
+0111000
++26 0 *
+Ve
+1e-07
+-10 -12 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 1.8
+0
+
+0101000
++24 5 -24 7 *
+Ed
+ 1e-07 1 1 0
+1  7 0 0 20
+0
+
+0101000
++29 0 -24 0 *
+Wi
+
+0101100
++28 0 -23 0 -22 5 +22 7 *
+Fa
+0  1e-07 3 0
+
+0111000
++21 0 *
+Ed
+ 1e-07 1 1 0
+1  8 0 0 24
+0
+
+0101000
++24 0 -36 0 *
+Wi
+
+0101100
++23 0 -35 0 -19 5 +19 7 *
+Fa
+0  1e-07 4 0
+
+0111000
++18 0 *
+Ve
+1e-07
+9.1 -9.5 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  9 0 0 1.8
+3  1 2CN 5 0 0 1.8
+0
+
+0101000
++16 5 -16 7 *
+Ed
+ 1e-07 1 1 0
+1  10 0 0 6.28318530717959
+2  3 5 8 0 6.28318530717959
+2  4 5 9 0 6.28318530717959
+0
+
+0101000
++16 0 -16 0 *
+Wi
+
+0101100
++15 0 -15 0 -14 5 +14 7 *
+Fa
+0  1e-07 5 0
+
+0111000
++13 0 *
+Ve
+1e-07
+-5.9 -9.5 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  11 0 0 1.8
+3  5 6CN 6 0 0 1.8
+0
+
+0101000
++11 5 -11 7 *
+Ed
+ 1e-07 1 1 0
+1  12 0 0 6.28318530717959
+2  7 6 8 0 6.28318530717959
+2  8 6 9 0 6.28318530717959
+0
+
+0101000
++11 0 -11 0 *
+Wi
+
+0101100
++10 0 -10 0 -9 5 +9 7 *
+Fa
+0  1e-07 6 0
+
+0111000
++8 0 *
+Wi
+
+0101100
++32 0 +27 0 +22 0 +19 0 *
+Wi
+
+0101100
++14 0 *
+Wi
+
+0101100
++9 0 *
+Fa
+0  1e-07 7 0
+
+0111000
+-6 11 -5 11 -4 11 *
+Sh
+
+0101100
+-30 0 -25 0 -20 0 -17 0 -12 0 -7 0 +3 10 -3 12 *
+So
+
+1100000
+-2 0 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="38">
+<![CDATA[
+4 PostfixCount 11
+Edge
+Face
+Vertex
+;:Hd39,E
+;:Hd39,V
+;:G;XTR;:Hd39:7,F
+;FAC;:Hd39:4,F
+;:G;XTR;:Hd39:7,E
+;:U;XTR;:Hd39:7,E
+;:U;XTR;:Hd39:7,V
+;:L#32;XTR;:Hd39:a,F
+
+MapCount 2
+
+ElementMap 1 3 3
+
+Edge
+
+ChildCount 0
+
+NameCount 19
+0
+$#19.8 0
+$#1a.8 0
+$#c.4 0
+$#25.9 0
+$#1b.8 0
+$#e.4 0
+$#26.9 0
+$#1c.8 0
+$#f.4 0
+$#27.9 0
+$#10.4 0
+$#28.9 0
+$#1d.8 0
+$#15.4 0
+$#29.9 0
+$#1e.8 0
+$#13.4 0
+$#2a.9 0
+
+Face
+
+ChildCount 0
+
+NameCount 9
+0
+$#17.6 0
+$#1f.6 0
+$#20.6 0
+$#21.6 0
+$#22.6 0
+$#23.6 0
+$#17.7 0
+$#34.b 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 13
+0
+$#2.5 $#4.5 0
+$#2c.a 0
+$#5.5 $#6.5 0
+$#2d.a 0
+$#7.5 $#8.5 0
+$#2e.a 0
+$#9.5 $#a.5 0
+$#2f.a 0
+$#14.5 0
+$#30.a 0
+$#12.5 0
+$#31.a 0
+
+EndMap
+
+ElementMap 2 4 3
+
+Edge
+
+ChildCount 1
+1 0 18 -3386 1 ;:H-d3a,E 0
+
+NameCount 0
+
+Face
+
+ChildCount 1
+1 0 8 -3386 1 ;:H-d3a,F 0
+
+NameCount 0
+
+Vertex
+
+ChildCount 1
+1 0 12 -3386 1 ;:H-d3a,V 0
+
+NameCount 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="Suppress" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SuppressedShape" type="Part::PropertyPartShape">
+      <Part ElementMap="0.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 0
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 0
+Triangulations 0
+
+TShapes 0
+
+*]]>
+      </Part>
+      <ElementMap/>
+    </Property>
+    <Property name="TaperAngle" type="App::PropertyAngle">
+      <Float value="0"/>
+    </Property>
+    <Property name="TaperAngleRev" type="App::PropertyAngle">
+      <Float value="0"/>
+    </Property>
+    <Property name="Type" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="UpToFace" type="App::PropertyLinkSub">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="UseCustomVector" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="UsePipeForDraft" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="_Siblings" type="App::PropertyLinkList" status="218103808">
+      <LinkList count="0">
+      </LinkList>
+    </Property>
+  </Properties>
+</Object>
+</Document>

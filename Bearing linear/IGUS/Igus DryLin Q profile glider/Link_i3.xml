@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Link_i3" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="App::LinkBaseExtension" name="LinkBaseExtension">
+    </Extension>
+  </Extensions>
+  <Properties Count="13" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="2" cdata="1">
+        <Expressions><![CDATA[
+0:.Placement.Base.x
+0:Link_i2.Placement.Base.x
+0:
+
+0:.Placement.Base.y
+0:-Link_i2.Placement.Base.y
+0:
+
+]]>
+        </Expressions>
+      </ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Link_i3"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="LinkCopyOnChange" type="App::PropertyEnumeration" status="256">
+      <Integer value="0"/>
+    </Property>
+    <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
+      <PropertyPlacement Px="17.51" Py="-6" Pz="0" Q0="0" Q1="0" Q2="0.7071068407911908" Q3="0.7071067215818992" A="1.570796495382293" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="LinkTransform" type="App::PropertyBool" status="266">
+      <Bool value="false"/>
+    </Property>
+    <Property name="LinkedObject" type="App::PropertyXLink" status="266">
+      <XLink file="" stamp="" name="Extrude"/>
+    </Property>
+    <Property name="Matrix" type="App::PropertyMatrix" status="67109120">
+      <PropertyMatrix a11="1" a12="0" a13="0" a14="0" a21="0" a22="1" a23="0" a24="0" a31="0" a32="0" a33="1" a34="0" a41="0" a42="0" a43="0" a44="1"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="256">
+      <PropertyPlacement Px="17.51" Py="-6" Pz="0" Q0="0" Q1="0" Q2="0.7071068407911908" Q3="0.7071067215818992" A="1.570796495382293" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Scale" type="App::PropertyFloat" status="256">
+      <Float value="1"/>
+    </Property>
+    <Property name="ScaleVector" type="App::PropertyVector" status="264">
+      <PropertyVector valueX="1" valueY="1" valueZ="1"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
+      <Integer value="1"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

@@ -1,0 +1,1625 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="184ec9a2-5a41-4586-ae80-93d9c17a6c1f" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="377">
+<![CDATA[
+-1.0 0:Font file name
+-1.0 0:Height of text
+-1.0 0:Text string
+-1.0 0:Inter-character spacing
+-f4.0 0:g349v1;SKT
+-1.0 0:g352v2;SKT
+-1.0 0:g349v2;SKT
+-1.0 0:g350v1;SKT
+-1.0 0:g350v2;SKT
+-1.0 0:g351v1;SKT
+-1.0 0:g351v2;SKT
+-1.0 0:g352v1;SKT
+-1.0 0:g349;SKT
+-1.0 0:g350;SKT
+-1.0 0:g351;SKT
+-1.0 0:g352;SKT
+-1.0 0:g353v1;SKT
+-1.0 0:g356v2;SKT
+-1.0 0:g353v2;SKT
+-1.0 0:g354v1;SKT
+-1.0 0:g354v2;SKT
+-1.0 0:g355v1;SKT
+-1.0 0:g355v2;SKT
+-1.0 0:g356v1;SKT
+-1.0 0:g353;SKT
+-1.0 0:g354;SKT
+-1.0 0:g355;SKT
+-1.0 0:g356;SKT
+-1.0 0:g357v1;SKT
+-1.0 0:g360v2;SKT
+-1.0 0:g357v2;SKT
+-1.0 0:g358v1;SKT
+-1.0 0:g358v2;SKT
+-1.0 0:g359v1;SKT
+-1.0 0:g359v2;SKT
+-1.0 0:g360v1;SKT
+-1.0 0:g357;SKT
+-1.0 0:g358;SKT
+-1.0 0:g359;SKT
+-1.0 0:g360;SKT
+-1.0 0:g361v1;SKT
+-1.0 0:g380v2;SKT
+-1.0 0:g361v2;SKT
+-1.0 0:g362v1;SKT
+-1.0 0:g362v2;SKT
+-1.0 0:g363v1;SKT
+-1.0 0:g363v2;SKT
+-1.0 0:g364v1;SKT
+-1.0 0:g364v2;SKT
+-1.0 0:g365v1;SKT
+-1.0 0:g365v2;SKT
+-1.0 0:g366v1;SKT
+-1.0 0:g366v2;SKT
+-1.0 0:g367v1;SKT
+-1.0 0:g367v2;SKT
+-1.0 0:g368v1;SKT
+-1.0 0:g368v2;SKT
+-1.0 0:g369v1;SKT
+-1.0 0:g369v2;SKT
+-1.0 0:g370v1;SKT
+-1.0 0:g370v2;SKT
+-1.0 0:g371v1;SKT
+-1.0 0:g371v2;SKT
+-1.0 0:g372v1;SKT
+-1.0 0:g372v2;SKT
+-1.0 0:g373v1;SKT
+-1.0 0:g373v2;SKT
+-1.0 0:g374v1;SKT
+-1.0 0:g374v2;SKT
+-1.0 0:g375v1;SKT
+-1.0 0:g375v2;SKT
+-1.0 0:g376v1;SKT
+-1.0 0:g376v2;SKT
+-1.0 0:g377v1;SKT
+-1.0 0:g377v2;SKT
+-1.0 0:g378v1;SKT
+-1.0 0:g378v2;SKT
+-1.0 0:g379v1;SKT
+-1.0 0:g379v2;SKT
+-1.0 0:g380v1;SKT
+-1.0 0:g361;SKT
+-1.0 0:g362;SKT
+-1.0 0:g363;SKT
+-1.0 0:g364;SKT
+-1.0 0:g365;SKT
+-1.0 0:g366;SKT
+-1.0 0:g367;SKT
+-1.0 0:g368;SKT
+-1.0 0:g369;SKT
+-1.0 0:g370;SKT
+-1.0 0:g371;SKT
+-1.0 0:g372;SKT
+-1.0 0:g373;SKT
+-1.0 0:g374;SKT
+-1.0 0:g375;SKT
+-1.0 0:g376;SKT
+-1.0 0:g377;SKT
+-1.0 0:g378;SKT
+-1.0 0:g379;SKT
+-1.0 0:g380;SKT
+-1.0 0:g381v1;SKT
+-1.0 0:g400v2;SKT
+-1.0 0:g381v2;SKT
+-1.0 0:g382v1;SKT
+-1.0 0:g382v2;SKT
+-1.0 0:g383v1;SKT
+-1.0 0:g383v2;SKT
+-1.0 0:g384v1;SKT
+-1.0 0:g384v2;SKT
+-1.0 0:g385v1;SKT
+-1.0 0:g385v2;SKT
+-1.0 0:g386v1;SKT
+-1.0 0:g386v2;SKT
+-1.0 0:g387v1;SKT
+-1.0 0:g387v2;SKT
+-1.0 0:g388v1;SKT
+-1.0 0:g388v2;SKT
+-1.0 0:g389v1;SKT
+-1.0 0:g389v2;SKT
+-1.0 0:g390v1;SKT
+-1.0 0:g390v2;SKT
+-1.0 0:g391v1;SKT
+-1.0 0:g391v2;SKT
+-1.0 0:g392v1;SKT
+-1.0 0:g392v2;SKT
+-1.0 0:g393v1;SKT
+-1.0 0:g393v2;SKT
+-1.0 0:g394v1;SKT
+-1.0 0:g394v2;SKT
+-1.0 0:g395v1;SKT
+-1.0 0:g395v2;SKT
+-1.0 0:g396v1;SKT
+-1.0 0:g396v2;SKT
+-1.0 0:g397v1;SKT
+-1.0 0:g397v2;SKT
+-1.0 0:g398v1;SKT
+-1.0 0:g398v2;SKT
+-1.0 0:g399v1;SKT
+-1.0 0:g399v2;SKT
+-1.0 0:g400v1;SKT
+-1.0 0:g381;SKT
+-1.0 0:g382;SKT
+-1.0 0:g383;SKT
+-1.0 0:g384;SKT
+-1.0 0:g385;SKT
+-1.0 0:g386;SKT
+-1.0 0:g387;SKT
+-1.0 0:g388;SKT
+-1.0 0:g389;SKT
+-1.0 0:g390;SKT
+-1.0 0:g391;SKT
+-1.0 0:g392;SKT
+-1.0 0:g393;SKT
+-1.0 0:g394;SKT
+-1.0 0:g395;SKT
+-1.0 0:g396;SKT
+-1.0 0:g397;SKT
+-1.0 0:g398;SKT
+-1.0 0:g399;SKT
+-1.0 0:g400;SKT
+-1.0 0:g401v1;SKT
+-1.0 0:g404v2;SKT
+-1.0 0:g401v2;SKT
+-1.0 0:g402v1;SKT
+-1.0 0:g402v2;SKT
+-1.0 0:g403v1;SKT
+-1.0 0:g403v2;SKT
+-1.0 0:g404v1;SKT
+-1.0 0:g401;SKT
+-1.0 0:g402;SKT
+-1.0 0:g403;SKT
+-1.0 0:g404;SKT
+-1.0 0:g405v1;SKT
+-1.0 0:g408v2;SKT
+-1.0 0:g405v2;SKT
+-1.0 0:g406v1;SKT
+-1.0 0:g406v2;SKT
+-1.0 0:g407v1;SKT
+-1.0 0:g407v2;SKT
+-1.0 0:g408v1;SKT
+-1.0 0:g405;SKT
+-1.0 0:g406;SKT
+-1.0 0:g407;SKT
+-1.0 0:g408;SKT
+-1.0 0:g409v1;SKT
+-1.0 0:g472v2;SKT
+-1.0 0:g409v2;SKT
+-1.0 0:g410v1;SKT
+-1.0 0:g410v2;SKT
+-1.0 0:g411v1;SKT
+-1.0 0:g411v2;SKT
+-1.0 0:g412v1;SKT
+-1.0 0:g412v2;SKT
+-1.0 0:g413v1;SKT
+-1.0 0:g413v2;SKT
+-1.0 0:g414v1;SKT
+-1.0 0:g414v2;SKT
+-1.0 0:g415v1;SKT
+-1.0 0:g415v2;SKT
+-1.0 0:g416v1;SKT
+-1.0 0:g416v2;SKT
+-1.0 0:g417v1;SKT
+-1.0 0:g417v2;SKT
+-1.0 0:g418v1;SKT
+-1.0 0:g418v2;SKT
+-1.0 0:g419v1;SKT
+-1.0 0:g419v2;SKT
+-1.0 0:g420v1;SKT
+-1.0 0:g420v2;SKT
+-1.0 0:g421v1;SKT
+-1.0 0:g421v2;SKT
+-1.0 0:g422v1;SKT
+-1.0 0:g422v2;SKT
+-1.0 0:g423v1;SKT
+-1.0 0:g423v2;SKT
+-1.0 0:g424v1;SKT
+-1.0 0:g424v2;SKT
+-1.0 0:g425v1;SKT
+-1.0 0:g425v2;SKT
+-1.0 0:g426v1;SKT
+-1.0 0:g426v2;SKT
+-1.0 0:g427v1;SKT
+-1.0 0:g427v2;SKT
+-1.0 0:g428v1;SKT
+-1.0 0:g428v2;SKT
+-1.0 0:g429v1;SKT
+-1.0 0:g429v2;SKT
+-1.0 0:g430v1;SKT
+-1.0 0:g430v2;SKT
+-1.0 0:g431v1;SKT
+-1.0 0:g431v2;SKT
+-1.0 0:g432v1;SKT
+-1.0 0:g432v2;SKT
+-1.0 0:g433v1;SKT
+-1.0 0:g433v2;SKT
+-1.0 0:g434v1;SKT
+-1.0 0:g434v2;SKT
+-1.0 0:g435v1;SKT
+-1.0 0:g435v2;SKT
+-1.0 0:g436v1;SKT
+-1.0 0:g436v2;SKT
+-1.0 0:g437v1;SKT
+-1.0 0:g437v2;SKT
+-1.0 0:g438v1;SKT
+-1.0 0:g438v2;SKT
+-1.0 0:g439v1;SKT
+-1.0 0:g439v2;SKT
+-1.0 0:g440v1;SKT
+-1.0 0:g440v2;SKT
+-1.0 0:g441v1;SKT
+-1.0 0:g441v2;SKT
+-1.0 0:g442v1;SKT
+-1.0 0:g442v2;SKT
+-1.0 0:g443v1;SKT
+-1.0 0:g443v2;SKT
+-1.0 0:g444v1;SKT
+-1.0 0:g444v2;SKT
+-1.0 0:g445v1;SKT
+-1.0 0:g445v2;SKT
+-1.0 0:g446v1;SKT
+-1.0 0:g446v2;SKT
+-1.0 0:g447v1;SKT
+-1.0 0:g447v2;SKT
+-1.0 0:g448v1;SKT
+-1.0 0:g448v2;SKT
+-1.0 0:g449v1;SKT
+-1.0 0:g449v2;SKT
+-1.0 0:g450v1;SKT
+-1.0 0:g450v2;SKT
+-1.0 0:g451v1;SKT
+-1.0 0:g451v2;SKT
+-1.0 0:g452v1;SKT
+-1.0 0:g452v2;SKT
+-1.0 0:g453v1;SKT
+-1.0 0:g453v2;SKT
+-1.0 0:g454v1;SKT
+-1.0 0:g454v2;SKT
+-1.0 0:g455v1;SKT
+-1.0 0:g455v2;SKT
+-1.0 0:g456v1;SKT
+-1.0 0:g456v2;SKT
+-1.0 0:g457v1;SKT
+-1.0 0:g457v2;SKT
+-1.0 0:g458v1;SKT
+-1.0 0:g458v2;SKT
+-1.0 0:g459v1;SKT
+-1.0 0:g459v2;SKT
+-1.0 0:g460v1;SKT
+-1.0 0:g460v2;SKT
+-1.0 0:g461v1;SKT
+-1.0 0:g461v2;SKT
+-1.0 0:g462v1;SKT
+-1.0 0:g462v2;SKT
+-1.0 0:g463v1;SKT
+-1.0 0:g463v2;SKT
+-1.0 0:g464v1;SKT
+-1.0 0:g464v2;SKT
+-1.0 0:g465v1;SKT
+-1.0 0:g465v2;SKT
+-1.0 0:g466v1;SKT
+-1.0 0:g466v2;SKT
+-1.0 0:g467v1;SKT
+-1.0 0:g467v2;SKT
+-1.0 0:g468v1;SKT
+-1.0 0:g468v2;SKT
+-1.0 0:g469v1;SKT
+-1.0 0:g469v2;SKT
+-1.0 0:g470v1;SKT
+-1.0 0:g470v2;SKT
+-1.0 0:g471v1;SKT
+-1.0 0:g471v2;SKT
+-1.0 0:g472v1;SKT
+-1.0 0:g409;SKT
+-1.0 0:g410;SKT
+-1.0 0:g411;SKT
+-1.0 0:g412;SKT
+-1.0 0:g413;SKT
+-1.0 0:g414;SKT
+-1.0 0:g415;SKT
+-1.0 0:g416;SKT
+-1.0 0:g417;SKT
+-1.0 0:g418;SKT
+-1.0 0:g419;SKT
+-1.0 0:g420;SKT
+-1.0 0:g421;SKT
+-1.0 0:g422;SKT
+-1.0 0:g423;SKT
+-1.0 0:g424;SKT
+-1.0 0:g425;SKT
+-1.0 0:g426;SKT
+-1.0 0:g427;SKT
+-1.0 0:g428;SKT
+-1.0 0:g429;SKT
+-1.0 0:g430;SKT
+-1.0 0:g431;SKT
+-1.0 0:g432;SKT
+-1.0 0:g433;SKT
+-1.0 0:g434;SKT
+-1.0 0:g435;SKT
+-1.0 0:g436;SKT
+-1.0 0:g437;SKT
+-1.0 0:g438;SKT
+-1.0 0:g439;SKT
+-1.0 0:g440;SKT
+-1.0 0:g441;SKT
+-1.0 0:g442;SKT
+-1.0 0:g443;SKT
+-1.0 0:g444;SKT
+-1.0 0:g445;SKT
+-1.0 0:g446;SKT
+-1.0 0:g447;SKT
+-1.0 0:g448;SKT
+-1.0 0:g449;SKT
+-1.0 0:g450;SKT
+-1.0 0:g451;SKT
+-1.0 0:g452;SKT
+-1.0 0:g453;SKT
+-1.0 0:g454;SKT
+-1.0 0:g455;SKT
+-1.0 0:g456;SKT
+-1.0 0:g457;SKT
+-1.0 0:g458;SKT
+-1.0 0:g459;SKT
+-1.0 0:g460;SKT
+-1.0 0:g461;SKT
+-1.0 0:g462;SKT
+-1.0 0:g463;SKT
+-1.0 0:g464;SKT
+-1.0 0:g465;SKT
+-1.0 0:g466;SKT
+-1.0 0:g467;SKT
+-1.0 0:g468;SKT
+-1.0 0:g469;SKT
+-1.0 0:g470;SKT
+-1.0 0:g471;SKT
+-1.0 0:g472;SKT
+-1.0 0:#22c;:T359:4:E
+]]>
+  </StringHasher2>
+  <Properties Count="20" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Base_Slice" type="App::PropertyString" group="Base" attr="0" ro="0" hide="0" doc="" status="2097153">
+      <String value="https://musubi.tomsaw.de/slice/3053"/>
+    </Property>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2019-06-25T15:36:21Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="MiniTec 45"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T07:17:23Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="184ec9a2-5a41-4586-ae80-93d9c17a6c1f"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="364" Dependencies="1">
+    <ObjectDeps Name="Part" Count="2">
+      <Dep Name="Origin"/>
+      <Dep Name="ImagePlane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="X_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="Y_Axis"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="XY_Plane"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="ImagePlane" Count="0"/>
+    <ObjectDeps Name="Part001" Count="2">
+      <Dep Name="Sketch036"/>
+      <Dep Name="Origin001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin001" Count="6">
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="Z_Axis001"/>
+      <Dep Name="XZ_Plane001"/>
+      <Dep Name="YZ_Plane001"/>
+      <Dep Name="Y_Axis001"/>
+      <Dep Name="X_Axis001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis001" Count="0"/>
+    <ObjectDeps Name="Y_Axis001" Count="0"/>
+    <ObjectDeps Name="Z_Axis001" Count="0"/>
+    <ObjectDeps Name="XY_Plane001" Count="0"/>
+    <ObjectDeps Name="XZ_Plane001" Count="0"/>
+    <ObjectDeps Name="YZ_Plane001" Count="0"/>
+    <ObjectDeps Name="Part002" Count="2">
+      <Dep Name="Origin002"/>
+      <Dep Name="ImagePlane004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin002" Count="6">
+      <Dep Name="X_Axis002"/>
+      <Dep Name="Z_Axis002"/>
+      <Dep Name="YZ_Plane002"/>
+      <Dep Name="Y_Axis002"/>
+      <Dep Name="XZ_Plane002"/>
+      <Dep Name="XY_Plane002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis002" Count="0"/>
+    <ObjectDeps Name="Y_Axis002" Count="0"/>
+    <ObjectDeps Name="Z_Axis002" Count="0"/>
+    <ObjectDeps Name="XY_Plane002" Count="0"/>
+    <ObjectDeps Name="XZ_Plane002" Count="0"/>
+    <ObjectDeps Name="YZ_Plane002" Count="0"/>
+    <ObjectDeps Name="Part003" Count="2">
+      <Dep Name="Origin003"/>
+      <Dep Name="Sketch038"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin003" Count="6">
+      <Dep Name="XY_Plane003"/>
+      <Dep Name="X_Axis003"/>
+      <Dep Name="Y_Axis003"/>
+      <Dep Name="YZ_Plane003"/>
+      <Dep Name="Z_Axis003"/>
+      <Dep Name="XZ_Plane003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis003" Count="0"/>
+    <ObjectDeps Name="Y_Axis003" Count="0"/>
+    <ObjectDeps Name="Z_Axis003" Count="0"/>
+    <ObjectDeps Name="XY_Plane003" Count="0"/>
+    <ObjectDeps Name="XZ_Plane003" Count="0"/>
+    <ObjectDeps Name="YZ_Plane003" Count="0"/>
+    <ObjectDeps Name="ImagePlane004" Count="0"/>
+    <ObjectDeps Name="Part004" Count="2">
+      <Dep Name="Origin004"/>
+      <Dep Name="ImagePlane006"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin004" Count="6">
+      <Dep Name="Z_Axis004"/>
+      <Dep Name="YZ_Plane004"/>
+      <Dep Name="Y_Axis004"/>
+      <Dep Name="XZ_Plane004"/>
+      <Dep Name="XY_Plane004"/>
+      <Dep Name="X_Axis004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis004" Count="0"/>
+    <ObjectDeps Name="Y_Axis004" Count="0"/>
+    <ObjectDeps Name="Z_Axis004" Count="0"/>
+    <ObjectDeps Name="XY_Plane004" Count="0"/>
+    <ObjectDeps Name="XZ_Plane004" Count="0"/>
+    <ObjectDeps Name="YZ_Plane004" Count="0"/>
+    <ObjectDeps Name="ImagePlane006" Count="0"/>
+    <ObjectDeps Name="Part005" Count="2">
+      <Dep Name="Origin005"/>
+      <Dep Name="Sketch035"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin005" Count="6">
+      <Dep Name="XZ_Plane005"/>
+      <Dep Name="XY_Plane005"/>
+      <Dep Name="X_Axis005"/>
+      <Dep Name="YZ_Plane005"/>
+      <Dep Name="Y_Axis005"/>
+      <Dep Name="Z_Axis005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis005" Count="0"/>
+    <ObjectDeps Name="Y_Axis005" Count="0"/>
+    <ObjectDeps Name="Z_Axis005" Count="0"/>
+    <ObjectDeps Name="XY_Plane005" Count="0"/>
+    <ObjectDeps Name="XZ_Plane005" Count="0"/>
+    <ObjectDeps Name="YZ_Plane005" Count="0"/>
+    <ObjectDeps Name="Part006" Count="2">
+      <Dep Name="Origin006"/>
+      <Dep Name="ImagePlane008"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin006" Count="6">
+      <Dep Name="XY_Plane006"/>
+      <Dep Name="YZ_Plane006"/>
+      <Dep Name="X_Axis006"/>
+      <Dep Name="Y_Axis006"/>
+      <Dep Name="XZ_Plane006"/>
+      <Dep Name="Z_Axis006"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis006" Count="0"/>
+    <ObjectDeps Name="Y_Axis006" Count="0"/>
+    <ObjectDeps Name="Z_Axis006" Count="0"/>
+    <ObjectDeps Name="XY_Plane006" Count="0"/>
+    <ObjectDeps Name="XZ_Plane006" Count="0"/>
+    <ObjectDeps Name="YZ_Plane006" Count="0"/>
+    <ObjectDeps Name="ImagePlane008" Count="0"/>
+    <ObjectDeps Name="Part007" Count="2">
+      <Dep Name="Origin007"/>
+      <Dep Name="ImagePlane009"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin007" Count="6">
+      <Dep Name="X_Axis007"/>
+      <Dep Name="Y_Axis007"/>
+      <Dep Name="XY_Plane007"/>
+      <Dep Name="XZ_Plane007"/>
+      <Dep Name="YZ_Plane007"/>
+      <Dep Name="Z_Axis007"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis007" Count="0"/>
+    <ObjectDeps Name="Y_Axis007" Count="0"/>
+    <ObjectDeps Name="Z_Axis007" Count="0"/>
+    <ObjectDeps Name="XY_Plane007" Count="0"/>
+    <ObjectDeps Name="XZ_Plane007" Count="0"/>
+    <ObjectDeps Name="YZ_Plane007" Count="0"/>
+    <ObjectDeps Name="ImagePlane009" Count="0"/>
+    <ObjectDeps Name="Part008" Count="2">
+      <Dep Name="ImagePlane010"/>
+      <Dep Name="Origin008"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin008" Count="6">
+      <Dep Name="YZ_Plane008"/>
+      <Dep Name="XY_Plane008"/>
+      <Dep Name="XZ_Plane008"/>
+      <Dep Name="Y_Axis008"/>
+      <Dep Name="Z_Axis008"/>
+      <Dep Name="X_Axis008"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis008" Count="0"/>
+    <ObjectDeps Name="Y_Axis008" Count="0"/>
+    <ObjectDeps Name="Z_Axis008" Count="0"/>
+    <ObjectDeps Name="XY_Plane008" Count="0"/>
+    <ObjectDeps Name="XZ_Plane008" Count="0"/>
+    <ObjectDeps Name="YZ_Plane008" Count="0"/>
+    <ObjectDeps Name="ImagePlane010" Count="0"/>
+    <ObjectDeps Name="Part009" Count="3">
+      <Dep Name="ImagePlane011"/>
+      <Dep Name="Sketch026"/>
+      <Dep Name="Origin009"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin009" Count="6">
+      <Dep Name="YZ_Plane009"/>
+      <Dep Name="Y_Axis009"/>
+      <Dep Name="Z_Axis009"/>
+      <Dep Name="XY_Plane009"/>
+      <Dep Name="XZ_Plane009"/>
+      <Dep Name="X_Axis009"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis009" Count="0"/>
+    <ObjectDeps Name="Y_Axis009" Count="0"/>
+    <ObjectDeps Name="Z_Axis009" Count="0"/>
+    <ObjectDeps Name="XY_Plane009" Count="0"/>
+    <ObjectDeps Name="XZ_Plane009" Count="0"/>
+    <ObjectDeps Name="YZ_Plane009" Count="0"/>
+    <ObjectDeps Name="ImagePlane011" Count="0"/>
+    <ObjectDeps Name="Part010" Count="2">
+      <Dep Name="ImagePlane012"/>
+      <Dep Name="Origin010"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin010" Count="6">
+      <Dep Name="XZ_Plane010"/>
+      <Dep Name="YZ_Plane010"/>
+      <Dep Name="Z_Axis010"/>
+      <Dep Name="XY_Plane010"/>
+      <Dep Name="X_Axis010"/>
+      <Dep Name="Y_Axis010"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis010" Count="0"/>
+    <ObjectDeps Name="Y_Axis010" Count="0"/>
+    <ObjectDeps Name="Z_Axis010" Count="0"/>
+    <ObjectDeps Name="XY_Plane010" Count="0"/>
+    <ObjectDeps Name="XZ_Plane010" Count="0"/>
+    <ObjectDeps Name="YZ_Plane010" Count="0"/>
+    <ObjectDeps Name="ImagePlane012" Count="0"/>
+    <ObjectDeps Name="Part011" Count="2">
+      <Dep Name="ImagePlane013"/>
+      <Dep Name="Origin011"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin011" Count="6">
+      <Dep Name="Z_Axis011"/>
+      <Dep Name="XY_Plane011"/>
+      <Dep Name="X_Axis011"/>
+      <Dep Name="Y_Axis011"/>
+      <Dep Name="XZ_Plane011"/>
+      <Dep Name="YZ_Plane011"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis011" Count="0"/>
+    <ObjectDeps Name="Y_Axis011" Count="0"/>
+    <ObjectDeps Name="Z_Axis011" Count="0"/>
+    <ObjectDeps Name="XY_Plane011" Count="0"/>
+    <ObjectDeps Name="XZ_Plane011" Count="0"/>
+    <ObjectDeps Name="YZ_Plane011" Count="0"/>
+    <ObjectDeps Name="ImagePlane013" Count="0"/>
+    <ObjectDeps Name="Part012" Count="2">
+      <Dep Name="Origin012"/>
+      <Dep Name="ImagePlane014"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin012" Count="6">
+      <Dep Name="X_Axis012"/>
+      <Dep Name="Y_Axis012"/>
+      <Dep Name="YZ_Plane012"/>
+      <Dep Name="Z_Axis012"/>
+      <Dep Name="XY_Plane012"/>
+      <Dep Name="XZ_Plane012"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis012" Count="0"/>
+    <ObjectDeps Name="Y_Axis012" Count="0"/>
+    <ObjectDeps Name="Z_Axis012" Count="0"/>
+    <ObjectDeps Name="XY_Plane012" Count="0"/>
+    <ObjectDeps Name="XZ_Plane012" Count="0"/>
+    <ObjectDeps Name="YZ_Plane012" Count="0"/>
+    <ObjectDeps Name="ImagePlane014" Count="0"/>
+    <ObjectDeps Name="Part013" Count="10">
+      <Dep Name="Part024"/>
+      <Dep Name="Part021"/>
+      <Dep Name="ShapeString003"/>
+      <Dep Name="Part026"/>
+      <Dep Name="Part005"/>
+      <Dep Name="Part001"/>
+      <Dep Name="Origin013"/>
+      <Dep Name="Part025"/>
+      <Dep Name="Part039"/>
+      <Dep Name="Part010"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin013" Count="6">
+      <Dep Name="X_Axis013"/>
+      <Dep Name="YZ_Plane013"/>
+      <Dep Name="XY_Plane013"/>
+      <Dep Name="XZ_Plane013"/>
+      <Dep Name="Y_Axis013"/>
+      <Dep Name="Z_Axis013"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis013" Count="0"/>
+    <ObjectDeps Name="Y_Axis013" Count="0"/>
+    <ObjectDeps Name="Z_Axis013" Count="0"/>
+    <ObjectDeps Name="XY_Plane013" Count="0"/>
+    <ObjectDeps Name="XZ_Plane013" Count="0"/>
+    <ObjectDeps Name="YZ_Plane013" Count="0"/>
+    <ObjectDeps Name="Part014" Count="12">
+      <Dep Name="ShapeString002"/>
+      <Dep Name="Part031"/>
+      <Dep Name="Part012"/>
+      <Dep Name="Part003"/>
+      <Dep Name="Part029"/>
+      <Dep Name="Part027"/>
+      <Dep Name="Part032"/>
+      <Dep Name="Part028"/>
+      <Dep Name="Origin014"/>
+      <Dep Name="Part030"/>
+      <Dep Name="Part002"/>
+      <Dep Name="Part008"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin014" Count="6">
+      <Dep Name="YZ_Plane014"/>
+      <Dep Name="X_Axis014"/>
+      <Dep Name="Y_Axis014"/>
+      <Dep Name="Z_Axis014"/>
+      <Dep Name="XY_Plane014"/>
+      <Dep Name="XZ_Plane014"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis014" Count="0"/>
+    <ObjectDeps Name="Y_Axis014" Count="0"/>
+    <ObjectDeps Name="Z_Axis014" Count="0"/>
+    <ObjectDeps Name="XY_Plane014" Count="0"/>
+    <ObjectDeps Name="XZ_Plane014" Count="0"/>
+    <ObjectDeps Name="YZ_Plane014" Count="0"/>
+    <ObjectDeps Name="Part015" Count="5">
+      <Dep Name="Origin015"/>
+      <Dep Name="Part033"/>
+      <Dep Name="ShapeString001"/>
+      <Dep Name="Part034"/>
+      <Dep Name="Part009"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin015" Count="6">
+      <Dep Name="X_Axis015"/>
+      <Dep Name="Y_Axis015"/>
+      <Dep Name="Z_Axis015"/>
+      <Dep Name="XY_Plane015"/>
+      <Dep Name="XZ_Plane015"/>
+      <Dep Name="YZ_Plane015"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis015" Count="0"/>
+    <ObjectDeps Name="Y_Axis015" Count="0"/>
+    <ObjectDeps Name="Z_Axis015" Count="0"/>
+    <ObjectDeps Name="XY_Plane015" Count="0"/>
+    <ObjectDeps Name="XZ_Plane015" Count="0"/>
+    <ObjectDeps Name="YZ_Plane015" Count="0"/>
+    <ObjectDeps Name="Part016" Count="4">
+      <Dep Name="ShapeString004"/>
+      <Dep Name="Part006"/>
+      <Dep Name="Part007"/>
+      <Dep Name="Origin016"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin016" Count="6">
+      <Dep Name="Y_Axis016"/>
+      <Dep Name="Z_Axis016"/>
+      <Dep Name="XY_Plane016"/>
+      <Dep Name="X_Axis016"/>
+      <Dep Name="XZ_Plane016"/>
+      <Dep Name="YZ_Plane016"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis016" Count="0"/>
+    <ObjectDeps Name="Y_Axis016" Count="0"/>
+    <ObjectDeps Name="Z_Axis016" Count="0"/>
+    <ObjectDeps Name="XY_Plane016" Count="0"/>
+    <ObjectDeps Name="XZ_Plane016" Count="0"/>
+    <ObjectDeps Name="YZ_Plane016" Count="0"/>
+    <ObjectDeps Name="Part017" Count="6">
+      <Dep Name="Origin017"/>
+      <Dep Name="Part023"/>
+      <Dep Name="Part004"/>
+      <Dep Name="ShapeString"/>
+      <Dep Name="Part022"/>
+      <Dep Name="Part"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin017" Count="6">
+      <Dep Name="X_Axis017"/>
+      <Dep Name="Y_Axis017"/>
+      <Dep Name="YZ_Plane017"/>
+      <Dep Name="Z_Axis017"/>
+      <Dep Name="XY_Plane017"/>
+      <Dep Name="XZ_Plane017"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis017" Count="0"/>
+    <ObjectDeps Name="Y_Axis017" Count="0"/>
+    <ObjectDeps Name="Z_Axis017" Count="0"/>
+    <ObjectDeps Name="XY_Plane017" Count="0"/>
+    <ObjectDeps Name="XZ_Plane017" Count="0"/>
+    <ObjectDeps Name="YZ_Plane017" Count="0"/>
+    <ObjectDeps Name="Part018" Count="4">
+      <Dep Name="ShapeString005"/>
+      <Dep Name="Part035"/>
+      <Dep Name="Part011"/>
+      <Dep Name="Origin018"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin018" Count="6">
+      <Dep Name="Z_Axis018"/>
+      <Dep Name="XY_Plane018"/>
+      <Dep Name="XZ_Plane018"/>
+      <Dep Name="X_Axis018"/>
+      <Dep Name="Y_Axis018"/>
+      <Dep Name="YZ_Plane018"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis018" Count="0"/>
+    <ObjectDeps Name="Y_Axis018" Count="0"/>
+    <ObjectDeps Name="Z_Axis018" Count="0"/>
+    <ObjectDeps Name="XY_Plane018" Count="0"/>
+    <ObjectDeps Name="XZ_Plane018" Count="0"/>
+    <ObjectDeps Name="YZ_Plane018" Count="0"/>
+    <ObjectDeps Name="Part019" Count="4">
+      <Dep Name="Part020"/>
+      <Dep Name="ShapeString006"/>
+      <Dep Name="Part036"/>
+      <Dep Name="Origin019"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin019" Count="6">
+      <Dep Name="X_Axis019"/>
+      <Dep Name="Y_Axis019"/>
+      <Dep Name="Z_Axis019"/>
+      <Dep Name="XY_Plane019"/>
+      <Dep Name="XZ_Plane019"/>
+      <Dep Name="YZ_Plane019"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis019" Count="0"/>
+    <ObjectDeps Name="Y_Axis019" Count="0"/>
+    <ObjectDeps Name="Z_Axis019" Count="0"/>
+    <ObjectDeps Name="XY_Plane019" Count="0"/>
+    <ObjectDeps Name="XZ_Plane019" Count="0"/>
+    <ObjectDeps Name="YZ_Plane019" Count="0"/>
+    <ObjectDeps Name="Part020" Count="4">
+      <Dep Name="ImagePlane015"/>
+      <Dep Name="Face"/>
+      <Dep Name="Origin020"/>
+      <Dep Name="Sketch034"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin020" Count="6">
+      <Dep Name="YZ_Plane020"/>
+      <Dep Name="Z_Axis020"/>
+      <Dep Name="XY_Plane020"/>
+      <Dep Name="XZ_Plane020"/>
+      <Dep Name="X_Axis020"/>
+      <Dep Name="Y_Axis020"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis020" Count="0"/>
+    <ObjectDeps Name="Y_Axis020" Count="0"/>
+    <ObjectDeps Name="Z_Axis020" Count="0"/>
+    <ObjectDeps Name="XY_Plane020" Count="0"/>
+    <ObjectDeps Name="XZ_Plane020" Count="0"/>
+    <ObjectDeps Name="YZ_Plane020" Count="0"/>
+    <ObjectDeps Name="ImagePlane015" Count="0"/>
+    <ObjectDeps Name="Part021" Count="2">
+      <Dep Name="Origin021"/>
+      <Dep Name="ImagePlane016"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin021" Count="6">
+      <Dep Name="X_Axis021"/>
+      <Dep Name="Y_Axis021"/>
+      <Dep Name="YZ_Plane021"/>
+      <Dep Name="Z_Axis021"/>
+      <Dep Name="XY_Plane021"/>
+      <Dep Name="XZ_Plane021"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis021" Count="0"/>
+    <ObjectDeps Name="Y_Axis021" Count="0"/>
+    <ObjectDeps Name="Z_Axis021" Count="0"/>
+    <ObjectDeps Name="XY_Plane021" Count="0"/>
+    <ObjectDeps Name="XZ_Plane021" Count="0"/>
+    <ObjectDeps Name="YZ_Plane021" Count="0"/>
+    <ObjectDeps Name="ImagePlane016" Count="0"/>
+    <ObjectDeps Name="Part022" Count="2">
+      <Dep Name="Origin022"/>
+      <Dep Name="ImagePlane017"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin022" Count="6">
+      <Dep Name="X_Axis022"/>
+      <Dep Name="Y_Axis022"/>
+      <Dep Name="Z_Axis022"/>
+      <Dep Name="XY_Plane022"/>
+      <Dep Name="XZ_Plane022"/>
+      <Dep Name="YZ_Plane022"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis022" Count="0"/>
+    <ObjectDeps Name="Y_Axis022" Count="0"/>
+    <ObjectDeps Name="Z_Axis022" Count="0"/>
+    <ObjectDeps Name="XY_Plane022" Count="0"/>
+    <ObjectDeps Name="XZ_Plane022" Count="0"/>
+    <ObjectDeps Name="YZ_Plane022" Count="0"/>
+    <ObjectDeps Name="ImagePlane017" Count="0"/>
+    <ObjectDeps Name="Part023" Count="2">
+      <Dep Name="Origin023"/>
+      <Dep Name="ImagePlane018"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin023" Count="6">
+      <Dep Name="XZ_Plane023"/>
+      <Dep Name="YZ_Plane023"/>
+      <Dep Name="X_Axis023"/>
+      <Dep Name="Y_Axis023"/>
+      <Dep Name="Z_Axis023"/>
+      <Dep Name="XY_Plane023"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis023" Count="0"/>
+    <ObjectDeps Name="Y_Axis023" Count="0"/>
+    <ObjectDeps Name="Z_Axis023" Count="0"/>
+    <ObjectDeps Name="XY_Plane023" Count="0"/>
+    <ObjectDeps Name="XZ_Plane023" Count="0"/>
+    <ObjectDeps Name="YZ_Plane023" Count="0"/>
+    <ObjectDeps Name="ImagePlane018" Count="0"/>
+    <ObjectDeps Name="Part024" Count="2">
+      <Dep Name="Origin024"/>
+      <Dep Name="ImagePlane019"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin024" Count="6">
+      <Dep Name="X_Axis024"/>
+      <Dep Name="Y_Axis024"/>
+      <Dep Name="YZ_Plane024"/>
+      <Dep Name="Z_Axis024"/>
+      <Dep Name="XY_Plane024"/>
+      <Dep Name="XZ_Plane024"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis024" Count="0"/>
+    <ObjectDeps Name="Y_Axis024" Count="0"/>
+    <ObjectDeps Name="Z_Axis024" Count="0"/>
+    <ObjectDeps Name="XY_Plane024" Count="0"/>
+    <ObjectDeps Name="XZ_Plane024" Count="0"/>
+    <ObjectDeps Name="YZ_Plane024" Count="0"/>
+    <ObjectDeps Name="ImagePlane019" Count="0"/>
+    <ObjectDeps Name="Part025" Count="2">
+      <Dep Name="Origin025"/>
+      <Dep Name="ImagePlane020"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin025" Count="6">
+      <Dep Name="X_Axis025"/>
+      <Dep Name="Y_Axis025"/>
+      <Dep Name="Z_Axis025"/>
+      <Dep Name="XY_Plane025"/>
+      <Dep Name="XZ_Plane025"/>
+      <Dep Name="YZ_Plane025"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis025" Count="0"/>
+    <ObjectDeps Name="Y_Axis025" Count="0"/>
+    <ObjectDeps Name="Z_Axis025" Count="0"/>
+    <ObjectDeps Name="XY_Plane025" Count="0"/>
+    <ObjectDeps Name="XZ_Plane025" Count="0"/>
+    <ObjectDeps Name="YZ_Plane025" Count="0"/>
+    <ObjectDeps Name="ImagePlane020" Count="0"/>
+    <ObjectDeps Name="Part026" Count="2">
+      <Dep Name="Origin026"/>
+      <Dep Name="ImagePlane021"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin026" Count="6">
+      <Dep Name="X_Axis026"/>
+      <Dep Name="Y_Axis026"/>
+      <Dep Name="Z_Axis026"/>
+      <Dep Name="XY_Plane026"/>
+      <Dep Name="XZ_Plane026"/>
+      <Dep Name="YZ_Plane026"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis026" Count="0"/>
+    <ObjectDeps Name="Y_Axis026" Count="0"/>
+    <ObjectDeps Name="Z_Axis026" Count="0"/>
+    <ObjectDeps Name="XY_Plane026" Count="0"/>
+    <ObjectDeps Name="XZ_Plane026" Count="0"/>
+    <ObjectDeps Name="YZ_Plane026" Count="0"/>
+    <ObjectDeps Name="ImagePlane021" Count="0"/>
+    <ObjectDeps Name="Part027" Count="2">
+      <Dep Name="Origin027"/>
+      <Dep Name="ImagePlane022"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin027" Count="6">
+      <Dep Name="X_Axis027"/>
+      <Dep Name="YZ_Plane027"/>
+      <Dep Name="Y_Axis027"/>
+      <Dep Name="Z_Axis027"/>
+      <Dep Name="XY_Plane027"/>
+      <Dep Name="XZ_Plane027"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis027" Count="0"/>
+    <ObjectDeps Name="Y_Axis027" Count="0"/>
+    <ObjectDeps Name="Z_Axis027" Count="0"/>
+    <ObjectDeps Name="XY_Plane027" Count="0"/>
+    <ObjectDeps Name="XZ_Plane027" Count="0"/>
+    <ObjectDeps Name="YZ_Plane027" Count="0"/>
+    <ObjectDeps Name="ImagePlane022" Count="0"/>
+    <ObjectDeps Name="Part028" Count="2">
+      <Dep Name="ImagePlane023"/>
+      <Dep Name="Origin028"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin028" Count="6">
+      <Dep Name="X_Axis028"/>
+      <Dep Name="Y_Axis028"/>
+      <Dep Name="Z_Axis028"/>
+      <Dep Name="XY_Plane028"/>
+      <Dep Name="XZ_Plane028"/>
+      <Dep Name="YZ_Plane028"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis028" Count="0"/>
+    <ObjectDeps Name="Y_Axis028" Count="0"/>
+    <ObjectDeps Name="Z_Axis028" Count="0"/>
+    <ObjectDeps Name="XY_Plane028" Count="0"/>
+    <ObjectDeps Name="XZ_Plane028" Count="0"/>
+    <ObjectDeps Name="YZ_Plane028" Count="0"/>
+    <ObjectDeps Name="ImagePlane023" Count="0"/>
+    <ObjectDeps Name="Part029" Count="2">
+      <Dep Name="Origin029"/>
+      <Dep Name="ImagePlane024"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin029" Count="6">
+      <Dep Name="XZ_Plane029"/>
+      <Dep Name="YZ_Plane029"/>
+      <Dep Name="X_Axis029"/>
+      <Dep Name="Y_Axis029"/>
+      <Dep Name="Z_Axis029"/>
+      <Dep Name="XY_Plane029"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis029" Count="0"/>
+    <ObjectDeps Name="Y_Axis029" Count="0"/>
+    <ObjectDeps Name="Z_Axis029" Count="0"/>
+    <ObjectDeps Name="XY_Plane029" Count="0"/>
+    <ObjectDeps Name="XZ_Plane029" Count="0"/>
+    <ObjectDeps Name="YZ_Plane029" Count="0"/>
+    <ObjectDeps Name="ImagePlane024" Count="0"/>
+    <ObjectDeps Name="Part030" Count="2">
+      <Dep Name="Sketch"/>
+      <Dep Name="Origin030"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin030" Count="6">
+      <Dep Name="Z_Axis030"/>
+      <Dep Name="XY_Plane030"/>
+      <Dep Name="XZ_Plane030"/>
+      <Dep Name="YZ_Plane030"/>
+      <Dep Name="X_Axis030"/>
+      <Dep Name="Y_Axis030"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis030" Count="0"/>
+    <ObjectDeps Name="Y_Axis030" Count="0"/>
+    <ObjectDeps Name="Z_Axis030" Count="0"/>
+    <ObjectDeps Name="XY_Plane030" Count="0"/>
+    <ObjectDeps Name="XZ_Plane030" Count="0"/>
+    <ObjectDeps Name="YZ_Plane030" Count="0"/>
+    <ObjectDeps Name="Part031" Count="2">
+      <Dep Name="Origin031"/>
+      <Dep Name="ImagePlane026"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin031" Count="6">
+      <Dep Name="X_Axis031"/>
+      <Dep Name="Y_Axis031"/>
+      <Dep Name="Z_Axis031"/>
+      <Dep Name="XY_Plane031"/>
+      <Dep Name="XZ_Plane031"/>
+      <Dep Name="YZ_Plane031"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis031" Count="0"/>
+    <ObjectDeps Name="Y_Axis031" Count="0"/>
+    <ObjectDeps Name="Z_Axis031" Count="0"/>
+    <ObjectDeps Name="XY_Plane031" Count="0"/>
+    <ObjectDeps Name="XZ_Plane031" Count="0"/>
+    <ObjectDeps Name="YZ_Plane031" Count="0"/>
+    <ObjectDeps Name="ImagePlane026" Count="0"/>
+    <ObjectDeps Name="Part032" Count="3">
+      <Dep Name="ImagePlane027"/>
+      <Dep Name="Sketch010"/>
+      <Dep Name="Origin032"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin032" Count="6">
+      <Dep Name="X_Axis032"/>
+      <Dep Name="Y_Axis032"/>
+      <Dep Name="Z_Axis032"/>
+      <Dep Name="XY_Plane032"/>
+      <Dep Name="XZ_Plane032"/>
+      <Dep Name="YZ_Plane032"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis032" Count="0"/>
+    <ObjectDeps Name="Y_Axis032" Count="0"/>
+    <ObjectDeps Name="Z_Axis032" Count="0"/>
+    <ObjectDeps Name="XY_Plane032" Count="0"/>
+    <ObjectDeps Name="XZ_Plane032" Count="0"/>
+    <ObjectDeps Name="YZ_Plane032" Count="0"/>
+    <ObjectDeps Name="ImagePlane027" Count="0"/>
+    <ObjectDeps Name="Part033" Count="2">
+      <Dep Name="Origin033"/>
+      <Dep Name="ImagePlane028"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin033" Count="6">
+      <Dep Name="X_Axis033"/>
+      <Dep Name="Y_Axis033"/>
+      <Dep Name="Z_Axis033"/>
+      <Dep Name="XY_Plane033"/>
+      <Dep Name="XZ_Plane033"/>
+      <Dep Name="YZ_Plane033"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis033" Count="0"/>
+    <ObjectDeps Name="Y_Axis033" Count="0"/>
+    <ObjectDeps Name="Z_Axis033" Count="0"/>
+    <ObjectDeps Name="XY_Plane033" Count="0"/>
+    <ObjectDeps Name="XZ_Plane033" Count="0"/>
+    <ObjectDeps Name="YZ_Plane033" Count="0"/>
+    <ObjectDeps Name="ImagePlane028" Count="0"/>
+    <ObjectDeps Name="Part034" Count="2">
+      <Dep Name="Origin034"/>
+      <Dep Name="ImagePlane029"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin034" Count="6">
+      <Dep Name="X_Axis034"/>
+      <Dep Name="Y_Axis034"/>
+      <Dep Name="Z_Axis034"/>
+      <Dep Name="XY_Plane034"/>
+      <Dep Name="XZ_Plane034"/>
+      <Dep Name="YZ_Plane034"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis034" Count="0"/>
+    <ObjectDeps Name="Y_Axis034" Count="0"/>
+    <ObjectDeps Name="Z_Axis034" Count="0"/>
+    <ObjectDeps Name="XY_Plane034" Count="0"/>
+    <ObjectDeps Name="XZ_Plane034" Count="0"/>
+    <ObjectDeps Name="YZ_Plane034" Count="0"/>
+    <ObjectDeps Name="ImagePlane029" Count="0"/>
+    <ObjectDeps Name="Part035" Count="2">
+      <Dep Name="Origin035"/>
+      <Dep Name="ImagePlane030"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin035" Count="6">
+      <Dep Name="X_Axis035"/>
+      <Dep Name="Y_Axis035"/>
+      <Dep Name="Z_Axis035"/>
+      <Dep Name="XY_Plane035"/>
+      <Dep Name="XZ_Plane035"/>
+      <Dep Name="YZ_Plane035"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis035" Count="0"/>
+    <ObjectDeps Name="Y_Axis035" Count="0"/>
+    <ObjectDeps Name="Z_Axis035" Count="0"/>
+    <ObjectDeps Name="XY_Plane035" Count="0"/>
+    <ObjectDeps Name="XZ_Plane035" Count="0"/>
+    <ObjectDeps Name="YZ_Plane035" Count="0"/>
+    <ObjectDeps Name="ImagePlane030" Count="0"/>
+    <ObjectDeps Name="ShapeString" Count="0"/>
+    <ObjectDeps Name="ShapeString001" Count="0"/>
+    <ObjectDeps Name="ShapeString002" Count="0"/>
+    <ObjectDeps Name="ShapeString003" Count="0"/>
+    <ObjectDeps Name="ShapeString004" Count="0"/>
+    <ObjectDeps Name="ShapeString005" Count="0"/>
+    <ObjectDeps Name="ShapeString006" Count="0"/>
+    <ObjectDeps Name="Part036" Count="2">
+      <Dep Name="ImagePlane031"/>
+      <Dep Name="Origin036"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin036" Count="6">
+      <Dep Name="Y_Axis036"/>
+      <Dep Name="Z_Axis036"/>
+      <Dep Name="XY_Plane036"/>
+      <Dep Name="XZ_Plane036"/>
+      <Dep Name="YZ_Plane036"/>
+      <Dep Name="X_Axis036"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis036" Count="0"/>
+    <ObjectDeps Name="Y_Axis036" Count="0"/>
+    <ObjectDeps Name="Z_Axis036" Count="0"/>
+    <ObjectDeps Name="XY_Plane036" Count="0"/>
+    <ObjectDeps Name="XZ_Plane036" Count="0"/>
+    <ObjectDeps Name="YZ_Plane036" Count="0"/>
+    <ObjectDeps Name="ImagePlane031" Count="0"/>
+    <ObjectDeps Name="Sketch010" Count="0"/>
+    <ObjectDeps Name="Sketch026" Count="0"/>
+    <ObjectDeps Name="Part037" Count="3">
+      <Dep Name="ShapeString007"/>
+      <Dep Name="Origin037"/>
+      <Dep Name="Part038"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin037" Count="6">
+      <Dep Name="X_Axis037"/>
+      <Dep Name="Y_Axis037"/>
+      <Dep Name="Z_Axis037"/>
+      <Dep Name="XY_Plane037"/>
+      <Dep Name="XZ_Plane037"/>
+      <Dep Name="YZ_Plane037"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis037" Count="0"/>
+    <ObjectDeps Name="Y_Axis037" Count="0"/>
+    <ObjectDeps Name="Z_Axis037" Count="0"/>
+    <ObjectDeps Name="XY_Plane037" Count="0"/>
+    <ObjectDeps Name="XZ_Plane037" Count="0"/>
+    <ObjectDeps Name="YZ_Plane037" Count="0"/>
+    <ObjectDeps Name="Part038" Count="2">
+      <Dep Name="Origin038"/>
+      <Dep Name="ImagePlane032"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin038" Count="6">
+      <Dep Name="X_Axis038"/>
+      <Dep Name="Y_Axis038"/>
+      <Dep Name="Z_Axis038"/>
+      <Dep Name="XY_Plane038"/>
+      <Dep Name="XZ_Plane038"/>
+      <Dep Name="YZ_Plane038"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis038" Count="0"/>
+    <ObjectDeps Name="Y_Axis038" Count="0"/>
+    <ObjectDeps Name="Z_Axis038" Count="0"/>
+    <ObjectDeps Name="XY_Plane038" Count="0"/>
+    <ObjectDeps Name="XZ_Plane038" Count="0"/>
+    <ObjectDeps Name="YZ_Plane038" Count="0"/>
+    <ObjectDeps Name="ImagePlane032" Count="0"/>
+    <ObjectDeps Name="ShapeString007" Count="0"/>
+    <ObjectDeps Name="Sketch034" Count="0"/>
+    <ObjectDeps Name="Face" Count="1">
+      <Dep Name="Sketch034"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch" Count="0"/>
+    <ObjectDeps Name="Sketch035" Count="0"/>
+    <ObjectDeps Name="Sketch036" Count="0"/>
+    <ObjectDeps Name="Part039" Count="2">
+      <Dep Name="Sketch037"/>
+      <Dep Name="Origin039"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin039" Count="6">
+      <Dep Name="XY_Plane039"/>
+      <Dep Name="XZ_Plane039"/>
+      <Dep Name="YZ_Plane039"/>
+      <Dep Name="X_Axis039"/>
+      <Dep Name="Y_Axis039"/>
+      <Dep Name="Z_Axis039"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis039" Count="0"/>
+    <ObjectDeps Name="Y_Axis039" Count="0"/>
+    <ObjectDeps Name="Z_Axis039" Count="0"/>
+    <ObjectDeps Name="XY_Plane039" Count="0"/>
+    <ObjectDeps Name="XZ_Plane039" Count="0"/>
+    <ObjectDeps Name="YZ_Plane039" Count="0"/>
+    <ObjectDeps Name="Sketch037" Count="0"/>
+    <ObjectDeps Name="Sketch038" Count="0"/>
+    <Object type="App::Part" name="Part" id="1" revision="0" file="Part.xml" />
+    <Object type="App::Origin" name="Origin" id="2" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="3" revision="0" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="4" revision="0" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="5" revision="0" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="6" revision="0" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="7" revision="0" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="8" revision="0" file="YZ_Plane.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane" id="9" revision="0" file="ImagePlane.xml" />
+    <Object type="App::Part" name="Part001" id="10" revision="6" file="Part001.xml" />
+    <Object type="App::Origin" name="Origin001" id="11" revision="0" file="Origin001.xml" />
+    <Object type="App::Line" name="X_Axis001" id="12" revision="0" file="X_Axis001.xml" />
+    <Object type="App::Line" name="Y_Axis001" id="13" revision="0" file="Y_Axis001.xml" />
+    <Object type="App::Line" name="Z_Axis001" id="14" revision="0" file="Z_Axis001.xml" />
+    <Object type="App::Plane" name="XY_Plane001" id="15" revision="0" file="XY_Plane001.xml" />
+    <Object type="App::Plane" name="XZ_Plane001" id="16" revision="0" file="XZ_Plane001.xml" />
+    <Object type="App::Plane" name="YZ_Plane001" id="17" revision="0" file="YZ_Plane001.xml" />
+    <Object type="App::Part" name="Part002" id="18" revision="6" file="Part002.xml" />
+    <Object type="App::Origin" name="Origin002" id="19" revision="0" file="Origin002.xml" />
+    <Object type="App::Line" name="X_Axis002" id="20" revision="0" file="X_Axis002.xml" />
+    <Object type="App::Line" name="Y_Axis002" id="21" revision="0" file="Y_Axis002.xml" />
+    <Object type="App::Line" name="Z_Axis002" id="22" revision="0" file="Z_Axis002.xml" />
+    <Object type="App::Plane" name="XY_Plane002" id="23" revision="0" file="XY_Plane002.xml" />
+    <Object type="App::Plane" name="XZ_Plane002" id="24" revision="0" file="XZ_Plane002.xml" />
+    <Object type="App::Plane" name="YZ_Plane002" id="25" revision="0" file="YZ_Plane002.xml" />
+    <Object type="App::Part" name="Part003" id="26" revision="4" file="Part003.xml" />
+    <Object type="App::Origin" name="Origin003" id="27" revision="0" file="Origin003.xml" />
+    <Object type="App::Line" name="X_Axis003" id="28" revision="0" file="X_Axis003.xml" />
+    <Object type="App::Line" name="Y_Axis003" id="29" revision="0" file="Y_Axis003.xml" />
+    <Object type="App::Line" name="Z_Axis003" id="30" revision="0" file="Z_Axis003.xml" />
+    <Object type="App::Plane" name="XY_Plane003" id="31" revision="0" file="XY_Plane003.xml" />
+    <Object type="App::Plane" name="XZ_Plane003" id="32" revision="0" file="XZ_Plane003.xml" />
+    <Object type="App::Plane" name="YZ_Plane003" id="33" revision="0" file="YZ_Plane003.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane004" id="35" revision="0" file="ImagePlane004.xml" />
+    <Object type="App::Part" name="Part004" id="37" revision="0" file="Part004.xml" />
+    <Object type="App::Origin" name="Origin004" id="38" revision="0" file="Origin004.xml" />
+    <Object type="App::Line" name="X_Axis004" id="39" revision="0" file="X_Axis004.xml" />
+    <Object type="App::Line" name="Y_Axis004" id="40" revision="0" file="Y_Axis004.xml" />
+    <Object type="App::Line" name="Z_Axis004" id="41" revision="0" file="Z_Axis004.xml" />
+    <Object type="App::Plane" name="XY_Plane004" id="42" revision="0" file="XY_Plane004.xml" />
+    <Object type="App::Plane" name="XZ_Plane004" id="43" revision="0" file="XZ_Plane004.xml" />
+    <Object type="App::Plane" name="YZ_Plane004" id="44" revision="0" file="YZ_Plane004.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane006" id="45" revision="0" file="ImagePlane006.xml" />
+    <Object type="App::Part" name="Part005" id="46" revision="4" file="Part005.xml" />
+    <Object type="App::Origin" name="Origin005" id="47" revision="0" file="Origin005.xml" />
+    <Object type="App::Line" name="X_Axis005" id="48" revision="0" file="X_Axis005.xml" />
+    <Object type="App::Line" name="Y_Axis005" id="49" revision="0" file="Y_Axis005.xml" />
+    <Object type="App::Line" name="Z_Axis005" id="50" revision="0" file="Z_Axis005.xml" />
+    <Object type="App::Plane" name="XY_Plane005" id="51" revision="0" file="XY_Plane005.xml" />
+    <Object type="App::Plane" name="XZ_Plane005" id="52" revision="0" file="XZ_Plane005.xml" />
+    <Object type="App::Plane" name="YZ_Plane005" id="53" revision="0" file="YZ_Plane005.xml" />
+    <Object type="App::Part" name="Part006" id="55" revision="0" file="Part006.xml" />
+    <Object type="App::Origin" name="Origin006" id="56" revision="0" file="Origin006.xml" />
+    <Object type="App::Line" name="X_Axis006" id="57" revision="0" file="X_Axis006.xml" />
+    <Object type="App::Line" name="Y_Axis006" id="58" revision="0" file="Y_Axis006.xml" />
+    <Object type="App::Line" name="Z_Axis006" id="59" revision="0" file="Z_Axis006.xml" />
+    <Object type="App::Plane" name="XY_Plane006" id="60" revision="0" file="XY_Plane006.xml" />
+    <Object type="App::Plane" name="XZ_Plane006" id="61" revision="0" file="XZ_Plane006.xml" />
+    <Object type="App::Plane" name="YZ_Plane006" id="62" revision="0" file="YZ_Plane006.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane008" id="63" revision="0" file="ImagePlane008.xml" />
+    <Object type="App::Part" name="Part007" id="64" revision="0" file="Part007.xml" />
+    <Object type="App::Origin" name="Origin007" id="65" revision="0" file="Origin007.xml" />
+    <Object type="App::Line" name="X_Axis007" id="66" revision="0" file="X_Axis007.xml" />
+    <Object type="App::Line" name="Y_Axis007" id="67" revision="0" file="Y_Axis007.xml" />
+    <Object type="App::Line" name="Z_Axis007" id="68" revision="0" file="Z_Axis007.xml" />
+    <Object type="App::Plane" name="XY_Plane007" id="69" revision="0" file="XY_Plane007.xml" />
+    <Object type="App::Plane" name="XZ_Plane007" id="70" revision="0" file="XZ_Plane007.xml" />
+    <Object type="App::Plane" name="YZ_Plane007" id="71" revision="0" file="YZ_Plane007.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane009" id="72" revision="0" file="ImagePlane009.xml" />
+    <Object type="App::Part" name="Part008" id="73" revision="0" file="Part008.xml" />
+    <Object type="App::Origin" name="Origin008" id="74" revision="0" file="Origin008.xml" />
+    <Object type="App::Line" name="X_Axis008" id="75" revision="0" file="X_Axis008.xml" />
+    <Object type="App::Line" name="Y_Axis008" id="76" revision="0" file="Y_Axis008.xml" />
+    <Object type="App::Line" name="Z_Axis008" id="77" revision="0" file="Z_Axis008.xml" />
+    <Object type="App::Plane" name="XY_Plane008" id="78" revision="0" file="XY_Plane008.xml" />
+    <Object type="App::Plane" name="XZ_Plane008" id="79" revision="0" file="XZ_Plane008.xml" />
+    <Object type="App::Plane" name="YZ_Plane008" id="80" revision="0" file="YZ_Plane008.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane010" id="81" revision="0" file="ImagePlane010.xml" />
+    <Object type="App::Part" name="Part009" id="83" revision="1" file="Part009.xml" />
+    <Object type="App::Origin" name="Origin009" id="84" revision="0" file="Origin009.xml" />
+    <Object type="App::Line" name="X_Axis009" id="85" revision="0" file="X_Axis009.xml" />
+    <Object type="App::Line" name="Y_Axis009" id="86" revision="0" file="Y_Axis009.xml" />
+    <Object type="App::Line" name="Z_Axis009" id="87" revision="0" file="Z_Axis009.xml" />
+    <Object type="App::Plane" name="XY_Plane009" id="88" revision="0" file="XY_Plane009.xml" />
+    <Object type="App::Plane" name="XZ_Plane009" id="89" revision="0" file="XZ_Plane009.xml" />
+    <Object type="App::Plane" name="YZ_Plane009" id="90" revision="0" file="YZ_Plane009.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane011" id="91" revision="0" file="ImagePlane011.xml" />
+    <Object type="App::Part" name="Part010" id="92" revision="0" file="Part010.xml" />
+    <Object type="App::Origin" name="Origin010" id="93" revision="0" file="Origin010.xml" />
+    <Object type="App::Line" name="X_Axis010" id="94" revision="0" file="X_Axis010.xml" />
+    <Object type="App::Line" name="Y_Axis010" id="95" revision="0" file="Y_Axis010.xml" />
+    <Object type="App::Line" name="Z_Axis010" id="96" revision="0" file="Z_Axis010.xml" />
+    <Object type="App::Plane" name="XY_Plane010" id="97" revision="0" file="XY_Plane010.xml" />
+    <Object type="App::Plane" name="XZ_Plane010" id="98" revision="0" file="XZ_Plane010.xml" />
+    <Object type="App::Plane" name="YZ_Plane010" id="99" revision="0" file="YZ_Plane010.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane012" id="100" revision="0" file="ImagePlane012.xml" />
+    <Object type="App::Part" name="Part011" id="101" revision="0" file="Part011.xml" />
+    <Object type="App::Origin" name="Origin011" id="102" revision="0" file="Origin011.xml" />
+    <Object type="App::Line" name="X_Axis011" id="103" revision="0" file="X_Axis011.xml" />
+    <Object type="App::Line" name="Y_Axis011" id="104" revision="0" file="Y_Axis011.xml" />
+    <Object type="App::Line" name="Z_Axis011" id="105" revision="0" file="Z_Axis011.xml" />
+    <Object type="App::Plane" name="XY_Plane011" id="106" revision="0" file="XY_Plane011.xml" />
+    <Object type="App::Plane" name="XZ_Plane011" id="107" revision="0" file="XZ_Plane011.xml" />
+    <Object type="App::Plane" name="YZ_Plane011" id="108" revision="0" file="YZ_Plane011.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane013" id="109" revision="0" file="ImagePlane013.xml" />
+    <Object type="App::Part" name="Part012" id="110" revision="0" file="Part012.xml" />
+    <Object type="App::Origin" name="Origin012" id="111" revision="0" file="Origin012.xml" />
+    <Object type="App::Line" name="X_Axis012" id="112" revision="0" file="X_Axis012.xml" />
+    <Object type="App::Line" name="Y_Axis012" id="113" revision="0" file="Y_Axis012.xml" />
+    <Object type="App::Line" name="Z_Axis012" id="114" revision="0" file="Z_Axis012.xml" />
+    <Object type="App::Plane" name="XY_Plane012" id="115" revision="0" file="XY_Plane012.xml" />
+    <Object type="App::Plane" name="XZ_Plane012" id="116" revision="0" file="XZ_Plane012.xml" />
+    <Object type="App::Plane" name="YZ_Plane012" id="117" revision="0" file="YZ_Plane012.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane014" id="118" revision="0" file="ImagePlane014.xml" />
+    <Object type="App::Part" name="Part013" id="119" revision="15" file="Part013.xml" />
+    <Object type="App::Origin" name="Origin013" id="120" revision="0" file="Origin013.xml" />
+    <Object type="App::Line" name="X_Axis013" id="121" revision="0" file="X_Axis013.xml" />
+    <Object type="App::Line" name="Y_Axis013" id="122" revision="0" file="Y_Axis013.xml" />
+    <Object type="App::Line" name="Z_Axis013" id="123" revision="0" file="Z_Axis013.xml" />
+    <Object type="App::Plane" name="XY_Plane013" id="124" revision="0" file="XY_Plane013.xml" />
+    <Object type="App::Plane" name="XZ_Plane013" id="125" revision="0" file="XZ_Plane013.xml" />
+    <Object type="App::Plane" name="YZ_Plane013" id="126" revision="0" file="YZ_Plane013.xml" />
+    <Object type="App::Part" name="Part014" id="127" revision="20" file="Part014.xml" />
+    <Object type="App::Origin" name="Origin014" id="128" revision="0" file="Origin014.xml" />
+    <Object type="App::Line" name="X_Axis014" id="129" revision="0" file="X_Axis014.xml" />
+    <Object type="App::Line" name="Y_Axis014" id="130" revision="0" file="Y_Axis014.xml" />
+    <Object type="App::Line" name="Z_Axis014" id="131" revision="0" file="Z_Axis014.xml" />
+    <Object type="App::Plane" name="XY_Plane014" id="132" revision="0" file="XY_Plane014.xml" />
+    <Object type="App::Plane" name="XZ_Plane014" id="133" revision="0" file="XZ_Plane014.xml" />
+    <Object type="App::Plane" name="YZ_Plane014" id="134" revision="0" file="YZ_Plane014.xml" />
+    <Object type="App::Part" name="Part015" id="135" revision="2" file="Part015.xml" />
+    <Object type="App::Origin" name="Origin015" id="136" revision="0" file="Origin015.xml" />
+    <Object type="App::Line" name="X_Axis015" id="137" revision="0" file="X_Axis015.xml" />
+    <Object type="App::Line" name="Y_Axis015" id="138" revision="0" file="Y_Axis015.xml" />
+    <Object type="App::Line" name="Z_Axis015" id="139" revision="0" file="Z_Axis015.xml" />
+    <Object type="App::Plane" name="XY_Plane015" id="140" revision="0" file="XY_Plane015.xml" />
+    <Object type="App::Plane" name="XZ_Plane015" id="141" revision="0" file="XZ_Plane015.xml" />
+    <Object type="App::Plane" name="YZ_Plane015" id="142" revision="0" file="YZ_Plane015.xml" />
+    <Object type="App::Part" name="Part016" id="143" revision="1" file="Part016.xml" />
+    <Object type="App::Origin" name="Origin016" id="144" revision="0" file="Origin016.xml" />
+    <Object type="App::Line" name="X_Axis016" id="145" revision="0" file="X_Axis016.xml" />
+    <Object type="App::Line" name="Y_Axis016" id="146" revision="0" file="Y_Axis016.xml" />
+    <Object type="App::Line" name="Z_Axis016" id="147" revision="0" file="Z_Axis016.xml" />
+    <Object type="App::Plane" name="XY_Plane016" id="148" revision="0" file="XY_Plane016.xml" />
+    <Object type="App::Plane" name="XZ_Plane016" id="149" revision="0" file="XZ_Plane016.xml" />
+    <Object type="App::Plane" name="YZ_Plane016" id="150" revision="0" file="YZ_Plane016.xml" />
+    <Object type="App::Part" name="Part017" id="151" revision="1" file="Part017.xml" />
+    <Object type="App::Origin" name="Origin017" id="152" revision="0" file="Origin017.xml" />
+    <Object type="App::Line" name="X_Axis017" id="153" revision="0" file="X_Axis017.xml" />
+    <Object type="App::Line" name="Y_Axis017" id="154" revision="0" file="Y_Axis017.xml" />
+    <Object type="App::Line" name="Z_Axis017" id="155" revision="0" file="Z_Axis017.xml" />
+    <Object type="App::Plane" name="XY_Plane017" id="156" revision="0" file="XY_Plane017.xml" />
+    <Object type="App::Plane" name="XZ_Plane017" id="157" revision="0" file="XZ_Plane017.xml" />
+    <Object type="App::Plane" name="YZ_Plane017" id="158" revision="0" file="YZ_Plane017.xml" />
+    <Object type="App::Part" name="Part018" id="159" revision="1" file="Part018.xml" />
+    <Object type="App::Origin" name="Origin018" id="160" revision="0" file="Origin018.xml" />
+    <Object type="App::Line" name="X_Axis018" id="161" revision="0" file="X_Axis018.xml" />
+    <Object type="App::Line" name="Y_Axis018" id="162" revision="0" file="Y_Axis018.xml" />
+    <Object type="App::Line" name="Z_Axis018" id="163" revision="0" file="Z_Axis018.xml" />
+    <Object type="App::Plane" name="XY_Plane018" id="164" revision="0" file="XY_Plane018.xml" />
+    <Object type="App::Plane" name="XZ_Plane018" id="165" revision="0" file="XZ_Plane018.xml" />
+    <Object type="App::Plane" name="YZ_Plane018" id="166" revision="0" file="YZ_Plane018.xml" />
+    <Object type="App::Part" name="Part019" id="167" revision="2" file="Part019.xml" />
+    <Object type="App::Origin" name="Origin019" id="168" revision="0" file="Origin019.xml" />
+    <Object type="App::Line" name="X_Axis019" id="169" revision="0" file="X_Axis019.xml" />
+    <Object type="App::Line" name="Y_Axis019" id="170" revision="0" file="Y_Axis019.xml" />
+    <Object type="App::Line" name="Z_Axis019" id="171" revision="0" file="Z_Axis019.xml" />
+    <Object type="App::Plane" name="XY_Plane019" id="172" revision="0" file="XY_Plane019.xml" />
+    <Object type="App::Plane" name="XZ_Plane019" id="173" revision="0" file="XZ_Plane019.xml" />
+    <Object type="App::Plane" name="YZ_Plane019" id="174" revision="0" file="YZ_Plane019.xml" />
+    <Object type="App::Part" name="Part020" id="175" revision="1" file="Part020.xml" />
+    <Object type="App::Origin" name="Origin020" id="176" revision="0" file="Origin020.xml" />
+    <Object type="App::Line" name="X_Axis020" id="177" revision="0" file="X_Axis020.xml" />
+    <Object type="App::Line" name="Y_Axis020" id="178" revision="0" file="Y_Axis020.xml" />
+    <Object type="App::Line" name="Z_Axis020" id="179" revision="0" file="Z_Axis020.xml" />
+    <Object type="App::Plane" name="XY_Plane020" id="180" revision="0" file="XY_Plane020.xml" />
+    <Object type="App::Plane" name="XZ_Plane020" id="181" revision="0" file="XZ_Plane020.xml" />
+    <Object type="App::Plane" name="YZ_Plane020" id="182" revision="0" file="YZ_Plane020.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane015" id="183" revision="0" file="ImagePlane015.xml" />
+    <Object type="App::Part" name="Part021" id="184" revision="0" file="Part021.xml" />
+    <Object type="App::Origin" name="Origin021" id="185" revision="0" file="Origin021.xml" />
+    <Object type="App::Line" name="X_Axis021" id="186" revision="0" file="X_Axis021.xml" />
+    <Object type="App::Line" name="Y_Axis021" id="187" revision="0" file="Y_Axis021.xml" />
+    <Object type="App::Line" name="Z_Axis021" id="188" revision="0" file="Z_Axis021.xml" />
+    <Object type="App::Plane" name="XY_Plane021" id="189" revision="0" file="XY_Plane021.xml" />
+    <Object type="App::Plane" name="XZ_Plane021" id="190" revision="0" file="XZ_Plane021.xml" />
+    <Object type="App::Plane" name="YZ_Plane021" id="191" revision="0" file="YZ_Plane021.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane016" id="192" revision="0" file="ImagePlane016.xml" />
+    <Object type="App::Part" name="Part022" id="193" revision="0" file="Part022.xml" />
+    <Object type="App::Origin" name="Origin022" id="194" revision="0" file="Origin022.xml" />
+    <Object type="App::Line" name="X_Axis022" id="195" revision="0" file="X_Axis022.xml" />
+    <Object type="App::Line" name="Y_Axis022" id="196" revision="0" file="Y_Axis022.xml" />
+    <Object type="App::Line" name="Z_Axis022" id="197" revision="0" file="Z_Axis022.xml" />
+    <Object type="App::Plane" name="XY_Plane022" id="198" revision="0" file="XY_Plane022.xml" />
+    <Object type="App::Plane" name="XZ_Plane022" id="199" revision="0" file="XZ_Plane022.xml" />
+    <Object type="App::Plane" name="YZ_Plane022" id="200" revision="0" file="YZ_Plane022.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane017" id="201" revision="0" file="ImagePlane017.xml" />
+    <Object type="App::Part" name="Part023" id="202" revision="0" file="Part023.xml" />
+    <Object type="App::Origin" name="Origin023" id="203" revision="0" file="Origin023.xml" />
+    <Object type="App::Line" name="X_Axis023" id="204" revision="0" file="X_Axis023.xml" />
+    <Object type="App::Line" name="Y_Axis023" id="205" revision="0" file="Y_Axis023.xml" />
+    <Object type="App::Line" name="Z_Axis023" id="206" revision="0" file="Z_Axis023.xml" />
+    <Object type="App::Plane" name="XY_Plane023" id="207" revision="0" file="XY_Plane023.xml" />
+    <Object type="App::Plane" name="XZ_Plane023" id="208" revision="0" file="XZ_Plane023.xml" />
+    <Object type="App::Plane" name="YZ_Plane023" id="209" revision="0" file="YZ_Plane023.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane018" id="210" revision="0" file="ImagePlane018.xml" />
+    <Object type="App::Part" name="Part024" id="211" revision="0" file="Part024.xml" />
+    <Object type="App::Origin" name="Origin024" id="212" revision="0" file="Origin024.xml" />
+    <Object type="App::Line" name="X_Axis024" id="213" revision="0" file="X_Axis024.xml" />
+    <Object type="App::Line" name="Y_Axis024" id="214" revision="0" file="Y_Axis024.xml" />
+    <Object type="App::Line" name="Z_Axis024" id="215" revision="0" file="Z_Axis024.xml" />
+    <Object type="App::Plane" name="XY_Plane024" id="216" revision="0" file="XY_Plane024.xml" />
+    <Object type="App::Plane" name="XZ_Plane024" id="217" revision="0" file="XZ_Plane024.xml" />
+    <Object type="App::Plane" name="YZ_Plane024" id="218" revision="0" file="YZ_Plane024.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane019" id="219" revision="0" file="ImagePlane019.xml" />
+    <Object type="App::Part" name="Part025" id="220" revision="0" file="Part025.xml" />
+    <Object type="App::Origin" name="Origin025" id="221" revision="0" file="Origin025.xml" />
+    <Object type="App::Line" name="X_Axis025" id="222" revision="0" file="X_Axis025.xml" />
+    <Object type="App::Line" name="Y_Axis025" id="223" revision="0" file="Y_Axis025.xml" />
+    <Object type="App::Line" name="Z_Axis025" id="224" revision="0" file="Z_Axis025.xml" />
+    <Object type="App::Plane" name="XY_Plane025" id="225" revision="0" file="XY_Plane025.xml" />
+    <Object type="App::Plane" name="XZ_Plane025" id="226" revision="0" file="XZ_Plane025.xml" />
+    <Object type="App::Plane" name="YZ_Plane025" id="227" revision="0" file="YZ_Plane025.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane020" id="228" revision="0" file="ImagePlane020.xml" />
+    <Object type="App::Part" name="Part026" id="229" revision="0" file="Part026.xml" />
+    <Object type="App::Origin" name="Origin026" id="230" revision="0" file="Origin026.xml" />
+    <Object type="App::Line" name="X_Axis026" id="231" revision="0" file="X_Axis026.xml" />
+    <Object type="App::Line" name="Y_Axis026" id="232" revision="0" file="Y_Axis026.xml" />
+    <Object type="App::Line" name="Z_Axis026" id="233" revision="0" file="Z_Axis026.xml" />
+    <Object type="App::Plane" name="XY_Plane026" id="234" revision="0" file="XY_Plane026.xml" />
+    <Object type="App::Plane" name="XZ_Plane026" id="235" revision="0" file="XZ_Plane026.xml" />
+    <Object type="App::Plane" name="YZ_Plane026" id="236" revision="0" file="YZ_Plane026.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane021" id="237" revision="0" file="ImagePlane021.xml" />
+    <Object type="App::Part" name="Part027" id="238" revision="0" file="Part027.xml" />
+    <Object type="App::Origin" name="Origin027" id="239" revision="0" file="Origin027.xml" />
+    <Object type="App::Line" name="X_Axis027" id="240" revision="0" file="X_Axis027.xml" />
+    <Object type="App::Line" name="Y_Axis027" id="241" revision="0" file="Y_Axis027.xml" />
+    <Object type="App::Line" name="Z_Axis027" id="242" revision="0" file="Z_Axis027.xml" />
+    <Object type="App::Plane" name="XY_Plane027" id="243" revision="0" file="XY_Plane027.xml" />
+    <Object type="App::Plane" name="XZ_Plane027" id="244" revision="0" file="XZ_Plane027.xml" />
+    <Object type="App::Plane" name="YZ_Plane027" id="245" revision="0" file="YZ_Plane027.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane022" id="246" revision="0" file="ImagePlane022.xml" />
+    <Object type="App::Part" name="Part028" id="247" revision="0" file="Part028.xml" />
+    <Object type="App::Origin" name="Origin028" id="248" revision="0" file="Origin028.xml" />
+    <Object type="App::Line" name="X_Axis028" id="249" revision="0" file="X_Axis028.xml" />
+    <Object type="App::Line" name="Y_Axis028" id="250" revision="0" file="Y_Axis028.xml" />
+    <Object type="App::Line" name="Z_Axis028" id="251" revision="0" file="Z_Axis028.xml" />
+    <Object type="App::Plane" name="XY_Plane028" id="252" revision="0" file="XY_Plane028.xml" />
+    <Object type="App::Plane" name="XZ_Plane028" id="253" revision="0" file="XZ_Plane028.xml" />
+    <Object type="App::Plane" name="YZ_Plane028" id="254" revision="0" file="YZ_Plane028.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane023" id="255" revision="0" file="ImagePlane023.xml" />
+    <Object type="App::Part" name="Part029" id="256" revision="0" file="Part029.xml" />
+    <Object type="App::Origin" name="Origin029" id="257" revision="0" file="Origin029.xml" />
+    <Object type="App::Line" name="X_Axis029" id="258" revision="0" file="X_Axis029.xml" />
+    <Object type="App::Line" name="Y_Axis029" id="259" revision="0" file="Y_Axis029.xml" />
+    <Object type="App::Line" name="Z_Axis029" id="260" revision="0" file="Z_Axis029.xml" />
+    <Object type="App::Plane" name="XY_Plane029" id="261" revision="0" file="XY_Plane029.xml" />
+    <Object type="App::Plane" name="XZ_Plane029" id="262" revision="0" file="XZ_Plane029.xml" />
+    <Object type="App::Plane" name="YZ_Plane029" id="263" revision="0" file="YZ_Plane029.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane024" id="264" revision="0" file="ImagePlane024.xml" />
+    <Object type="App::Part" name="Part030" id="265" revision="6" file="Part030.xml" />
+    <Object type="App::Origin" name="Origin030" id="266" revision="0" file="Origin030.xml" />
+    <Object type="App::Line" name="X_Axis030" id="267" revision="0" file="X_Axis030.xml" />
+    <Object type="App::Line" name="Y_Axis030" id="268" revision="0" file="Y_Axis030.xml" />
+    <Object type="App::Line" name="Z_Axis030" id="269" revision="0" file="Z_Axis030.xml" />
+    <Object type="App::Plane" name="XY_Plane030" id="270" revision="0" file="XY_Plane030.xml" />
+    <Object type="App::Plane" name="XZ_Plane030" id="271" revision="0" file="XZ_Plane030.xml" />
+    <Object type="App::Plane" name="YZ_Plane030" id="272" revision="0" file="YZ_Plane030.xml" />
+    <Object type="App::Part" name="Part031" id="274" revision="0" file="Part031.xml" />
+    <Object type="App::Origin" name="Origin031" id="275" revision="0" file="Origin031.xml" />
+    <Object type="App::Line" name="X_Axis031" id="276" revision="0" file="X_Axis031.xml" />
+    <Object type="App::Line" name="Y_Axis031" id="277" revision="0" file="Y_Axis031.xml" />
+    <Object type="App::Line" name="Z_Axis031" id="278" revision="0" file="Z_Axis031.xml" />
+    <Object type="App::Plane" name="XY_Plane031" id="279" revision="0" file="XY_Plane031.xml" />
+    <Object type="App::Plane" name="XZ_Plane031" id="280" revision="0" file="XZ_Plane031.xml" />
+    <Object type="App::Plane" name="YZ_Plane031" id="281" revision="0" file="YZ_Plane031.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane026" id="282" revision="0" file="ImagePlane026.xml" />
+    <Object type="App::Part" name="Part032" id="283" revision="1" file="Part032.xml" />
+    <Object type="App::Origin" name="Origin032" id="284" revision="0" file="Origin032.xml" />
+    <Object type="App::Line" name="X_Axis032" id="285" revision="0" file="X_Axis032.xml" />
+    <Object type="App::Line" name="Y_Axis032" id="286" revision="0" file="Y_Axis032.xml" />
+    <Object type="App::Line" name="Z_Axis032" id="287" revision="0" file="Z_Axis032.xml" />
+    <Object type="App::Plane" name="XY_Plane032" id="288" revision="0" file="XY_Plane032.xml" />
+    <Object type="App::Plane" name="XZ_Plane032" id="289" revision="0" file="XZ_Plane032.xml" />
+    <Object type="App::Plane" name="YZ_Plane032" id="290" revision="0" file="YZ_Plane032.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane027" id="291" revision="0" file="ImagePlane027.xml" />
+    <Object type="App::Part" name="Part033" id="292" revision="0" file="Part033.xml" />
+    <Object type="App::Origin" name="Origin033" id="293" revision="0" file="Origin033.xml" />
+    <Object type="App::Line" name="X_Axis033" id="294" revision="0" file="X_Axis033.xml" />
+    <Object type="App::Line" name="Y_Axis033" id="295" revision="0" file="Y_Axis033.xml" />
+    <Object type="App::Line" name="Z_Axis033" id="296" revision="0" file="Z_Axis033.xml" />
+    <Object type="App::Plane" name="XY_Plane033" id="297" revision="0" file="XY_Plane033.xml" />
+    <Object type="App::Plane" name="XZ_Plane033" id="298" revision="0" file="XZ_Plane033.xml" />
+    <Object type="App::Plane" name="YZ_Plane033" id="299" revision="0" file="YZ_Plane033.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane028" id="300" revision="0" file="ImagePlane028.xml" />
+    <Object type="App::Part" name="Part034" id="301" revision="0" file="Part034.xml" />
+    <Object type="App::Origin" name="Origin034" id="302" revision="0" file="Origin034.xml" />
+    <Object type="App::Line" name="X_Axis034" id="303" revision="0" file="X_Axis034.xml" />
+    <Object type="App::Line" name="Y_Axis034" id="304" revision="0" file="Y_Axis034.xml" />
+    <Object type="App::Line" name="Z_Axis034" id="305" revision="0" file="Z_Axis034.xml" />
+    <Object type="App::Plane" name="XY_Plane034" id="306" revision="0" file="XY_Plane034.xml" />
+    <Object type="App::Plane" name="XZ_Plane034" id="307" revision="0" file="XZ_Plane034.xml" />
+    <Object type="App::Plane" name="YZ_Plane034" id="308" revision="0" file="YZ_Plane034.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane029" id="309" revision="0" file="ImagePlane029.xml" />
+    <Object type="App::Part" name="Part035" id="310" revision="0" file="Part035.xml" />
+    <Object type="App::Origin" name="Origin035" id="311" revision="0" file="Origin035.xml" />
+    <Object type="App::Line" name="X_Axis035" id="312" revision="0" file="X_Axis035.xml" />
+    <Object type="App::Line" name="Y_Axis035" id="313" revision="0" file="Y_Axis035.xml" />
+    <Object type="App::Line" name="Z_Axis035" id="314" revision="0" file="Z_Axis035.xml" />
+    <Object type="App::Plane" name="XY_Plane035" id="315" revision="0" file="XY_Plane035.xml" />
+    <Object type="App::Plane" name="XZ_Plane035" id="316" revision="0" file="XZ_Plane035.xml" />
+    <Object type="App::Plane" name="YZ_Plane035" id="317" revision="0" file="YZ_Plane035.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane030" id="318" revision="0" file="ImagePlane030.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString" id="319" revision="2" file="ShapeString.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString001" id="320" revision="2" file="ShapeString001.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString002" id="321" revision="2" file="ShapeString002.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString003" id="322" revision="2" file="ShapeString003.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString004" id="323" revision="2" file="ShapeString004.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString005" id="324" revision="2" file="ShapeString005.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString006" id="325" revision="2" file="ShapeString006.xml" />
+    <Object type="App::Part" name="Part036" id="326" revision="0" file="Part036.xml" />
+    <Object type="App::Origin" name="Origin036" id="327" revision="0" file="Origin036.xml" />
+    <Object type="App::Line" name="X_Axis036" id="328" revision="0" file="X_Axis036.xml" />
+    <Object type="App::Line" name="Y_Axis036" id="329" revision="0" file="Y_Axis036.xml" />
+    <Object type="App::Line" name="Z_Axis036" id="330" revision="0" file="Z_Axis036.xml" />
+    <Object type="App::Plane" name="XY_Plane036" id="331" revision="0" file="XY_Plane036.xml" />
+    <Object type="App::Plane" name="XZ_Plane036" id="332" revision="0" file="XZ_Plane036.xml" />
+    <Object type="App::Plane" name="YZ_Plane036" id="333" revision="0" file="YZ_Plane036.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane031" id="334" revision="0" file="ImagePlane031.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch010" id="335" revision="3" file="Sketch010.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch026" id="339" revision="3" file="Sketch026.xml" />
+    <Object type="App::Part" name="Part037" id="341" revision="1" file="Part037.xml" />
+    <Object type="App::Origin" name="Origin037" id="342" revision="0" file="Origin037.xml" />
+    <Object type="App::Line" name="X_Axis037" id="343" revision="0" file="X_Axis037.xml" />
+    <Object type="App::Line" name="Y_Axis037" id="344" revision="0" file="Y_Axis037.xml" />
+    <Object type="App::Line" name="Z_Axis037" id="345" revision="0" file="Z_Axis037.xml" />
+    <Object type="App::Plane" name="XY_Plane037" id="346" revision="0" file="XY_Plane037.xml" />
+    <Object type="App::Plane" name="XZ_Plane037" id="347" revision="0" file="XZ_Plane037.xml" />
+    <Object type="App::Plane" name="YZ_Plane037" id="348" revision="0" file="YZ_Plane037.xml" />
+    <Object type="App::Part" name="Part038" id="349" revision="0" file="Part038.xml" />
+    <Object type="App::Origin" name="Origin038" id="350" revision="0" file="Origin038.xml" />
+    <Object type="App::Line" name="X_Axis038" id="351" revision="0" file="X_Axis038.xml" />
+    <Object type="App::Line" name="Y_Axis038" id="352" revision="0" file="Y_Axis038.xml" />
+    <Object type="App::Line" name="Z_Axis038" id="353" revision="0" file="Z_Axis038.xml" />
+    <Object type="App::Plane" name="XY_Plane038" id="354" revision="0" file="XY_Plane038.xml" />
+    <Object type="App::Plane" name="XZ_Plane038" id="355" revision="0" file="XZ_Plane038.xml" />
+    <Object type="App::Plane" name="YZ_Plane038" id="356" revision="0" file="YZ_Plane038.xml" />
+    <Object type="Image::ImagePlane" name="ImagePlane032" id="357" revision="0" file="ImagePlane032.xml" />
+    <Object type="Part::Part2DObjectPython" name="ShapeString007" id="358" revision="2" file="ShapeString007.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch034" id="359" revision="3" file="Sketch034.xml" />
+    <Object type="Part::Face" name="Face" id="401" revision="2" file="Face.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="404" revision="3" file="Sketch.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch035" id="405" revision="19" file="Sketch035.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch036" id="406" revision="11" file="Sketch036.xml" />
+    <Object type="App::Part" name="Part039" id="407" revision="1" file="Part039.xml" />
+    <Object type="App::Origin" name="Origin039" id="408" revision="0" file="Origin039.xml" />
+    <Object type="App::Line" name="X_Axis039" id="409" revision="0" file="X_Axis039.xml" />
+    <Object type="App::Line" name="Y_Axis039" id="410" revision="0" file="Y_Axis039.xml" />
+    <Object type="App::Line" name="Z_Axis039" id="411" revision="0" file="Z_Axis039.xml" />
+    <Object type="App::Plane" name="XY_Plane039" id="412" revision="0" file="XY_Plane039.xml" />
+    <Object type="App::Plane" name="XZ_Plane039" id="413" revision="0" file="XZ_Plane039.xml" />
+    <Object type="App::Plane" name="YZ_Plane039" id="414" revision="0" file="YZ_Plane039.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch037" id="415" revision="3" file="Sketch037.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch038" id="416" revision="3" file="Sketch038.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

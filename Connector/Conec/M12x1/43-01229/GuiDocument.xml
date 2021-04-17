@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
+<Expand />
+>
+  <Camera extra="0" id="32" binding="0">
+<![CDATA[
+OrthographicCamera {
+  viewportMapping ADJUST_CAMERA
+  position 9.4731941 5.5668468 9.4731884
+  orientation 0.74290609 0.30772209 0.59447283  1.2171158
+  nearDistance 0.2778548
+  farDistance 37.131535
+  aspectRatio 1
+  focalDistance 20.978073
+  height 41.956146
+
+}
+## overrideMode: As Is]]>
+  </Camera>
+</Document>

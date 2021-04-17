@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="8787913e-c041-4331-b166-a01b115e31f8" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="97">
+<![CDATA[
+-1.0 0:Sets how to align the values within span.
+-1.0 0:Starting cell of first value (the rest are scanned downwards till an empty cell is encountered)
+-1.0 0:Number of values to generate
+-1.0 0:If True, the last value in series will equal SpanEnd. If False, the value equal to SpanEnd will be dropped.
+-1.0 0:Makes the placement synchronized to Placement property. This will often make this object unmovable. Not applicable to arrays.
+-1.0 0:Reverses x axis of every placement.
+-1.0 0:Reverses z axis of every placement.
+-1.0 0:Choose the preferred shape of placement markers.
+-1.0 0:Size of placement markers (set to zero for automatic).
+-1.0 0:Info: number of placements in the array
+-1.0 0:Extra offset for the series, expressed as fraction of step.
+-1.0 0:Orientation of placements. Zero - aligns with origin. Static - aligns with self placement.
+-1.0 0:Radius of the array (set to zero for just rotation).
+-1.0 0:Reverses array direction.
+-1.0 0:Ending value for value series generator
+-1.0 0:Starting value for value series generator
+-1.0 0:Link to spreadsheet to take values from.
+-1.0 0:Step for value generator. For exponential law, it is a natural logarithm of change ratio.
+-1.0 0:module_name.class_name of this object, for proxy recovery
+-1.0 0:If True, and attachment mode is concentric, supporting arc's radius is used as array radius.
+-1.0 0:If attachment mode is concentric, supporting arc's range can be used as array's Span or Step.
+-1.0 0:Interface version
+-1.0 0:List of angles, in degrees.
+-1.0 0:Select where to take the value series from.
+-1.0 0:Sets whether this object should be treated as a lattice by further operations
+-1.0 0:Sets, what method to use for copying shapes.
+-1.0 0:Base object. Can be any generic shape, as well as another lattice object.
+-1.0 0:In case single object copy is made, this property controls, if it's packed into compoud or not.
+-1.0 0:Placement or array of placements to be treated as origins for PlacementsTo.
+-1.0 0:Placement or array of placements, containing target locations.
+-1.0 0:Reference for array of placements.
+-1.0 0:Source or Documentation
+-1.0 0:Description
+-1.0 0:Price of product or material (currency not specified yet)
+-1.0 0:Manufacturers SKU
+-1.0 0:URL or String of the product or machine to source from
+-1.0 0:True: Stop Accumalation here
+-1.0 0:Technology of Manufacturing
+-1.0 0:Time to manufacture / order / assembly in sec
+-80.0 0:Vertex1;:T3759:7:V
+-1.0 0:Vertex2;:M;FUS;:T3759:7:V
+-1.0 0:#2f;:T3789:3:V
+-1.0 0:#30;:T3789:3:V
+-1.0 0:#31;:T3789:3:V
+-1.0 0:#2e;:T3789:3:V
+-1.0 0:#32;:T3789:3:V
+-1.0 0:#33;:T3789:3:V
+-1.0 0:Edge1;:T3759:5:E
+-1.0 0:Edge2;:M;FUS;:T3759:5:E
+-1.0 0:Edge3;:M;FUS;:T3759:5:E
+-1.0 0:#36;:T3789:3:E
+-1.0 0:#37;:T3789:3:E
+-1.0 0:#38;:T3789:3:E
+-1.0 0:#34;:T3789:3:E
+-1.0 0:#35;:T3789:3:E
+-1.0 0:#39;:T3789:3:E
+-1.0 0:#3a;:T3789:3:E
+-1.0 0:#3b;:T3789:3:E
+-1.0 0:#3c;:T3789:3:E
+-1.0 0:Face1;:M;FUS;:T3759:5:F
+-1.0 0:Face2;:T3759:5:F
+-1.0 0:#43;:M;FUS;:T3789:3:F
+-1.0 0:#3d;:T3789:3:F
+-1.0 0:#3f;:T3789:3:F
+-1.0 0:#40;:T3789:3:F
+-2.0 0:#41;:T3789:3:F
+-1.0 0:#42;:T3789:3:F
+-1.0 0:#a7;:T3760:3:V
+-1.0 0:#a8;:T3760:3:V
+-1.0 0:#a9;:T3760:3:V
+-1.0 0:#aa;:T3760:3:V
+-1.0 0:#ab;:T3760:3:V
+-1.0 0:#ad;:T3760:3:V
+-1.0 0:#ae;:T3760:3:V
+-1.0 0:#af;:T3760:3:E
+-1.0 0:#b0;:T3760:3:E
+-1.0 0:#b1;:T3760:3:E
+-1.0 0:#b2;:T3760:3:E
+-1.0 0:#b3;:T3760:3:E
+-1.0 0:#b4;:T3760:3:E
+-1.0 0:#b7;:T3760:3:E
+-1.0 0:#b8;:T3760:3:E
+-1.0 0:#b9;:T3760:3:E
+-1.0 0:#ba;:T3760:3:E
+-1.0 0:#bb;:T3760:3:F
+-1.0 0:#bc;:T3760:3:F
+-1.0 0:#bd;:T3760:3:F
+-1.0 0:#bf;:T3760:3:F
+-1.0 0:#c0;:T3760:3:F
+-1.0 0:#c2;:T3760:3:F
+-1.0 0:#c3;:T3760:3:F
+-1.0 0:#b6;:T3760:3:E
+-1.0 0:(Edge1;:T40:5:E)
+-1.0 0:#b5;:T3760:3:E
+-1.0 0:(Edge1;K2;:T40:5:E)
+-1.0 0:#be;:T3760:3:F
+-1.0 0:#ac;:T3760:3:V
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString" status="1">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2020-09-06T14:17:58Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="V-TEC 25D + Encoder"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-16T08:32:45Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="8787913e-c041-4331-b166-a01b115e31f8"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="18" Dependencies="1">
+    <ObjectDeps Name="Cylinder005" Count="1">
+      <Dep Name="Cylinder004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder004" Count="0"/>
+    <ObjectDeps Name="Box001" Count="1">
+      <Dep Name="Cylinder004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="PolarArray" Count="1">
+      <Dep Name="Cylinder004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Box002" Count="0"/>
+    <ObjectDeps Name="Populate" Count="2">
+      <Dep Name="Box002"/>
+      <Dep Name="PolarArray"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly" Count="5">
+      <Dep Name="Elements"/>
+      <Dep Name="Link"/>
+      <Dep Name="Cylinder"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Constraints"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="4">
+      <Dep Name="Element001"/>
+      <Dep Name="Element002"/>
+      <Dep Name="Element"/>
+      <Dep Name="Element003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="6">
+      <Dep Name="Cylinder005"/>
+      <Dep Name="Link"/>
+      <Dep Name="Populate"/>
+      <Dep Name="Cylinder004"/>
+      <Dep Name="Box001"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Link" Count="0"/>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element001" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element003" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Box001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Link001" Count="0"/>
+    <ObjectDeps Name="Cylinder" Count="2">
+      <Dep Name="Link001"/>
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fusion" Count="2">
+      <Dep Name="Link001"/>
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <Object type="Part::Cylinder" name="Cylinder005" id="2" revision="4" file="Cylinder005.xml" />
+    <Object type="Part::Cylinder" name="Cylinder004" id="6" revision="2" file="Cylinder004.xml" />
+    <Object type="Part::Box" name="Box001" id="10" revision="4" file="Box001.xml" />
+    <Object type="Part::FeaturePython" name="PolarArray" id="14" revision="3" file="PolarArray.xml" />
+    <Object type="Part::Box" name="Box002" id="20" revision="2" file="Box002.xml" />
+    <Object type="Part::FeaturePython" name="Populate" id="22" revision="1" file="Populate.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="30" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="31" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="32" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="33" revision="5" ViewType="Gui::ViewProviderLinkPython" Touched="1" file="Parts.xml" />
+    <Object type="App::Link" name="Link" id="34" revision="6" file="Link.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="35" revision="3" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="36" revision="3" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="37" revision="3" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="38" revision="2" file="Element003.xml" />
+    <Object type="App::Link" name="Link001" id="39" revision="4" file="Link001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder" id="40" revision="6" file="Cylinder.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="41" revision="3" file="Fusion.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

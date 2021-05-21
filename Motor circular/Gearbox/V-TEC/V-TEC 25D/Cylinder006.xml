@@ -170,8 +170,8 @@ So
       <LinkSubList count="0">
       </LinkSubList>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="false"/>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="true"/>
     </Property>
   </Properties>
 </Object>

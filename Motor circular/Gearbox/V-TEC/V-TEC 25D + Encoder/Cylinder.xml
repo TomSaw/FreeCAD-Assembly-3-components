@@ -14,7 +14,7 @@
     <Property name="AttacherType" type="App::PropertyString" status="8">
       <String value="Attacher::AttachEngine3D"/>
     </Property>
-    <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+    <Property name="AttachmentOffset" type="App::PropertyPlacement">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
@@ -22,18 +22,14 @@
       </LinkSub>
     </Property>
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
-      <ExpressionEngine count="2" cdata="1" xlink="1">
+      <ExpressionEngine count="1" cdata="1" xlink="1">
         <XLinks count="1" docs="1">
           <DocMap name="V_TEC_25D" label="V-TEC 25D" index="0"/>
-          <XLink file="V-TEC 25D.FCStd" stamp="2021-02-04T10:45:27Z" name="Cylinder006"/>
+          <XLink file="V-TEC 25D" stamp="2021-05-20T08:46:13Z" name="Cylinder006"/>
         </XLinks>
         <Expressions><![CDATA[
-0:.Placement.Base.z
-0:-<<V-TEC 25D>>.Height - Height
-0:
-
 0:Radius
-0:<<V-TEC 25D>>#<<Cylinder Body>>.Radius
+0:V_TEC_25D#<<Cylinder Body>>.Radius
 0:
 
 ]]>
@@ -50,30 +46,30 @@
       <String value=""/>
     </Property>
     <Property name="MapMode" type="App::PropertyEnumeration">
-      <Integer value="0"/>
+      <Integer value="5"/>
     </Property>
     <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
       <Float value="0"/>
     </Property>
-    <Property name="MapReversed" type="App::PropertyBool" status="8">
+    <Property name="MapReversed" type="App::PropertyBool">
       <Bool value="false"/>
     </Property>
-    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="0" Py="0" Pz="-59" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388612">
+      <PropertyPlacement Px="0" Py="0" Pz="-53" Q0="1" Q1="0" Q2="0" Q3="0" A="3.141592653589793" Ox="1" Oy="0" Oz="0"/>
     </Property>
     <Property name="Radius" type="App::PropertyLength">
       <Float value="12.8"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.3" brep="1">
+      <Part ElementMap="0.15.70200.4" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
               1               0               0               0 
-              0               1               0               0 
-              0               0               1             -59 
+              0              -1               0               0 
+              0               0              -1             -53 
 Curve2ds 6
 1 0 6 1 0 
 2 0 0 1 0 -0 1 12.800000000000001
@@ -83,7 +79,7 @@ Curve2ds 6
 2 0 0 1 0 -0 1 12.800000000000001
 Curves 3
 2 0 0 6 0 0 1 1 0 -0 -0 1 0 12.800000000000001
-1 12.800000000000001 -3.1400000000000001e-15 0 0 0 1 
+1 12.800000000000001 -3.1350958058172244e-15 0 0 0 1 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 12.800000000000001
 Polygon3D 0
 PolygonOnTriangulations 0
@@ -96,7 +92,7 @@ Triangulations 0
 TShapes 13
 Ve
 1e-07
-12.8 -3e-15 6
+12.8 -3.13509580581722e-15 6
 0 0
 
 0101101
@@ -111,8 +107,8 @@ Ed
 0101000
 +13 0 -13 0 *
 Ve
-1e-07
-12.8 -3e-15 0
+1.000000081886e-07
+12.8 -3.13509580581722e-15 0
 0 0
 
 0101101
@@ -141,7 +137,7 @@ Wi
 Fa
 0  1e-07 1 0
 
-0101000
+0111000
 +8 0 *
 Wi
 
@@ -150,7 +146,7 @@ Wi
 Fa
 0  1e-07 2 0
 
-0101000
+0111000
 +6 0 *
 Wi
 
@@ -159,7 +155,7 @@ Wi
 Fa
 0  1e-07 3 0
 
-0101000
+0111000
 -4 0 *
 Sh
 
@@ -176,11 +172,11 @@ So
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Link001" sub="Face7" shadow=";#3e;:T3789:3:F.Face7"/>
+        <Link obj="Import" sub="Face7" shadow=";#3e;:T3789:3:F;:Heb0,F;:H22:8,F.Face7"/>
       </LinkSubList>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="true"/>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="false"/>
     </Property>
   </Properties>
 </Object>

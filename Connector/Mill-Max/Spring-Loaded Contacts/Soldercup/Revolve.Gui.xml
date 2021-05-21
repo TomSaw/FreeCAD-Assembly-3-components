@@ -18,7 +18,7 @@
     </Property>
     <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
       <ColorList count="1" >
-abffcc
+abff00
       </ColorList>
     </Property>
     <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">

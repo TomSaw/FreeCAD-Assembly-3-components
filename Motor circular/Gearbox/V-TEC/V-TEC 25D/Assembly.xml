@@ -55,7 +55,7 @@
     <Property name="Freeze" type="App::PropertyBool" group="Base" attr="0" ro="0" hide="0" doc="" status="2098176">
       <Bool value="false"/>
     </Property>
-    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097419">
+    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097418">
       <LinkList count="3">
         <Link value="Constraints"/>
         <Link value="Elements"/>

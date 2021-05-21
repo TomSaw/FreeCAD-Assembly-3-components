@@ -7,27 +7,30 @@
   <Expand name="Assembly001" count="1">
     <Expand name="Parts001" count="1">
       <Expand name="Cut003" count="2">
-        <Expand name="Chamfer001" count="1">
-          <Expand name="Cut002"/>
+        <Expand name="Cut002"/>
+        <Expand name="Fusion001" count="1">
+          <Expand name="Link002"/>
         </Expand>
-        <Expand name="Fusion001"/>
       </Expand>
     </Expand>
   </Expand>
-  <Expand name="Group"/>
+  <Expand name="Group" count="2">
+    <Expand name="Extrude"/>
+    <Expand name="Extrude001"/>
+  </Expand>
 </Expand>
 >
-  <Camera extra="0" id="54" binding="0">
+  <Camera extra="0" id="1" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 37.109085 -9.609066 77.109077
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 2.2074537
-  farDistance 126.72798
+  position 48.443993 -36.82666 150.00497
+  orientation 0.40709543 0.34440842 0.84596467  1.2877266
+  nearDistance 40.979359
+  farDistance 182.84538
   aspectRatio 1
   focalDistance 64.274811
-  height 128.54962
+  height 171.67709
 
 }
 ## overrideMode: As Is]]>

@@ -55,7 +55,7 @@
     <Property name="Freeze" type="App::PropertyBool" group="Base" attr="0" ro="0" hide="0" doc="" status="2098176">
       <Bool value="false"/>
     </Property>
-    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097419">
+    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097418">
       <LinkList count="3">
         <Link value="Constraints"/>
         <Link value="Elements"/>
@@ -64,7 +64,7 @@
     </Property>
     <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097434"></Property>
     <Property name="Height" type="App::PropertyLength" group="Cylinder" attr="0" ro="0" hide="0" docID="33" status="2097152">
-      <Float value="59"/>
+      <Float value="53"/>
     </Property>
     <Property name="Label" type="App::PropertyString" status="134217728">
       <String value="V-TEC 25D + Encoder"/>
@@ -104,7 +104,7 @@
       <Bool value="true"/>
     </Property>
     <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2099082">
-      <BoolList value="111"/>
+      <BoolList value="011"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

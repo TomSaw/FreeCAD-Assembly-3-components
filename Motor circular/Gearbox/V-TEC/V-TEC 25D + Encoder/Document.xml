@@ -2,9 +2,9 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="8787913e-c041-4331-b166-a01b115e31f8" StringHasher="1">
+<Document SchemaVersion="4" ProgramVersion="2021.519R24301 +3652 (Git)" FileVersion="2" Uid="8787913e-c041-4331-b166-a01b115e31f8" StringHasher="1">
   <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="97">
+  <StringHasher2  count="71">
 <![CDATA[
 -1.0 0:Sets how to align the values within span.
 -1.0 0:Starting cell of first value (the rest are scanned downwards till an empty cell is encountered)
@@ -45,64 +45,38 @@
 -1.0 0:True: Stop Accumalation here
 -1.0 0:Technology of Manufacturing
 -1.0 0:Time to manufacture / order / assembly in sec
--80.0 0:Vertex1;:T3759:7:V
--1.0 0:Vertex2;:M;FUS;:T3759:7:V
--1.0 0:#2f;:T3789:3:V
--1.0 0:#30;:T3789:3:V
--1.0 0:#31;:T3789:3:V
--1.0 0:#2e;:T3789:3:V
--1.0 0:#32;:T3789:3:V
--1.0 0:#33;:T3789:3:V
--1.0 0:Edge1;:T3759:5:E
--1.0 0:Edge2;:M;FUS;:T3759:5:E
--1.0 0:Edge3;:M;FUS;:T3759:5:E
--1.0 0:#36;:T3789:3:E
--1.0 0:#37;:T3789:3:E
--1.0 0:#38;:T3789:3:E
--1.0 0:#34;:T3789:3:E
--1.0 0:#35;:T3789:3:E
--1.0 0:#39;:T3789:3:E
--1.0 0:#3a;:T3789:3:E
--1.0 0:#3b;:T3789:3:E
--1.0 0:#3c;:T3789:3:E
--1.0 0:Face1;:M;FUS;:T3759:5:F
--1.0 0:Face2;:T3759:5:F
--1.0 0:#43;:M;FUS;:T3789:3:F
--1.0 0:#3d;:T3789:3:F
--1.0 0:#3f;:T3789:3:F
--1.0 0:#40;:T3789:3:F
--2.0 0:#41;:T3789:3:F
--1.0 0:#42;:T3789:3:F
--1.0 0:#a7;:T3760:3:V
--1.0 0:#a8;:T3760:3:V
--1.0 0:#a9;:T3760:3:V
--1.0 0:#aa;:T3760:3:V
--1.0 0:#ab;:T3760:3:V
--1.0 0:#ad;:T3760:3:V
--1.0 0:#ae;:T3760:3:V
--1.0 0:#af;:T3760:3:E
--1.0 0:#b0;:T3760:3:E
--1.0 0:#b1;:T3760:3:E
--1.0 0:#b2;:T3760:3:E
--1.0 0:#b3;:T3760:3:E
--1.0 0:#b4;:T3760:3:E
--1.0 0:#b7;:T3760:3:E
--1.0 0:#b8;:T3760:3:E
--1.0 0:#b9;:T3760:3:E
--1.0 0:#ba;:T3760:3:E
--1.0 0:#bb;:T3760:3:F
--1.0 0:#bc;:T3760:3:F
--1.0 0:#bd;:T3760:3:F
--1.0 0:#bf;:T3760:3:F
--1.0 0:#c0;:T3760:3:F
--1.0 0:#c2;:T3760:3:F
--1.0 0:#c3;:T3760:3:F
--1.0 0:#b6;:T3760:3:E
--1.0 0:(Edge1;:T40:5:E)
--1.0 0:#b5;:T3760:3:E
--1.0 0:(Edge1;K2;:T40:5:E)
--1.0 0:#be;:T3760:3:F
--1.0 0:#ac;:T3760:3:V
+-bb.0 0:Shape cache
+-10.0 0:;:Heb0,V
+-1.c.1 Vertex1;:T3759:7:V
+-1.c.0 Vertex2;:M;FUS;:T3759:7:V
+-1.c.0 #2f;:T3789:3:V
+-1.c.0 #30;:T3789:3:V
+-1.c.0 #31;:T3789:3:V
+-1.c.0 #2e;:T3789:3:V
+-1.c.0 #32;:T3789:3:V
+-1.c.0 #33;:T3789:3:V
+-1.0 0:;:Heb0,E
+-1.c.1 Edge1;:T3759:5:E
+-1.c.0 Edge2;:M;FUS;:T3759:5:E
+-1.c.0 Edge3;:M;FUS;:T3759:5:E
+-1.c.0 #36;:T3789:3:E
+-1.c.0 #37;:T3789:3:E
+-1.c.0 #38;:T3789:3:E
+-1.c.0 #34;:T3789:3:E
+-1.c.0 #35;:T3789:3:E
+-1.c.0 #39;:T3789:3:E
+-1.c.0 #3a;:T3789:3:E
+-1.c.0 #3b;:T3789:3:E
+-1.c.0 #3c;:T3789:3:E
+-1.0 0:;:Heb0,F
+-1.c.1 Face1;:M;FUS;:T3759:5:F
+-1.c.0 Face2;:T3759:5:F
+-1.c.0 #43;:M;FUS;:T3789:3:F
+-1.c.0 #3d;:T3789:3:F
+-1.c.0 #3f;:T3789:3:F
+-1.c.0 #40;:T3789:3:F
+-1.c.0 #41;:T3789:3:F
+-1.c.0 #42;:T3789:3:F
 ]]>
   </StringHasher2>
   <Properties Count="19" TransientCount="3">
@@ -134,7 +108,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T08:32:45Z"/>
+      <String value="2021-05-20T08:49:24Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -170,41 +144,32 @@
     </Property>
   </Properties>
   <Objects Count="18" Dependencies="1">
-    <ObjectDeps Name="Cylinder005" Count="1">
-      <Dep Name="Cylinder004"/>
-    </ObjectDeps>
-    <ObjectDeps Name="Cylinder004" Count="0"/>
-    <ObjectDeps Name="Box001" Count="1">
-      <Dep Name="Cylinder004"/>
-    </ObjectDeps>
-    <ObjectDeps Name="PolarArray" Count="1">
-      <Dep Name="Cylinder004"/>
-    </ObjectDeps>
+    <ObjectDeps Name="Cylinder005" Count="0"/>
+    <ObjectDeps Name="Box001" Count="0"/>
+    <ObjectDeps Name="PolarArray" Count="0"/>
     <ObjectDeps Name="Box002" Count="0"/>
     <ObjectDeps Name="Populate" Count="2">
-      <Dep Name="Box002"/>
       <Dep Name="PolarArray"/>
+      <Dep Name="Box002"/>
     </ObjectDeps>
-    <ObjectDeps Name="Assembly" Count="5">
-      <Dep Name="Elements"/>
-      <Dep Name="Link"/>
-      <Dep Name="Cylinder"/>
-      <Dep Name="Parts"/>
+    <ObjectDeps Name="Assembly" Count="4">
       <Dep Name="Constraints"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Link"/>
     </ObjectDeps>
     <ObjectDeps Name="Constraints" Count="0"/>
     <ObjectDeps Name="Elements" Count="4">
+      <Dep Name="Element"/>
       <Dep Name="Element001"/>
       <Dep Name="Element002"/>
-      <Dep Name="Element"/>
       <Dep Name="Element003"/>
     </ObjectDeps>
-    <ObjectDeps Name="Parts" Count="6">
+    <ObjectDeps Name="Parts" Count="5">
       <Dep Name="Cylinder005"/>
-      <Dep Name="Link"/>
-      <Dep Name="Populate"/>
-      <Dep Name="Cylinder004"/>
       <Dep Name="Box001"/>
+      <Dep Name="Populate"/>
+      <Dep Name="Link"/>
       <Dep Name="Fusion"/>
     </ObjectDeps>
     <ObjectDeps Name="Link" Count="0"/>
@@ -218,39 +183,41 @@
     </ObjectDeps>
     <ObjectDeps Name="Element002" Count="2">
       <Dep Name="Elements"/>
-      <Dep Name="Link"/>
+      <Dep Name="Fusion"/>
     </ObjectDeps>
     <ObjectDeps Name="Element003" Count="2">
-      <Dep Name="Elements"/>
       <Dep Name="Box001"/>
+      <Dep Name="Elements"/>
     </ObjectDeps>
     <ObjectDeps Name="Link001" Count="0"/>
-    <ObjectDeps Name="Cylinder" Count="2">
-      <Dep Name="Link001"/>
-      <Dep Name="Link"/>
+    <ObjectDeps Name="Cylinder" Count="1">
+      <Dep Name="Import"/>
     </ObjectDeps>
     <ObjectDeps Name="Fusion" Count="2">
       <Dep Name="Link001"/>
       <Dep Name="Cylinder"/>
     </ObjectDeps>
-    <Object type="Part::Cylinder" name="Cylinder005" id="2" revision="4" file="Cylinder005.xml" />
-    <Object type="Part::Cylinder" name="Cylinder004" id="6" revision="2" file="Cylinder004.xml" />
-    <Object type="Part::Box" name="Box001" id="10" revision="4" file="Box001.xml" />
-    <Object type="Part::FeaturePython" name="PolarArray" id="14" revision="3" file="PolarArray.xml" />
+    <ObjectDeps Name="Import" Count="1">
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <Object type="Part::Cylinder" name="Cylinder005" id="2" revision="6" file="Cylinder005.xml" />
+    <Object type="Part::Box" name="Box001" id="10" revision="6" file="Box001.xml" />
+    <Object type="Part::FeaturePython" name="PolarArray" id="14" revision="4" file="PolarArray.xml" />
     <Object type="Part::Box" name="Box002" id="20" revision="2" file="Box002.xml" />
-    <Object type="Part::FeaturePython" name="Populate" id="22" revision="1" file="Populate.xml" />
-    <Object type="Part::FeaturePython" name="Assembly" id="30" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="Part::FeaturePython" name="Populate" id="22" revision="2" file="Populate.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="30" revision="58" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
     <Object type="App::FeaturePython" name="Constraints" id="31" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
-    <Object type="App::FeaturePython" name="Elements" id="32" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
-    <Object type="Part::FeaturePython" name="Parts" id="33" revision="5" ViewType="Gui::ViewProviderLinkPython" Touched="1" file="Parts.xml" />
-    <Object type="App::Link" name="Link" id="34" revision="6" file="Link.xml" />
-    <Object type="Part::FeaturePython" name="Element" id="35" revision="3" file="Element.xml" />
-    <Object type="Part::FeaturePython" name="Element001" id="36" revision="3" file="Element001.xml" />
-    <Object type="Part::FeaturePython" name="Element002" id="37" revision="3" file="Element002.xml" />
-    <Object type="Part::FeaturePython" name="Element003" id="38" revision="2" file="Element003.xml" />
-    <Object type="App::Link" name="Link001" id="39" revision="4" file="Link001.xml" />
-    <Object type="Part::Cylinder" name="Cylinder" id="40" revision="6" file="Cylinder.xml" />
-    <Object type="Part::MultiFuse" name="Fusion" id="41" revision="3" file="Fusion.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="32" revision="16" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="33" revision="62" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="App::Link" name="Link" id="34" revision="15" file="Link.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="35" revision="9" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="36" revision="9" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="37" revision="24" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="38" revision="5" file="Element003.xml" />
+    <Object type="App::Link" name="Link001" id="39" revision="8" file="Link001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder" id="40" revision="82" file="Cylinder.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="41" revision="10" file="Fusion.xml" />
+    <Object type="Part::SubShapeBinder" name="Import" id="42" revision="28" file="Import.xml" />
   </Objects>
   <ObjectData Count="0">
   </ObjectData>

@@ -479,7 +479,7 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
   </Properties>
 </Object>

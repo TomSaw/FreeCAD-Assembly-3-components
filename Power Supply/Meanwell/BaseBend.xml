@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="BaseBend">
+  <Properties Count="15" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="BendSide" type="App::PropertyEnumeration" group="Parameters" attr="0" ro="0" hide="0" docID="3" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="3">
+<Enum value="Outside"/>
+<Enum value="Inside"/>
+<Enum value="Middle"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="BendSketch" type="App::PropertyLink" group="Parameters" attr="0" ro="0" hide="0" docID="5" status="2097152">
+      <Link value="Sketch"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="1" cdata="1">
+        <Expressions><![CDATA[
+0:length
+0:<<LRS-100-36 Box>>.Width
+0:
+
+]]>
+        </Expressions>
+      </ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217729">
+      <String value="LRS-100-36 L-Sheet"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MidPlane" type="App::PropertyBool" group="Parameters" attr="0" ro="0" hide="0" docID="6" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="SheetMetalBaseCmd" class="SMBaseBend" cdata="1">
+<![CDATA[
+{}
+]]>
+      </Python>
+    </Property>
+    <Property name="Reverse" type="App::PropertyBool" group="Parameters" attr="0" ro="0" hide="0" docID="7" status="2097152">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 6
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0              -0 
+              0               1               0             129 
+              0               0               1              -0 
+1
+              1               0               0               0 
+              0               1               0            -129 
+              0               0               1               0 
+2  2 1 3 1 0
+2  2 -1 0
+2  3 -1 2 -1 0
+Curve2ds 40
+1 1.5707963267948966 0 0 -1 
+1 0 0 -2.2204460492503136e-16 -1 
+1 27.499999999999993 -6.106226635438361e-15 -2.2204460492503136e-16 -1 
+1 0 0 1 0 
+1 0 -1.5 1 0 
+1 -2.5 5.5511151231257837e-16 1 0 
+1 -2.5000000000000289 -129 1 0 
+1 0 0 0 -1 
+1 103.49999999999996 0 0 -1 
+1 0 -3.8857805861880474e-16 1 0 
+1 0 0 1 0 
+1 0 -129 1 0 
+1 6.2831853071795862 0 -1 0 
+1 0 0 1 0 
+1 27.499999999999993 -6.106226635438361e-15 -2.2204460492503136e-16 -1 
+6 0 1 29.999999999999993 -1.5  29.999999999999993 0  
+1 -2.5 5.5511151231257837e-16 1 0 
+1 0 0 1 0 
+8 0 1
+1 1.5707963267948966 0 0 1 
+6 0 1 2.5 -1.5  2.5 0  
+8 0 1
+1 4.7123889803846897 0 0 1 
+1 -2.5000000000000289 -129 1 0 
+1 0 0 0 -1 
+1 0 0 1 0 
+1 0 -1.5 1 0 
+1 0 0 1 0 
+1 0 -129 1 0 
+1 0 1 1 0 
+1 0 0 0 1 
+6 0 1 103.49999999999996 -1.5  103.49999999999996 0  
+1 6.2831853071795862 0 0 1 
+1 6.2831853071795862 1 -1 0 
+1 0 0 -2.2204460492503136e-16 -1 
+8 0 129
+1 1.5707963267948966 0 0 -1 
+6 0 1 0 -1.5  0 0  
+1 0 0 0 -1 
+1 0 0 1 0 
+1 0 0 1 0 
+1 0 -129 1 0 
+1 103.49999999999996 0 0 -1 
+Curves 25
+1 104.49999999999996 129 2.5 0 -1 0 
+1 104.49999999999996 129 29.999999999999993 0 -1 0 
+1 104.49999999999996 0 0 0 2.2204460492503136e-16 1 
+1 103.49999999999996 129 1.5 0 -1 0 
+2 103.49999999999996 5.5511151231257827e-16 2.5 0 -1 0 0 0 -1 1 0 0 1
+6 0 1 104.49999999999996 6.6613381477509392e-15 29.999999999999993  105.99999999999996 0 29.999999999999993  
+1 105.99999999999996 129 29.999999999999993 -0 -1 0 
+6 0 1 104.49999999999996 129 29.999999999999993  105.99999999999996 129 29.999999999999993  
+1 105.99999999999996 129 0 0 2.2204460492503136e-16 1 
+6 0 1 104.49999999999996 129 2.5  105.99999999999996 129 2.5  
+6 0 1 104.49999999999996 5.5511151231257837e-16 2.5  105.99999999999996 0 2.5  
+1 105.99999999999996 0 0 0 2.2204460492503136e-16 1 
+1 0 129 1.5 0 -1 0 
+1 0 0 1.5 1 0 0 
+2 103.49999999999996 129 2.5 0 -1 0 0 0 -1 1 0 0 2.5
+6 0 1 103.49999999999996 129 1.5  103.49999999999996 129 0  
+7 0 0  1 2 2  103.49999999999999 5.5511151231257827e-16 1.4999999999999998  103.49999999999996 0 3.3306690738754696e-16 
+ 0 2 1 2
+2 103.49999999999996 0 2.5 0 -1 0 0 0 -1 1 0 0 2.5
+1 105.99999999999996 129 2.5 -0 -1 0 
+6 0 1 0 129 1.5  0 129 0  
+1 0 129 0 0 -1 0 
+6 0 1 0 0 1.5  0 0 0  
+1 0 129 0 1 0 0 
+1 0 0 0 1 0 0 
+1 103.49999999999996 129 0 0 -1 0 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 19
+1 104.49999999999996 129 2.5 -1 0 0 0 2.2204460492503136e-16 1 0 1 -2.2204460492503136e-16 
+2 103.49999999999996 129 2.5 -0 1 -0 0 0 -1 1 0 0 1
+1 104.49999999999996 0 0 -1 0 0 0 2.2204460492503136e-16 1 0 1 -2.2204460492503136e-16 
+1 105.99999999999996 129 0 0 1 -2.2204460492503136e-16 0 2.2204460492503136e-16 1 1 -0 0 
+1 0 129 1.5 -0 0 1 1 0 0 0 1 -0 
+2 103.49999999999996 1.6653345369377353e-16 2.5 0 -1 0 0 -0 -1 1 0 0 1
+9 0 0 0 0 8 1 9 2 2 2 104.4999999999999 5.5511151231257788e-16 2.4999999999999982  105.99999999999987 0 2.4999999999999991  
+104.50000000000061 5.551115123125831e-16 2.303650459150655  105.99999999999932 0 2.0091261478765801  
+104.45593833508519 5.5511151231256999e-16 2.1073017324482826  105.8898480275992 0 1.5182521412395156  
+104.36782086892009 5.5511151231258419e-16 1.9224839626168784  105.66954516467516 0 1.0562169141622546  
+104.23925483151292 5.5511151231258054e-16 1.7607451684874253  105.34814688945266 0 0.65185311055037121  
+104.07751603738252 5.5511151231257245e-16 1.6321791310804674  104.94378308583593 0 0.33045483532134612  
+103.89269826755191 5.5511151231258221e-16 1.5440616649137462  104.4817478587611 0 0.11015197240304596  
+103.69634954084928 5.5511151231257728e-16 1.4999999999999949  103.99087385212331 0 -9.0237341408640619e-15  
+103.49999999999999 5.5511151231257827e-16 1.4999999999999998  103.49999999999996 0 3.3306690738754696e-16  
+
+4.7123889803846897 9
+6.2831853071795862 9
+
+0 2
+1 2
+
+9 0 0 0 0 8 1 9 2 2 2 103.49999999999999 129 1.5  103.49999999999996 129 2.2204460492503131e-16  
+103.69634954084944 129 1.500000000000002  103.9908738521235 129.00000000000043 2.6504836836146109e-16  
+103.89269826755095 128.9999999999994 1.5440616649137171  104.48174785876022 128.99999999999849 0.11015197240300466  
+104.07751603738399 129.00000000000071 1.6321791310805027  104.94378308583786 129.00000000000301 0.33045483532143211  
+104.2392548315126 129.00000000000009 1.7607451684874205  105.34814688944955 128.99999999999599 0.65185311055025708  
+104.3678208689187 128.99999999999932 1.9224839626168437  105.66954516467875 129.00000000000367 1.0562169141623532  
+104.45593833508696 129.00000000000048 2.1073017324483212  105.88984802759663 128.9999999999979 1.5182521412394587  
+104.49999999999972 128.99999999999991 2.3036504591506359  106.00000000000018 129.00000000000065 2.009126147876596  
+104.49999999999999 129 2.5  105.99999999999996 129 2.5  
+
+0 9
+1.5707963267948966 9
+
+0 2
+1 2
+
+1 105.99999999999996 129 29.999999999999993 -0 0 1 -0 -1 0 1 0 0 
+1 105.99999999999996 0 0 0 -1 2.2204460492503136e-16 -0 -2.2204460492503136e-16 -1 1 0 -0 
+1 105.99999999999996 129 2.5 -1 0 0 0 2.2204460492503136e-16 1 0 1 -2.2204460492503136e-16 
+1 105.99999999999996 129 2.5 0 -0 -1 0 1 0 1 -0 0 
+1 0 0 1.5 -0 0 1 1 0 0 0 1 -0 
+1 0 129 0 -0 1 0 1 0 0 0 0 -1 
+2 103.49999999999996 129 2.5 -0 1 -0 0 0 -1 1 0 0 2.5
+1 103.49999999999996 129 0 -1 -0 -0 0 1 -0 0 -0 -1 
+1 0 129 0 -1 -0 -0 0 1 -0 0 -0 -1 
+1 0 129 0 -0 0 1 1 0 0 0 1 -0 
+1 0 0 0 0 -1 0 -1 -0 0 0 -0 -1 
+Triangulations 0
+
+TShapes 73
+Ve
+0.001
+104.5 129 2.5
+0 0
+
+0101101
+*
+Ve
+0.001
+104.5 5.55111512312578e-16 2.5
+0 0
+
+0101101
+*
+Ed
+ 0.001 1 1 0
+1  1 0 0 129
+2  1 2 0 0 129
+4 C1 1 0 2 0
+2  2 1 0 0 129
+0
+
+0101000
++73 0 -72 0 *
+Ve
+0.001
+104.5 6.66133814775094e-15 30
+0 0
+
+0101101
+*
+Ed
+ 0.001 1 1 0
+1  2 0 0 129
+2  3 1 0 0 129
+0
+
+0101000
++70 2 -70 4 *
+Ed
+ 0.001 1 1 0
+2  4 3 0 2.5 30
+1  3 0 2.5 30
+2  5 4 5 2.5 30
+2  6 1 5 2.5 30
+0
+
+0101000
++73 5 -70 0 *
+Ed
+ 0.001 1 1 0
+2  4 3 0 2.5 30
+1  3 0 2.5 30
+2  7 1 6 2.5 30
+0
+
+0101000
++72 6 -70 0 *
+Wi
+
+0101100
++71 0 -69 0 -68 2 +67 4 *
+Fa
+0  0.001 1 0
+
+0111000
++66 0 *
+Ve
+0.001
+103.5 129 1.5
+0 0
+
+0101101
+*
+Ve
+0.001
+103.5 0 1.5
+0 0
+
+0101101
+*
+Ed
+ 0.001 1 1 0
+1  4 0 0 129
+2  8 2 0 0 129
+4 C1 2 0 5 0
+2  9 5 0 0 129
+0
+
+0101000
++64 0 -63 0 *
+Ed
+ 1.12986324195448e-07 1 1 0
+2  10 6 0 0 1.5707963267949
+1  5 0 0 1.5707963267949
+2  11 2 5 0 1.5707963267949
+2  12 2 6 0 1.5707963267949
+2  13 7 6 0 1.5707963267949
+2  14 8 5 0 1.5707963267949
+0
+
+0101000
++64 5 -73 5 *
+Ed
+ 1.12986324195448e-07 1 1 0
+2  10 6 0 0 1.5707963267949
+1  5 0 0 1.5707963267949
+2  11 2 5 0 1.5707963267949
+2  12 2 6 0 1.5707963267949
+2  13 7 6 0 1.5707963267949
+2  14 8 5 0 1.5707963267949
+0
+
+0101000
++63 6 -72 6 *
+Wi
+
+0101100
++62 0 -71 0 -61 2 +60 4 *
+Fa
+0  1.00000000555112e-07 2 0
+
+0111000
++59 0 *
+Ve
+0.001
+106 0 30
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 1
+4 C0 9 0 10 0
+0
+
+0101000
++70 4 -57 0 *
+Ve
+0.001
+106 129 30
+0 0
+
+0101101
+*
+Ed
+ 0.001 1 1 0
+2  15 11 0 0 129
+1  7 0 0 129
+0
+
+0101000
++55 0 -57 0 *
+Ed
+ 1e-07 1 1 0
+1  8 0 0 1
+4 C0 9 0 4 0
+2  16 4 0 0 1
+0
+
+0101000
++70 2 -55 0 *
+Wi
+
+0101000
++69 0 +56 0 -54 0 -53 0 *
+Fa
+0  1e-07 9 0
+
+0111000
++52 0 *
+Ve
+0.001
+106 129 2.5
+0 0
+
+0101101
+*
+Ed
+ 0.001 1 1 0
+2  17 11 0 2.5 30
+1  9 0 2.5 30
+2  18 4 0 2.5 30
+0
+
+0101000
++50 0 -55 0 *
+Ed
+ 1e-07 1 1 0
+1  10 0 0 1
+4 C0 12 0 4 0
+2  19 8 0 0 1
+2  20 4 0 0 1
+0
+
+0101000
++73 0 -50 0 *
+Wi
+
+0101100
++68 2 +53 0 -49 0 -48 0 *
+Fa
+0  1e-07 4 0
+
+0111000
++47 0 *
+Ve
+0.001
+106 0 2.5
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  11 0 0 1
+4 C0 10 0 12 0
+2  21 7 0 0 1
+0
+
+0101000
++72 0 -45 0 *
+Ed
+ 0.001 1 1 0
+2  22 11 0 2.5 30
+1  12 0 2.5 30
+0
+
+0101000
++45 0 -57 0 *
+Wi
+
+0101100
+-67 4 +44 0 +43 0 -56 0 *
+Fa
+0  1e-07 10 0
+
+0111000
++42 0 *
+Ve
+0.001
+0 0 1.5
+0 0
+
+0101101
+*
+Ed
+ 0.001 1 1 0
+1  13 0 0 129
+2  23 5 0 0 129
+0
+
+0101000
++40 2 -40 4 *
+Ed
+ 0.001 1 1 0
+2  24 13 0 0 103.5
+1  14 0 0 103.5
+2  25 14 5 0 103.5
+2  26 5 5 0 103.5
+0
+
+0101000
++40 0 -64 5 *
+Ed
+ 0.001 1 1 0
+2  24 13 0 0 103.5
+1  14 0 0 103.5
+2  27 5 6 0 103.5
+0
+
+0101000
++40 0 -63 6 *
+Wi
+
+0101100
++39 0 -62 0 -38 2 +37 4 *
+Fa
+0  0.001 5 0
+
+0111000
++36 0 *
+Ve
+0.001
+103.5 129 0
+0 0
+
+0101101
+*
+Ed
+ 1.00000000555112e-07 1 1 0
+2  11 15 0 0 1.5707963267949
+1  15 0 0 1.5707963267949
+2  28 8 0 0 1.5707963267949
+0
+
+0101000
++34 0 -50 0 *
+Ed
+ 1.00000014210855e-07 1 1 0
+1  16 0 0 1
+2  29 8 0 0 1
+4 C0 16 0 8 0
+2  30 14 0 0 1
+0
+
+0101000
++64 0 -34 0 *
+Wi
+
+0101100
++61 2 +48 0 -33 0 -32 0 *
+Fa
+0  1e-07 8 0
+
+0111000
++31 0 *
+Ve
+0.001
+103.5 0 0
+0 0
+
+0101101
+*
+Ed
+ 1.00000028426264e-07 1 1 0
+1  17 0 0 1
+2  31 7 0 0 1
+4 C0 7 0 16 0
+0
+
+0101000
++63 0 -29 0 *
+Ed
+ 1.00000000555112e-07 1 1 0
+2  12 15 0 0 1.5707963267949
+1  18 0 0 1.5707963267949
+2  32 7 0 0 1.5707963267949
+0
+
+0101000
++29 0 -45 0 *
+Wi
+
+0101100
+-60 4 +28 0 +27 0 -44 0 *
+Fa
+0  1e-07 7 0
+
+0111000
++26 0 *
+Ed
+ 0.001 1 1 0
+2  33 11 0 0 129
+1  19 0 0 129
+2  34 15 0 0 129
+0
+
+0101000
++50 0 -45 0 *
+Wi
+
+0101100
++24 0 -54 0 -49 0 +43 0 *
+Fa
+0  0.001 11 0
+
+0111000
++23 0 *
+Ve
+0.001
+0 129 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  20 0 0 1
+4 C0 17 0 14 0
+2  35 14 0 0 1
+0
+
+0101000
++40 2 -21 0 *
+Ve
+0.001
+0 0 0
+0 0
+
+0101101
+*
+Ed
+ 0.001 1 1 0
+2  36 18 0 0 129
+1  21 0 0 129
+0
+
+0101000
++21 0 -19 0 *
+Ed
+ 1e-07 1 1 0
+1  22 0 0 1
+4 C0 19 0 17 0
+0
+
+0101000
++40 4 -19 0 *
+Wi
+
+0101000
+-39 0 +20 0 +18 0 -17 0 *
+Fa
+0  1e-07 17 0
+
+0111000
++16 0 *
+Ed
+ 0.001 1 1 0
+2  37 18 0 0 103.5
+1  23 0 0 103.5
+2  38 14 0 0 103.5
+0
+
+0101000
++21 0 -34 0 *
+Wi
+
+0101100
++38 2 +32 0 -14 0 -20 0 *
+Fa
+0  1e-07 14 0
+
+0111000
++13 0 *
+Ed
+ 0.001 1 1 0
+2  39 18 0 0 103.5
+1  24 0 0 103.5
+0
+
+0101000
++19 0 -29 0 *
+Wi
+
+0101100
+-37 4 +17 0 +11 0 -28 0 *
+Fa
+0  1e-07 19 0
+
+0111000
++10 0 *
+Ed
+ 0.001 1 1 0
+2  8 15 0 0 129
+1  25 0 0 129
+2  40 18 0 0 129
+0
+
+0101000
++34 0 -29 0 *
+Wi
+
+0101100
++8 0 -24 0 -33 0 +27 0 *
+Fa
+0  1.00000000555112e-07 15 0
+
+0111000
++7 0 *
+Wi
+
+0101100
++18 0 -8 0 -14 0 +11 0 *
+Fa
+0  0.001 18 0
+
+0111000
++5 0 *
+Sh
+
+0101100
++65 0 +58 0 +51 0 +46 0 +41 0 +35 0 +30 0 +25 0 -22 0 +15 0 
++12 0 +9 0 -6 0 -4 0 *
+So
+
+0100000
++3 0 *
+Co
+
+1100000
++2 0 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="58">
+<![CDATA[
+2 PostfixCount 61
+Edge
+Face
+Vertex
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:c5,E;OFS;:H:4,E;:M(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;K-1;:Hcd0:4,E);TRU;:Hcd0:c4,F;:U;TRU;:Hcd0:7,E;OFS;:H:4,E);FUS;:Hcd0:180,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:d6,E;OFS;:H:4,E;:M(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;K-1;:Hcd0:4,V,g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U2;OFS;:Hcd0:8,V;K-1;:Hcd0:4,V,g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:22f,E;OFS;:H:4,E);FUS;:Hcd0:2ec,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;K-1;:Hcd0:4,V,g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U2;OFS;:Hcd0:8,V;K-1;:Hcd0:4,V,g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:262,E;OFS;:H:4,E;:M(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:c5,E;OFS;:H:4,E);FUS;:Hcd0:170,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;:M;FUS;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:M;FUS;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:c5,E;OFS;:H:4,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;K-1;:Hcd0:4,E);TRU;:Hcd0:b3,F;:U;TRU;:Hcd0:7,E;OFS;:H:4,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;K-1;:Hcd0:4,E);TRU;:Hcd0:b3,F;OFS;:Hcd0:4,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;OFS;:H:4,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;OFS;:H:4,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;OFS;:H:4,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;K-1;:Hcd0:4,E);TRU;:Hcd0:b4,F;OFS;:Hcd0:4,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:M(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E);FUS;:Hcd0:b6,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U2;OFS;:Hcd0:8,V;:M(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V);FUS;:Hcd0:c8,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;:M(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V);FUS;:Hcd0:c8,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;OFS;:H:4,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:U;XTR;:Hcd0:7,E;K-1;:Hcd0:4,E);TRU;:Hcd0:a2,F;OFS;:Hcd0:4,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;OFS;:H:4,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;OFS;:H:4,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:U;XTR;:Hcd0:7,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:d6,E;OFS;:H:4,E;:M(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:G(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;K-1;:Hcd0:4,E);TRU;:Hcd0:b3,F;:U;TRU;:Hcd0:7,E;OFS;:H:4,E);FUS;:Hcd0:180,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;:G(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;K-1;:Hcd0:4,V,g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U2;OFS;:Hcd0:8,V;K-1;:Hcd0:4,V,g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:22f,E;OFS;:H:4,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:U;XTR;:Hcd0:7,V;:M;FUS;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:M;FUS;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;K-1;:Hcd0:4,E);TRU;:Hcd0:c5,F;OFS;:Hcd0:4,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:M(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E);FUS;:Hcd0:a5,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U2;OFS;:Hcd0:8,V;:M(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V);FUS;:Hcd0:b7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;:M(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V);FUS;:Hcd0:b7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:G(g4;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:U;XTR;:Hcd0:7,E;K-1;:Hcd0:4,E);TRU;:Hcd0:b3,F;OFS;:Hcd0:4,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:U;XTR;:Hcd0:7,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;:G;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:M;FUS;:Hcd0:7,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;K-1;:Hcd0:4,V);TRU;:Hcd0:c5,E;OFS;:H:4,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;WIR;:Hcd0:4,V;:G;XTR;:Hcd0:7,E;:G(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;K-1;:Hcd0:4,E);TRU;:Hcd0:b4,F;OFS;:Hcd0:4,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U3;OFS;:Hcd0:8,E;K-1;:Hcd0:4,E);TRU;:Hcd0:b4,F;OFS;:Hcd0:4,F;:M;FUS;:Hcd0:7,F
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U2;OFS;:Hcd0:8,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U2;OFS;:Hcd0:8,V;OFS;:H:4,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;:U;OFS;:Hcd0:7,V;OFS;:H:4,V
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U2;OFS;:Hcd0:8,E;OFS;:H:4,E
+;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U4;OFS;:Hcd0:8,E;:G(g5;SKT;:G;XTR;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:M;FLT;:Hcd0:7,F;:G;OFS;:Hcd0:7,F;:U;OFS;:Hcd0:7,E;WIR;:Hcd0:4,E;:G;XTR;:Hcd0:7,F;:U;XTR;:Hcd0:7,E;K-1;:Hcd0:4,E);TRU;:Hcd0:a2,F;OFS;:Hcd0:4,F;:M;FUS;:Hcd0:7,F
+
+MapCount 2
+
+ElementMap 1 3 3
+
+Edge
+
+ChildCount 0
+
+NameCount 29
+0
+;g4.25 0
+;g5.c ;g5.11 0
+;g5.23 0
+;g5.22 0
+;g4.6 0
+;g4.33 0
+;g4.32 0
+;g4.26 0
+;g5.37 ;g5.3c 0
+;g5.34 0
+;g5.18 0
+;g4.24 0
+;g4.7 0
+;g5.1c 0
+;g4.c ;g4.11 0
+;g4.23 0
+;g4.22 0
+;g4.2e 0
+;g4.4 0
+;g4.5 0
+;g4.30 0
+;g4.2b 0
+;g4.d 0
+;g4.1f ;g4.20 0
+;g4.b 0
+;g4.18 0
+;g4.1c 0
+;g4.15 0
+
+Face
+
+ChildCount 0
+
+NameCount 15
+0
+;g5.21 0
+;g4.31 0
+;g5.35 0
+;g5.36 0
+;g5.3d 0
+;g4.21 0
+;g4.29 0
+;g4.2f 0
+;g5.14 0
+;g4.e 0
+;g4.13 0
+;g4.1b 0
+;g4.2a 0
+;g4.14 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 17
+0
+;g4.28 0
+;g4.27 0
+;g5.a ;g5.12 0
+;g5.f ;g5.10 0
+;g4.9 0
+;g4.8 0
+;g5.38 ;g5.39 0
+;g5.3a ;g5.3b 0
+;g4.2d 0
+;g4.2c 0
+;g4.a ;g4.12 0
+;g4.f ;g4.10 0
+;g4.17 0
+;g4.16 0
+;g4.19 ;g4.1a 0
+;g4.1d ;g4.1e 0
+
+EndMap
+
+ElementMap 2 2 3
+
+Edge
+
+ChildCount 1
+1 0 28 0 1 ;:H,E 0
+
+NameCount 0
+
+Face
+
+ChildCount 1
+1 0 14 0 1 ;:H,F 0
+
+NameCount 0
+
+Vertex
+
+ChildCount 1
+1 0 16 0 1 ;:H,V 0
+
+NameCount 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="false"/>
+    </Property>
+    <Property name="length" type="App::PropertyLength" group="Parameters" attr="0" ro="0" hide="0" docID="4" status="2097152">
+      <Float value="129"/>
+    </Property>
+    <Property name="radius" type="App::PropertyLength" group="Parameters" attr="0" ro="0" hide="0" docID="1" status="2097152">
+      <Float value="1"/>
+    </Property>
+    <Property name="thickness" type="App::PropertyLength" group="Parameters" attr="0" ro="0" hide="0" docID="2" status="2097152">
+      <Float value="1.5"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

@@ -18,14 +18,14 @@
     </Property>
     <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
       <ColorList count="1" >
-cccccc00
+abff00
       </ColorList>
     </Property>
     <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
-      <Integer value="2"/>
+      <Integer value="0"/>
     </Property>
     <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-      <Integer value="0"/>
+      <Integer value="1"/>
     </Property>
     <Property name="ForceMapColors" type="App::PropertyBool" status="1">
       <Bool value="false"/>
@@ -34,18 +34,18 @@ cccccc00
       <Integer value="1"/>
     </Property>
     <Property name="LineColor" type="App::PropertyColor" status="1">
-      <PropertyColor value="3974949888"/>
+      <PropertyColor value="16776960"/>
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
       <ColorList count="1" >
-ececec00
+ffff00
       </ColorList>
     </Property>
     <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
-      <PropertyMaterial ambientColor="858993408" diffuseColor="3974949888" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+      <PropertyMaterial ambientColor="858993408" diffuseColor="16776960" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
     </Property>
     <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-      <Float value="2"/>
+      <Float value="1"/>
     </Property>
     <Property name="MapFaceColor" type="App::PropertyBool" status="1">
       <Bool value="true"/>
@@ -89,19 +89,19 @@ ececec00
       <Integer value="0"/>
     </Property>
     <Property name="ShapeColor" type="App::PropertyColor" status="1">
-      <PropertyColor value="3435973632"/>
+      <PropertyColor value="11271936"/>
     </Property>
     <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
-      <PropertyMaterial ambientColor="858993408" diffuseColor="3435973632" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+      <PropertyMaterial ambientColor="858993408" diffuseColor="11271936" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.800000011920929"/>
     </Property>
     <Property name="ShowInTree" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
     <Property name="Transparency" type="App::PropertyPercent" status="1">
-      <Integer value="0"/>
+      <Integer value="80"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="1">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
   </Properties>
 </ViewProvider>

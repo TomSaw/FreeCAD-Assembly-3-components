@@ -40,7 +40,7 @@
       </LinkList>
     </Property>
     <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097434"></Property>
-    <Property name="Label" type="App::PropertyString" status="134217729">
+    <Property name="Label" type="App::PropertyString" status="134217728">
       <String value="Plain Bearing with Flange"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">

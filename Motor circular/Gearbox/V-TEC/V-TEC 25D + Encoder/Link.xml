@@ -6,7 +6,7 @@
     <Extension type="App::LinkExtension" name="LinkExtension">
     </Extension>
   </Extensions>
-  <Properties Count="31" TransientCount="0">
+  <Properties Count="30" TransientCount="0">
     <Property name="AutoLinkLabel" type="App::PropertyBool" status="67109120">
       <Bool value="false"/>
     </Property>
@@ -43,7 +43,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-      <XLink file="V-TEC 25D.FCStd" stamp="2021-02-04T10:45:27Z" name="Assembly"/>
+      <XLink file="V-TEC 25D" stamp="2021-05-20T08:46:13Z" name="Assembly"/>
     </Property>
     <Property name="Matrix" type="App::PropertyMatrix" status="67109120">
       <PropertyMatrix a11="1" a12="0" a13="0" a14="0" a21="0" a22="1" a23="0" a24="0" a31="0" a32="0" a33="1" a34="0" a41="0" a42="0" a43="0" a44="1"/>
@@ -65,9 +65,6 @@
     </Property>
     <Property name="Process" type="App::PropertyEnumeration" group="Resources" attr="0" ro="0" hide="0" docID="38" status="2097152">
       <Integer value="-1"/>
-    </Property>
-    <Property name="RetagElements" type="App::PropertyBool" status="67109120">
-      <Bool value="false"/>
     </Property>
     <Property name="SKU" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="35" status="2097152">
       <String value=""/>

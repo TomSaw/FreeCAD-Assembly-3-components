@@ -50,7 +50,7 @@
       <String value=""/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388864">
-      <PropertyPlacement Px="-7.62939453125e-06" Py="50.0000114440918" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Price" type="App::PropertyFloat" group="Resources" attr="0" ro="0" hide="0" docID="2" status="2097152">
       <Float value="35.04"/>

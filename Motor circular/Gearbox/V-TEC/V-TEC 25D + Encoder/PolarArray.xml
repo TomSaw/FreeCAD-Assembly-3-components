@@ -21,7 +21,7 @@
     <Property name="AttacherType" type="App::PropertyString" status="8">
       <String value="Attacher::AttachEngine3D"/>
     </Property>
-    <Property name="AttachmentOffset" type="App::PropertyPlacement">
+    <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="CellStart" type="App::PropertyString" group="Polar Array" attr="0" ro="0" hide="0" docID="2" status="2097156">
@@ -77,7 +77,7 @@
     <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
       <Float value="0"/>
     </Property>
-    <Property name="MapReversed" type="App::PropertyBool">
+    <Property name="MapReversed" type="App::PropertyBool" status="8">
       <Bool value="false"/>
     </Property>
     <Property name="MarkerShape" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" docID="8" status="2097152">
@@ -108,8 +108,8 @@
 <Enum value="Dominoes"/>
       </CustomEnumList>
     </Property>
-    <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="0" Py="0" Pz="-53.5" Q0="1" Q1="0" Q2="0" Q3="0" A="3.141592653589793" Ox="1" Oy="0" Oz="0"/>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="-53.5" Q0="1" Q1="0" Q2="0" Q3="6.123233995736766e-17" A="3.141592653589793" Ox="1" Oy="0" Oz="0"/>
     </Property>
     <Property name="Proxy" type="App::PropertyPythonObject">
       <Python  json="yes" value="null"/>
@@ -317,8 +317,7 @@ Co
       <Float value="90"/>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
-      <LinkSubList count="1">
-        <Link obj="Cylinder004" sub="Face2"/>
+      <LinkSubList count="0">
       </LinkSubList>
     </Property>
     <Property name="Type" type="App::PropertyString" group="Lattice" attr="0" ro="1" hide="1" docID="19" status="85983232">

@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.504R24301 +3597 (Git)" FileVersion="2" Uid="7bf10771-585d-47e1-adcf-61b39ea979be" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="434">
+<![CDATA[
+-1b.0 0:#19;:T2547:3:F
+-2.0 0:#16;:T2547:3:F
+-2.0 0:#e;:T2547:2:E
+-3.0 0:Edge6;:T2546:5:E
+-3.0 0:Face5;:T2546:5:F
+-2.0 0:Face2;:T2546:5:F
+-8.0 0:#c;:T2547:2:E
+-2.0 0:Edge4;:T2546:5:E
+-59.0 0:Face1;:T-2561:5:F
+7a4.0 0:(Face1;K-1;:T2571:5:F)
+-1.0 0:(Face2;K-1;:T2570:5:F)
+-2.0 0:(Face1;K-2;:T2571:5:F)
+-1.0 0:(Face3;K-1;:T2570:5:F)
+-93.0 0:(Face1;K-1;:Ha14:4,F)
+-9.0 0:(Face1;K-2;:Ha14:4,F)
+-1.0 0:;:H-a22,V
+-1.c.1 Vertex1
+-1.c.0 Vertex2
+-1.0 0:;:H-a22,E
+-1.c.1 Edge1
+-1.c.0 Edge3
+-1.0 0:;:H-a22,F
+-1.c.1 Face2
+-1.c.0 Face3
+-1.c.-3 Edge2
+-1.c.3 Face1
+-1.0 0:(#84f;K-2;:Ha22:4,F)
+-1.0 0:(#84f;K-1;:Ha22:4,F)
+-3.0 0:;:M2;FUS;:Ha22:8,E
+-1.2c.1.7
+-1.0 0:;:M;FUS;:Ha22:7,E
+-1.2c.1.9
+-1.0 0:;:M;FUS;:Ha22:7,F
+-1.2c.1.a
+-1.8.-8.0 Face6 ;:G2#850;FUS;:H-a21:c,E
+-1.0 0:;:Ha22,E
+-1.2c.1.13
+-1.0 0:;:M;FUS;:H-a21:7,F
+-1.c.1 Face6
+-1.0 0:;:Ha22,F
+-1.2c.1.14
+-1.0 0:;:H-a21,E
+-1.c.1 Edge2
+-1.c.0 Edge10
+-1.c.0 Edge12
+-1.c.0 Edge6
+-4.0 0:;:H-a21,F
+-1.c.1 Face1
+-1.c.0 Face3
+-2.c.0 Face4
+-2.c.0 Face2
+-1.c.-8 Edge1
+-1.c.0 Edge3
+-1.c.0 Edge4
+-1.c.0 Edge9
+-1.c.0 Edge5
+-1.c.0 Edge11
+-1.c.0 Edge7
+-1.c.0 Edge8
+-3.c.-4 Face5
+-3.8.-e.2c Face5 ;:G2#851;FUS;:H-a21:c,E
+-1.0 0:;:M2;FUS;:Ha22:8,F
+-1.2c.1.30
+-1.2c.-23.-5
+-1.2c.4.3
+-1.0 0:;:M;FLT;:Ha21:7,F
+-2.0 0:;:G;FLT;:Ha21:7,F
+-3.2c.5.29
+-7.2c.0.c
+-1.2c.0.1
+-2.2c.0.2
+-2.2c.0.2
+-1.2c.2.1
+-1.2c.0.1
+-3.2c.0.3
+-2.2c.0.2
+-4.2c.-2.4
+-6.0 0:;:M;FLT;:Ha21:7,E
+-2.0 0:;:U3;FLT;:Ha21:8,E
+-3.0 0:;:U2;FLT;:Ha21:8,E
+-1.2c.1.23
+-1.2c.-3.0
+-6.2c.3.7
+-2.2c.0.1
+-2.2c.0.2
+-2.2c.0.2
+-a.0 0:;:U;FLT;:Ha21:7,V
+-2.0 0:;:U2;FLT;:Ha21:8,V
+-20.0 0:;:U;FLT;:Ha21:7,E
+-5.2c.5.61
+-1.0 0:;:U4;FLT;:Ha21:8,E
+-7.2c.7.69
+-a.2c.-6.d
+-1.2c.0.1
+-1.2c.0.-7
+-3.2c.0.1
+-2.2c.0.9
+-2.2c.0.-7
+-2.2c.0.9
+-2.2c.0.-7
+-b.0 0:;SKT
+-1.c.1 g5v1
+-1.c.0 g5
+-1.c.0 g6v1
+-1.c.0 g6
+-1.c.0 g7v1
+-1.c.0 g7
+-1.c.0 g8v1
+-1.c.0 g8
+-5.0 0:;:Ha23,E
+-1.2c.1.6
+-1.2c.0.-6
+-1.2c.0.4
+-1.2c.0.-2
+-3.0 0:;:Ha23,V
+-1.2c.1.e
+-1.0 0:;:G;TRU;:Ha23:7,F
+-1.2c.1.9
+-1.0 0:;:G;TRU;:Ha23:7,E
+-1.2c.1.4
+-1.0 0:;:U;TRU;:Ha23:7,E
+-1.2c.1.4
+-1.2c.-6.-16
+-1.2c.2.e
+-1.2c.2.d
+-1.2c.2.1
+-1.2c.-6.-18
+-1.2c.2.b
+-1.2c.2.10
+-1.2c.2.1
+-1.2c.-6.-1e
+-1.2c.2.e
+-1.2c.2.13
+-1.2c.2.1
+-b.0 0:;:U;TRU;:Ha23:7,V
+-1.2c.1.1a
+-1.2c.0.5
+-1.2c.0.4
+-1.2c.0.4
+-3.0 0:;:U;TRU;:Ha23:7,V;:L;TRU;:Ha23:18,F;:L;TRU;:Ha23:2a,F
+-1.2c.1.1f
+-1.2c.0.4
+-1.2c.0.4
+-1.2c.0.4
+-26.0 0:;:Ha29,F
+-1.2c.1.d8
+-12.0 0:;:Ha26,E
+-1.2c.1.73
+-1.2c.0.-2
+-1.2c.0.6
+-1.2c.0.-2
+-1.0 0:;:G2;MAK;:Ha26:8,F
+-1.2c.1.5
+-1.0 0:;:G3;MAK;:Ha26:8,F
+-1.2c.1.7
+-1.0 0:;:U3;MAK;:Ha26:8,E
+-1.2c.1.4
+-1.0 0:;:U2;MAK;:Ha26:8,E
+-1.2c.1.6
+-1.2c.0.2
+-1.2c.-6.-6
+-1.2c.2.0
+-1.2c.2.c
+-1.2c.2.0
+-1.2c.0.1
+-1.2c.-6.-c
+-1.2c.2.0
+-1.2c.2.10
+-1.2c.2.0
+-1.2c.0.1
+-1.2c.-6.-10
+-1.2c.2.0
+-1.2c.2.14
+-1.2c.2.0
+-1.2c.0.1
+-e3.0 0:;:U;MAK;:Ha26:7,E;:H-a25,E
+-1.2c.1.ed
+-1.2c.0.5
+-1.2c.0.-a
+-1.2c.0.-8
+-1.0 0:;:U3;MAK;:Ha26:8,E;:H-a25,E
+-1.2c.1.f2
+-1.2c.0.5
+-1.2c.0.-a
+-1.2c.0.-8
+-5.0 0:;:G2;MAK;:Ha26:8,F;:H-a25,F
+-1.2c.1.10b
+-1.2c.0.1
+-1.2c.0.-2
+-1.2c.0.-1
+-1.0 0:;:U;MAK;:Ha26:7,V;:H-a25,V
+-1.2c.1.fe
+-1.2c.0.5
+-1.2c.0.-a
+-1.2c.0.-6
+-5.0 0:;:Ha29,V
+-9.0 0:;:M;FUS;:H-a24:7,V
+-1.2c.1.186
+-1.2c.0.b
+-2.2c.0.-4
+-2.2c.0.8
+-9.0 0:;:H-a24,V
+-1.2c.1.177
+-1.2c.0.2
+-2.2c.0.-1
+-2.2c.0.2
+-11.0 0:;:Ha29,E
+-8.2c.8.1f2
+-1.2c.0.-3e
+-1.2c.0.1
+-1.2c.0.45
+-1.0 0:;:M;FUS;:H-a24:7,E
+-1.2c.1.1bf
+-1.2c.0.2
+-2.2c.0.-1
+-2.2c.0.2
+-d.2c.0.8
+-1.0 0:;:H-a24,E
+-1.2c.1.1c6
+-1.2c.-14.7
+-1.2c.14.1
+-3.2c.-14.-5
+-1.2c.14.1
+-3.2c.-14.7
+-1.2c.14.1
+-5.2c.-20.-3d
+-1.2c.0.-4b
+-2.2c.0.4e
+-1.2c.0.-4c
+-4.2c.0.50
+-1.2c.0.-4e
+-4.2c.0.52
+-1.2c.0.-50
+-2.2c.0.43
+-1.2c.0.1
+-7.2c.0.6
+-4.2c.0.4
+-12.0 0:;:M;FUS;:Ha29:7,F
+-1.2c.1.2aa
+-6.0 0:;:M;FUS;:H-a24:7,F
+-1.2c.1.20f
+-1.2c.0.a
+-2.2c.0.-4
+-2.2c.0.8
+-3.2c.-1c2.-a9
+-1.2c.0.1
+-2.2c.0.2
+-2.2c.0.2
+-1.0 0:;:H-a24,F
+-3.2c.1d4.2b5
+-1.2c.0.1
+-3.2c.0.3
+-2.2c.0.2
+-a.2c.1d1.b2
+-1.2c.0.2
+-1.2c.0.-1
+-1.2c.0.2
+-13.0 0:(Face2;K-2;:Ha15:4,F)
+-1.0 0:(Face2;K-1;:Ha15:4,F)
+-5.28.327 ;:G2#852;FUS;:Ha22:c,V
+-1.0 0:;:Ha22,V
+-1.2c.1.331
+-1.28.-328 ;:G#853;FUS;:Ha22:b,V
+-1.2c.328.332
+-1.2c.-2d2.1b
+-1.2c.0.3
+-1.2c.0.d
+-2.2c.0.5
+-1.2c.1d.303
+-2.2c.0.1
+-2.2c.0.1
+-1.2c.0.2
+-2.2c.2.-4
+-2.2c.0.1
+-2.2c.0.1
+-1.2c.0.2
+b95.2c.8a4.863
+-1.2c.0.10
+-1.2c.1d.323
+-1.2c.0.-1
+-1.2c.-1d.-331
+-1.2c.0.11
+-1.2c.1d.325
+-1.2c.0.-1
+-1.2c.2.-3
+-1.2c.0.-1
+-1.2c.0.5
+-1.2c.0.-1
+-1.0 0:;:Ha21,V
+-1.2c.1.2d
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:Ha21,E
+-1.2c.1.34d
+-1.2c.0.-5
+-1.2c.0.7
+-1.2c.0.21
+-1.2c.0.-26
+-1.2c.0.29
+-1.0 0:;:Ha21,F
+-1.2c.1.355
+-1.2c.0.7
+-1.2c.0.1f
+-1.2c.0.2
+-8.2c.-10a.2fe
+-1.2c.0.7
+-1.2c.0.12
+-1.2c.0.4
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.-1f
+-1.2c.0.7
+-1.2c.0.1a
+-1.2c.0.-1f
+-1.2c.0.7
+-1.2c.0.d
+-1.2c.0.4
+-1.2c.0.2
+-1.2c.0.2
+-1.2c.0.-1b
+-1.2c.0.7
+-1.2c.0.18
+-1.2c.0.1
+-1.2c.0.1
+-7.2c.2f.-2b
+-1.2c.0.1b
+-1.2c.0.4
+-1.2c.0.-1e
+-1.2c.0.2c
+-1.2c.0.-2b
+-1.2c.0.1a
+-1.2c.0.4
+-1.2c.0.-1c
+-1.2c.0.2a
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-e.2c.-15d.2
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-59.c.-63 g12v1
+-1.c.0 g12v2
+-1.c.0 g14v2
+-1.c.0 g13v2
+-1.c.0 g12
+-1.c.0 g14
+-1.c.0 g13
+-1.c.0 g15
+-1.2c.d.4
+-1.2c.7.-4
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.-7.2
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;RV;:Ha23:3,E
+-1.2c.1.9
+-1.2c.0.5
+-1.2c.0.1
+-1.2c.0.1
+-1.0 0:;:G;OFF;:Ha23:7,E
+-1.2c.1.5
+-1.2c.0.1
+-1.2c.0.1
+-12.0 0:;:U2;OFF;:Ha23:8,V;:H,V
+-1.2c.1.15
+-1.0 0:;:U;OFF;:Ha23:7,V;:H,V
+-1.2c.1.17
+-1.2c.-2.1
+-1.2c.0.1
+-1.0 0:;:G;OFF;:Ha23:7,E;:H,E
+-1.2c.1.20
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.28.-1a ;:L#c73;TRU;:Ha23:b,F;:H,F
+-1.0 0:;:Ha23,E;:H,E
+-1.2c.1.33
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.28.-2c ;:G#c65;TRU;:Ha23:b,E;:H,E
+-1.28.-1 ;:G#c68;TRU;:Ha23:b,E;:H,E
+-1.28.2 ;:G#c6a;TRU;:Ha23:b,E;:H,E
+-1.28.1 ;:G#c6c;TRU;:Ha23:b,E;:H,E
+-1.28.-4 ;:G#c6d;TRU;:Ha23:b,F;:H,F
+-1.28.5 ;:G#c6e;TRU;:Ha23:b,F;:H,F
+-1.28.1 ;:G#c6f;TRU;:Ha23:b,F;:H,F
+-1.28.1 ;:G#c71;TRU;:Ha23:b,F;:H,F
+-1.0 0:;:Ha23,V;:H,V
+-1.2c.1.44
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.-1e1.41
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.f.-1c
+-1.2c.0.2
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.23.8
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.14.-a
+-1.2c.-14.b
+-1.2c.0.1
+-1.2c.14.-b
+-1.2c.-14.c
+-1.2c.14.-b
+-1.2c.0.1
+-1.2c.45.b
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.0.1
+-1.2c.f.-d
+-1.0 0:;:G;FLT;:Ha2b:7,F
+-1.c.1 Edge3
+-1.0 0:;:U2;FLT;:Ha2b:8,E
+-1.2c.1.2
+-1.0 0:;:U3;FLT;:Ha2b:8,E
+-1.2c.1.4
+-1.0 0:(Face6;K-2;:Ha15:4,F)
+-1.0 0:(Face6;K-1;:Ha15:4,F)
+-1.0 0:(Edge8;K-1;:Ha15:4,E)
+-1.0 0:(Edge8;K-2;:Ha15:4,E)
+-1.0 0:(Edge2;K-1;:Ha15:4,E)
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-04-15T06:47:58Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="V-TEC - Wormgearbox"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-05-14T15:36:01Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="7bf10771-585d-47e1-adcf-61b39ea979be"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="57" Dependencies="1">
+    <ObjectDeps Name="Cylinder" Count="0"/>
+    <ObjectDeps Name="Box" Count="1">
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part__Mirroring" Count="2">
+      <Dep Name="Cylinder"/>
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fusion" Count="2">
+      <Dep Name="Part__Mirroring"/>
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut" Count="2">
+      <Dep Name="Cylinder"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body" Count="10">
+      <Dep Name="Fillet"/>
+      <Dep Name="Sketch001"/>
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Mirrored001"/>
+      <Dep Name="Pad"/>
+      <Dep Name="Box001"/>
+      <Dep Name="Sketch"/>
+      <Dep Name="Hole"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Mirrored"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="6">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Z_Axis"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="YZ_Plane"/>
+      <Dep Name="Y_Axis"/>
+    </ObjectDeps>
+    <ObjectDeps Name="X_Axis" Count="0"/>
+    <ObjectDeps Name="Y_Axis" Count="0"/>
+    <ObjectDeps Name="Z_Axis" Count="0"/>
+    <ObjectDeps Name="XY_Plane" Count="0"/>
+    <ObjectDeps Name="XZ_Plane" Count="0"/>
+    <ObjectDeps Name="YZ_Plane" Count="0"/>
+    <ObjectDeps Name="Box001" Count="3">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder001" Count="2">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch" Count="2">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Box001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad" Count="3">
+      <Dep Name="Fillet"/>
+      <Dep Name="Body"/>
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Hole" Count="3">
+      <Dep Name="Sketch001"/>
+      <Dep Name="Body"/>
+      <Dep Name="Mirrored"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch001" Count="4">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Pad"/>
+      <Dep Name="Box001"/>
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Mirrored" Count="3">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Body"/>
+      <Dep Name="Pad"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Mirrored001" Count="3">
+      <Dep Name="XY_Plane"/>
+      <Dep Name="Body"/>
+      <Dep Name="Hole"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet" Count="2">
+      <Dep Name="Body"/>
+      <Dep Name="Box001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder002" Count="0"/>
+    <ObjectDeps Name="Cylinder003" Count="0"/>
+    <ObjectDeps Name="Fusion001" Count="3">
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Box001"/>
+      <Dep Name="Cylinder003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Constraints"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="2">
+      <Dep Name="Element"/>
+      <Dep Name="Element001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="3">
+      <Dep Name="Fusion001"/>
+      <Dep Name="Body"/>
+      <Dep Name="Cut"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Body"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element001" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Cut"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder004" Count="0"/>
+    <ObjectDeps Name="Box002" Count="1">
+      <Dep Name="Cylinder004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut001" Count="2">
+      <Dep Name="Cylinder004"/>
+      <Dep Name="Box002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Body001" Count="8">
+      <Dep Name="Sketch003"/>
+      <Dep Name="Fillet001"/>
+      <Dep Name="Origin001"/>
+      <Dep Name="Sketch002"/>
+      <Dep Name="Hole001"/>
+      <Dep Name="Box003"/>
+      <Dep Name="Cylinder005"/>
+      <Dep Name="Pad001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin001" Count="6">
+      <Dep Name="Y_Axis001"/>
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="X_Axis001"/>
+      <Dep Name="XZ_Plane001"/>
+      <Dep Name="Z_Axis001"/>
+      <Dep Name="YZ_Plane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Y_Axis001" Count="0"/>
+    <ObjectDeps Name="XY_Plane001" Count="0"/>
+    <ObjectDeps Name="X_Axis001" Count="0"/>
+    <ObjectDeps Name="XZ_Plane001" Count="0"/>
+    <ObjectDeps Name="Z_Axis001" Count="0"/>
+    <ObjectDeps Name="YZ_Plane001" Count="0"/>
+    <ObjectDeps Name="Box003" Count="3">
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="Cylinder005"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder005" Count="2">
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch002" Count="2">
+      <Dep Name="XY_Plane001"/>
+      <Dep Name="Box003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pad001" Count="3">
+      <Dep Name="Fillet001"/>
+      <Dep Name="Sketch002"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Hole001" Count="3">
+      <Dep Name="Sketch003"/>
+      <Dep Name="Pad001"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch003" Count="2">
+      <Dep Name="Sketch002"/>
+      <Dep Name="XY_Plane001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet001" Count="2">
+      <Dep Name="Box003"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder007" Count="0"/>
+    <ObjectDeps Name="Assembly001" Count="3">
+      <Dep Name="Parts001"/>
+      <Dep Name="Constraints001"/>
+      <Dep Name="Elements001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints001" Count="0"/>
+    <ObjectDeps Name="Elements001" Count="2">
+      <Dep Name="Element002"/>
+      <Dep Name="Element003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts001" Count="3">
+      <Dep Name="Fillet002"/>
+      <Dep Name="Cut001"/>
+      <Dep Name="Body001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Body001"/>
+      <Dep Name="Elements001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element003" Count="2">
+      <Dep Name="Cut001"/>
+      <Dep Name="Elements001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet002" Count="1">
+      <Dep Name="Cylinder007"/>
+    </ObjectDeps>
+    <Object type="Part::Cylinder" name="Cylinder" id="2545" revision="49" file="Cylinder.xml" />
+    <Object type="Part::Box" name="Box" id="2546" revision="382" file="Box.xml" />
+    <Object type="Part::Mirroring" name="Part__Mirroring" id="2547" revision="9" file="Part__Mirroring.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="2548" revision="4" file="Fusion.xml" />
+    <Object type="Part::Cut" name="Cut" id="2549" revision="11" file="Cut.xml" />
+    <Object type="PartDesign::Body" name="Body" id="2550" revision="134" file="Body.xml" />
+    <Object type="App::Origin" name="Origin" id="2551" revision="0" file="Origin.xml" />
+    <Object type="App::Line" name="X_Axis" id="2552" revision="1" file="X_Axis.xml" />
+    <Object type="App::Line" name="Y_Axis" id="2553" revision="2" file="Y_Axis.xml" />
+    <Object type="App::Line" name="Z_Axis" id="2554" revision="2" file="Z_Axis.xml" />
+    <Object type="App::Plane" name="XY_Plane" id="2555" revision="1" file="XY_Plane.xml" />
+    <Object type="App::Plane" name="XZ_Plane" id="2556" revision="2" file="XZ_Plane.xml" />
+    <Object type="App::Plane" name="YZ_Plane" id="2557" revision="2" file="YZ_Plane.xml" />
+    <Object type="PartDesign::AdditiveBox" name="Box001" id="2558" revision="106" file="Box001.xml" />
+    <Object type="PartDesign::AdditiveCylinder" name="Cylinder001" id="2561" revision="31" file="Cylinder001.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="2562" revision="352" file="Sketch.xml" />
+    <Object type="PartDesign::Pad" name="Pad" id="2563" revision="51" file="Pad.xml" />
+    <Object type="PartDesign::Hole" name="Hole" id="2564" revision="80" file="Hole.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="2565" revision="49" file="Sketch001.xml" />
+    <Object type="PartDesign::Mirrored" name="Mirrored" id="2567" revision="16" file="Mirrored.xml" />
+    <Object type="PartDesign::Mirrored" name="Mirrored001" id="2568" revision="16" file="Mirrored001.xml" />
+    <Object type="PartDesign::Fillet" name="Fillet" id="2569" revision="16" file="Fillet.xml" />
+    <Object type="Part::Cylinder" name="Cylinder002" id="2570" revision="18" file="Cylinder002.xml" />
+    <Object type="Part::Cylinder" name="Cylinder003" id="2571" revision="12" file="Cylinder003.xml" />
+    <Object type="Part::MultiFuse" name="Fusion001" id="2573" revision="21" file="Fusion001.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="2574" revision="24" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="2575" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="2576" revision="5" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="2577" revision="13" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="2578" revision="7" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="2579" revision="7" file="Element001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder004" id="2580" revision="59" file="Cylinder004.xml" />
+    <Object type="Part::Box" name="Box002" id="2581" revision="500" file="Box002.xml" />
+    <Object type="Part::Cut" name="Cut001" id="2584" revision="26" file="Cut001.xml" />
+    <Object type="PartDesign::Body" name="Body001" id="2585" revision="150" file="Body001.xml" />
+    <Object type="App::Origin" name="Origin001" id="2586" revision="0" file="Origin001.xml" />
+    <Object type="App::Line" name="Y_Axis001" id="2587" revision="2" file="Y_Axis001.xml" />
+    <Object type="App::Plane" name="XY_Plane001" id="2588" revision="1" file="XY_Plane001.xml" />
+    <Object type="App::Line" name="X_Axis001" id="2589" revision="1" file="X_Axis001.xml" />
+    <Object type="App::Plane" name="XZ_Plane001" id="2590" revision="2" file="XZ_Plane001.xml" />
+    <Object type="App::Line" name="Z_Axis001" id="2591" revision="2" file="Z_Axis001.xml" />
+    <Object type="App::Plane" name="YZ_Plane001" id="2592" revision="2" file="YZ_Plane001.xml" />
+    <Object type="PartDesign::AdditiveBox" name="Box003" id="2593" revision="175" file="Box003.xml" />
+    <Object type="PartDesign::AdditiveCylinder" name="Cylinder005" id="2594" revision="58" file="Cylinder005.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch002" id="2595" revision="471" file="Sketch002.xml" />
+    <Object type="PartDesign::Pad" name="Pad001" id="2596" revision="78" file="Pad001.xml" />
+    <Object type="PartDesign::Hole" name="Hole001" id="2597" revision="125" file="Hole001.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch003" id="2598" revision="88" file="Sketch003.xml" />
+    <Object type="PartDesign::Fillet" name="Fillet001" id="2601" revision="65" file="Fillet001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder007" id="2603" revision="32" file="Cylinder007.xml" />
+    <Object type="Part::FeaturePython" name="Assembly001" id="2605" revision="38" ViewType="Gui::ViewProviderLinkPython" file="Assembly001.xml" />
+    <Object type="App::FeaturePython" name="Constraints001" id="2606" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Constraints001.xml" />
+    <Object type="App::FeaturePython" name="Elements001" id="2607" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Elements001.xml" />
+    <Object type="Part::FeaturePython" name="Parts001" id="2608" revision="65" ViewType="Gui::ViewProviderLinkPython" file="Parts001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="2609" revision="70" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="2610" revision="88" file="Element003.xml" />
+    <Object type="Part::Fillet" name="Fillet002" id="2611" revision="24" file="Fillet002.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

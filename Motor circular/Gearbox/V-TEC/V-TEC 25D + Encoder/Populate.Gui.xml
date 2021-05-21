@@ -24,7 +24,7 @@
     <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
       <Integer value="0"/>
     </Property>
-    <Property name="DontUnhideOnDelete" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" docID="40" status="2097161">
+    <Property name="DontUnhideOnDelete" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" doc="" status="2097161">
       <Bool value="false"/>
     </Property>
     <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- FreeCAD ViewProvider -->
 <Document SchemaVersion="1" FileVersion="2">
-<ViewProvider name="Extrude" expanded="0" Extensions="True">
+<ViewProvider name="Extrude" expanded="1" Extensions="True">
   <Extensions Count="1">
     <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
     </Extension>
@@ -18,7 +18,7 @@
     </Property>
     <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
       <ColorList count="1" >
-cccccc00
+cccccca3
       </ColorList>
     </Property>
     <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">

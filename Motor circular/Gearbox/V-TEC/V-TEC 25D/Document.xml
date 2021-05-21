@@ -2,9 +2,9 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="16204bba-2abe-4473-b60d-ad62d6df4225" StringHasher="1">
+<Document SchemaVersion="4" ProgramVersion="2021.519R24301 +3652 (Git)" FileVersion="2" Uid="16204bba-2abe-4473-b60d-ad62d6df4225" StringHasher="1">
   <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="38">
+  <StringHasher2  count="39">
 <![CDATA[
 -1.0 0:Source or Documentation
 -1.0 0:Description
@@ -51,6 +51,7 @@ This property is read-only, as the number depends on the parameters of the array
 -1.0 0:(Face1;K-1;:T3730:5:F)
 -1.0 0:(Edge2;K-1;:T3731:5:E)
 -1.0 0:(Face1;K-2;:T3730:5:F)
+-8.0 0:Shape cache
 ]]>
   </StringHasher2>
   <Properties Count="19" TransientCount="3">
@@ -82,7 +83,7 @@ This property is read-only, as the number depends on the parameters of the array
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T09:39:05Z"/>
+      <String value="2021-05-20T08:46:13Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -139,8 +140,8 @@ This property is read-only, as the number depends on the parameters of the array
     </ObjectDeps>
     <ObjectDeps Name="Cylinder007" Count="3">
       <Dep Name="Cylinder"/>
-      <Dep Name="Cylinder001"/>
       <Dep Name="Cylinder006"/>
+      <Dep Name="Cylinder001"/>
     </ObjectDeps>
     <ObjectDeps Name="Fusion" Count="2">
       <Dep Name="Cylinder007"/>
@@ -148,37 +149,37 @@ This property is read-only, as the number depends on the parameters of the array
     </ObjectDeps>
     <ObjectDeps Name="Assembly" Count="7">
       <Dep Name="Cylinder"/>
-      <Dep Name="Cylinder001"/>
-      <Dep Name="Cylinder006"/>
-      <Dep Name="Constraints"/>
-      <Dep Name="Parts"/>
-      <Dep Name="Elements"/>
       <Dep Name="Cylinder002"/>
+      <Dep Name="Cylinder006"/>
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Constraints"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Parts"/>
     </ObjectDeps>
     <ObjectDeps Name="Constraints" Count="0"/>
     <ObjectDeps Name="Elements" Count="3">
       <Dep Name="Element001"/>
-      <Dep Name="Element"/>
       <Dep Name="Element002"/>
+      <Dep Name="Element"/>
     </ObjectDeps>
     <ObjectDeps Name="Parts" Count="5">
-      <Dep Name="Cylinder001"/>
-      <Dep Name="Cut001"/>
       <Dep Name="Fillet"/>
-      <Dep Name="Cut"/>
+      <Dep Name="Cylinder001"/>
       <Dep Name="Fusion"/>
+      <Dep Name="Cut"/>
+      <Dep Name="Cut001"/>
     </ObjectDeps>
     <ObjectDeps Name="Element001" Count="2">
-      <Dep Name="Cut001"/>
       <Dep Name="Elements"/>
+      <Dep Name="Cut001"/>
     </ObjectDeps>
     <ObjectDeps Name="Element002" Count="2">
       <Dep Name="Fillet"/>
       <Dep Name="Elements"/>
     </ObjectDeps>
     <ObjectDeps Name="Element" Count="2">
-      <Dep Name="Cut"/>
       <Dep Name="Elements"/>
+      <Dep Name="Cut"/>
     </ObjectDeps>
     <ObjectDeps Name="Cut" Count="2">
       <Dep Name="Cylinder"/>
@@ -186,15 +187,15 @@ This property is read-only, as the number depends on the parameters of the array
     </ObjectDeps>
     <ObjectDeps Name="Cylinder009" Count="0"/>
     <ObjectDeps Name="Cut001" Count="2">
-      <Dep Name="Array"/>
       <Dep Name="Cylinder002"/>
+      <Dep Name="Array"/>
     </ObjectDeps>
     <ObjectDeps Name="Array" Count="1">
       <Dep Name="Cylinder009"/>
     </ObjectDeps>
     <ObjectDeps Name="Cut002" Count="2">
-      <Dep Name="Array"/>
       <Dep Name="Cylinder006"/>
+      <Dep Name="Array"/>
     </ObjectDeps>
     <Object type="Part::Cylinder" name="Cylinder" id="3730" revision="2" file="Cylinder.xml" />
     <Object type="Part::Box" name="Box" id="3731" revision="4" file="Box.xml" />
@@ -205,10 +206,10 @@ This property is read-only, as the number depends on the parameters of the array
     <Object type="Part::Cylinder" name="Cylinder006" id="3758" revision="5" file="Cylinder006.xml" />
     <Object type="Part::Cylinder" name="Cylinder007" id="3759" revision="5" file="Cylinder007.xml" />
     <Object type="Part::MultiFuse" name="Fusion" id="3760" revision="3" file="Fusion.xml" />
-    <Object type="Part::FeaturePython" name="Assembly" id="3768" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="3768" revision="10" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
     <Object type="App::FeaturePython" name="Constraints" id="3769" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
     <Object type="App::FeaturePython" name="Elements" id="3770" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
-    <Object type="Part::FeaturePython" name="Parts" id="3771" revision="10" ViewType="Gui::ViewProviderLinkPython" Touched="1" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="3771" revision="13" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
     <Object type="Part::FeaturePython" name="Element001" id="3780" revision="4" file="Element001.xml" />
     <Object type="Part::FeaturePython" name="Element002" id="3781" revision="3" file="Element002.xml" />
     <Object type="Part::FeaturePython" name="Element" id="3783" revision="4" file="Element.xml" />

@@ -6,7 +6,7 @@
     <Extension type="App::LinkExtension" name="LinkExtension">
     </Extension>
   </Extensions>
-  <Properties Count="25" TransientCount="0">
+  <Properties Count="24" TransientCount="0">
     <Property name="AutoLinkLabel" type="App::PropertyBool" status="67109120">
       <Bool value="false"/>
     </Property>
@@ -43,7 +43,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-      <XLink file="V-TEC 25D.FCStd" stamp="2021-02-04T10:45:27Z" name="Fusion"/>
+      <XLink file="V-TEC 25D" stamp="2021-05-20T08:46:13Z" name="Fusion"/>
     </Property>
     <Property name="Matrix" type="App::PropertyMatrix" status="67109120">
       <PropertyMatrix a11="1" a12="0" a13="0" a14="0" a21="0" a22="1" a23="0" a24="0" a31="0" a32="0" a33="1" a34="0" a41="0" a42="0" a43="0" a44="1"/>
@@ -56,9 +56,6 @@
     </Property>
     <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
       <PlacementList file=""/>
-    </Property>
-    <Property name="RetagElements" type="App::PropertyBool" status="67109120">
-      <Bool value="false"/>
     </Property>
     <Property name="Scale" type="App::PropertyFloat" status="256">
       <Float value="1"/>
@@ -75,8 +72,8 @@
     <Property name="SyncGroupVisibility" type="App::PropertyBool" status="256">
       <Bool value="false"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="true"/>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="false"/>
     </Property>
     <Property name="VisibilityList" type="App::PropertyBoolList" status="266">
       <BoolList value=""/>

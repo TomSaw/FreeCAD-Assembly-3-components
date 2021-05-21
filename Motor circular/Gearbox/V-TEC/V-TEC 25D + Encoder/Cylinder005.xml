@@ -14,7 +14,7 @@
     <Property name="AttacherType" type="App::PropertyString" status="8">
       <String value="Attacher::AttachEngine3D"/>
     </Property>
-    <Property name="AttachmentOffset" type="App::PropertyPlacement">
+    <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
       <PropertyPlacement Px="0" Py="0" Pz="2" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
@@ -39,11 +39,11 @@
     <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
       <Float value="0"/>
     </Property>
-    <Property name="MapReversed" type="App::PropertyBool">
+    <Property name="MapReversed" type="App::PropertyBool" status="8">
       <Bool value="false"/>
     </Property>
-    <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="0" Py="0" Pz="-55.5" Q0="1" Q1="0" Q2="0" Q3="0" A="3.141592653589793" Ox="1" Oy="0" Oz="0"/>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="-55.5" Q0="1" Q1="0" Q2="0" Q3="6.123233995736766e-17" A="3.141592653589793" Ox="1" Oy="0" Oz="0"/>
     </Property>
     <Property name="Radius" type="App::PropertyLength">
       <Float value="6.75"/>
@@ -56,8 +56,8 @@ CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
               1               0               0               0 
-              0              -1               0               0 
-              0               0              -1           -55.5 
+              0              -1 -1.22464679914735e-16               0 
+              0 1.22464679914735e-16              -1           -55.5 
 Curve2ds 6
 1 0 3 1 0 
 2 0 0 1 0 -0 1 6.75
@@ -67,7 +67,7 @@ Curve2ds 6
 2 0 0 1 0 -0 1 6.75
 Curves 3
 2 0 0 3 0 0 1 1 0 -0 -0 1 0 6.75
-1 6.75 -1.65e-15 0 0 0 1 
+1 6.75 -1.6532731788489269e-15 0 0 0 1 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 6.75
 Polygon3D 0
 PolygonOnTriangulations 0
@@ -80,7 +80,7 @@ Triangulations 0
 TShapes 13
 Ve
 1e-07
-6.75 -2e-15 3
+6.75 -1.65327317884893e-15 3
 0 0
 
 0101101
@@ -96,7 +96,7 @@ Ed
 +13 0 -13 0 *
 Ve
 1e-07
-6.75 -2e-15 0
+6.75 -1.65327317884893e-15 0
 0 0
 
 0101101
@@ -159,8 +159,7 @@ So
       <ElementMap/>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
-      <LinkSubList count="1">
-        <Link obj="Cylinder004" sub="Face2"/>
+      <LinkSubList count="0">
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

@@ -68,8 +68,8 @@
     <Property name="Verbose" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Bool value="false"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="649">
-      <Bool value="true"/>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
     </Property>
     <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2099082">
       <BoolList value="111"/>

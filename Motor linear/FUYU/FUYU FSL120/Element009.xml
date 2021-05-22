@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="14" TransientCount="1">
+  <Properties Count="15" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
@@ -28,7 +28,7 @@
       <Bool value="true"/>
     </Property>
     <Property name="LinkedObject" type="App::PropertyXLink" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097412">
-      <XLink file="" stamp="" name="Body" sub="LinearPattern.Face5" shadow="LinearPattern.;#b6;:M;CUT;:Hb68:7,F.Face5"/>
+      <XLink file="" stamp="" name="Body" sub="LinearPattern.Face5" shadow="LinearPattern.;#b0;:M;CUT;:T2920:3:F.Face5"/>
     </Property>
     <Property name="Offset" type="App::PropertyPlacement" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097152">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
@@ -40,7 +40,7 @@
       <Python  module="freecad.asm3.assembly" class="AsmElement" value="null"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -355,91 +355,13 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="21">
-<![CDATA[
-21 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 2
-
-ElementMap 1 22 3
-
-Edge
-
-ChildCount 0
-
-NameCount 11
-0
-;#8a;:Hb68,E.0 0
-;#8d;:Hb68,E.0 0
-;#90;:Hb68,E.0 0
-;#94;:Hb68,E.0 0
-;#ad;:M;CUT;:H-b68:7,E.0 0
-;#af;:M;CUT;:H-b68:7,E.0 0
-;#96;:Hb68,E.0 0
-;Edge6;:M;CUT;:H-b68:7,E.0 0
-;#b0;D1;:H-b68:3,E.0 0
-;#97;:Hb68,E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 2
-0
-;#b6;:M;CUT;:Hb68:7,F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 11
-0
-;#77;:Hb68,V.0 0
-;#7a;:Hb68,V.0 0
-;#7d;:Hb68,V.0 0
-;#80;:Hb68,V.0 0
-;#bd;:M;CUT;:H-b68:7,V.0 0
-;#bf;:M;CUT;:H-b68:7,V.0 0
-;#84;:Hb68,V.0 0
-;Vertex4;:M;CUT;:H-b68:7,V.0 0
-;#c0;D1;:H-b68:3,V.0 0
-;#85;:Hb68,V.0 0
-
-EndMap
-
-ElementMap 2 21 3
-
-Edge
-
-ChildCount 1
-1 0 10 0 1 ;:H,E;:H:5,E 0
-
-NameCount 0
-
-Face
-
-ChildCount 1
-1 0 1 0 1 ;:H,F;:H:5,F 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 1
-1 0 10 0 1 ;:H,V;:H:5,V 0
-
-NameCount 0
-
-EndMap
-]]>
-      </ElementMap2>
+      <ElementMap/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

@@ -3,19 +3,21 @@
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
-<Expand />
+<Expand  count="1">
+  <Expand name="Fusion"/>
+</Expand>
 >
-  <Camera extra="0" id="24" binding="0">
+  <Camera extra="0" id="38" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 5.453114 -5.4458199 14.44582
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 1.5115333
-  farDistance 17.407578
+  position 8.0892372 -3.2562966 13.99922
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance 0.35814294
+  farDistance 18.59465
   aspectRatio 1
   focalDistance 9.4324379
-  height 18.864876
+  height 28.143087
 
 }
 ## overrideMode: As Is]]>

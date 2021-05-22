@@ -42,7 +42,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -50,7 +50,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -58,7 +58,7 @@
         <Geometry type="Part::GeomCircle" id="1" ref="Sketch002.;g8;SKT" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g8;SKT"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g8;SKT" Flags="0"/>
           </GeoExtensions>
           <Circle CenterX="-9" CenterY="-9" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="3.7"/>
           <Construction value="1"/>
@@ -66,7 +66,7 @@
         <Geometry type="Part::GeomCircle" id="2" ref="Sketch002.;g5;SKT" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g5;SKT"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g5;SKT" Flags="0"/>
           </GeoExtensions>
           <Circle CenterX="-9" CenterY="9" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="3.7"/>
           <Construction value="1"/>
@@ -74,7 +74,7 @@
         <Geometry type="Part::GeomCircle" id="3" ref="Sketch002.;g6;SKT" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="3" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g6;SKT"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g6;SKT" Flags="0"/>
           </GeoExtensions>
           <Circle CenterX="24" CenterY="9" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="3.7"/>
           <Construction value="1"/>
@@ -82,7 +82,7 @@
         <Geometry type="Part::GeomCircle" id="4" ref="Sketch002.;g7;SKT" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="4" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g7;SKT"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch002.;g7;SKT" Flags="0"/>
           </GeoExtensions>
           <Circle CenterX="24" CenterY="-9" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="3.7"/>
           <Construction value="1"/>
@@ -151,7 +151,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -251,43 +251,18 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="8">
+      <ElementMap count="8">
 <![CDATA[
-33 PostfixCount 3
-Edge
-Vertex
-;SKT
-
-MapCount 1
-
-ElementMap 1 33 2
-
-Edge
-
-ChildCount 0
-
-NameCount 5
-0
-;g5.3 0
-;g6.3 0
-;g7.3 0
-;g8.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 5
-0
-;g5v1.3 0
-;g6v1.3 0
-;g7v1.3 0
-;g8v1.3 0
-
-EndMap
+Edge1	g5;SKT 0
+Edge2	g6;SKT 0
+Edge3	g7;SKT 0
+Edge4	g8;SKT 0
+Vertex1	g5v1;SKT 0
+Vertex2	g6v1;SKT 0
+Vertex3	g7v1;SKT 0
+Vertex4	g8v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">

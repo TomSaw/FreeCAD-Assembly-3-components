@@ -2,7 +2,7 @@
 <!-- FreeCAD DocumentObject -->
 <Document SchemaVersion="4" FileVersion="2">
 <Object name="Revolution">
-  <Properties Count="28" TransientCount="2">
+  <Properties Count="29" TransientCount="2">
     <_Property name="_Body" type="App::PropertyLinkHidden" status="251658241"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AddSubShape" type="Part::PropertyPartShape">
@@ -65,12 +65,12 @@ PolygonOnTriangulations 0
 Surfaces 8
 2 0 0.79000000000000004 -8.9999999999999996e-17 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.73499999999999999
 1 0 0.79000000000000004 -8.9999999999999996e-17 -0 -1 1.1e-16 1 0 0 -0 1.1e-16 1 
-1 0 1.5 -1.7e-16 -0 -1 1.1e-16 -1 0 -0 -0 1.1e-16 1 
+1 0 1.5 -1.7e-16 -0 -1 1.1e-16 -1 0 0 0 1.1e-16 1 
 3 0 1.5 -1.7e-16 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.78332900000000005
 -0.26447828951719538
 2 0 1.8999999999999999 -2.1000000000000001e-16 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.67500000000000004
 1 0 7.370000000000001 -8.2000000000000001e-16 -0 -1 1.1e-16 1 0 0 -0 1.1e-16 1 
-1 0 0 0 -0 -1 1.1e-16 -1 0 -0 -0 1.1e-16 1 
+1 0 0 0 -0 -1 1.1e-16 -1 0 0 0 1.1e-16 1 
 2 0 0 0 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.91500000000000004
 Triangulations 0
 
@@ -310,68 +310,11 @@ So
 
 +1 0 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="33">
+      <ElementMap count="1">
 <![CDATA[
-13 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 13 3
-
-Edge
-
-ChildCount 0
-
-NameCount 12
-0
-;#136;:G;RVL;:T5037:4:E.0.11a.136 0
-;#138;:G;RVL;:T5037:4:E.0.138.11c 0
-;#12c;:T5037:4:E.0.12c 0
-;#139;:G;RVL;:T5037:4:E.0.11e.139 0
-;#13a;:G;RVL;:T5037:4:E.0.120.13a 0
-;#12e;:T5037:4:E.0.12e 0
-;#13b;:G;RVL;:T5037:4:E.0.122.13b 0
-;#12f;:T5037:4:E.0.12f 0
-;#13c;:G;RVL;:T5037:4:E.0.128.13c 0
-;#137;:G;RVL;:T5037:4:E.0.12a.137 0
-;#133;:T5037:4:E.0.133 0
-
-Face
-
-ChildCount 0
-
-NameCount 9
-0
-;#135;:G;RVL;:T5037:4:F.0.12c.135 0
-;#140;Edge4;:L;RVL;:T5037:4:F.0.11e.140.139 0
-;#13d;:G;RVL;:T5037:4:F.0.12e.13d 0
-;#13e;:G;RVL;:T5037:4:F.0.13e.12f 0
-;#141;Edge7;:L;RVL;:T5037:4:F.0.122.141.13b 0
-;#142;Edge9;:L;RVL;:T5037:4:F.0.128.13c.142 0
-;#13f;:G;RVL;:T5037:4:F.0.133.13f 0
-;#143;Edge10;:L;RVL;:T5037:4:F.0.143.12a.137 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 8
-0
-;#11a;:T5037:4:V.0.11a ;#11b;:T5037:4:V.0.11b 0
-;#11c;:T5037:4:V.0.11c ;#11d;:T5037:4:V.0.11d 0
-;#11e;:T5037:4:V.0.11e ;#11f;:T5037:4:V.0.11f 0
-;#120;:T5037:4:V.0.120 ;#121;:T5037:4:V.0.121 0
-;#122;:T5037:4:V.0.122 ;#123;:T5037:4:V.0.123 0
-;#128;:T5037:4:V.0.128 ;#129;:T5037:4:V.0.129 0
-;#12a;:T5037:4:V.0.12a ;#12b;:T5037:4:V.0.12b 0
-
-EndMap
+Dummy	Dummy 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="AllowMultiFace" type="App::PropertyBool">
       <Bool value="true"/>
@@ -423,7 +366,7 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388620">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865475" Q1="-0" Q2="-0" Q3="0.7071067811865476" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865477" Q1="-0" Q2="-0" Q3="0.7071067811865474" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
     </Property>
     <Property name="Profile" type="App::PropertyLinkSub">
       <LinkSub value="Sketch003" count="0">
@@ -504,12 +447,12 @@ PolygonOnTriangulations 0
 Surfaces 8
 2 0 0.79000000000000004 -8.9999999999999996e-17 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.73499999999999999
 1 0 0.79000000000000004 -8.9999999999999996e-17 -0 -1 1.1e-16 1 0 0 -0 1.1e-16 1 
-1 0 1.5 -1.7e-16 -0 -1 1.1e-16 -1 0 -0 -0 1.1e-16 1 
+1 0 1.5 -1.7e-16 -0 -1 1.1e-16 -1 0 0 0 1.1e-16 1 
 3 0 1.5 -1.7e-16 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.78332900000000005
 -0.26447828951719538
 2 0 1.8999999999999999 -2.1000000000000001e-16 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.67500000000000004
 1 0 7.370000000000001 -8.2000000000000001e-16 -0 -1 1.1e-16 1 0 0 -0 1.1e-16 1 
-1 0 0 0 -0 -1 1.1e-16 -1 0 -0 -0 1.1e-16 1 
+1 0 0 0 -0 -1 1.1e-16 -1 0 0 0 1.1e-16 1 
 2 0 0 0 0 1 -1.1e-16 1 0 0 -0 1.1e-16 1 0.91500000000000004
 Triangulations 0
 
@@ -561,7 +504,7 @@ Wi
 Fa
 0  1e-07 1 0
 
-0101000
+0111000
 +33 0 *
 Wi
 
@@ -590,7 +533,7 @@ Wi
 Fa
 0  1e-07 3 0
 
-0101000
+0111000
 +31 0 +28 0 *
 Ve
 1e-07
@@ -623,10 +566,10 @@ Wi
 Fa
 0  1e-07 4 0
 
-0101000
+0111000
 +23 0 *
 Ve
-1e-07
+1.00000000957308e-07
 0.675 7.37 0
 0 0
 
@@ -656,7 +599,7 @@ Wi
 Fa
 0  1e-07 5 0
 
-0101000
+0111000
 +18 0 *
 Wi
 
@@ -690,7 +633,7 @@ Wi
 Fa
 0  1e-07 7 0
 
-0101000
+0111000
 +12 0 *
 Ve
 1e-07
@@ -723,7 +666,7 @@ Wi
 Fa
 0  1e-07 8 0
 
-0101000
+0111000
 +7 0 *
 Wi
 
@@ -736,7 +679,7 @@ Wi
 Fa
 0  1e-07 2 0
 
-0101000
+0111000
 +5 0 +4 0 *
 Sh
 
@@ -749,68 +692,11 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="33">
+      <ElementMap count="1">
 <![CDATA[
-14 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 14 3
-
-Edge
-
-ChildCount 0
-
-NameCount 12
-0
-;#14b;:T-5038:4:E.0.14b.11a.136 0
-;#14c;:T-5038:4:E.0.138.11c.14c 0
-;#135;:T-5038:4:E.0.12c.135 0
-;#140;:T-5038:4:E.0.11e.140.139 0
-;#14d;:T-5038:4:E.0.120.13a.14d 0
-;#13d;:T-5038:4:E.0.12e.13d 0
-;#141;:T-5038:4:E.0.122.141.13b 0
-;#13e;:T-5038:4:E.0.13e.12f 0
-;#142;:T-5038:4:E.0.128.13c.142 0
-;#143;:T-5038:4:E.0.143.12a.137 0
-;#13f;:T-5038:4:E.0.133.13f 0
-
-Face
-
-ChildCount 0
-
-NameCount 9
-0
-;#14e;:T-5038:4:F.0.12c.14e.135 0
-;#14f;:T-5038:4:F.0.11e.140.14f.139 0
-;#150;:T-5038:4:F.0.150.12e.13d 0
-;#151;:T-5038:4:F.0.13e.151.12f 0
-;#152;:T-5038:4:F.0.122.141.152.13b 0
-;#153;:T-5038:4:F.0.128.13c.153.142 0
-;#154;:T-5038:4:F.0.133.154.13f 0
-;#155;:T-5038:4:F.0.155.143.12a.137 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 8
-0
-;#136;:T-5038:4:V.0.11a.136 ;#144;:T-5038:4:V.0.144.11b 0
-;#138;:T-5038:4:V.0.138.11c ;#145;:T-5038:4:V.0.11d.145 0
-;#139;:T-5038:4:V.0.11e.139 ;#146;:T-5038:4:V.0.11f.146 0
-;#13a;:T-5038:4:V.0.120.13a ;#147;:T-5038:4:V.0.121.147 0
-;#13b;:T-5038:4:V.0.122.13b ;#148;:T-5038:4:V.0.148.123 0
-;#13c;:T-5038:4:V.0.128.13c ;#149;:T-5038:4:V.0.149.129 0
-;#137;:T-5038:4:V.0.12a.137 ;#14a;:T-5038:4:V.0.14a.12b 0
-
-EndMap
+Dummy	Dummy 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Suppress" type="App::PropertyBool">
       <Bool value="false"/>
@@ -840,6 +726,9 @@ TShapes 0
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_ProfileBasedVersion" type="App::PropertyInteger" status="67108864">
+      <Integer value="0"/>
     </Property>
     <Property name="_Siblings" type="App::PropertyLinkList" status="218103808">
       <LinkList count="0">

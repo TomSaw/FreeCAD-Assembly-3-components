@@ -65,7 +65,7 @@ cccccc00
     <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
       <Integer value="0"/>
     </Property>
-    <Property name="Pattern" type="App::PropertyEnumeration" group="Draft" attr="0" ro="0" hide="0" docID="5" status="2097153">
+    <Property name="Pattern" type="App::PropertyEnumeration" group="Draft" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Integer value="0" CustomEnum="true"/>
       <CustomEnumList count="8">
 <Enum value="None"/>
@@ -78,7 +78,7 @@ cccccc00
 <Enum value="woodgrain"/>
       </CustomEnumList>
     </Property>
-    <Property name="PatternSize" type="App::PropertyFloat" group="Draft" attr="0" ro="0" hide="0" docID="6" status="2097153">
+    <Property name="PatternSize" type="App::PropertyFloat" group="Draft" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Float value="1"/>
     </Property>
     <Property name="PointColor" type="App::PropertyColor" status="1">

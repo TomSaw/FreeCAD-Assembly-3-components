@@ -2,494 +2,8 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="34a7d990-f532-4f82-b13a-a252f0627646" StringHasher="1">
+<Document SchemaVersion="4" ProgramVersion="2021.531R24301 +3702 (Git)" FileVersion="2" Uid="34a7d990-f532-4f82-b13a-a252f0627646" StringHasher="1">
   <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="482">
-<![CDATA[
--1.0 0:URL to Product
--1.0 0:Price of product or material (currency not specified yet)
--1.0 0:Manufacturers SKU
--1.0 0:Source or Documentation
--1.0 0:;:He84,V
--1.c.1 Vertex3
--1.c.0 Vertex1
--1.c.0 Vertex5
--1.c.0 Vertex7
--1.c.0 Vertex4
--1.c.0 Vertex2
--1.c.0 Vertex6
--1.c.0 Vertex8
--1.0 0:;:He84,E
--1.c.1 Edge2
--1.c.0 Edge10
--1.c.0 Edge6
--1.c.0 Edge12
--1.c.0 Edge4
--1.c.0 Edge9
--1.c.0 Edge8
--1.c.0 Edge11
--1.c.0 Edge1
--1.c.0 Edge3
--1.c.0 Edge5
--1.c.0 Edge7
--1.0 0:;:He84,F
--1.c.1 Face1
--1.c.0 Face3
--1.c.0 Face2
--1.c.0 Face4
--2a.0 0:;SKT
--1.c.1 g6v1
--1.c.0 g9v1
--1.c.0 g7v1
--1.c.0 g6v2
--1.c.0 g8v1
--1.c.0 g7v2
--1.0 0:;:H,V;SKT
--1.c.1 g1v1
--1.c.-7 g8v2
--1.c.7 g1v2
--1.c.-7 g2v1
--1.c.0 g2v2
--1.c.0 g3v1
--1.c.0 g3v2
--1.c.0 g4v1
--1.c.0 g4v2
--1.c.0 g13v2
--1.c.0 g12v2
--1.c.0 g13v1
--1.c.0 g11v2
--1.c.0 g12v1
--1.c.0 g10v2
--1.c.0 g11v1
--1.c.0 g9v2
--1.c.0 g10v1
--1.c.0 g6
--1.c.0 g7
--1.c.0 g8
--1.0 0:;:H,E;SKT
--1.c.1 g1
--1.c.-1d g2
--1.c.0 g3
--1.c.0 g4
--1.c.0 g13
--1.c.0 g12
--1.c.0 g11
--1.c.0 g10
--1.c.0 g9
--1.0 0:;:He88,E
--1.2c.1.e
--1.0 0:;:He88,V
--1.2c.1.29
--1.2c.0.2
--1.2c.0.2
--1.2c.0.3
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--1.2c.-2.3
--1.2c.0.1
--1.2c.0.2
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.0 0:;:G;XTR;:He88:7,F
--1.2c.1.1a
--1.2c.0.e
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.0 0:;:G;XTR;:He88:7,E
--1.2c.1.25
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.0 0:(#8c;:U;XTR;:He88:7,E,#8d;:U;XTR;:He88:7,E,#8e;:U;XTR;:He88:7,E,#8f;:U;XTR;:He88:7,E)
--1.0 0:;:U;XTR;:He88:7,E
--1.2c.1.1b.1a.12.11.19.18.14.13.2.16.15.10.17
--254.0 0:;:He98,V
--1.c.1 Vertex3
--1.c.0 Vertex1
--1.c.0 Vertex5
--1.c.0 Vertex7
--1.c.0 Vertex4
--1.c.0 Vertex2
--1.c.0 Vertex6
--1.c.0 Vertex8
--1.0 0:;:He98,E
--1.c.1 Edge2
--1.c.0 Edge10
--1.c.0 Edge6
--1.c.0 Edge12
--1.c.0 Edge4
--1.c.0 Edge9
--1.c.0 Edge8
--1.c.0 Edge11
--1.c.0 Edge1
--1.c.0 Edge3
--1.c.0 Edge5
--1.c.0 Edge7
--1.0 0:;:He98,F
--1.c.1 Face1
--1.c.0 Face3
--1.c.0 Face2
--1.c.0 Face4
-542.0 0:;:Hea5,E
--1.2c.1.4e0
--1.0 0:;:Hea5,V
--1.2c.1.4fb
--1.2c.0.2
--1.2c.0.2
--1.2c.0.3
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--1.2c.0.2
--5.2c.-2.b
--1.2c.0.1
--1.2c.0.2
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.0 0:;:G;XTR;:Hea5:7,F
--1.2c.1.1a
--1.2c.0.e
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.0 0:;:G;XTR;:Hea5:7,E
--1.2c.1.25
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--5.0 0:(#55e;:U;XTR;:Hea5:7,E,#55f;:U;XTR;:Hea5:7,E,#560;:U;XTR;:Hea5:7,E,#561;:U;XTR;:Hea5:7,E)
--1.0 0:;:U;XTR;:Hea5:7,E
--1.2c.1.1b.1a.2.14.13.12.11.10.17.16.15.19.18
--d.0 0:;:Hea5,V;:Hea6,V
--1.2c.1.53c
--1.2c.0.12
--1.0 0:;:U;XTR;:Hea5:7,V;:Hea6,V
--1.2c.1.1f
--1.2c.-3.-51e
--1.2c.0.1
--1.2c.3.51e
--1.2c.-3.-51d
--1.2c.0.1
--1.2c.3.51d
--7.2c.-3.-517
--1.2c.0.1
--1.2c.3.519
--1.2c.-3.-518
--1.2c.0.1
--1.2c.3.518
--1.2c.-3.-517
--1.2c.0.1
--1.2c.3.517
--1.0 0:;:G;XTR;:Hea5:7,E;:Hea6,E
--1.2c.1.5b
--1.2c.0.1
--1.0 0:;:Hea5,E;:Hea6,E
--1.2c.1.540
--1.0 0:;:U;XTR;:Hea5:7,E;:Hea6,E
--1.2c.1.48
--1.2c.-5.-16
--1.2c.3.-4e3
--1.2c.2.4fa
--2.2c.-2.-4f9
--1.2c.2.4fa
--2.2c.-5.-15
--1.2c.3.-4e2
--1.2c.2.4f9
--1.2c.-5.-16
--1.2c.3.-4e2
--1.2c.2.4f9
--1.2c.-5.-16
--1.2c.3.-4e2
--1.2c.2.4f9
--1.2c.-2.-4f8
--1.2c.2.4f9
--1.0 0:;:G;XTR;:Hea5:7,F;:Hea6,F
--1.2c.1.76
--1.2c.0.e
--1.2c.0.1
--1.2c.0.2
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--67.0 0:(Face19;K-1;:Heaa:4,F)
--d.0 0:(Face33;K-1;:Heaa:4,F)
--18.0 0:(Face5;K-1;:Heaa:4,F)
--23.0 0:;:G;CHF;:He85:7,F
--1.c.1 Edge1
--1.c.0 Edge3
--1.c.0 Edge5
--1.c.0 Edge7
--1.0 0:;:U2;CHF;:He85:8,E
--1.2c.1.5
--1.2c.0.1
--1.0 0:;:M;CHF;:He85:7,E
--1.c.1 Edge4
--1.0 0:;:U3;CHF;:He85:8,E
--1.2c.1.a
--1.2c.0.1
--1.0 0:;:U4;CHF;:He85:8,E
--1.2c.1.b
--1.2c.0.1
--1.2c.-8.-1
--1.2c.0.1
--1.0 0:;:U;CHF;:He85:7,E
--1.2c.1.10
--1.2c.0.1
--1.0 0:;:U2;CHF;:He85:8,V
--1.2c.1.10
--1.2c.0.1
--1.0 0:;:U;CHF;:He85:7,V
--1.2c.1.10
--1.2c.-3.0
--1.2c.0.2
--1.2c.0.1
--1.2c.0.2
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.3.-6
--1.2c.0.1
--1.2c.-3.7
--1.2c.0.1
--1.2c.3.-4
--1.2c.0.1
--1.2c.-b.-10
--1.2c.0.1
--1.2c.5.-1
--1.2c.0.1
--1.2c.-8.1
--1.2c.0.1
--1.c.-2 Edge2
--1.0 0:;:M;CHF;:He85:7,F
--1.c.1.77 Face1
--1.c.-26 Edge12
--1.c.0 Edge6
--1.c.0 Edge10
--1.c.0 Edge11
--1.c.0 Edge8
--1.c.0 Edge9
--1.c.26.71 Face4
--1.c.0.18 Face2
--1.c.0 Face6
--1.c.0 Face5
--1.c.0 Face3
--1.0 0:;:He87,V
--1.2c.1.26
--1.2c.0.1
--1.2c.0.2
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.0 0:;:He87,E
--1.2c.1.47
--1.2c.0.1
--1.2c.0.20
--1.2c.0.1
--1.2c.0.-1a
--1.2c.0.1
--1.2c.0.1a
--1.2c.0.-1e
--1.2c.0.1f
--1.2c.0.-1e
--1.2c.0.7
--1.2c.0.1
--1.2c.0.17
--1.2c.0.1
--1.2c.0.-1c
--1.2c.0.1
--1.0 0:;:He87,F
--1.2c.1.5d
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.-11.29
--1.2c.11.2.ab
--1.2c.-11.-26
--1.2c.0.27
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.11.1.a6
--1.2c.0.1.18
--1.0 0:;:M;CUT;:He87:7,F
--1.2c.1.36
--1.2c.0.1
--1.2c.-10.1
--1.0 0:;:G;CHF;:He9d:7,F
--1.c.1 Edge1
--1.c.0 Edge3
--1.c.0 Edge5
--1.c.0 Edge7
--1.0 0:;:U2;CHF;:He9d:8,E
--1.2c.1.5
--1.2c.0.1
--1.0 0:;:M;CHF;:He9d:7,E
--1.c.1 Edge4
--1.0 0:;:U3;CHF;:He9d:8,E
--1.2c.1.a
--1.2c.0.1
--1.0 0:;:U4;CHF;:He9d:8,E
--1.2c.1.b
--1.2c.0.1
--1.2c.-8.-1
--1.2c.0.1
--1.0 0:;:U;CHF;:He9d:7,E
--1.2c.1.10
--1.2c.0.1
--1.0 0:;:U2;CHF;:He9d:8,V
--1.2c.1.10
--1.2c.0.1
--1.0 0:;:U;CHF;:He9d:7,V
--1.2c.1.10
--1.2c.-3.0
--1.2c.0.2
--1.2c.0.1
--1.2c.0.2
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.3.-6
--1.2c.0.1
--1.2c.-3.7
--1.2c.0.1
--1.2c.3.-4
--1.2c.0.1
--1.2c.-b.-10
--1.2c.0.1
--1.2c.5.-1
--1.2c.0.1
--1.2c.-8.1
--1.2c.0.1
--1.c.-2 Edge2
--1.0 0:(Face19;K-1;:Heac:4,F)
--1.0 0:;:M;CHF;:He9d:7,F
--1.c.1.2 Face1
--1.c.-27 Edge12
--1.c.0 Edge6
--1.c.0 Edge10
--1.c.0 Edge11
--1.c.0 Edge8
--1.c.0 Edge9
--2.0 0:(Face33;K-1;:Heac:4,F)
--1.c.a.1 Face4
--4.0 0:(Face5;K-1;:Heac:4,F)
--1.c.f.1 Face2
--2.c.0 Face6
--1.c.0 Face5
--1.c.0 Face3
--11.0 0:;:He9a,V
--1.2c.1.3e
--1.2c.0.1
--1.2c.0.2
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.0 0:;:He9a,E
--1.2c.1.5f
--1.2c.0.1
--1.2c.0.20
--1.2c.0.1
--1.2c.0.-1a
--1.2c.0.1
--1.2c.0.1a
--1.2c.0.-1e
--1.2c.0.1f
--1.2c.0.-1e
--1.2c.0.7
--1.2c.0.1
--1.2c.0.17
--1.2c.0.1
--1.2c.0.-1c
--1.2c.0.1
--1.0 0:;:He9a,F
--1.2c.1.75
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.-11.29
--1.2c.11.3.4d
--1.2c.-11.-27
--1.2c.0.28
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.0.1
--1.2c.11.3.4b
--1.2c.0.5.5
--1.0 0:;:M;CUT;:He9a:7,F
--1.2c.1.46
--1.2c.0.1
--1.2c.-10.1
-]]>
-  </StringHasher2>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -519,7 +33,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-30T11:21:27Z"/>
+      <String value="2021-06-02T09:32:25Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -594,8 +108,8 @@
       <Dep Name="Extrude"/>
       <Dep Name="Link_i0"/>
       <Dep Name="Link_i2"/>
-      <Dep Name="Link_i3"/>
       <Dep Name="Link_i1"/>
+      <Dep Name="Link_i3"/>
     </ObjectDeps>
     <ObjectDeps Name="Link_i0" Count="2">
       <Dep Name="Box001"/>
@@ -679,43 +193,43 @@
       <Dep Name="Link002"/>
       <Dep Name="Link004"/>
     </ObjectDeps>
-    <Object type="Part::FeaturePython" name="Assembly" id="3707" revision="198" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="3707" revision="216" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
     <Object type="App::FeaturePython" name="Constraints" id="3708" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
     <Object type="App::FeaturePython" name="Elements" id="3709" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
-    <Object type="Part::FeaturePython" name="Parts" id="3710" revision="140" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
-    <Object type="Part::FeaturePython" name="Assembly001" id="3712" revision="306" ViewType="Gui::ViewProviderLinkPython" file="Assembly001.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="3710" revision="152" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Assembly001" id="3712" revision="324" ViewType="Gui::ViewProviderLinkPython" file="Assembly001.xml" />
     <Object type="App::FeaturePython" name="Constraints001" id="3713" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Constraints001.xml" />
     <Object type="App::FeaturePython" name="Elements001" id="3714" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements001.xml" />
-    <Object type="Part::FeaturePython" name="Parts001" id="3715" revision="66" ViewType="Gui::ViewProviderLinkPython" file="Parts001.xml" />
+    <Object type="Part::FeaturePython" name="Parts001" id="3715" revision="78" ViewType="Gui::ViewProviderLinkPython" file="Parts001.xml" />
     <Object type="Part::Box" name="Box" id="3716" revision="26" file="Box.xml" />
     <Object type="Part::Box" name="Box001" id="3717" revision="117" file="Box001.xml" />
     <Object type="Part::Cut" name="Cut" id="3718" revision="16" file="Cut.xml" />
     <Object type="Part::Chamfer" name="Chamfer" id="3719" revision="31" file="Chamfer.xml" />
-    <Object type="Sketcher::SketchObject" name="Sketch" id="3720" revision="263" file="Sketch.xml" />
-    <Object type="Part::Extrusion" name="Extrude" id="3721" revision="16" file="Extrude.xml" />
-    <Object type="App::Link" name="Link" id="3727" revision="257" file="Link.xml" />
-    <Object type="App::LinkElement" name="Link_i0" id="3728" revision="107" file="Link_i0.xml" />
-    <Object type="App::LinkElement" name="Link_i1" id="3729" revision="670" file="Link_i1.xml" />
-    <Object type="App::LinkElement" name="Link_i2" id="3730" revision="233" file="Link_i2.xml" />
-    <Object type="App::LinkElement" name="Link_i3" id="3732" revision="160" file="Link_i3.xml" />
-    <Object type="Part::Cut" name="Cut001" id="3735" revision="42" file="Cut001.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="3720" revision="289" file="Sketch.xml" />
+    <Object type="Part::Extrusion" name="Extrude" id="3721" revision="28" file="Extrude.xml" />
+    <Object type="App::Link" name="Link" id="3727" revision="299" file="Link.xml" />
+    <Object type="App::LinkElement" name="Link_i0" id="3728" revision="125" file="Link_i0.xml" />
+    <Object type="App::LinkElement" name="Link_i1" id="3729" revision="694" file="Link_i1.xml" />
+    <Object type="App::LinkElement" name="Link_i2" id="3730" revision="251" file="Link_i2.xml" />
+    <Object type="App::LinkElement" name="Link_i3" id="3732" revision="184" file="Link_i3.xml" />
+    <Object type="Part::Cut" name="Cut001" id="3735" revision="54" file="Cut001.xml" />
     <Object type="Part::Box" name="Box002" id="3736" revision="41" file="Box002.xml" />
     <Object type="Part::Cut" name="Cut002" id="3737" revision="18" file="Cut002.xml" />
     <Object type="Part::Chamfer" name="Chamfer001" id="3738" revision="32" file="Chamfer001.xml" />
-    <Object type="Part::Cut" name="Cut003" id="3740" revision="48" file="Cut003.xml" />
+    <Object type="Part::Cut" name="Cut003" id="3740" revision="60" file="Cut003.xml" />
     <Object type="Part::Box" name="Box003" id="3741" revision="81" file="Box003.xml" />
-    <Object type="App::LinkElement" name="Link_i004" id="3744" revision="95" file="Link_i004.xml" />
-    <Object type="App::LinkElement" name="Link_i005" id="3745" revision="239" file="Link_i005.xml" />
-    <Object type="App::LinkElement" name="Link_i006" id="3746" revision="166" file="Link_i006.xml" />
-    <Object type="App::LinkElement" name="Link_i007" id="3747" revision="673" file="Link_i007.xml" />
-    <Object type="App::Link" name="Link002" id="3748" revision="258" file="Link002.xml" />
+    <Object type="App::LinkElement" name="Link_i004" id="3744" revision="113" file="Link_i004.xml" />
+    <Object type="App::LinkElement" name="Link_i005" id="3745" revision="257" file="Link_i005.xml" />
+    <Object type="App::LinkElement" name="Link_i006" id="3746" revision="190" file="Link_i006.xml" />
+    <Object type="App::LinkElement" name="Link_i007" id="3747" revision="697" file="Link_i007.xml" />
+    <Object type="App::Link" name="Link002" id="3748" revision="300" file="Link002.xml" />
     <Object type="Sketcher::SketchObject" name="Sketch001" id="3749" revision="296" file="Sketch001.xml" />
     <Object type="Part::Extrusion" name="Extrude001" id="3750" revision="21" file="Extrude001.xml" />
-    <Object type="App::DocumentObjectGroup" name="Group" id="3751" revision="24" file="Group.xml" />
+    <Object type="App::DocumentObjectGroup" name="Group" id="3751" revision="36" file="Group.xml" />
     <Object type="App::Link" name="Link003" id="3753" revision="337" file="Link003.xml" />
-    <Object type="Part::MultiFuse" name="Fusion" id="3754" revision="20" file="Fusion.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="3754" revision="32" file="Fusion.xml" />
     <Object type="App::Link" name="Link004" id="3755" revision="31" file="Link004.xml" />
-    <Object type="Part::MultiFuse" name="Fusion001" id="3756" revision="21" file="Fusion001.xml" />
+    <Object type="Part::MultiFuse" name="Fusion001" id="3756" revision="33" file="Fusion001.xml" />
   </Objects>
   <ObjectData Count="0">
   </ObjectData>

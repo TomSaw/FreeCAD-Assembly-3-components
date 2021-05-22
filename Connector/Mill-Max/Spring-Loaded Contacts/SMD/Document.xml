@@ -2,135 +2,14 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="78eec170-f55f-4eeb-910a-8dcb36e76530" StringHasher="1">
-  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="123">
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="78eec170-f55f-4eeb-910a-8dcb36e76530" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="3">
 <![CDATA[
--1.0 0:Price of product or material (currency not specified yet)
--1.0 0:URL to Product
--1.0 0:Manufacturers SKU
--1.0 0:g99v1;SKT;:T2411:9:V
--1.0 0:g95v2;SKT;:T2411:9:V
--1.0 0:g96v2;SKT;:T2411:9:V
--1.0 0:g97v2;SKT;:T2411:9:V
--1.0 0:g98v2;SKT;:T2411:9:V
--1.0 0:g100v1;SKT;:T2411:10:V
--1.0 0:g102v1;SKT;:T2411:10:V
--1.0 0:g101v2;SKT;:T2411:10:V
--1.0 0:g93v2;SKT;:T2411:9:V
--1.0 0:g94v2;SKT;:T2411:9:V
--1.0 0:g103;SKT;:T2411:8:E
--1.0 0:g100;SKT;:T2411:8:E
--1.0 0:g102;SKT;:T2411:8:E
--1.0 0:g94;SKT;:T2411:7:E
--1.0 0:g96;SKT;:T2411:7:E
--1.0 0:g97;SKT;:T2411:7:E
--1.0 0:g98;SKT;:T2411:7:E
--1.0 0:#4;:G;RVL;:T2411:2:E
--1.0 0:#c;:G;RVL;:T2411:2:E
--1.0 0:#d;:G;RVL;:T2411:2:E
--1.0 0:g114v1;SKT;:T2415:10:V
--1.0 0:g110v2;SKT;:T2415:10:V
--1.0 0:g111v2;SKT;:T2415:10:V
--1.0 0:g112v2;SKT;:T2415:10:V
--1.0 0:g113v2;SKT;:T2415:10:V
--1.0 0:g115v1;SKT;:T2415:10:V
--1.0 0:g117v1;SKT;:T2415:10:V
--1.0 0:g116v2;SKT;:T2415:10:V
--1.0 0:g108v2;SKT;:T2415:10:V
--1.0 0:g109v2;SKT;:T2415:10:V
--1.0 0:g118;SKT;:T2415:8:E
--1.0 0:g115;SKT;:T2415:8:E
--1.0 0:g117;SKT;:T2415:8:E
--1.0 0:g109;SKT;:T2415:8:E
--1.0 0:g111;SKT;:T2415:8:E
--1.0 0:g112;SKT;:T2415:8:E
--1.0 0:g113;SKT;:T2415:8:E
--1.0 0:#18;:G;RVL;:T2415:3:E
--1.0 0:#20;:G;RVL;:T2415:3:E
--1.0 0:#21;:G;RVL;:T2415:3:E
--1.0 0:g129v1;SKT;:T2418:10:V
--1.0 0:g125v2;SKT;:T2418:10:V
--1.0 0:g126v2;SKT;:T2418:10:V
--1.0 0:g127v2;SKT;:T2418:10:V
--1.0 0:g128v2;SKT;:T2418:10:V
--1.0 0:g130v1;SKT;:T2418:10:V
--1.0 0:g132v1;SKT;:T2418:10:V
--1.0 0:g131v2;SKT;:T2418:10:V
--1.0 0:g123v2;SKT;:T2418:10:V
--1.0 0:g124v2;SKT;:T2418:10:V
--1.0 0:g133;SKT;:T2418:8:E
--1.0 0:g130;SKT;:T2418:8:E
--1.0 0:g132;SKT;:T2418:8:E
--1.0 0:g124;SKT;:T2418:8:E
--1.0 0:g126;SKT;:T2418:8:E
--1.0 0:g127;SKT;:T2418:8:E
--1.0 0:g128;SKT;:T2418:8:E
--1.0 0:#2c;:G;RVL;:T2418:3:E
--1.0 0:#34;:G;RVL;:T2418:3:E
--1.0 0:#35;:G;RVL;:T2418:3:E
--1.0 0:g144v1;SKT;:T2420:10:V
--1.0 0:g140v2;SKT;:T2420:10:V
--1.0 0:g141v2;SKT;:T2420:10:V
--1.0 0:g142v2;SKT;:T2420:10:V
--1.0 0:g143v2;SKT;:T2420:10:V
--3.0 0:g146v2;SKT;:T2420:10:V
--1.0 0:g138v2;SKT;:T2420:10:V
--1.0 0:g139v2;SKT;:T2420:10:V
--1.0 0:g148;SKT;:T2420:8:E
--1.0 0:g145;SKT;:T2420:8:E
--1.0 0:g147;SKT;:T2420:8:E
--1.0 0:g139;SKT;:T2420:8:E
--1.0 0:g141;SKT;:T2420:8:E
--1.0 0:g142;SKT;:T2420:8:E
--1.0 0:g143;SKT;:T2420:8:E
--1.0 0:#40;:G;RVL;:T2420:3:E
--1.0 0:#48;:G;RVL;:T2420:3:E
--1.0 0:#49;:G;RVL;:T2420:3:E
--1.0 0:g159v1;SKT;:T2423:10:V
--1.0 0:g155v2;SKT;:T2423:10:V
--1.0 0:g156v2;SKT;:T2423:10:V
--1.0 0:g157v2;SKT;:T2423:10:V
--1.0 0:g158v2;SKT;:T2423:10:V
--3.0 0:g161v2;SKT;:T2423:10:V
--1.0 0:g153v2;SKT;:T2423:10:V
--1.0 0:g154v2;SKT;:T2423:10:V
--1.0 0:g163;SKT;:T2423:8:E
--1.0 0:g160;SKT;:T2423:8:E
--1.0 0:g162;SKT;:T2423:8:E
--1.0 0:g154;SKT;:T2423:8:E
--1.0 0:g156;SKT;:T2423:8:E
--1.0 0:g157;SKT;:T2423:8:E
--1.0 0:g158;SKT;:T2423:8:E
--1.0 0:#54;:G;RVL;:T2423:3:E
--1.0 0:#5c;:G;RVL;:T2423:3:E
--1.0 0:#5d;:G;RVL;:T2423:3:E
--1.0 0:g174v1;SKT;:T2425:10:V
--1.0 0:g170v2;SKT;:T2425:10:V
--1.0 0:g171v2;SKT;:T2425:10:V
--1.0 0:g172v2;SKT;:T2425:10:V
--1.0 0:g173v2;SKT;:T2425:10:V
--1.0 0:g175v1;SKT;:T2425:10:V
--1.0 0:g177v1;SKT;:T2425:10:V
--1.0 0:g176v2;SKT;:T2425:10:V
--1.0 0:g168v2;SKT;:T2425:10:V
--1.0 0:g169v2;SKT;:T2425:10:V
--1.0 0:g178;SKT;:T2425:8:E
--1.0 0:g175;SKT;:T2425:8:E
--1.0 0:g177;SKT;:T2425:8:E
--1.0 0:g169;SKT;:T2425:8:E
--1.0 0:g171;SKT;:T2425:8:E
--1.0 0:g172;SKT;:T2425:8:E
--1.0 0:g173;SKT;:T2425:8:E
--1.0 0:#68;:G;RVL;:T2425:3:E
--1.0 0:#70;:G;RVL;:T2425:3:E
--1.0 0:#71;:G;RVL;:T2425:3:E
--1.0 0:g144v2;SKT;:T2420:10:V
--1.0 0:g145v2;SKT;:T2420:10:V
--1.0 0:g159v2;SKT;:T2423:10:V
--1.0 0:g160v2;SKT;:T2423:10:V
+1 0 0:Price of product or material (currency not specified yet)
+2 0 0:URL to Product
+3 0 0:Manufacturers SKU
 ]]>
-  </StringHasher2>
+  </StringHasher>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -160,7 +39,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T09:07:24Z"/>
+      <String value="2021-10-03T12:21:06Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -191,7 +70,7 @@
     <Property name="Uid" type="App::PropertyUUID" status="16777217">
       <Uuid value="78eec170-f55f-4eeb-910a-8dcb36e76530"/>
     </Property>
-    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
   </Properties>

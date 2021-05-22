@@ -42,8 +42,10 @@ ffff0099
       <PropertyColor value="4294934272"/>
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
-ffff7f00
+      <ColorList count="3" >
+ffff7f99
+ffff7f99
+ffff7f99
       </ColorList>
     </Property>
     <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
@@ -74,8 +76,9 @@ ffff7f00
       <PropertyColor value="421075200"/>
     </Property>
     <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
-19191900
+      <ColorList count="2" >
+19191999
+19191999
       </ColorList>
     </Property>
     <Property name="PointMaterial" type="App::PropertyMaterial" status="1">

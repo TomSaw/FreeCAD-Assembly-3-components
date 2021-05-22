@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="14" TransientCount="1">
+  <Properties Count="15" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
@@ -34,7 +34,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="1" Q1="0" Q2="0" Q3="6.123233995736766e-17" A="3.141592653589793" Ox="1" Oy="0" Oz="0"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388872">
-      <PropertyPlacement Px="-0.300000000000001" Py="16.72" Pz="1e-16" Q0="2e-16" Q1="-0" Q2="1" Q3="-1.608122649676636e-16" A="3.141592653589794" Ox="2e-16" Oy="-0" Oz="1"/>
+      <PropertyPlacement Px="-0.300000000000001" Py="16.72" Pz="1e-16" Q0="2e-16" Q1="-0" Q2="1" Q3="-3.828568698926949e-16" A="3.141592653589794" Ox="2e-16" Oy="-0" Oz="1"/>
     </Property>
     <Property name="Proxy" type="App::PropertyPythonObject">
       <Python  module="freecad.asm3.assembly" class="AsmElement" value="null"/>
@@ -482,7 +482,7 @@ Wi
 Fa
 0  1e-07 1 0
 
-0111000
+0101000
 -21 0 -4 0 *
 Co
 
@@ -499,6 +499,9 @@ Co
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

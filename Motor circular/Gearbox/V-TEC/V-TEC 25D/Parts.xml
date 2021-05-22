@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="13" TransientCount="1">
+  <Properties Count="14" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
@@ -43,7 +43,7 @@
       <Python  module="freecad.asm3.assembly" class="AsmPartGroup" value="null"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape" status="1">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -66,6 +66,9 @@ TShapes 0
     </Property>
     <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097418">
       <BoolList value="01111"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

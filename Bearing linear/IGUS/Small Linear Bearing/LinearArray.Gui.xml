@@ -24,7 +24,7 @@ ffb30000
     <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
       <Integer value="0"/>
     </Property>
-    <Property name="DontUnhideOnDelete" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" docID="39" status="2097161">
+    <Property name="DontUnhideOnDelete" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" doc="" status="2097161">
       <Bool value="false"/>
     </Property>
     <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
@@ -106,7 +106,7 @@ ffb30000
     <Property name="Transparency" type="App::PropertyPercent" status="1">
       <Integer value="0"/>
     </Property>
-    <Property name="Type" type="App::PropertyString" group="Lattice" attr="0" ro="1" hide="1" docID="24" status="85983233">
+    <Property name="Type" type="App::PropertyString" group="Lattice" attr="0" ro="1" hide="1" doc="" status="85983233">
       <String value="lattice2LinearArray.ViewProviderLinearArray"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="1">

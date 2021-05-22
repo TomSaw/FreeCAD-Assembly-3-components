@@ -41,7 +41,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -49,15 +49,15 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
-        <Geometry type="Part::GeomPoint" id="2" ref="Box001.;Vertex3;:H-f9,V" migrated="1">
+        <Geometry type="Part::GeomPoint" id="2" ref="Box001.;Vertex3;:T-249:7:V" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box001.;Vertex3;:H-f9,V"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box001.;Vertex3;:T-249:7:V" Flags="0"/>
           </GeoExtensions>
           <GeomPoint X="-73" Y="40" Z="0"/>
           <Construction value="1"/>
@@ -66,7 +66,7 @@
     </Property>
     <Property name="ExternalGeometry" type="App::PropertyLinkSubList" status="16777216">
       <LinkSubList count="1">
-        <Link obj="Box001" sub="Vertex28" shadow=";Vertex3;:H-f9,V.Vertex28"/>
+        <Link obj="Box001" sub="Vertex28" shadow=";Vertex3;:T-249:7:V.Vertex28"/>
       </LinkSubList>
     </Property>
     <Property name="FullyConstrained" type="App::PropertyBool" status="218103808">
@@ -116,7 +116,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="3" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -178,63 +178,14 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="4">
+      <ElementMap count="4">
 <![CDATA[
-10 PostfixCount 5
-Edge
-Vertex
-;:H,E;SKT
-;:H,V;SKT
-;SKT
-
-MapCount 2
-
-ElementMap 1 11 2
-
-Edge
-
-ChildCount 0
-
-NameCount 2
-0
-;g1143.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 2
-0
-;g1143v1.4 0
-
-EndMap
-
-ElementMap 2 10 2
-
-Edge
-
-ChildCount 1
-1 0 1 0 1 ;:H,E 0
-
-NameCount 3
-0
-0
-;g1144.5 0
-
-Vertex
-
-ChildCount 1
-1 0 1 0 1 ;:H,V 0
-
-NameCount 3
-0
-0
-;g1144v1.5 0
-
-EndMap
+Edge1	g1143;SKT 0
+Edge2	g1144;SKT 0
+Vertex1	g1143v1;SKT 0
+Vertex2	g1144v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">

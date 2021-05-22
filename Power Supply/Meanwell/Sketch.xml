@@ -39,7 +39,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -47,7 +47,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -55,9 +55,9 @@
         <Geometry type="Part::GeomPoint" id="3" ref="Box005.Vertex5" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="3" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box005.Vertex5"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box005.Vertex5" Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="106" Y="29.99999999999999" Z="0"/>
+          <GeomPoint X="106" Y="0" Z="0"/>
           <Construction value="1"/>
         </Geometry>
       </GeometryList>
@@ -83,12 +83,12 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="5" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
           </GeoExtensions>
-          <LineSegment StartX="106" StartY="0" StartZ="0" EndX="106" EndY="29.99999999999999" EndZ="0"/>
+          <LineSegment StartX="106" StartY="0" StartZ="0" EndX="106" EndY="4.109136529244235e-14" EndZ="0"/>
           <Construction value="0"/>
         </Geometry>
       </GeometryList>
     </Property>
-    <Property name="Label" type="App::PropertyString" status="134217729">
+    <Property name="Label" type="App::PropertyString" status="134217728">
       <String value="LRS-100-36 L-Sheetbase Sketch"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
@@ -104,28 +104,28 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="-0.7071067811865475" Q1="0" Q2="0" Q3="-0.7071067811865475" A="4.71238898038469" Ox="-1" Oy="0" Oz="0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-              1               0              -0               0 
-             -0 2.22044604925031e-16              -1               0 
-              0               1 2.22044604925031e-16               0 
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
 Curve2ds 0
 Curves 2
 1 0 0 0 1 0 0 
-1 105.99999999999997 0 0 0 1 0 
+1 106 0 0 0 1 0 
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
 Triangulations 0
 
-TShapes 6
+TShapes 5
 Ve
 1e-07
 0 0 0
@@ -146,62 +146,30 @@ Ed
 0
 
 0101000
-+6 0 -5 0 *
-Ve
-1e-07
-106 30 0
-0 0
-
-0101101
-*
++5 0 -4 0 *
 Ed
  1e-07 1 1 0
-1  2 0 0 30
+1  2 0 0 4.10913652924424e-14
 0
 
 0101000
-+5 0 -3 0 *
++4 0 -4 0 *
 Wi
 
 1101000
-+4 0 +2 0 *
++3 0 +2 0 *
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="6">
+      <ElementMap count="5">
 <![CDATA[
-1 PostfixCount 3
-Edge
-Vertex
-;SKT
-
-MapCount 1
-
-ElementMap 1 1 2
-
-Edge
-
-ChildCount 0
-
-NameCount 3
-0
-;g4.3 0
-;g5.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 4
-0
-;g4v1.3 0
-;g4v2.3 ;g5v1.3 0
-;g5v2.3 0
-
-EndMap
+Edge1	g4;SKT 0
+Edge2	g5;SKT 0
+Vertex1	g4v1;SKT 0
+Vertex2	g4v2;SKT 0
+Vertex2	g5v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="0">

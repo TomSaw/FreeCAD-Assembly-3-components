@@ -66,7 +66,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -74,7 +74,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -192,24 +192,54 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.4999999999999999" Q1="0.4999999999999999" Q2="0.4999999999999999" Q3="0.5000000000000002" A="2.094395102393195" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.4999999999999999" Q1="0.4999999999999999" Q2="0.4999999999999999" Q3="0.5000000000000003" A="2.094395102393195" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
-Locations 1
+Locations 8
 1
-2.22044604925031e-16 -2.22044604925031e-16               1               0 
-              1 2.22044604925031e-16 -2.22044604925031e-16               0 
--2.22044604925031e-16               1 2.22044604925031e-16               0 
-Curve2ds 0
+2.22044604925031e-16 -3.33066907387547e-16               1               0 
+              1 3.33066907387547e-16 -2.22044604925031e-16               0 
+-3.33066907387547e-16               1 3.33066907387547e-16               0 
+1
+              1               0               0 1.44328993201271e-14 
+              0               1               0 -7.2164496600635e-15 
+              0               0               1            -130 
+1
+2.22044604925031e-16 -3.33066907387547e-16               1               0 
+              1 2.22044604925031e-16 -3.33066907387547e-16               0 
+-3.33066907387547e-16               1 2.22044604925031e-16               0 
+1
+2.22044604925031e-16 -3.33066907387547e-16               1               0 
+              1 3.33066907387547e-16 -2.22044604925031e-16               0 
+-3.33066907387547e-16               1 3.33066907387547e-16               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 -1 3 1 4 -1 5 -1 0
+1
+              1               0               0 -2.88657986402541e-14 
+              0               1               0 1.4432899320127e-14 
+              0               0               1             260 
+2  7 -1 2 -1 3 1 4 -1 5 -1 0
+Curve2ds 8
+1 0 -0 1 0 
+1 -5.7287508070658103e-14 -260 1 0 
+1 0 -0 1 2.4651903288156613e-32 
+1 -5.9679549325834848e-14 -260 1 2.4651903288156613e-32 
+1 0 -0 1 0 
+1 5.7287508070658103e-14 -260 1 0 
+1 0 0 1 0 
+1 -4.8820362575615285e-14 -260 1 0 
 Curves 12
-1 -6.5 -1.8441190629461397 0 0 1 0 
+1 -6.5 -1.8441190629461399 0 0 1 0 
 1 -6.5 0 0 1 0 0 
 1 6.5 0 0 0 -1 0 
-1 2.5 -3.2999999999999998 0 0.9396926207867351 0.34202014332339736 0 
+1 2.5 -3.2999999999999998 0 0.9396926207867351 0.34202014332339731 0 
 1 2.5 -5.2999999999999998 0 0 1 0 
 1 2.5 -5.2999999999999998 0 1 0 0 
 1 6.5 -5.2999999999999998 0 0 -1 0 
@@ -217,10 +247,14 @@ Curves 12
 1 -6.5 -8.5999999999999996 0 0 1 0 
 1 -2.5 -5.2999999999999998 0 -1 0 0 
 1 -2.5 -3.2999999999999998 0 0 -1 0 
-1 -6.5 -1.8441190629461397 0 0.9396926207867351 -0.34202014332339736 0 
+1 -6.5 -1.8441190629461399 0 0.9396926207867351 -0.34202014332339731 0 
 Polygon3D 0
 PolygonOnTriangulations 0
-Surfaces 0
+Surfaces 4
+1 -6.4999999999999858 -6.4948046940571524e-15 -130 1.1102230246251578e-16 1 -5.5511151231257716e-17 1 -1.1102230246251578e-16 -1.1102230246251573e-16 -1.1102230246251573e-16 -5.5511151231257704e-17 -1 
+1 2.5000000000000147 -3.3000000000000074 -130 -0.34202014332339725 0.93969262078673521 -9.0135282983712579e-17 0.93969262078673521 0.34202014332339725 -1.422987021671022e-16 -1.0288895796937098e-16 -1.3336848280224457e-16 -1 
+1 6.5000000000000142 -8.6000000000000068 -130 -1.1102230246251578e-16 -1 5.5511151231257716e-17 -1 1.1102230246251578e-16 1.1102230246251573e-16 -1.1102230246251573e-16 -5.5511151231257704e-17 -1 
+1 -6.4999999999999858 -1.8441190629461464 -130 0.34202014332339742 0.9396926207867351 -1.4191555383066147e-17 0.9396926207867351 -0.34202014332339742 -6.6354974566455815e-17 -6.7207077758688231e-17 9.3590380404860834e-18 -1 
 Triangulations 0
 
 TShapes 25
@@ -255,6 +289,8 @@ Ve
 Ed
  1e-07 1 1 0
 1  2 0 0 13
+2  1 1 6 0 13
+2  2 1 8 0 13
 0
 
 0101000
@@ -283,6 +319,8 @@ Ve
 Ed
  1e-07 1 1 0
 1  4 0 0 4.2567110898999
+2  3 2 6 0 4.2567110898999
+2  4 2 8 0 4.2567110898999
 0
 
 0101000
@@ -339,6 +377,8 @@ Ve
 Ed
  1e-07 1 1 0
 1  8 0 0 13
+2  5 3 6 0 13
+2  6 3 8 0 13
 0
 
 0101000
@@ -388,6 +428,8 @@ Ed
 Ed
  1e-07 1 1 0
 1  12 0 0 4.2567110898999
+2  7 4 6 0 4.2567110898999
+2  8 4 8 0 4.2567110898999
 0
 
 0101000
@@ -400,61 +442,46 @@ Wi
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="36">
+      <ElementMap count="36">
 <![CDATA[
-1 PostfixCount 5
-Edge
-Vertex
-;:H,E;SKT
-;:H,V;SKT
-;SKT
-
-MapCount 1
-
-ElementMap 1 1 2
-
-Edge
-
-ChildCount 0
-
-NameCount 13
-0
-;g171.5 0
-;g166.3 0
-;g167.5 0
-;g172.5 0
-;g173.5 0
-;g174.5 0
-;g175.5 0
-;g176.5 0
-;g177.5 0
-;g170.5 0
-;g169.5 0
-;g168.5 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 13
-0
-;g171v1.5 ;g168v1.5 0
-;g166v1.4 ;g171v2.5 0
-;g166v2.4 ;g167v1.5 0
-;g167v2.5 ;g172v2.5 0
-;g172v1.5 ;g173v2.5 0
-;g173v1.5 ;g174v1.5 0
-;g174v2.5 ;g175v1.5 0
-;g175v2.5 ;g176v1.5 0
-;g176v2.5 ;g177v1.5 0
-;g170v2.5 ;g177v2.5 0
-;g169v2.5 ;g170v1.5 0
-;g168v2.5 ;g169v1.5 0
-
-EndMap
+Edge1	g171;SKT 0
+Edge10	g170;SKT 0
+Edge11	g169;SKT 0
+Edge12	g168;SKT 0
+Edge2	g166;SKT 0
+Edge3	g167;SKT 0
+Edge4	g172;SKT 0
+Edge5	g173;SKT 0
+Edge6	g174;SKT 0
+Edge7	g175;SKT 0
+Edge8	g176;SKT 0
+Edge9	g177;SKT 0
+Vertex1	g171v1;SKT 0
+Vertex1	g168v1;SKT 0
+Vertex10	g170v2;SKT 0
+Vertex10	g177v2;SKT 0
+Vertex11	g169v2;SKT 0
+Vertex11	g170v1;SKT 0
+Vertex12	g168v2;SKT 0
+Vertex12	g169v1;SKT 0
+Vertex2	g166v1;SKT 0
+Vertex2	g171v2;SKT 0
+Vertex3	g166v2;SKT 0
+Vertex3	g167v1;SKT 0
+Vertex4	g167v2;SKT 0
+Vertex4	g172v2;SKT 0
+Vertex5	g172v1;SKT 0
+Vertex5	g173v2;SKT 0
+Vertex6	g173v1;SKT 0
+Vertex6	g174v1;SKT 0
+Vertex7	g174v2;SKT 0
+Vertex7	g175v1;SKT 0
+Vertex8	g175v2;SKT 0
+Vertex8	g176v1;SKT 0
+Vertex9	g176v2;SKT 0
+Vertex9	g177v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">

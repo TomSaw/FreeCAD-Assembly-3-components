@@ -21,7 +21,7 @@
       <PropertyPlacement Px="0" Py="-0" Pz="17" Q0="0" Q1="0.7071067811865476" Q2="-0.7071067811865475" Q3="6.123233995736766e-17" A="3.141592653589793" Ox="0" Oy="0.7071067811865476" Oz="-0.7071067811865475"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision

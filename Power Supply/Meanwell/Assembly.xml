@@ -6,13 +6,13 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="18" TransientCount="2">
-    <_Property name="Shape" type="Part::PropertyPartShape" status="16"/>
+  <Properties Count="19" TransientCount="2">
+    <_Property name="Shape" type="Part::PropertyPartShape" status="17"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
-    <Property name="AutoRelax" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097152">
+    <Property name="AutoRelax" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Bool value="true"/>
     </Property>
-    <Property name="BuildShape" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097152">
+    <Property name="BuildShape" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Integer value="0" CustomEnum="true"/>
       <CustomEnumList count="5">
 <Enum value="None"/>
@@ -22,53 +22,56 @@
 <Enum value="Common"/>
       </CustomEnumList>
     </Property>
-    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218104074">
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218104075">
       <LinkSub value="" count="0">
       </LinkSub>
     </Property>
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
-    <Property name="Freeze" type="App::PropertyBool" group="Base" attr="0" ro="0" hide="0" doc="" status="2098176">
+    <Property name="Freeze" type="App::PropertyBool" group="Base" attr="0" ro="0" hide="0" doc="" status="2098177">
       <Bool value="false"/>
     </Property>
-    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097418">
+    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097419">
       <LinkList count="3">
         <Link value="Constraints"/>
         <Link value="Elements"/>
         <Link value="Parts"/>
       </LinkList>
     </Property>
-    <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097434"></Property>
-    <Property name="Label" type="App::PropertyString" status="134217728">
+    <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097435"></Property>
+    <Property name="Label" type="App::PropertyString" status="134217729">
       <String value="LRS-100-36"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
     </Property>
-    <Property name="Placement" type="App::PropertyPlacement" status="8388864">
+    <Property name="Placement" type="App::PropertyPlacement" status="8388865">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
-    <Property name="Proxy" type="App::PropertyPythonObject">
+    <Property name="Proxy" type="App::PropertyPythonObject" status="1">
       <Python  module="freecad.asm3.assembly" class="Assembly" value="null"/>
     </Property>
-    <Property name="SolverType" type="App::PropertyEnumeration" group="Solver" attr="2" ro="0" hide="0" doc="" status="35651584"></Property>
-    <Property name="Verbose" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097152">
+    <Property name="SolverType" type="App::PropertyEnumeration" group="Solver" attr="2" ro="0" hide="0" doc="" status="35651585"></Property>
+    <Property name="Verbose" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Bool value="false"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
+    <Property name="Visibility" type="App::PropertyBool" status="649">
       <Bool value="true"/>
     </Property>
-    <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2099082">
+    <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2099083">
       <BoolList value="111"/>
     </Property>
-    <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326593">
       <Integer value="0"/>
     </Property>
-    <Property name="_SolverType" type="App::PropertyInteger" group="Solver" attr="0" ro="0" hide="1" doc="" status="69206016">
+    <Property name="_LinkVersion" type="App::PropertyInteger" status="83886081">
       <Integer value="1"/>
     </Property>
-    <Property name="_Version" type="App::PropertyInteger" group="Base" attr="0" ro="0" hide="0" doc="" status="2097288">
+    <Property name="_SolverType" type="App::PropertyInteger" group="Solver" attr="0" ro="0" hide="1" doc="" status="69206017">
+      <Integer value="1"/>
+    </Property>
+    <Property name="_Version" type="App::PropertyInteger" group="Base" attr="0" ro="0" hide="0" doc="" status="2097289">
       <Integer value="1"/>
     </Property>
   </Properties>

@@ -28,7 +28,7 @@
       <String value=""/>
     </Property>
     <Property name="Length" type="App::PropertyLength" status="134217728">
-      <Float value="10"/>
+      <Float value="10.00000000000001"/>
     </Property>
     <Property name="MapMode" type="App::PropertyEnumeration">
       <Integer value="16"/>
@@ -49,7 +49,7 @@
       <Integer value="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision

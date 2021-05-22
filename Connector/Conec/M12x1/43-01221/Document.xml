@@ -2,15 +2,8 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="1d4823f5-5d5a-4576-b09e-6f3c80464270" StringHasher="1">
-  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="3">
-<![CDATA[
--1.0 0:Price of product or material (currency not specified yet)
--1.0 0:Manufacturers SKU
--1.0 0:URL or String of the product or machine to source from
-]]>
-  </StringHasher2>
+<Document SchemaVersion="4" ProgramVersion="2021.1015R24301 +3962 (Git)" FileVersion="2" Uid="1d4823f5-5d5a-4576-b09e-6f3c80464270" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -40,7 +33,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T08:57:14Z"/>
+      <String value="2021-11-11T10:33:07Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -65,19 +58,45 @@
     <Property name="SplitXML" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
-    <Property name="TipName" type="App::PropertyString" status="83886080">
+    <Property name="TipName" type="App::PropertyString" status="83886081">
       <String value=""/>
     </Property>
     <Property name="Uid" type="App::PropertyUUID" status="16777217">
       <Uuid value="1d4823f5-5d5a-4576-b09e-6f3c80464270"/>
     </Property>
-    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
   </Properties>
-  <Objects Count="1" Dependencies="1">
-    <ObjectDeps Name="Part__Feature" Count="0"/>
-    <Object type="Part::Feature" name="Part__Feature" id="4324" revision="11" file="Part__Feature.xml" />
+  <Objects Count="8" Dependencies="1">
+    <ObjectDeps Name="ShapeCopy" Count="0"/>
+    <ObjectDeps Name="Cylinder" Count="0"/>
+    <ObjectDeps Name="Cylinder001" Count="1">
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fusion002" Count="2">
+      <Dep Name="Cylinder"/>
+      <Dep Name="Cylinder001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Elements"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Constraints"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="0"/>
+    <ObjectDeps Name="Parts" Count="2">
+      <Dep Name="Fusion002"/>
+      <Dep Name="ShapeCopy"/>
+    </ObjectDeps>
+    <Object type="Part::Feature" name="ShapeCopy" id="4329" revision="1" file="ShapeCopy.xml" />
+    <Object type="Part::Cylinder" name="Cylinder" id="4334" revision="4" file="Cylinder.xml" />
+    <Object type="Part::Cylinder" name="Cylinder001" id="4335" revision="5" file="Cylinder001.xml" />
+    <Object type="Part::MultiFuse" name="Fusion002" id="4336" revision="6" file="Fusion002.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="4345" revision="17" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="4346" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="4347" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="4348" revision="7" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
   </Objects>
   <ObjectData Count="0">
   </ObjectData>

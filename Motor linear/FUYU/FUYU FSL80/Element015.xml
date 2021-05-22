@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="14" TransientCount="1">
+  <Properties Count="15" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
@@ -28,7 +28,7 @@
       <Bool value="true"/>
     </Property>
     <Property name="LinkedObject" type="App::PropertyXLink" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097412">
-      <XLink file="" stamp="" name="Body002" sub="Pad001.Face5" shadow="Pad001.;#d7;FAC;:Hbce:4,F;:H-bcf,F.Face5"/>
+      <XLink file="" stamp="" name="Body002" sub="Pad001.Face5" shadow="Pad001.;#10b;:T-3023:4:F.Face5"/>
     </Property>
     <Property name="Offset" type="App::PropertyPlacement" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097152">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
@@ -40,7 +40,7 @@
       <Python  module="freecad.asm3.assembly" class="AsmElement" value="null"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -54,13 +54,13 @@ Locations 11
               0               1               0               0 
               0               0               1               0 
 1
--2.22044604925031e-16               0               1               0 
-              1 -2.22044604925031e-16               0               0 
-              0               1 -2.22044604925031e-16               0 
+2.22044604925031e-16 -3.33066907387547e-16               1               0 
+              1 2.22044604925031e-16 -3.33066907387547e-16               0 
+-3.33066907387547e-16               1 2.22044604925031e-16               0 
 1
-              0 -1.11022302462516e-16               1               0 
-              1 1.11022302462516e-16 1.23259516440783e-32               0 
--1.11022302462516e-16               1 1.11022302462516e-16               0 
+              0 -3.33066907387547e-16               1               0 
+              1 3.33066907387547e-16 1.10933564796705e-31               0 
+-3.33066907387547e-16               1 3.33066907387547e-16               0 
 1
               1               0               0               0 
               0               1               0               0 
@@ -71,17 +71,17 @@ Locations 11
               0               1               0               0 
               0               0               1               0 
 1
-2.22044604925031e-16 -2.22044604925031e-16               1               0 
-              1 2.22044604925031e-16 -2.22044604925031e-16               0 
--2.22044604925031e-16               1 2.22044604925031e-16               0 
+2.22044604925031e-16 -3.33066907387547e-16               1               0 
+              1 3.33066907387547e-16 -2.22044604925031e-16               0 
+-3.33066907387547e-16               1 3.33066907387547e-16               0 
 2  7 1 8 1 0
 2  8 -1 7 -1 0
 2  5 -1 4 -1 3 1 8 -1 7 -1 0
 Curve2ds 4
-1 35.000000000000014 39.999999999999993 -2.2204460492503136e-16 -1 
-1 34.999999999999986 -40.000000000000007 -1 2.2204460492503136e-16 
-1 -35.000000000000007 -39.999999999999993 2.2204460492503136e-16 1 
-1 -34.999999999999993 40.000000000000007 1 -2.2204460492503136e-16 
+1 35.000000000000014 39.999999999999993 -3.3306690738754711e-16 -1 
+1 34.999999999999986 -40.000000000000007 -1 3.3306690738754706e-16 
+1 -35.000000000000014 -39.999999999999986 3.3306690738754711e-16 1 
+1 -34.999999999999986 40.000000000000014 1 -3.3306690738754706e-16 
 Curves 4
 1 -40 70 0 1 0 0 
 1 40 70 0 0 -1 0 
@@ -90,20 +90,20 @@ Curves 4
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 1
-1 -7.7715611723760958e-15 7.5791225147744019e-15 35 1 -2.2204460492503123e-16 2.2204460492503141e-16 -2.2204460492503141e-16 0 1 -2.2204460492503123e-16 -1 -4.9303806576313238e-32 
+1 -1.1657341758564144e-14 1.1368683772161604e-14 35 1 -2.2204460492503123e-16 3.3306690738754706e-16 -3.3306690738754706e-16 0 1 -2.2204460492503123e-16 -1 -7.3955709864469857e-32 
 Triangulations 0
 
 TShapes 12
 Ve
 1e-07
--4.77395900588817e-14 -40 70
+-2.66453525910038e-14 -40 70
 0 0
 
 0101101
 *
 Ve
 1e-07
--2.99760216648792e-14 40 70
+-3.5527136788005e-14 40 70
 0 0
 
 0101101
@@ -118,7 +118,7 @@ Ed
 +12 11 -11 11 *
 Ve
 1e-07
-8.88178419700126e-15 40 -2.22044604925031e-14
+-4.44089209850063e-15 40 -1.77635683940025e-14
 0 0
 
 0101101
@@ -133,7 +133,7 @@ Ed
 +11 11 -9 11 *
 Ve
 1e-07
--8.88178419700126e-15 -40 2.22044604925031e-14
+4.44089209850063e-15 -40 1.77635683940025e-14
 0 0
 
 0101101
@@ -174,79 +174,13 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="9">
-<![CDATA[
-24 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 2
-
-ElementMap 1 25 3
-
-Edge
-
-ChildCount 0
-
-NameCount 5
-0
-;#d2;:Hbce,E;:H-bcf,E.0 0
-;#d3;:Hbce,E;:H-bcf,E.0 0
-;#d4;:Hbce,E;:H-bcf,E.0 0
-;#d5;:Hbce,E;:H-bcf,E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 2
-0
-;#d7;FAC;:Hbce:4,F;:H-bcf,F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 5
-0
-;#ca;:Hbce,V;:H-bcf,V.0 ;#cb;:Hbce,V;:H-bcf,V.0 0
-;#cc;:Hbce,V;:H-bcf,V.0 ;#cd;:Hbce,V;:H-bcf,V.0 0
-;#ce;:Hbce,V;:H-bcf,V.0 ;#cf;:Hbce,V;:H-bcf,V.0 0
-;#d0;:Hbce,V;:H-bcf,V.0 ;#d1;:Hbce,V;:H-bcf,V.0 0
-
-EndMap
-
-ElementMap 2 24 3
-
-Edge
-
-ChildCount 1
-1 0 4 0 1 ;:H,E;:H:5,E 0
-
-NameCount 0
-
-Face
-
-ChildCount 1
-1 0 1 0 1 ;:H,F;:H:5,F 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 1
-1 0 4 0 1 ;:H,V;:H:5,V 0
-
-NameCount 0
-
-EndMap
-]]>
-      </ElementMap2>
+      <ElementMap/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

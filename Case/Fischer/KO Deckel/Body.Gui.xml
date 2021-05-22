@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- FreeCAD ViewProvider -->
 <Document SchemaVersion="1" FileVersion="2">
-<ViewProvider name="Body" expanded="0" Extensions="True">
+<ViewProvider name="Body" expanded="1" Extensions="True">
   <Extensions Count="2">
     <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
     </Extension>
@@ -42,8 +42,51 @@ cccccc66
       <PropertyColor value="421075200"/>
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
-19191900
+      <ColorList count="44" >
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
       </ColorList>
     </Property>
     <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
@@ -74,8 +117,35 @@ cccccc66
       <PropertyColor value="421075200"/>
     </Property>
     <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
-19191900
+      <ColorList count="28" >
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
+19191966
       </ColorList>
     </Property>
     <Property name="PointMaterial" type="App::PropertyMaterial" status="1">

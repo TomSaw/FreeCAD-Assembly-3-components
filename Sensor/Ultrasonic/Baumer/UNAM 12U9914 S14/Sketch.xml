@@ -52,7 +52,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -60,7 +60,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -156,26 +156,26 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865476" Q1="0" Q2="0" Q3="0.7071067811865475" A="1.570796326794897" Ox="1" Oy="0" Oz="0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865477" Q1="0" Q2="0" Q3="0.7071067811865474" A="1.570796326794897" Ox="1" Oy="0" Oz="0"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 5
 1
               1               0               0               0 
-              0 -2.22044604925031e-16              -1               0 
-              0               1 -2.22044604925031e-16               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 1
               1               0               0               0 
-              0 -2.22044604925031e-16              -1               0 
-              0               1 -2.22044604925031e-16               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 1
               1               0               0               0 
-              0 -2.22044604925031e-16              -1               0 
-              0               1 -2.22044604925031e-16               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 1
               1               0               0               0 
               0               1               0               0 
@@ -185,7 +185,7 @@ Curve2ds 2
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
 Curves 3
-7 0 0  2 3 2  0 200 0  -10 102.624725 0  -3 20 0 
+7 1 0  2 3 2  0 200 0  1 -10 102.624725 0  1 -3 20 0  1
  0 3 1 3
 1 -3 20 0 1 0 0 
 1 0 20 0 0 1 0 
@@ -249,43 +249,19 @@ Wi
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="9">
+      <ElementMap count="9">
 <![CDATA[
-3 PostfixCount 5
-Edge
-Vertex
-;:H,E;SKT
-;:H,V;SKT
-;SKT
-
-MapCount 1
-
-ElementMap 1 3 2
-
-Edge
-
-ChildCount 0
-
-NameCount 4
-0
-;g771.3 0
-;g774.5 0
-;g775.5 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 4
-0
-;g771v1.4 ;g775v2.5 0
-;g771v2.4 ;g774v1.5 0
-;g774v2.5 ;g775v1.5 0
-
-EndMap
+Edge1	g771;SKT 0
+Edge2	g774;SKT 0
+Edge3	g775;SKT 0
+Vertex1	g771v1;SKT 0
+Vertex1	g775v2;SKT 0
+Vertex2	g771v2;SKT 0
+Vertex2	g774v1;SKT 0
+Vertex3	g774v2;SKT 0
+Vertex3	g775v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">

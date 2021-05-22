@@ -34,7 +34,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -42,7 +42,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -2401,194 +2401,11 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="240">
+      <ElementMap count="1">
 <![CDATA[
-5 PostfixCount 2
-Edge
-Vertex
-
-MapCount 1
-
-ElementMap 1 5 2
-
-Edge
-
-ChildCount 0
-
-NameCount 81
-0
-;g485;SKT.0 0
-;g545;SKT.0 0
-;g509;SKT.0 0
-;g473;SKT.0 0
-;g486;SKT.0 0
-;g494;SKT.0 0
-;g503;SKT.0 0
-;g515;SKT.0 0
-;g484;SKT.0 0
-;g517;SKT.0 0
-;g505;SKT.0 0
-;g519;SKT.0 0
-;g482;SKT.0 0
-;g513;SKT.0 0
-;g501;SKT.0 0
-;g514;SKT.0 0
-;g490;SKT.0 0
-;g520;SKT.0 0
-;g504;SKT.0 0
-;g518;SKT.0 0
-;g489;SKT.0 0
-;g516;SKT.0 0
-;g502;SKT.0 0
-;g479;SKT.0 0
-;g487;SKT.0 0
-;g500;SKT.0 0
-;g508;SKT.0 0
-;g546;SKT.0 0
-;g488;SKT.0 0
-;g544;SKT.0 0
-;g506;SKT.0 0
-;g542;SKT.0 0
-;g491;SKT.0 0
-;g548;SKT.0 0
-;g512;SKT.0 0
-;g552;SKT.0 0
-;g497;SKT.0 0
-;g550;SKT.0 0
-;g510;SKT.0 0
-;g549;SKT.0 0
-;g476;SKT.0 0
-;g551;SKT.0 0
-;g511;SKT.0 0
-;g547;SKT.0 0
-;g483;SKT.0 0
-;g541;SKT.0 0
-;g507;SKT.0 0
-;g543;SKT.0 0
-;g474;SKT.0 0
-;g521;SKT.0 0
-;g495;SKT.0 0
-;g523;SKT.0 0
-;g529;SKT.0 0
-;g524;SKT.0 0
-;g478;SKT.0 0
-;g522;SKT.0 0
-;g499;SKT.0 0
-;g526;SKT.0 0
-;g481;SKT.0 0
-;g528;SKT.0 0
-;g530;SKT.0 0
-;g534;SKT.0 0
-;g493;SKT.0 0
-;g536;SKT.0 0
-;g475;SKT.0 0
-;g540;SKT.0 0
-;g496;SKT.0 0
-;g538;SKT.0 0
-;g531;SKT.0 0
-;g537;SKT.0 0
-;g477;SKT.0 0
-;g539;SKT.0 0
-;g498;SKT.0 0
-;g535;SKT.0 0
-;g480;SKT.0 0
-;g533;SKT.0 0
-;g532;SKT.0 0
-;g527;SKT.0 0
-;g492;SKT.0 0
-;g525;SKT.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 81
-0
-;g485v1;SKT.0 ;g543v1;SKT.0 0
-;g485v2;SKT.0 ;g545v1;SKT.0 0
-;g509v1;SKT.0 ;g545v2;SKT.0 0
-;g473v1;SKT.0 ;g509v2;SKT.0 0
-;g473v2;SKT.0 ;g486v2;SKT.0 0
-;g486v1;SKT.0 ;g494v2;SKT.0 0
-;g494v1;SKT.0 ;g503v2;SKT.0 0
-;g503v1;SKT.0 ;g515v1;SKT.0 0
-;g484v1;SKT.0 ;g515v2;SKT.0 0
-;g484v2;SKT.0 ;g517v2;SKT.0 0
-;g505v2;SKT.0 ;g517v1;SKT.0 0
-;g505v1;SKT.0 ;g519v2;SKT.0 0
-;g482v2;SKT.0 ;g519v1;SKT.0 0
-;g482v1;SKT.0 ;g513v2;SKT.0 0
-;g501v1;SKT.0 ;g513v1;SKT.0 0
-;g501v2;SKT.0 ;g514v2;SKT.0 0
-;g490v1;SKT.0 ;g514v1;SKT.0 0
-;g490v2;SKT.0 ;g520v2;SKT.0 0
-;g504v2;SKT.0 ;g520v1;SKT.0 0
-;g504v1;SKT.0 ;g518v2;SKT.0 0
-;g489v2;SKT.0 ;g518v1;SKT.0 0
-;g489v1;SKT.0 ;g516v1;SKT.0 0
-;g502v2;SKT.0 ;g516v2;SKT.0 0
-;g479v2;SKT.0 ;g502v1;SKT.0 0
-;g479v1;SKT.0 ;g487v1;SKT.0 0
-;g487v2;SKT.0 ;g500v1;SKT.0 0
-;g500v2;SKT.0 ;g508v1;SKT.0 0
-;g508v2;SKT.0 ;g546v1;SKT.0 0
-;g488v2;SKT.0 ;g546v2;SKT.0 0
-;g488v1;SKT.0 ;g544v2;SKT.0 0
-;g506v1;SKT.0 ;g544v1;SKT.0 0
-;g506v2;SKT.0 ;g542v2;SKT.0 0
-;g491v1;SKT.0 ;g542v1;SKT.0 0
-;g491v2;SKT.0 ;g548v2;SKT.0 0
-;g512v2;SKT.0 ;g548v1;SKT.0 0
-;g512v1;SKT.0 ;g552v2;SKT.0 0
-;g497v2;SKT.0 ;g552v1;SKT.0 0
-;g497v1;SKT.0 ;g550v1;SKT.0 0
-;g510v2;SKT.0 ;g550v2;SKT.0 0
-;g510v1;SKT.0 ;g549v1;SKT.0 0
-;g476v2;SKT.0 ;g549v2;SKT.0 0
-;g476v1;SKT.0 ;g551v2;SKT.0 0
-;g511v2;SKT.0 ;g551v1;SKT.0 0
-;g511v1;SKT.0 ;g547v2;SKT.0 0
-;g483v2;SKT.0 ;g547v1;SKT.0 0
-;g483v1;SKT.0 ;g541v2;SKT.0 0
-;g507v1;SKT.0 ;g541v1;SKT.0 0
-;g507v2;SKT.0 ;g543v2;SKT.0 0
-;g474v1;SKT.0 ;g525v1;SKT.0 0
-;g474v2;SKT.0 ;g521v2;SKT.0 0
-;g495v1;SKT.0 ;g521v1;SKT.0 0
-;g495v2;SKT.0 ;g523v1;SKT.0 0
-;g523v2;SKT.0 ;g529v2;SKT.0 0
-;g524v1;SKT.0 ;g529v1;SKT.0 0
-;g478v1;SKT.0 ;g524v2;SKT.0 0
-;g478v2;SKT.0 ;g522v2;SKT.0 0
-;g499v1;SKT.0 ;g522v1;SKT.0 0
-;g499v2;SKT.0 ;g526v2;SKT.0 0
-;g481v2;SKT.0 ;g526v1;SKT.0 0
-;g481v1;SKT.0 ;g528v1;SKT.0 0
-;g528v2;SKT.0 ;g530v2;SKT.0 0
-;g530v1;SKT.0 ;g534v1;SKT.0 0
-;g493v1;SKT.0 ;g534v2;SKT.0 0
-;g493v2;SKT.0 ;g536v2;SKT.0 0
-;g475v2;SKT.0 ;g536v1;SKT.0 0
-;g475v1;SKT.0 ;g540v2;SKT.0 0
-;g496v2;SKT.0 ;g540v1;SKT.0 0
-;g496v1;SKT.0 ;g538v1;SKT.0 0
-;g531v2;SKT.0 ;g538v2;SKT.0 0
-;g531v1;SKT.0 ;g537v1;SKT.0 0
-;g477v2;SKT.0 ;g537v2;SKT.0 0
-;g477v1;SKT.0 ;g539v2;SKT.0 0
-;g498v2;SKT.0 ;g539v1;SKT.0 0
-;g498v1;SKT.0 ;g535v2;SKT.0 0
-;g480v1;SKT.0 ;g535v1;SKT.0 0
-;g480v2;SKT.0 ;g533v1;SKT.0 0
-;g532v2;SKT.0 ;g533v2;SKT.0 0
-;g527v1;SKT.0 ;g532v1;SKT.0 0
-;g492v2;SKT.0 ;g527v2;SKT.0 0
-;g492v1;SKT.0 ;g525v2;SKT.0 0
-
-EndMap
+Dummy	Dummy 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="0">

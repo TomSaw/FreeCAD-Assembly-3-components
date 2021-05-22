@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="14" TransientCount="1">
+  <Properties Count="15" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
@@ -28,7 +28,7 @@
       <Bool value="true"/>
     </Property>
     <Property name="LinkedObject" type="App::PropertyXLink" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097412">
-      <XLink file="" stamp="" name="Body001" sub="Hole001.Edge39" shadowed="Hole001.;#bdd;:Ha24,E.Edge39"/>
+      <XLink file="" stamp="" name="Body001" sub="Hole001.?Edge39" shadowed="Hole001.;#bdd;:Ha24,E.Edge39"/>
     </Property>
     <Property name="Offset" type="App::PropertyPlacement" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097152">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
@@ -40,7 +40,7 @@
       <Python  module="freecad.asm3.assembly" class="AsmElement" value="null"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -125,39 +125,13 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="2">
-<![CDATA[
-34 PostfixCount 2
-Edge
-Vertex
-
-MapCount 1
-
-ElementMap 1 34 2
-
-Edge
-
-ChildCount 0
-
-NameCount 2
-0
-;#bdd;:Ha24,E.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 2
-0
-;#bca;:Ha24,V.0 0
-
-EndMap
-]]>
-      </ElementMap2>
+      <ElementMap/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

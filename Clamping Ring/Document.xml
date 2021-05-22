@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="01bbcb34-8de5-4a04-aed9-efbe31af7532" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="438">
+<![CDATA[
+1 0 0:Height of the pyramid
+2 0 0:Radius of the pyramid
+3 0 0:Sidelength1 of the pyramid
+4 0 0:Sidelength2 of the pyramid
+5 0 0:Sidescount of the pyramid
+6 0 0:alfa angle around Z
+7 0 0:(Face1;K-4;:T3870:5:F)
+8 0 0:(Face1;K-5;:T3870:5:F)
+9 0 0:(Face1;K-3;:T3870:5:F)
+10 0 0:(Face3;K2;:T3870:5:F)
+11 0 0:(Edge3;K-2;:T3870:5:E)
+12 0 0:(Face1;K-2;:T3870:5:F)
+13 0 0:(Face1;K-1;:T3870:5:F)
+14 0 0:(Edge3;K-1;:T3870:5:E)
+15 0 0:Vertex1;:T3870:7:V
+16 0 0:Vertex2;:T3870:7:V
+17 0 0:Edge8;:G#b;FUS;:T3863:5:V
+18 0 0:Edge6;:G#c;FUS;:T3863:5:V
+19 0 0:Edge2;:G#d;FUS;:T3863:5:V
+20 0 0:Edge4;:G#e;FUS;:T3863:5:V
+23 0 0:Vertex5;:T3863:7:V
+24 0 0:Vertex6;:T3863:7:V
+25 0 0:Vertex1;:T3863:7:V
+26 0 0:Vertex2;:T3863:7:V
+27 0 0:Edge2;:T3870:5:E
+28 0 0:Edge3;:M3;FUS;:T3870:5:E
+29 0 0:Face2;:G#7;FUS;:T3863:5:E
+30 0 0:Face6;:G#8;FUS;:T3863:5:E
+31 0 0:Face1;:G#9;FUS;:T3863:5:E
+32 0 0:Edge3;:M;FUS;:T3870:5:E
+33 0 0:Edge1;:T3870:5:E
+36 0 0:Edge6;:M;FUS;:T3863:5:E
+37 0 0:Edge8;:M;FUS;:T3863:5:E
+38 0 0:Edge5;:T3863:5:E
+39 0 0:Edge2;:M;FUS;:T3863:5:E
+40 0 0:Edge10;:T3863:6:E
+41 0 0:Edge4;:M;FUS;:T3863:5:E
+42 0 0:Edge1;:T3863:5:E
+44 0 0:Edge9;:T3863:5:E
+45 0 0:Face1;:M;FUS;:T3870:5:F
+46 0 0:Face2;:M;FUS;:T3863:5:F
+47 0 0:Face6;:M;FUS;:T3863:5:F
+48 0 0:Face1;:M;FUS;:T3863:5:F
+49 0 0:Face5;:M;FUS;:T3863:5:F
+50 0 0:Face3;:T3863:5:F
+51 0 0:Edge11;:T3863:6:E
+52 0 0:Face3;:M;FUS;:T3870:5:F
+53 0 0:Face2;:T3870:5:F
+54 0 0:Face5;:M2#a;FUS;:T3863:5:F
+55 0 0:(Edge3;K-1;:T3872:5:E)
+56 0 0:(#31;:T3871:3:F,#34;:M;CUT;:T3871:3:F,#36;:M;CUT;:T3871:3:F)
+57 0 0:#2d;:T3871:3:F
+58 0 0:#f;:T3871:2:V
+59 0 0:#10;:T3871:3:V
+60 0 0:#11;:T3871:3:V
+61 0 0:#12;:T3871:3:V
+62 0 0:#13;:T3871:3:V
+63 0 0:#14;:T3871:3:V
+64 0 0:Vertex1;:T3872:7:V
+65 0 0:Vertex2;:T3872:7:V
+66 0 0:#33;:G#37;CUT;:T3871:3:V
+67 0 0:#1b;:T3871:3:E
+68 0 0:#1c;:T3871:3:E
+69 0 0:#1d;:T3871:3:E
+70 0 0:#1f;:T3871:3:E
+71 0 0:#20;:T3871:3:E
+72 0 0:#21;:T3871:3:E
+73 0 0:Edge1;:T3872:5:E
+74 0 0:Edge2;:T3872:5:E
+75 0 0:Edge3;:M2;CUT;:T3872:5:E
+76 0 0:Edge3;:M;CUT;:T3872:5:E
+77 0 0:#35;:M;CUT;:T3871:3:F
+78 0 0:Face1;:M;CUT;:T3872:5:F
+79 0 0:#1e;:T3871:3:E
+80 0 0:#27;:T3871:3:E
+81 0 0:#2a;:T3871:3:E
+82 0 0:#29;:T3871:3:E
+83 0 0:#24;:T3871:3:E
+84 0 0:#25;:T3871:3:E
+85 0 0:#26;:T3871:3:E
+86 0 0:#32;:T3871:3:F
+87 0 0:#28;:T3871:3:E
+88 0 0:#2c;:T3871:3:E
+89 0 0:#2f;:T3871:3:F
+90 0 0:#30;:T3871:3:F
+91 0 0:#39;:M#38;RFI;:T3871:3:F
+92 0 0:#2e;:T3871:3:F
+93 0 0:#57;:G;FLT;:T3873:3:F
+94 0 0:#57;:G3;FLT;:T3873:3:F
+95 0 0:#56;:M;FLT;:T3873:3:F
+96 0 0:#57;:G2;FLT;:T3873:3:F
+97 0 0:#58;:G;FLT;:T3873:3:F
+98 0 0:#39;:M;FLT;:T3873:3:F
+99 0 0:#4f;:M;FLT;:T3873:3:E
+100 0 0:#5e;:U;FLT;:T3873:3:E
+101 0 0:#5f;:U2;FLT;:T3873:3:E
+102 0 0:#51;:M;FLT;:T3873:3:E
+103 0 0:#52;:M;FLT;:T3873:3:E
+104 0 0:#53;:M;FLT;:T3873:3:E
+105 0 0:#54;:M;FLT;:T3873:3:E
+106 0 0:#55;:M;FLT;:T3873:3:E
+107 0 0:#4f;:M2;FLT;:T3873:3:E
+108 0 0:#50;:M;FLT;:T3873:3:E
+109 0 0:g3v1;SKT
+110 0 0:g10v2;SKT
+111 0 0:g3v2;SKT
+112 0 0:g4v1;SKT
+113 0 0:g4v2;SKT
+114 0 0:g5v1;SKT
+115 0 0:g5v2;SKT
+116 0 0:g6v1;SKT
+117 0 0:g6v2;SKT
+118 0 0:g7v1;SKT
+119 0 0:g7v2;SKT
+120 0 0:g8v1;SKT
+121 0 0:g8v2;SKT
+122 0 0:g9v1;SKT
+123 0 0:g9v2;SKT
+124 0 0:g10v1;SKT
+125 0 0:g3;SKT
+126 0 0:g4;SKT
+127 0 0:g5;SKT
+128 0 0:g6;SKT
+129 0 0:g7;SKT
+130 0 0:g8;SKT
+131 0 0:g9;SKT
+132 0 0:g10;SKT
+133 0 0:#7d;:T3866:3:E
+134 0 0:#6d;:T3866:3:V
+135 0 0:#75;:T3866:3:V
+136 0 0:#77;:T3866:3:V
+137 0 0:#79;:T3866:3:V
+138 0 0:#6f;:T3866:3:V
+139 0 0:#7b;:T3866:3:V
+140 0 0:#71;:T3866:3:V
+141 0 0:#73;:T3866:3:V
+142 0 0:#85;FAC;:T3866:3:F
+143 0 0:#7e;:T3866:3:E
+144 0 0:#7f;:T3866:3:E
+145 0 0:#80;:T3866:3:E
+146 0 0:#81;:T3866:3:E
+147 0 0:#82;:T3866:3:E
+148 0 0:#83;:T3866:3:E
+149 0 0:#84;:T3866:3:E
+150 0 0:#90;:G;XTR;:T3866:3:F
+151 0 0:#91;:G;XTR;:T3866:3:F
+152 0 0:#92;:G;XTR;:T3866:3:F
+153 0 0:#93;:G;XTR;:T3866:3:F
+154 0 0:#94;:G;XTR;:T3866:3:F
+155 0 0:#95;:G;XTR;:T3866:3:F
+156 0 0:#85;:G;XTR;:T3866:3:F
+157 0 0:#8f;:G;XTR;:T3866:3:F
+158 0 0:#87;:G;XTR;:T3866:3:E
+159 0 0:#88;:G;XTR;:T3866:3:E
+160 0 0:#89;:G;XTR;:T3866:3:E
+161 0 0:#8b;:G;XTR;:T3866:3:E
+162 0 0:#86;:G;XTR;:T3866:3:E
+163 0 0:#8a;:G;XTR;:T3866:3:E
+164 0 0:#8c;:G;XTR;:T3866:3:E
+165 0 0:#8d;:G;XTR;:T3866:3:E
+166 0 0:#6e;:T3866:3:V
+167 0 0:#a2;:U;XTR;:T3866:3:V
+168 0 0:#70;:T3866:3:V
+169 0 0:#a3;:U;XTR;:T3866:3:V
+170 0 0:#72;:T3866:3:V
+171 0 0:#a4;:U;XTR;:T3866:3:V
+172 0 0:#74;:T3866:3:V
+173 0 0:#a5;:U;XTR;:T3866:3:V
+174 0 0:#76;:T3866:3:V
+175 0 0:#9e;:U;XTR;:T3866:3:V
+176 0 0:#78;:T3866:3:V
+177 0 0:#9f;:U;XTR;:T3866:3:V
+178 0 0:#7a;:T3866:3:V
+179 0 0:#a0;:U;XTR;:T3866:3:V
+180 0 0:#7c;:T3866:3:V
+181 0 0:#a1;:U;XTR;:T3866:3:V
+182 0 0:#9c;:U;XTR;:T3866:3:E
+183 0 0:#9d;:U;XTR;:T3866:3:E
+184 0 0:#96;:U;XTR;:T3866:3:E
+185 0 0:#97;:U;XTR;:T3866:3:E
+186 0 0:#98;:U;XTR;:T3866:3:E
+187 0 0:#99;:U;XTR;:T3866:3:E
+188 0 0:#9a;:U;XTR;:T3866:3:E
+189 0 0:#9b;:U;XTR;:T3866:3:E
+190 0 0:#8e;:G0;XTR;:T3866:3:F
+191 0 0:(#9b;K-2;:T3867:3:F)
+192 0 0:(#9d;K-2;:T3867:3:F)
+193 0 0:(Face3;K-2;:T3875:5:F)
+194 0 0:(#9b;K-1;:T3867:3:F)
+195 0 0:(#9d;K-1;:T3867:3:F)
+196 0 0:(Face3;K-1;:T3875:5:F)
+197 0 0:#63;:U;FLT;:T3873:3:V
+198 0 0:#3e;:T3873:3:V
+199 0 0:#6b;:U;FLT;:T3873:3:V
+200 0 0:#3d;:T3873:3:V
+201 0 0:#3b;:T3873:3:V
+202 0 0:#3c;:T3873:3:V
+203 0 0:#3a;:T3873:3:V
+204 0 0:#6c;:U;FLT;:T3873:3:V
+205 0 0:#64;:U2;FLT;:T3873:3:V
+206 0 0:#65;:U;FLT;:T3873:3:V
+207 0 0:#66;:U2;FLT;:T3873:3:V
+208 0 0:#66;:U;FLT;:T3873:3:V
+209 0 0:#67;:U;FLT;:T3873:3:V
+210 0 0:#68;:U;FLT;:T3873:3:V
+211 0 0:#69;:U;FLT;:T3873:3:V
+212 0 0:#41;:T3873:3:V
+213 0 0:#42;:T3873:3:V
+214 0 0:#6a;:U2;FLT;:T3873:3:V
+215 0 0:#6a;:U;FLT;:T3873:3:V
+216 0 0:#40;:T3873:3:V
+217 0 0:#62;:U;FLT;:T3873:3:E
+218 0 0:#45;:T3873:3:E
+219 0 0:#43;:T3873:3:E
+220 0 0:#44;:T3873:3:E
+221 0 0:#48;:T3873:3:E
+222 0 0:#5d;:U2;FLT;:T3873:3:E
+223 0 0:#5f;:U3;FLT;:T3873:3:E
+224 0 0:#60;:U;FLT;:T3873:3:E
+225 0 0:#5d;:U;FLT;:T3873:3:E
+226 0 0:#61;:U;FLT;:T3873:3:E
+227 0 0:#60;:U2;FLT;:T3873:3:E
+228 0 0:#61;:U3;FLT;:T3873:3:E
+229 0 0:#4c;:T3873:3:E
+230 0 0:#4b;:T3873:3:E
+231 0 0:#60;:U4;FLT;:T3873:3:E
+232 0 0:#61;:U4;FLT;:T3873:3:E
+233 0 0:#49;:T3873:3:E
+234 0 0:#5f;:U4;FLT;:T3873:3:E
+235 0 0:#5f;:U;FLT;:T3873:3:E
+236 0 0:#4a;:T3873:3:E
+237 0 0:#59;:M2;FLT;:T3873:3:F
+238 0 0:#5c;:M;FLT;:T3873:3:F
+239 0 0:#4d;:T3873:3:F
+240 0 0:#4e;:T3873:3:F
+241 0 0:#47;:T3873:3:E
+242 0 0:#5b;:M;FLT;:T3873:3:F
+243 0 0:#46;:T3873:3:E
+244 0 0:#59;:M;FLT;:T3873:3:F
+245 0 0:#5a;:M;FLT;:T3873:3:F
+246 0 0:#f2;:M;FLT;:T3865:3:F
+247 0 0:#f3;:G;FLT;:T3865:3:F
+248 0 0:#62;:M;FLT;:T3865:3:F
+249 0 0:#f1;:M;FLT;:T3865:3:E
+250 0 0:#67;:M;FLT;:T3865:3:E
+251 0 0:#6c;:M;FLT;:T3865:3:E
+252 0 0:#f7;:U4;FLT;:T3865:3:E
+253 0 0:#f9;:U;FLT;:T3865:3:V
+254 0 0:#c9;:T3865:3:V
+255 0 0:#fc;:U;FLT;:T3865:3:V
+256 0 0:#cb;:T3865:3:V
+257 0 0:#c6;:T3865:3:V
+258 0 0:#c5;:T3865:3:V
+259 0 0:#c7;:T3865:3:V
+260 0 0:#ca;:T3865:3:V
+261 0 0:#c8;:T3865:3:V
+262 0 0:#fa;:U;FLT;:T3865:3:V
+263 0 0:#d1;:T3865:3:V
+264 0 0:#d3;:T3865:3:V
+266 0 0:#d5;:T3865:3:V
+267 0 0:#fb;:U;FLT;:T3865:3:V
+268 0 0:#cc;:T3865:3:V
+270 0 0:#cd;:T3865:3:V
+271 0 0:#ce;:T3865:3:V
+272 0 0:#d2;:T3865:3:V
+273 0 0:#d6;:T3865:3:V
+274 0 0:#d7;:T3865:3:V
+275 0 0:#cf;:T3865:3:V
+276 0 0:#d0;:T3865:3:V
+277 0 0:#f8;:U;FLT;:T3865:3:E
+278 0 0:#db;:T3865:3:E
+279 0 0:#f8;:U2;FLT;:T3865:3:E
+280 0 0:#dd;:T3865:3:E
+281 0 0:#dc;:T3865:3:E
+282 0 0:#da;:T3865:3:E
+283 0 0:#f6;:U;FLT;:T3865:3:E
+284 0 0:#69;:T3865:3:E
+287 0 0:#64;:T3865:3:E
+288 0 0:#e0;:T3865:3:E
+289 0 0:#68;:T3865:3:E
+290 0 0:#e7;:T3865:3:E
+291 0 0:#6a;:T3865:3:E
+292 0 0:#e8;:T3865:3:E
+293 0 0:#e1;:T3865:3:E
+294 0 0:#66;:T3865:3:E
+295 0 0:#e2;:T3865:3:E
+296 0 0:#ea;:T3865:3:E
+297 0 0:#65;:T3865:3:E
+299 0 0:Edge2;:G2#c2;FUS;:T3864:5:V
+300 0 0:Vertex1;:T3864:7:V
+301 0 0:#89;:T3867:3:V
+302 0 0:#b2;:T3867:3:V
+307 0 0:#88;:T3867:3:V
+308 0 0:#b0;:T3867:3:V
+309 0 0:Edge2;:G#c3;FUS;:T3864:5:V
+310 0 0:Edge2;:G3#c4;FUS;:T3864:5:V
+311 0 0:Vertex8;:T3875:7:V
+312 0 0:Vertex7;:T3875:7:V
+313 0 0:Vertex12;:T3875:8:V
+314 0 0:Vertex9;:T3875:7:V
+315 0 0:Vertex11;:T3875:8:V
+316 0 0:Vertex10;:T3875:8:V
+317 0 0:Edge2;:M2;FUS;:T3864:5:E
+318 0 0:Face1;:G2#bf;FUS;:T3864:5:E
+321 0 0:Face1;:G#c0;FUS;:T3864:5:E
+322 0 0:Edge2;:M;FUS;:T3864:5:E
+323 0 0:Face1;:G3#c1;FUS;:T3864:5:E
+324 0 0:Edge8;:T3875:5:E
+325 0 0:Edge14;:T3875:6:E
+326 0 0:Edge10;:T3875:6:E
+327 0 0:Edge13;:T3875:6:E
+328 0 0:Edge11;:T3875:6:E
+329 0 0:Edge12;:T3875:6:E
+330 0 0:Face1;:M2;FUS;:T3864:5:F
+331 0 0:Face3;:M;FUS;:T3875:5:F
+332 0 0:#63;:T3865:3:E
+333 0 0:#e4;:T3865:3:E
+334 0 0:#a2;:T3867:3:E
+335 0 0:#e6;:T3865:3:E
+336 0 0:#a3;:T3867:3:E
+337 0 0:#ee;:T3865:3:F
+338 0 0:(#151;K-7;:T3874:4:F)
+339 0 0:Face2;:T3875:5:F
+340 0 0:(#151;K-8;:T3874:4:F)
+341 0 0:Face8;:T3875:5:F
+342 0 0:(#151;K-10;:T3874:4:F)
+343 0 0:Face7;:T3875:5:F
+344 0 0:(#151;K-12;:T3874:4:F)
+345 0 0:Face6;:T3875:5:F
+346 0 0:(#151;K-11;:T3874:4:F)
+347 0 0:Face5;:T3875:5:F
+348 0 0:(#151;K-9;:T3874:4:F)
+349 0 0:Face4;:T3875:5:F
+350 0 0:#e3;:T3865:3:E
+351 0 0:#a5;:T3867:3:E
+352 0 0:#9e;:T3867:3:E
+353 0 0:#f0;:T3865:3:F
+355 0 0:#98;:T3867:3:F
+356 0 0:#9f;:T3867:3:E
+357 0 0:#a0;:T3867:3:E
+358 0 0:#de;:T3865:3:E
+359 0 0:#f7;:U3;FLT;:T3865:3:E
+360 0 0:Edge1;:T3864:5:E
+361 0 0:#eb;:T3865:3:E
+362 0 0:#61;:T3865:3:F
+363 0 0:(#16a;K-1;:T3874:4:F)
+364 0 0:#9b;:M;FUS;:T3867:3:F
+365 0 0:#a1;:T3867:3:E
+367 0 0:#bd;:T3867:3:E
+368 0 0:#6b;:T3865:3:E
+369 0 0:#5e;:T3865:3:F
+370 0 0:(#171;K-1;:T3874:4:F)
+374 0 0:(#161;K-5;:T3874:4:F)
+375 0 0:#9d;:M;FUS;:T3867:3:F
+377 0 0:#96;:T3867:3:F
+378 0 0:#a4;:T3867:3:E
+379 0 0:(#171;K-2;:T3874:4:F)
+380 0 0:#b7;:T3867:3:E
+381 0 0:(#f8;K-4;:T3874:3:F)
+382 0 0:#97;:T3867:3:F
+383 0 0:(#16a;K-2;:T3874:4:F)
+384 0 0:#df;:T3865:3:E
+385 0 0:Edge9;:T3875:5:E
+386 0 0:Edge7;:T3875:5:E
+387 0 0:(#f8;K-5;:T3874:3:F)
+388 0 0:Edge18;:T3875:6:E
+389 0 0:Edge17;:T3875:6:E
+390 0 0:Edge16;:T3875:6:E
+391 0 0:Edge15;:T3875:6:E
+392 0 0:(#f8;K-3;:T3874:3:F)
+393 0 0:#99;:T3867:3:F
+394 0 0:#d9;:T3865:3:E
+395 0 0:#f5;:M;FLT;:T3865:3:F
+396 0 0:#60;:T3865:3:F
+397 0 0:#5f;:T3865:3:F
+398 0 0:#ed;:T3865:3:F
+400 0 0:#f4;:M;FLT;:T3865:3:F
+402 0 0:#5d;:T3865:3:F
+403 0 0:Face2;:T3864:5:F
+404 0 0:Face1;:M;FUS;:T3864:5:F
+405 0 0:(#14d;K-1;:T3874:4:E)
+406 0 0:(#14f;K-1;:T3874:4:E)
+407 0 0:(#14f;K-2;:T3874:4:E)
+408 0 0:(#14d;K-2;:T3874:4:E)
+409 0 0:(#151;K-1;:T3874:4:F)
+410 0 0:(#151;K-2;:T3874:4:F)
+411 0 0:(#151;K-3;:T3874:4:F)
+412 0 0:(#151;K-5;:T3874:4:F)
+413 0 0:(#151;K-6;:T3874:4:F)
+414 0 0:(#151;K-4;:T3874:4:F)
+417 0 0:(#167;K-2;:T3874:4:E)
+418 0 0:(#167;K-1;:T3874:4:E)
+419 0 0:(#169;K-1;:T3874:4:E)
+420 0 0:(#161;K-1;:T3874:4:F)
+421 0 0:(#18a;K-1;:T3874:4:E)
+422 0 0:(#180;K-1;:T3874:4:E)
+423 0 0:(#161;K-2;:T3874:4:F)
+424 0 0:(#18a;K-2;:T3874:4:E)
+425 0 0:(#180;K-2;:T3874:4:E)
+426 0 0:(#169;K-2;:T3874:4:E)
+427 0 0:(#170;K-1;:T3874:4:E)
+428 0 0:(#f8;K-2;:T3874:3:F)
+429 0 0:(#f8;K-1;:T3874:3:F)
+430 0 0:(#14c;K-1;:T3874:4:E)
+431 0 0:(#15e;:M;CUT;:T3874:4:E)
+432 0 0:#15e;:M2;CUT;:T3874:4:E
+433 0 0:(#166;:M;CUT;:T3874:4:E)
+434 0 0:#166;:M2;CUT;:T3874:4:E
+435 0 0:#16c;:M;CUT;:T3868:4:F
+436 0 0:#18c;:M;CUT;:T3874:4:F
+437 0 0:(#f8;:M;CUT;:T3874:3:F)
+438 0 0:#f6;:M;CUT;:T3874:3:F
+439 0 0:#192;:M;CUT;:T3874:4:F
+440 0 0:#f8;:M;CUT;:T3874:3:F
+441 0 0:(#18e;:M2;CUT;:T3874:4:F)
+442 0 0:#179;:M;CUT;:T3868:4:F
+443 0 0:#190;:M;CUT;:T3874:4:F
+444 0 0:(#1bb;K2;:T3874:4:F)
+445 0 0:#17e;:M;CUT;:T3868:4:F
+446 0 0:#163;:M;CUT;:T3868:4:F
+447 0 0:#189;:M;CUT;:T3868:4:F
+448 0 0:#1b6;:M#1b5;RFI;:T3874:4:F
+449 0 0:#1b8;:M2;RFI;:T3874:4:F
+450 0 0:#1bd;:M;RFI;:T3868:4:F
+451 0 0:#1ba;:M2#1b9;RFI;:T3868:4:F
+452 0 0:#1be;:M;RFI;:T3868:4:F
+453 0 0:#1bf;:M;RFI;:T3868:4:F
+454 0 0:#1b3;:M;RFI;:T3868:4:F
+455 0 0:#1b8;:M3#1bc;RFI;:T3874:4:F
+456 0 0:#1c0;:U2;RFI;:T3874:4:E
+457 0 0:#1c1;:U;RFI;:T3874:4:E
+458 0 0:#1c2;:U;RFI;:T3868:4:E
+459 0 0:#1c2;:U2;RFI;:T3868:4:E
+460 0 0:(#1cb;:U;RFI;:T3868:4:V)
+461 0 0:#1c9;:U;RFI;:T3874:4:V
+462 0 0:(#1ca;:U;RFI;:T3868:4:V)
+463 0 0:#1c8;:U;RFI;:T3874:4:V
+464 0 0:(#1c0;:U;RFI;:T3874:4:E,#1c1;:U;RFI;:T3874:4:E,#1c2;:U;RFI;:T3868:4:E,#1c4;:U;RFI;:T3868:4:E,#1c5;:U;RFI;:T3868:4:E,#1c6;:U;RFI;:T3868:4:E,#1c7;:U;RFI;:T3874:4:E,#1cd;:L#1cc;RFI;:T3874:4:E,#1cf;:L#1ce;RFI;:T3874:4:E)
+]]>
+  </StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-06-24T08:39:30Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Clamping Ring"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-10-03T15:04:29Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="01bbcb34-8de5-4a04-aed9-efbe31af7532"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="13" Dependencies="1">
+    <ObjectDeps Name="Box" Count="1">
+      <Dep Name="Cylinder001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder" Count="2">
+      <Dep Name="Fusion001"/>
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet" Count="1">
+      <Dep Name="Cut001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch" Count="2">
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Extrude" Count="2">
+      <Dep Name="Sketch"/>
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fusion" Count="3">
+      <Dep Name="Cylinder"/>
+      <Dep Name="Pyramid"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut" Count="2">
+      <Dep Name="Fillet001"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder001" Count="0"/>
+    <ObjectDeps Name="Fusion001" Count="2">
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder002" Count="1">
+      <Dep Name="Cylinder001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut001" Count="2">
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Fusion001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet001" Count="1">
+      <Dep Name="Fillet"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Pyramid" Count="1">
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <Object type="Part::Box" name="Box" id="3863" revision="149" file="Box.xml" />
+    <Object type="Part::Cylinder" name="Cylinder" id="3864" revision="180" file="Cylinder.xml" />
+    <Object type="Part::Fillet" name="Fillet" id="3865" revision="142" file="Fillet.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="3866" revision="201" file="Sketch.xml" />
+    <Object type="Part::Extrusion" name="Extrude" id="3867" revision="50" file="Extrude.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="3868" revision="125" file="Fusion.xml" />
+    <Object type="Part::Cut" name="Cut" id="3869" revision="152" file="Cut.xml" />
+    <Object type="Part::Cylinder" name="Cylinder001" id="3870" revision="28" file="Cylinder001.xml" />
+    <Object type="Part::MultiFuse" name="Fusion001" id="3871" revision="20" file="Fusion001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder002" id="3872" revision="54" file="Cylinder002.xml" />
+    <Object type="Part::Cut" name="Cut001" id="3873" revision="42" file="Cut001.xml" />
+    <Object type="Part::Fillet" name="Fillet001" id="3874" revision="66" file="Fillet001.xml" />
+    <Object type="Part::FeaturePython" name="Pyramid" id="3875" revision="149" file="Pyramid.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

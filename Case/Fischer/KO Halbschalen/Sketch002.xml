@@ -104,7 +104,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -112,7 +112,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -328,18 +328,18 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865475" Q1="-0" Q2="-0" Q3="0.7071067811865476" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865477" Q1="-0" Q2="-0" Q3="0.7071067811865474" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
               1               0              -0               0 
-             -0 2.22044604925031e-16              -1               0 
-              0               1 2.22044604925031e-16               0 
+             -0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 Curve2ds 0
 Curves 26
 1 -52.5 16.899999999999999 0 0 -1 0 
@@ -759,157 +759,86 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="52">
+      <ElementMap count="76">
 <![CDATA[
-12 PostfixCount 5
-Edge
-Vertex
-;:H,E;SKT
-;:H,V;SKT
-;SKT
-
-MapCount 2
-
-ElementMap 1 13 2
-
-Edge
-
-ChildCount 0
-
-NameCount 25
-0
-;g1546.5 0
-;g1553.5 0
-;g1547.5 0
-;g1550.5 0
-;g1538.3 0
-;g1563.5 0
-;g1562.5 0
-;g1561.5 0
-;g1560.5 0
-;g1559.5 0
-;g1539.5 0
-;g1540.5 0
-;g1541.5 0
-;g1551.5 0
-;g1542.5 0
-;g1552.5 0
-;g1543.5 0
-;g1544.5 0
-;g1545.5 0
-;g1558.5 0
-;g1557.5 0
-;g1556.5 0
-;g1555.5 0
-;g1554.5 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 25
-0
-;g1546v1.5 ;g1554v1.5 0
-;g1553v1.5 ;g1546v2.5 0
-;g1547v1.5 ;g1553v2.5 0
-;g1550v1.5 ;g1547v2.5 0
-;g1538v1.4 ;g1550v2.5 0
-;g1538v2.4 ;g1563v2.5 0
-;g1562v2.5 ;g1563v1.5 0
-;g1561v2.5 ;g1562v1.5 0
-;g1560v2.5 ;g1561v1.5 0
-;g1559v2.5 ;g1560v1.5 0
-;g1539v1.5 ;g1559v1.5 0
-;g1540v1.5 ;g1539v2.5 0
-;g1541v1.5 ;g1540v2.5 0
-;g1551v2.5 ;g1541v2.5 0
-;g1542v1.5 ;g1551v1.5 0
-;g1552v2.5 ;g1542v2.5 0
-;g1543v1.5 ;g1552v1.5 0
-;g1544v1.5 ;g1543v2.5 0
-;g1545v1.5 ;g1544v2.5 0
-;g1558v2.5 ;g1545v2.5 0
-;g1557v2.5 ;g1558v1.5 0
-;g1556v2.5 ;g1557v1.5 0
-;g1555v2.5 ;g1556v1.5 0
-;g1554v2.5 ;g1555v1.5 0
-
-EndMap
-
-ElementMap 2 12 2
-
-Edge
-
-ChildCount 1
-1 0 24 0 1 ;:H,E 0
-
-NameCount 27
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-;g1548.5 0
-;g1549.5 0
-
-Vertex
-
-ChildCount 1
-1 0 24 0 1 ;:H,V 0
-
-NameCount 27
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-;g1548v1.5 0
-;g1549v1.5 0
-
-EndMap
+Edge1	g1546;SKT 0
+Edge10	g1559;SKT 0
+Edge11	g1539;SKT 0
+Edge12	g1540;SKT 0
+Edge13	g1541;SKT 0
+Edge14	g1551;SKT 0
+Edge15	g1542;SKT 0
+Edge16	g1552;SKT 0
+Edge17	g1543;SKT 0
+Edge18	g1544;SKT 0
+Edge19	g1545;SKT 0
+Edge2	g1553;SKT 0
+Edge20	g1558;SKT 0
+Edge21	g1557;SKT 0
+Edge22	g1556;SKT 0
+Edge23	g1555;SKT 0
+Edge24	g1554;SKT 0
+Edge25	g1548;SKT 0
+Edge26	g1549;SKT 0
+Edge3	g1547;SKT 0
+Edge4	g1550;SKT 0
+Edge5	g1538;SKT 0
+Edge6	g1563;SKT 0
+Edge7	g1562;SKT 0
+Edge8	g1561;SKT 0
+Edge9	g1560;SKT 0
+Vertex1	g1546v1;SKT 0
+Vertex1	g1554v1;SKT 0
+Vertex10	g1559v2;SKT 0
+Vertex10	g1560v1;SKT 0
+Vertex11	g1539v1;SKT 0
+Vertex11	g1559v1;SKT 0
+Vertex12	g1540v1;SKT 0
+Vertex12	g1539v2;SKT 0
+Vertex13	g1541v1;SKT 0
+Vertex13	g1540v2;SKT 0
+Vertex14	g1551v2;SKT 0
+Vertex14	g1541v2;SKT 0
+Vertex15	g1542v1;SKT 0
+Vertex15	g1551v1;SKT 0
+Vertex16	g1552v2;SKT 0
+Vertex16	g1542v2;SKT 0
+Vertex17	g1543v1;SKT 0
+Vertex17	g1552v1;SKT 0
+Vertex18	g1544v1;SKT 0
+Vertex18	g1543v2;SKT 0
+Vertex19	g1545v1;SKT 0
+Vertex19	g1544v2;SKT 0
+Vertex2	g1553v1;SKT 0
+Vertex2	g1546v2;SKT 0
+Vertex20	g1558v2;SKT 0
+Vertex20	g1545v2;SKT 0
+Vertex21	g1557v2;SKT 0
+Vertex21	g1558v1;SKT 0
+Vertex22	g1556v2;SKT 0
+Vertex22	g1557v1;SKT 0
+Vertex23	g1555v2;SKT 0
+Vertex23	g1556v1;SKT 0
+Vertex24	g1554v2;SKT 0
+Vertex24	g1555v1;SKT 0
+Vertex25	g1548v1;SKT 0
+Vertex26	g1549v1;SKT 0
+Vertex3	g1547v1;SKT 0
+Vertex3	g1553v2;SKT 0
+Vertex4	g1550v1;SKT 0
+Vertex4	g1547v2;SKT 0
+Vertex5	g1538v1;SKT 0
+Vertex5	g1550v2;SKT 0
+Vertex6	g1538v2;SKT 0
+Vertex6	g1563v2;SKT 0
+Vertex7	g1562v2;SKT 0
+Vertex7	g1563v1;SKT 0
+Vertex8	g1561v2;SKT 0
+Vertex8	g1562v1;SKT 0
+Vertex9	g1560v2;SKT 0
+Vertex9	g1561v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="0">

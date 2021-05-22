@@ -7,7 +7,7 @@
     </Extension>
   </Extensions>
   <Properties Count="23" TransientCount="2">
-    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658241"/>
+    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AddSubShape" type="Part::PropertyPartShape">
       <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
@@ -24,7 +24,7 @@ Curve2ds 6
 2 0 0 1 0 -0 1 9.5
 Curves 3
 2 0 0 35.600000000000001 0 0 1 1 0 -0 -0 1 0 9.5
-1 9.5 -2.33e-15 0 0 0 1 
+1 9.5 -2.326828918379971e-15 0 0 0 1 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 9.5
 Polygon3D 0
 PolygonOnTriangulations 0
@@ -37,7 +37,7 @@ Triangulations 0
 TShapes 13
 Ve
 1e-07
-9.5 -2e-15 35.6
+9.5 -2.32682891837997e-15 35.6
 0 0
 
 0101101
@@ -53,7 +53,7 @@ Ed
 +13 0 -13 0 *
 Ve
 1e-07
-9.5 -2e-15 0
+9.5 -2.32682891837997e-15 0
 0 0
 
 0101101
@@ -113,50 +113,18 @@ So
 
 +1 0 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="8">
+      <ElementMap count="8">
 <![CDATA[
-7 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 7 3
-
-Edge
-
-ChildCount 0
-
-NameCount 4
-0
-;Edge1;:T-2561:5:E.0 0
-;Edge2;:T-2561:5:E.0 0
-;Edge3;:T-2561:5:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 4
-0
-;Face1;:T-2561:5:F.0 0
-;Face2;:T-2561:5:F.0 0
-;Face3;:T-2561:5:F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 3
-0
-;Vertex1;:T-2561:7:V.0 0
-;Vertex2;:T-2561:7:V.0 0
-
-EndMap
+Edge1	Edge1;:T-2561:5:E 1 0
+Edge2	Edge2;:T-2561:5:E 1 0
+Edge3	Edge3;:T-2561:5:E 1 0
+Face1	Face1;:T-2561:5:F 1 0
+Face2	Face2;:T-2561:5:F 1 0
+Face3	Face3;:T-2561:5:F 1 0
+Vertex1	Vertex1;:T-2561:7:V 1 0
+Vertex2	Vertex2;:T-2561:7:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Angle" type="App::PropertyAngle">
       <Float value="360"/>
@@ -234,7 +202,7 @@ Curve2ds 6
 2 0 0 1 0 -0 1 9.5
 Curves 3
 2 0 0 35.600000000000001 0 0 1 1 0 -0 -0 1 0 9.5
-1 9.5 -2.33e-15 0 0 0 1 
+1 9.5 -2.326828918379971e-15 0 0 0 1 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 9.5
 Polygon3D 0
 PolygonOnTriangulations 0
@@ -247,7 +215,7 @@ Triangulations 0
 TShapes 13
 Ve
 1e-07
-9.5 -2e-15 35.6
+9.5 -2.32682891837997e-15 35.6
 0 0
 
 0101101
@@ -263,7 +231,7 @@ Ed
 +13 0 -13 0 *
 Ve
 1e-07
-9.5 -2e-15 0
+9.5 -2.32682891837997e-15 0
 0 0
 
 0101101
@@ -292,7 +260,7 @@ Wi
 Fa
 0  1e-07 1 0
 
-0101000
+0111000
 +8 0 *
 Wi
 
@@ -301,7 +269,7 @@ Wi
 Fa
 0  1e-07 2 0
 
-0101000
+0111000
 +6 0 *
 Wi
 
@@ -310,7 +278,7 @@ Wi
 Fa
 0  1e-07 3 0
 
-0101000
+0111000
 -4 0 *
 Sh
 
@@ -323,50 +291,18 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="8">
+      <ElementMap count="8">
 <![CDATA[
-8 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 8 3
-
-Edge
-
-ChildCount 0
-
-NameCount 4
-0
-;Edge1;:T-2561:5:E.0 0
-;Edge2;:T-2561:5:E.0 0
-;Edge3;:T-2561:5:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 4
-0
-;Face1;:T-2561:5:F.0 0
-;Face2;:T-2561:5:F.0 0
-;Face3;:T-2561:5:F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 3
-0
-;Vertex1;:T-2561:7:V.0 0
-;Vertex2;:T-2561:7:V.0 0
-
-EndMap
+Edge1	Edge1;:T-2561:5:E 1 0
+Edge2	Edge2;:T-2561:5:E 1 0
+Edge3	Edge3;:T-2561:5:E 1 0
+Face1	Face1;:T-2561:5:F 1 0
+Face2	Face2;:T-2561:5:F 1 0
+Face3	Face3;:T-2561:5:F 1 0
+Vertex1	Vertex1;:T-2561:7:V 1 0
+Vertex2	Vertex2;:T-2561:7:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">

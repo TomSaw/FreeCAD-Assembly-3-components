@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="14" TransientCount="1">
+  <Properties Count="15" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
@@ -40,7 +40,7 @@
       <Python  module="freecad.asm3.assembly" class="AsmElement" value="null"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -150,45 +150,13 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="9">
-<![CDATA[
-15 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 15 3
-
-Edge
-
-ChildCount 1
-1 0 4 0 0 ;:H,E;:H:5,E;:H:c,E 0
-
-NameCount 0
-
-Face
-
-ChildCount 1
-1 0 1 0 0 ;:H,F;:H:5,F;:H:c,F 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 1
-1 0 4 0 0 ;:H,V;:H:5,V;:H:c,V 0
-
-NameCount 0
-
-EndMap
-]]>
-      </ElementMap2>
+      <ElementMap/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

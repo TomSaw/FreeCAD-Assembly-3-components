@@ -3,16 +3,21 @@
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
-<Expand />
+<Expand  count="1">
+  <Expand name="Body" count="2">
+    <Expand name="Pad"/>
+    <Expand name="Hole"/>
+  </Expand>
+</Expand>
 >
-  <Camera extra="0" id="50" binding="0">
+  <Camera extra="0" id="13" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
   position 31.085163 -32.085148 31.08515
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 13.9615
-  farDistance 100.67771
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance 11.673991
+  farDistance 102.9698
   aspectRatio 1
   focalDistance 53.841061
   height 107.68212

@@ -300,64 +300,11 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="28">
+      <ElementMap count="1">
 <![CDATA[
-4 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 4 3
-
-Edge
-
-ChildCount 0
-
-NameCount 10
-0
-;#4;:G;RVL;:T4993:2:E.0.4 0
-;#5;:G;RVL;:T4993:2:E.0.5 0
-;g197;SKT;:T4993:8:E.0 0
-;#6;:G;RVL;:T4993:2:E.0.6 0
-;#7;:G;RVL;:T4993:2:E.0.7 0
-;g195;SKT;:T4993:8:E.0 0
-;#8;:G;RVL;:T4993:2:E.0.8 0
-;#9;:G;RVL;:T4993:2:E.0.9 0
-;g204;SKT;:T4993:8:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 8
-0
-;#a;:G;RVL;:T4993:2:F.0.a 0
-;#d;Edge2;:L;RVL;:T4993:2:F.0.5.d 0
-;#e;Edge4;:L;RVL;:T4993:2:F.0.e.6 0
-;#b;:G;RVL;:T4993:2:F.0.b 0
-;#f;Edge7;:L;RVL;:T4993:2:F.0.8.f 0
-;#c;:G;RVL;:T4993:2:F.0.c 0
-;#10;Edge8;:L;RVL;:T4993:3:F.0.9.10 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 7
-0
-;g197v1;SKT;:T4993:10:V.0 ;g203v1;SKT;:T4993:10:V.0 0
-;g197v2;SKT;:T4993:10:V.0 ;g198v1;SKT;:T4993:10:V.0 0
-;g195v1;SKT;:T4993:10:V.0 ;g200v2;SKT;:T4993:10:V.0 0
-;g195v2;SKT;:T4993:10:V.0 ;g196v1;SKT;:T4993:10:V.0 0
-;g196v2;SKT;:T4993:10:V.0 ;g204v2;SKT;:T4993:10:V.0 0
-;g203v2;SKT;:T4993:10:V.0 ;g204v1;SKT;:T4993:10:V.0 0
-
-EndMap
+Dummy	Dummy 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Solid" type="App::PropertyBool">
       <Bool value="true"/>

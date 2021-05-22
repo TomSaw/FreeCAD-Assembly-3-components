@@ -6,18 +6,22 @@
 <Expand  count="2">
   <Expand name="Group"/>
   <Expand name="Assembly" count="1">
-    <Expand name="Parts"/>
+    <Expand name="Parts" count="1">
+      <Expand name="Cut001" count="1">
+        <Expand name="Fillet001"/>
+      </Expand>
+    </Expand>
   </Expand>
 </Expand>
 >
-  <Camera extra="0" id="7" binding="0">
+  <Camera extra="0" id="4" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
   position 91.198936 -17.872776 62.456623
   orientation 0.81981111 0.20390998 0.53509867  1.2607994
-  nearDistance -32.639507
-  farDistance 183.64058
+  nearDistance 12.580231
+  farDistance 179.05072
   aspectRatio 1
   focalDistance 86.338928
   height 263.04907

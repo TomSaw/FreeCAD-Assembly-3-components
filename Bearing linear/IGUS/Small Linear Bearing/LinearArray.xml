@@ -8,7 +8,7 @@
   </Extensions>
   <Properties Count="44" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
-    <Property name="Alignment" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="1" status="2097152">
+    <Property name="Alignment" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Integer value="4" CustomEnum="true"/>
       <CustomEnumList count="5">
 <Enum value="Low"/>
@@ -24,20 +24,20 @@
     <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
-    <Property name="CellStart" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" docID="2" status="2097156">
+    <Property name="CellStart" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097156">
       <String value="A1"/>
     </Property>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
       </LinkSub>
     </Property>
-    <Property name="Count" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="3" status="2097156">
+    <Property name="Count" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097156">
       <Float value="7"/>
     </Property>
-    <Property name="Dir" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" docID="4" status="2097152">
+    <Property name="Dir" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <PropertyVector valueX="1" valueY="0" valueZ="0"/>
     </Property>
-    <Property name="DirIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="5" status="2097156">
+    <Property name="DirIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097156">
       <Bool value="true"/>
     </Property>
     <Property name="DistributionLaw" type="App::PropertyEnumeration" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
@@ -47,7 +47,7 @@
 <Enum value="Exponential"/>
       </CustomEnumList>
     </Property>
-    <Property name="DrivenProperty" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="6" status="2097156">
+    <Property name="DrivenProperty" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097156">
       <Integer value="1" CustomEnum="true"/>
       <CustomEnumList count="5">
 <Enum value="None"/>
@@ -57,10 +57,10 @@
 <Enum value="Step"/>
       </CustomEnumList>
     </Property>
-    <Property name="EndInclusive" type="App::PropertyBool" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="7" status="2097152">
+    <Property name="EndInclusive" type="App::PropertyBool" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Bool value="true"/>
     </Property>
-    <Property name="ExposePlacement" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" docID="8" status="2097152">
+    <Property name="ExposePlacement" type="App::PropertyBool" group="Lattice" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Bool value="false"/>
     </Property>
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
@@ -89,10 +89,10 @@
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
     </Property>
-    <Property name="Link" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" docID="9" status="2097152">
+    <Property name="Link" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Link value=""/>
     </Property>
-    <Property name="LinkSubelement" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" docID="10" status="2097152">
+    <Property name="LinkSubelement" type="App::PropertyString" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <String value=""/>
     </Property>
     <Property name="MapMode" type="App::PropertyEnumeration" status="8">
@@ -104,23 +104,23 @@
     <Property name="MapReversed" type="App::PropertyBool" status="8">
       <Bool value="false"/>
     </Property>
-    <Property name="MarkerShape" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" docID="11" status="2097152">
+    <Property name="MarkerShape" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Integer value="1" CustomEnum="true"/>
       <CustomEnumList count="2">
 <Enum value="tetra-orimarker"/>
 <Enum value="paperplane-orimarker"/>
       </CustomEnumList>
     </Property>
-    <Property name="MarkerSize" type="App::PropertyLength" group="Lattice" attr="0" ro="0" hide="0" docID="12" status="2097152">
+    <Property name="MarkerSize" type="App::PropertyLength" group="Lattice" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Float value="6"/>
     </Property>
-    <Property name="NumElements" type="App::PropertyInteger" group="Lattice" attr="0" ro="0" hide="0" docID="13" status="2097156">
+    <Property name="NumElements" type="App::PropertyInteger" group="Lattice" attr="0" ro="0" hide="0" doc="" status="2097156">
       <Integer value="13"/>
     </Property>
-    <Property name="Offset" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="14" status="2097152">
+    <Property name="Offset" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Float value="0"/>
     </Property>
-    <Property name="OrientMode" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="15" status="2097152">
+    <Property name="OrientMode" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Integer value="1" CustomEnum="true"/>
       <CustomEnumList count="2">
 <Enum value="None"/>
@@ -130,20 +130,20 @@
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
-    <Property name="Point" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" docID="16" status="2097152">
+    <Property name="Point" type="App::PropertyVector" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <PropertyVector valueX="0" valueY="0" valueZ="0"/>
     </Property>
-    <Property name="PointIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="17" status="2097156">
+    <Property name="PointIsDriven" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097156">
       <Bool value="true"/>
     </Property>
     <Property name="Proxy" type="App::PropertyPythonObject">
       <Python  module="lattice2LinearArray" class="LinearArray" value="null"/>
     </Property>
-    <Property name="Reverse" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" docID="18" status="2097152">
+    <Property name="Reverse" type="App::PropertyBool" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Bool value="false"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -369,92 +369,21 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="195">
-<![CDATA[
-8 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 8 3
-
-Edge
-
-ChildCount 13
-1 0 7 0 0 ;:H,E;:H:5,E 0
-1 7 7 0 0 ;:C1;:H:4,E;:H:b,E 0
-1 14 7 0 0 ;:C2;:H:4,E;:H:b,E 0
-1 21 7 0 0 ;:C3;:H:4,E;:H:b,E 0
-1 28 7 0 0 ;:C4;:H:4,E;:H:b,E 0
-1 35 7 0 0 ;:C5;:H:4,E;:H:b,E 0
-1 42 7 0 0 ;:C6;:H:4,E;:H:b,E 0
-1 49 7 0 0 ;:C7;:H:4,E;:H:b,E 0
-1 56 7 0 0 ;:C8;:H:4,E;:H:b,E 0
-1 63 7 0 0 ;:C9;:H:4,E;:H:b,E 0
-1 70 7 0 0 ;:Ca;:H:4,E;:H:b,E 0
-1 77 7 0 0 ;:Cb;:H:4,E;:H:b,E 0
-1 84 7 0 0 ;:Cc;:H:4,E;:H:b,E 0
-
-NameCount 0
-
-Face
-
-ChildCount 13
-1 0 3 0 0 ;:H,F;:H:5,F 0
-1 3 3 0 0 ;:C1;:H:4,F;:H:b,F 0
-1 6 3 0 0 ;:C2;:H:4,F;:H:b,F 0
-1 9 3 0 0 ;:C3;:H:4,F;:H:b,F 0
-1 12 3 0 0 ;:C4;:H:4,F;:H:b,F 0
-1 15 3 0 0 ;:C5;:H:4,F;:H:b,F 0
-1 18 3 0 0 ;:C6;:H:4,F;:H:b,F 0
-1 21 3 0 0 ;:C7;:H:4,F;:H:b,F 0
-1 24 3 0 0 ;:C8;:H:4,F;:H:b,F 0
-1 27 3 0 0 ;:C9;:H:4,F;:H:b,F 0
-1 30 3 0 0 ;:Ca;:H:4,F;:H:b,F 0
-1 33 3 0 0 ;:Cb;:H:4,F;:H:b,F 0
-1 36 3 0 0 ;:Cc;:H:4,F;:H:b,F 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 13
-1 0 5 0 0 ;:H,V;:H:5,V 0
-1 5 5 0 0 ;:C1;:H:4,V;:H:b,V 0
-1 10 5 0 0 ;:C2;:H:4,V;:H:b,V 0
-1 15 5 0 0 ;:C3;:H:4,V;:H:b,V 0
-1 20 5 0 0 ;:C4;:H:4,V;:H:b,V 0
-1 25 5 0 0 ;:C5;:H:4,V;:H:b,V 0
-1 30 5 0 0 ;:C6;:H:4,V;:H:b,V 0
-1 35 5 0 0 ;:C7;:H:4,V;:H:b,V 0
-1 40 5 0 0 ;:C8;:H:4,V;:H:b,V 0
-1 45 5 0 0 ;:C9;:H:4,V;:H:b,V 0
-1 50 5 0 0 ;:Ca;:H:4,V;:H:b,V 0
-1 55 5 0 0 ;:Cb;:H:4,V;:H:b,V 0
-1 60 5 0 0 ;:Cc;:H:4,V;:H:b,V 0
-
-NameCount 0
-
-EndMap
-]]>
-      </ElementMap2>
+      <ElementMap/>
     </Property>
-    <Property name="SpanEnd" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="19" status="2097152">
+    <Property name="SpanEnd" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Float value="130"/>
     </Property>
-    <Property name="SpanStart" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="20" status="2097152">
+    <Property name="SpanStart" type="App::PropertyDistance" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Float value="0"/>
     </Property>
-    <Property name="SpreadsheetLink" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" docID="21" status="2097156">
+    <Property name="SpreadsheetLink" type="App::PropertyLink" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097156">
       <Link value=""/>
     </Property>
-    <Property name="Step" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="22" status="2097152">
+    <Property name="Step" type="App::PropertyFloat" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Float value="20"/>
     </Property>
-    <Property name="SubLink" type="App::PropertyLinkSub" group="Lattice Array" attr="0" ro="0" hide="0" docID="23" status="2097152">
+    <Property name="SubLink" type="App::PropertyLinkSub" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <LinkSub value="" count="0">
       </LinkSub>
     </Property>
@@ -462,13 +391,13 @@ EndMap
       <LinkSubList count="0">
       </LinkSubList>
     </Property>
-    <Property name="Type" type="App::PropertyString" group="Lattice" attr="0" ro="1" hide="1" docID="24" status="85983232">
+    <Property name="Type" type="App::PropertyString" group="Lattice" attr="0" ro="1" hide="1" doc="" status="85983232">
       <String value="lattice2LinearArray.LinearArray"/>
     </Property>
-    <Property name="VSGVersion" type="App::PropertyInteger" group="Lattice Series Generator" attr="0" ro="0" hide="0" docID="25" status="2097160">
+    <Property name="VSGVersion" type="App::PropertyInteger" group="Lattice Series Generator" attr="0" ro="0" hide="0" doc="" status="2097160">
       <Integer value="1"/>
     </Property>
-    <Property name="Values" type="App::PropertyStringList" group="Lattice Array" attr="0" ro="0" hide="0" docID="26" status="2097156">
+    <Property name="Values" type="App::PropertyStringList" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097156">
       <StringList count="13" >
 <String value="0.0"/>
 <String value="20.0"/>
@@ -485,7 +414,7 @@ EndMap
 <String value="-120.0"/>
       </StringList>
     </Property>
-    <Property name="ValuesSource" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" docID="27" status="2097152">
+    <Property name="ValuesSource" type="App::PropertyEnumeration" group="Lattice Array" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Integer value="2" CustomEnum="true"/>
       <CustomEnumList count="3">
 <Enum value="Values Property"/>
@@ -496,7 +425,7 @@ EndMap
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
     </Property>
-    <Property name="isLattice" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" docID="28" status="2097152">
+    <Property name="isLattice" type="App::PropertyEnumeration" group="Lattice" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Integer value="1" CustomEnum="true"/>
       <CustomEnumList count="4">
 <Enum value="Auto-Off"/>

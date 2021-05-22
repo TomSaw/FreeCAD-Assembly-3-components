@@ -2,8 +2,12 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="4fce3f30-a331-4343-a634-6df80e4452f6" StringHasher="1">
-  <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="4fce3f30-a331-4343-a634-6df80e4452f6" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="1">
+<![CDATA[
+1 0 0:Show coordinate cross
+]]>
+  </StringHasher>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -33,7 +37,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T08:30:07Z"/>
+      <String value="2021-09-29T04:46:22Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -64,7 +68,7 @@
     <Property name="Uid" type="App::PropertyUUID" status="16777217">
       <Uuid value="4fce3f30-a331-4343-a634-6df80e4452f6"/>
     </Property>
-    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
   </Properties>
@@ -113,14 +117,14 @@
     <Object type="Part::Cylinder" name="Cylinder001" id="422" revision="2" file="Cylinder001.xml" />
     <Object type="Part::Cylinder" name="Cylinder002" id="423" revision="2" file="Cylinder002.xml" />
     <Object type="Part::Cylinder" name="Cylinder003" id="424" revision="2" file="Cylinder003.xml" />
-    <Object type="Part::MultiFuse" name="Fusion" id="425" revision="2" file="Fusion.xml" />
-    <Object type="Part::FeaturePython" name="Assembly" id="426" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="425" revision="4" file="Fusion.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="426" revision="12" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
     <Object type="App::FeaturePython" name="Constraints" id="427" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
-    <Object type="App::FeaturePython" name="Elements" id="428" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
-    <Object type="Part::FeaturePython" name="Parts" id="429" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="428" revision="10" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="429" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
     <Object type="Part::FeaturePython" name="Element" id="430" revision="3" file="Element.xml" />
-    <Object type="Part::FeaturePython" name="Element001" id="431" revision="6" file="Element001.xml" />
-    <Object type="Part::FeaturePython" name="Element002" id="432" revision="6" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="433" revision="7" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="434" revision="7" file="Element002.xml" />
   </Objects>
   <ObjectData Count="0">
   </ObjectData>

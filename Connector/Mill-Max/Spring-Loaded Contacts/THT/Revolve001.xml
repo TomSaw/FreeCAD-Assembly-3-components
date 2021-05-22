@@ -3,49 +3,49 @@
 <Document SchemaVersion="4" FileVersion="2">
 <Object name="Revolve001">
   <Properties Count="18" TransientCount="1">
-    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881025"/>
-    <Property name="Angle" type="App::PropertyFloatConstraint" status="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="Angle" type="App::PropertyFloatConstraint">
       <Float value="360"/>
     </Property>
-    <Property name="Axis" type="App::PropertyVector" status="1">
+    <Property name="Axis" type="App::PropertyVector">
       <PropertyVector valueX="0" valueY="0" valueZ="1"/>
     </Property>
-    <Property name="AxisLink" type="App::PropertyLinkSub" status="1">
+    <Property name="AxisLink" type="App::PropertyLinkSub">
       <LinkSub value="" count="0">
       </LinkSub>
     </Property>
-    <Property name="Base" type="App::PropertyVector" status="1">
+    <Property name="Base" type="App::PropertyVector">
       <PropertyVector valueX="0" valueY="0" valueZ="0"/>
     </Property>
-    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103809">
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
       </LinkSub>
     </Property>
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
-    <Property name="FaceMakerClass" type="App::PropertyString" status="1">
+    <Property name="FaceMakerClass" type="App::PropertyString">
       <String value="Part::FaceMakerBullseye"/>
     </Property>
-    <Property name="Label" type="App::PropertyString" status="134217729">
+    <Property name="Label" type="App::PropertyString" status="134217728">
       <String value="0852-1-15-20-83-14-11-0"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
     </Property>
-    <Property name="Placement" type="App::PropertyPlacement" status="8388609">
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
       <PropertyPlacement Px="5" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
-    <Property name="Price" type="App::PropertyFloat" group="Resources" attr="0" ro="0" hide="0" docID="1" status="2097153">
+    <Property name="Price" type="App::PropertyFloat" group="Resources" attr="0" ro="0" hide="0" docID="1" status="2097152">
       <Float value="2.23"/>
     </Property>
-    <Property name="Product" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="2" status="2097153">
+    <Property name="Product" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="2" status="2097152">
       <String value="https://www.mouser.de/ProductDetail/Mill-Max/0852-1-15-20-83-14-11-0/?qs=%2Fha2pyFaduhsKko2v9Dc19pFzk03ES6ALgNfMyJx4I2u6vwnK%2FeR0JbI0ujODvRS"/>
     </Property>
-    <Property name="SKU" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="3" status="2097153">
+    <Property name="SKU" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="3" status="2097152">
       <String value="0852-1-15-20-83-14-11-0"/>
     </Property>
-    <Property name="Shape" type="Part::PropertyPartShape" status="1">
+    <Property name="Shape" type="Part::PropertyPartShape">
       <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
@@ -61,87 +61,87 @@ Locations 5
               0               0               1               0 
 1
               1               0               0               0 
-              0               0              -1               0 
-              0               1               0               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 2  2 1 3 1 0
 2  3 -1 2 -1 0
 Curve2ds 33
 1 0 0 1 0 
-1 0 -3.5000000000000002e-16 1 0 
+1 0 -3.4967654318902565e-16 1 0 
 1 0 1.655 1 0 
 2 0 0 -1 0 0 1 0.63500000000000001
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
 2 0 0 -1 0 0 1 1.2050000000000001
 1 0 0 1 0 
-1 0 1.9100000000000006 1 0 
+1 0 1.910000000000001 1 0 
 2 0 0 -1 0 0 1 1.2050000000000001
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
-2 0 0 -1 -4.9999999999999999e-17 -4.9999999999999999e-17 1 1.4099999999999999
+2 0 0 -1 1.0234138496029665e-16 1.0234138496029665e-16 1 1.4099999999999999
 1 0 0 1 0 
-1 0 0.75999999999999979 1 0 
+1 0 0.7599999999999989 1 0 
 2 0 0 1 0 -0 1 1.4099999999999999
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
-2 0 0 1 1.2e-16 -1.2e-16 1 1.105
+2 0 0 1 -2.3211324928044575e-16 2.3211324928044575e-16 1 1.105
 1 0 0 1 0 
 1 0 5.0499999999999989 1 0 
-2 0 0 1 -0 0 1 1.105
+2 0 0 1 0 -0 1 1.105
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
-2 0 0 1 1.8099999999999998e-15 -1.8099999999999998e-15 1 0.51000000000000001
+2 0 0 1 -3.6196954600750199e-15 3.6196954600750199e-15 1 0.51000000000000001
 1 0 0 1 0 
-1 0 4.0599999999999996 1 0 
+1 0 4.0600000000000005 1 0 
 2 0 0 1 0 -0 1 0.51000000000000001
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
-1 0 -1.5707963267948963 1 0 
+1 0 -1.5707963267948961 1 0 
 1 6.2831853071795862 -6.2831853071795862 0 1 
 1 0 -6.2831853071795862 0 1 
 Curves 16
-2 0 0 -1.6550000000000002 0 0 1 1 -5.7999999999999996e-16 0 5.7999999999999996e-16 1 -0 0.63500000000000001
+2 0 0 -1.6550000000000002 0 0 1 1 1.1574293579556751e-15 -0 -1.1574293579556751e-15 1 0 0.63500000000000001
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 0.63500000000000001
 1 0.63500000000000001 -1.655 0 0 1 0 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 1.2050000000000001
-2 0 0 1.9100000000000006 0 0 1 1 3.5000000000000002e-16 -0 -3.5000000000000002e-16 1 0 1.2050000000000001
+2 0 0 1.910000000000001 0 0 1 1 -7.0390903801960168e-16 0 7.0390903801960168e-16 1 -0 1.2050000000000001
 1 1.2050000000000001 0 0 0 1 0 
-2 0 0 1.9100000000000006 0 0 1 1 2.9999999999999999e-16 -0 -2.9999999999999999e-16 1 0 1.4099999999999999
-2 0 0 2.6700000000000004 0 0 1 1 4.2000000000000002e-16 -0 -4.2000000000000002e-16 1 0 1.4099999999999999
-1 1.4099999999999999 1.9100000000000006 0 0 1 0 
-2 0 0 2.6700000000000004 0 0 1 1 5.4e-16 -0 -5.4e-16 1 0 1.105
-2 0 0 7.7199999999999989 0 0 1 1 1.5499999999999999e-15 -0 -1.5499999999999999e-15 1 0 1.105
-1 1.105 2.6700000000000004 0 0 1 0 
-2 0 0 7.7199999999999998 0 0 1 1 3.3600000000000002e-15 -0 -3.3600000000000002e-15 1 0 0.51000000000000001
-2 0 0 11.779999999999999 0 0 1 1 5.1300000000000001e-15 -0 -5.1300000000000001e-15 1 0 0.51000000000000001
-1 0.51000000000000001 7.7199999999999998 0 0 1 0 
-2 -0 -1.655 0 0 0 1 1 0 -0 -0 1 0 0.63500000000000001
+2 0 0 1.910000000000001 0 0 1 1 -6.01567653059305e-16 0 6.01567653059305e-16 1 -0 1.4099999999999999
+2 0 0 2.6699999999999999 0 0 1 1 -8.4093488673735259e-16 0 8.4093488673735259e-16 1 -0 1.4099999999999999
+1 1.4099999999999999 1.910000000000001 0 0 1 0 
+2 0 0 2.6699999999999999 0 0 1 1 -1.0730481360177983e-15 0 1.0730481360177983e-15 1 -0 1.105
+2 0 0 7.7199999999999989 0 0 1 1 -3.1025961086357312e-15 0 3.1025961086357312e-15 1 -0 1.105
+1 1.105 2.6699999999999999 0 0 1 0 
+2 0 0 7.7199999999999989 0 0 1 1 -6.7222915687107508e-15 0 6.7222915687107508e-15 1 -0 0.51000000000000001
+2 0 0 11.779999999999999 0 0 1 1 -1.0257589984379878e-14 0 1.0257589984379878e-14 1 -0 0.51000000000000001
+1 0.51000000000000001 7.7199999999999989 0 0 1 0 
+2 0 -1.655 0 0 0 1 1 0 0 0 1 0 0.63500000000000001
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 11
-2 0 0 -1.655 0 0 1 1 -5.7999999999999996e-16 0 5.7999999999999996e-16 1 -0 0.63500000000000001
-4 -0 -3.7e-16 -1.655 0 0 1 1 -5.7999999999999996e-16 0 5.7999999999999996e-16 1 -0 0.63500000000000001
-1 0 0 0 0 0 1 -1 -0 0 -0 1 -0 
+2 0 0 -1.655 0 0 1 1 1.1574293579556749e-15 -0 -1.1574293579556749e-15 1 0 0.63500000000000001
+4 0 7.3496764230185364e-16 -1.655 0 0 1 1 1.1574293579556751e-15 -0 -1.1574293579556751e-15 1 0 0.63500000000000001
+1 0 0 0 0 0 1 -1 -0 0 -0 1 0 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 1.2050000000000001
-1 0 0 1.9100000000000006 0 0 1 -1 -3.5000000000000002e-16 0 -3.5000000000000002e-16 1 -0 
-2 0 0 1.9100000000000006 0 0 1 1 2.9999999999999999e-16 -0 -2.9999999999999999e-16 1 0 1.4099999999999999
-1 0 0 2.6700000000000004 0 0 1 1 4.2000000000000002e-16 -0 -4.2000000000000002e-16 1 0 
-2 0 0 2.6700000000000004 0 0 1 1 5.4e-16 -0 -5.4e-16 1 0 1.105
-1 0 0 7.7199999999999998 0 0 1 1 1.5499999999999999e-15 -0 -1.5499999999999999e-15 1 0 
-2 0 0 7.7199999999999998 0 0 1 1 3.3600000000000002e-15 -0 -3.3600000000000002e-15 1 0 0.51000000000000001
-1 0 0 11.779999999999999 0 0 1 1 5.1300000000000001e-15 -0 -5.1300000000000001e-15 1 0 
+1 0 0 1.910000000000001 0 0 1 -1 7.0390903801960168e-16 -0 7.0390903801960168e-16 1 -0 
+2 0 0 1.910000000000001 0 0 1 1 -6.01567653059305e-16 0 6.01567653059305e-16 1 -0 1.4099999999999999
+1 0 0 2.6699999999999999 0 0 1 1 -8.4093488673735259e-16 0 8.4093488673735259e-16 1 -0 
+2 0 0 2.6699999999999999 0 0 1 1 -1.0730481360177983e-15 0 1.0730481360177983e-15 1 -0 1.105
+1 0 0 7.7199999999999989 0 0 1 1 -3.1025961086357312e-15 0 3.1025961086357312e-15 1 -0 
+2 0 0 7.7199999999999989 0 0 1 1 -6.7222915687107508e-15 0 6.7222915687107508e-15 1 -0 0.51000000000000001
+1 0 0 11.779999999999999 0 0 1 1 -1.0257589984379878e-14 0 1.0257589984379878e-14 1 -0 
 Triangulations 0
 
 TShapes 56
 Ve
-1e-07
+1.00000000111022e-07
 0.635 -1.655 0
 0 0
 
 0101101
 *
 Ed
- 1e-07 1 1 0
+ 1.00000000111022e-07 1 1 0
 1  1 0 0 6.28318530717959
 2  1 1 0 0 6.28318530717959
 2  2 2 0 0 6.28318530717959
@@ -292,8 +292,8 @@ Ed
 +34 4 -34 4 *
 Ed
  1e-07 1 1 0
-1  9 0 0 0.76
-3  17 18CN 6 5 0 0.76
+1  9 0 0 0.759999999999999
+3  17 18CN 6 5 0 0.759999999999999
 0
 
 0101000
@@ -441,14 +441,14 @@ Fa
 0101000
 +9 0 *
 Ve
-1e-07
--0 -2.29 0
+1.00000000447903e-07
+-5.83238030241376e-17 -2.29 0
 0 0
 
 0101101
 *
 Ed
- 1e-07 1 1 1
+ 1.00000000447903e-07 1 1 1
 2  31 2 0 0 6.28318530717959
 0
 
@@ -483,92 +483,71 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="50">
+      <ElementMap count="50">
 <![CDATA[
-3 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 3 3
-
-Edge
-
-ChildCount 0
-
-NameCount 18
-0
-;#1a;:G;RVL;:T4561:3:E.0.1a 0
-;#20;:G;RVL;:T4561:3:E.0.20 0
-;g108;SKT;:T4561:8:E.0 0
-;#21;:G;RVL;:T4561:3:E.0.21 0
-;#22;:G;RVL;:T4561:3:E.0.22 0
-;g110;SKT;:T4561:8:E.0 0
-;#23;:G;RVL;:T4561:3:E.0.23 0
-;#24;:G;RVL;:T4561:3:E.0.24 0
-;g112;SKT;:T4561:8:E.0 0
-;#1b;:G;RVL;:T4561:3:E.0.1b 0
-;#1c;:G;RVL;:T4561:3:E.0.1c 0
-;g114;SKT;:T4561:8:E.0 0
-;#1d;:G;RVL;:T4561:3:E.0.1d 0
-;#1e;:G;RVL;:T4561:3:E.0.1e 0
-;g116;SKT;:T4561:8:E.0 0
-;#1f;:G;RVL;:T4561:3:E.0.1f 0
-;g120;SKT;:T4561:8:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 12
-0
-;#25;:G;RVL;:T4561:3:F.0.25 0
-;#2b;Edge4;:L;RVL;:T4561:3:F.0.21.2b 0
-;#27;:G;RVL;:T4561:3:F.0.27 0
-;#2c;Edge7;:L;RVL;:T4561:3:F.0.2c.23 0
-;#28;:G;RVL;:T4561:3:F.0.28 0
-;#2d;Edge8;:L;RVL;:T4561:3:F.0.24.2d 0
-;#29;:G;RVL;:T4561:3:F.0.29 0
-;#2e;Edge11;:L;RVL;:T4561:3:F.0.1c.2e 0
-;#2a;:G;RVL;:T4561:3:F.0.2a 0
-;#2f;Edge14;:L;RVL;:T4561:3:F.0.2f.1e 0
-;#26;:G;RVL;:T4561:3:F.0.26 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 12
-0
-;g108v1;SKT;:T4561:10:V.0 ;g120v2;SKT;:T4561:10:V.0 0
-;g108v2;SKT;:T4561:10:V.0 ;g109v1;SKT;:T4561:10:V.0 0
-;g109v2;SKT;:T4561:10:V.0 ;g110v1;SKT;:T4561:10:V.0 0
-;g110v2;SKT;:T4561:10:V.0 ;g111v1;SKT;:T4561:10:V.0 0
-;g111v2;SKT;:T4561:10:V.0 ;g112v1;SKT;:T4561:10:V.0 0
-;g112v2;SKT;:T4561:10:V.0 ;g113v1;SKT;:T4561:10:V.0 0
-;g113v2;SKT;:T4561:10:V.0 ;g114v1;SKT;:T4561:10:V.0 0
-;g114v2;SKT;:T4561:10:V.0 ;g115v1;SKT;:T4561:10:V.0 0
-;g115v2;SKT;:T4561:10:V.0 ;g116v1;SKT;:T4561:10:V.0 0
-;g116v2;SKT;:T4561:10:V.0 ;g117v1;SKT;:T4561:10:V.0 0
-;g118v2;SKT;:T4561:10:V.0 ;g120v1;SKT;:T4561:10:V.0 0
-
-EndMap
+Edge1	#1a;:G;RVL;:T4561:3:E 1 26
+Edge10	#1b;:G;RVL;:T4561:3:E 1 27
+Edge11	#1c;:G;RVL;:T4561:3:E 1 28
+Edge12	g114;SKT;:T4561:8:E 1 0
+Edge13	#1d;:G;RVL;:T4561:3:E 1 29
+Edge14	#1e;:G;RVL;:T4561:3:E 1 30
+Edge15	g116;SKT;:T4561:8:E 1 0
+Edge16	#1f;:G;RVL;:T4561:3:E 1 31
+Edge17	g120;SKT;:T4561:8:E 1 0
+Edge2	#20;:G;RVL;:T4561:3:E 1 32
+Edge3	g108;SKT;:T4561:8:E 1 0
+Edge4	#21;:G;RVL;:T4561:3:E 1 33
+Edge5	#22;:G;RVL;:T4561:3:E 1 34
+Edge6	g110;SKT;:T4561:8:E 1 0
+Edge7	#23;:G;RVL;:T4561:3:E 1 35
+Edge8	#24;:G;RVL;:T4561:3:E 1 36
+Edge9	g112;SKT;:T4561:8:E 1 0
+Face1	#25;:G;RVL;:T4561:3:F 1 37
+Face10	#2f;Edge14;:L;RVL;:T4561:3:F 2 30 47
+Face11	#26;:G;RVL;:T4561:3:F 1 38
+Face2	#2b;Edge4;:L;RVL;:T4561:3:F 2 33 43
+Face3	#27;:G;RVL;:T4561:3:F 1 39
+Face4	#2c;Edge7;:L;RVL;:T4561:3:F 2 35 44
+Face5	#28;:G;RVL;:T4561:3:F 1 40
+Face6	#2d;Edge8;:L;RVL;:T4561:3:F 2 36 45
+Face7	#29;:G;RVL;:T4561:3:F 1 41
+Face8	#2e;Edge11;:L;RVL;:T4561:3:F 2 28 46
+Face9	#2a;:G;RVL;:T4561:3:F 1 42
+Vertex1	g108v1;SKT;:T4561:10:V 1 0
+Vertex1	g120v2;SKT;:T4561:10:V 1 0
+Vertex10	g116v2;SKT;:T4561:10:V 1 0
+Vertex10	g117v1;SKT;:T4561:10:V 1 0
+Vertex11	g118v2;SKT;:T4561:10:V 1 0
+Vertex11	g120v1;SKT;:T4561:10:V 1 0
+Vertex2	g108v2;SKT;:T4561:10:V 1 0
+Vertex2	g109v1;SKT;:T4561:10:V 1 0
+Vertex3	g109v2;SKT;:T4561:10:V 1 0
+Vertex3	g110v1;SKT;:T4561:10:V 1 0
+Vertex4	g110v2;SKT;:T4561:10:V 1 0
+Vertex4	g111v1;SKT;:T4561:10:V 1 0
+Vertex5	g111v2;SKT;:T4561:10:V 1 0
+Vertex5	g112v1;SKT;:T4561:10:V 1 0
+Vertex6	g112v2;SKT;:T4561:10:V 1 0
+Vertex6	g113v1;SKT;:T4561:10:V 1 0
+Vertex7	g113v2;SKT;:T4561:10:V 1 0
+Vertex7	g114v1;SKT;:T4561:10:V 1 0
+Vertex8	g114v2;SKT;:T4561:10:V 1 0
+Vertex8	g115v1;SKT;:T4561:10:V 1 0
+Vertex9	g115v2;SKT;:T4561:10:V 1 0
+Vertex9	g116v1;SKT;:T4561:10:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
-    <Property name="Solid" type="App::PropertyBool" status="1">
+    <Property name="Solid" type="App::PropertyBool">
       <Bool value="true"/>
     </Property>
-    <Property name="Source" type="App::PropertyLink" status="1">
+    <Property name="Source" type="App::PropertyLink">
       <Link value="Sketch001"/>
     </Property>
-    <Property name="Symmetric" type="App::PropertyBool" status="1">
+    <Property name="Symmetric" type="App::PropertyBool">
       <Bool value="false"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="649">
+    <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="true"/>
     </Property>
   </Properties>

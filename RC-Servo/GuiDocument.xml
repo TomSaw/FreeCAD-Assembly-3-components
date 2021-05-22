@@ -7,17 +7,17 @@
   <Expand name="Fusion"/>
 </Expand>
 >
-  <Camera extra="0" id="1" binding="0">
+  <Camera extra="0" id="25" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position -2.7584839 -48.986511 -6.4808922
-  orientation 1 0 0  1.5707964
-  nearDistance 38.947529
-  farDistance 64.489098
+  position 31.183729 -21.183718 9.6837196
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance 0.4870308
+  farDistance 72.967949
   aspectRatio 1
-  focalDistance 35.832947
-  height 106.91296
+  focalDistance 36.69128
+  height 72.21032
 
 }
 ## overrideMode: As Is]]>

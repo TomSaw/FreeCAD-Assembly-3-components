@@ -41,7 +41,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -49,7 +49,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -104,18 +104,18 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="1.665334536937735e-16" Q2="1" Q3="0" A="3.141592653589793" Ox="0" Oy="1.665334536937735e-16" Oz="1"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="-2.220446049250313e-16" Q2="1" Q3="0" A="3.141592653589793" Ox="0" Oy="-2.220446049250313e-16" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
              -1               0               0               0 
-              0              -1 3.33066907387547e-16               0 
-              0 3.33066907387547e-16               1               0 
+              0              -1 -4.44089209850063e-16               0 
+              0 -4.44089209850063e-16               1               0 
 Curve2ds 0
 Curves 2
 2 -3.75 13.48842096021621 0 0 0 1 1 0 0 0 1 0 2
@@ -169,67 +169,18 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="4">
+      <ElementMap count="4">
 <![CDATA[
-6 PostfixCount 5
-Edge
-Vertex
-;:H,E;SKT
-;:H,V;SKT
-;SKT
-
-MapCount 2
-
-ElementMap 1 7 2
-
-Edge
-
-ChildCount 0
-
-NameCount 2
-0
-;g812.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 2
-0
-;g812v1.4 0
-
-EndMap
-
-ElementMap 2 6 2
-
-Edge
-
-ChildCount 1
-1 0 1 0 1 ;:H,E 0
-
-NameCount 3
-0
-0
-;g813.5 0
-
-Vertex
-
-ChildCount 1
-1 0 1 0 1 ;:H,V 0
-
-NameCount 3
-0
-0
-;g813v1.5 0
-
-EndMap
+Edge1	g812;SKT 0
+Edge2	g813;SKT 0
+Vertex1	g812v1;SKT 0
+Vertex2	g813v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Revolution" sub="Face2" shadow=";#23;:L;RVL;:H1:7,F;:H-a,F.Face2"/>
+        <Link obj="Revolution" sub="Face2" shadow=";#29;:T-10:3:F.Face2"/>
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

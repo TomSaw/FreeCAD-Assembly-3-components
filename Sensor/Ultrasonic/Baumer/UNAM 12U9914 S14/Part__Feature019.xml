@@ -18,10 +18,10 @@
       <String value=""/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="-0.7071068407911911" Q2="0" Q3="0.7071067215818989" A="1.570796495382294" Ox="0" Oy="-1" Oz="0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="-0.7071068407911909" Q2="0" Q3="0.7071067215818991" A="1.570796495382294" Ox="0" Oy="-1" Oz="0"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision

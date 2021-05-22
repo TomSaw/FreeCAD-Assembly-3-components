@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
+<Expand  count="1">
+  <Expand name="Extrude" count="1">
+    <Expand name="Connect" count="1">
+      <Expand name="Array"/>
+    </Expand>
+  </Expand>
+</Expand>
+>
+  <Camera extra="0" id="17" binding="0">
+<![CDATA[
+OrthographicCamera {
+  viewportMapping ADJUST_CAMERA
+  position 59.265526 -68.674103 45.82235
+  orientation 0.88040006 0.23590182 0.41139534  1.1546006
+  nearDistance 14.974422
+  farDistance 160.13954
+  aspectRatio 1
+  focalDistance 100
+  height 278.38248
+
+}
+## overrideMode: As Is]]>
+  </Camera>
+</Document>

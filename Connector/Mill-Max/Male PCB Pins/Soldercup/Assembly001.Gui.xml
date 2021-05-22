@@ -57,7 +57,7 @@
     <Property name="ShowInTree" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
-    <Property name="ShowParts" type="App::PropertyBool" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097152">
+    <Property name="ShowParts" type="App::PropertyBool" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Bool value="false"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="9">

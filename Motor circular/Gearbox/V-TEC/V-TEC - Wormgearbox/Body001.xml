@@ -49,7 +49,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -688,143 +688,74 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="64">
+      <ElementMap count="64">
 <![CDATA[
-20 PostfixCount 15
-Edge
-Face
-Vertex
-;:Ha21,E
-;:Ha21,F
-;:M;FLT;:Ha21:7,F
-;:M;FLT;:Ha21:7,E
-;:G;FLT;:Ha21:7,F
-;:U2;FLT;:Ha21:8,E
-;:U3;FLT;:Ha21:8,E
-;:U4;FLT;:Ha21:8,E
-;:U;FLT;:Ha21:7,E
-;:Ha21,V
-;:U2;FLT;:Ha21:8,V
-;:U;FLT;:Ha21:7,V
-
-MapCount 2
-
-ElementMap 1 21 3
-
-Edge
-
-ChildCount 0
-
-NameCount 31
-0
-$#862.7 0
-$#887.c 0
-$#887.9 0
-$#863.7 0
-$#864.7 0
-$#887.a 0
-$#887.b 0
-$#865.7 0
-$#85a.4 0
-$#88e.c 0
-$#88e.9 0
-$#872.7 0
-$#894.c 0
-$#88f.c 0
-$#895.c 0
-$#891.c 0
-$#873.7 0
-$#88f.9 0
-$#875.7 0
-$#891.9 0
-$#898.c 0
-$#893.c 0
-$#89a.c 0
-$#893.9 0
-$#877.7 0
-$#855.4 0
-$#85c.4 0
-$#87d.4 0
-$#857.4 0
-$#880.4 0
-
-Face
-
-ChildCount 0
-
-NameCount 15
-0
-$#85e.6 0
-$#86a.6 0
-$#870.8 0
-$#871.8 0
-$#86b.6 0
-$#86d.6 0
-$#874.8 0
-$#876.8 0
-$#86f.6 0
-$#859.5 0
-$#87a.6 0
-$#860.5 0
-$#87f.5 0
-$#881.5 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 21
-0
-$#b7a.f 0
-$#b7a.e 0
-$#b95.f 0
-$#b99.f 0
-$#b95.e 0
-$#b99.e 0
-$#b7b.f 0
-$#b7b.e 0
-$#b75.d 0
-$#b7c.f 0
-$#b7c.e 0
-$#b96.f 0
-$#b9a.f 0
-$#b96.e 0
-$#b9a.e 0
-$#b7e.f 0
-$#b7e.e 0
-$#b77.d 0
-$#b78.d 0
-$#b79.d 0
-
-EndMap
-
-ElementMap 2 20 3
-
-Edge
-
-ChildCount 1
-1 0 30 2601 1 ;:Ha29,E 0
-
-NameCount 0
-
-Face
-
-ChildCount 1
-1 0 14 2601 1 ;:Ha29,F 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 1
-1 0 20 2601 1 ;:Ha29,V 0
-
-NameCount 0
-
-EndMap
+Edge1	#52;:T2601:3:E 3 0 55 82
+Edge10	#6b;:T2601:3:E 4 0 65 73 107
+Edge11	#6f;:T2601:3:E 4 0 65 73 111
+Edge12	#53;:T2601:3:E 3 0 56 83
+Edge13	#6a;:T2601:3:E 4 0 64 74 106
+Edge14	#6c;:T2601:3:E 4 0 66 75 108
+Edge15	#6e;:T2601:3:E 4 0 64 74 110
+Edge16	#70;:T2601:3:E 4 0 67 76 112
+Edge17	#54;:T2601:3:E 3 0 57 84
+Edge18	#73;:T2601:3:E 4 0 68 77 115
+Edge19	#55;:T2601:3:E 3 0 58 85
+Edge2	#6d;:T2601:3:E 4 0 63 78 109
+Edge20	#77;:T2601:3:E 4 0 69 79 119
+Edge21	#72;:T2601:3:E 4 0 64 74 114
+Edge22	#74;:T2601:3:E 4 0 70 80 116
+Edge23	#76;:T2601:3:E 4 0 64 74 118
+Edge24	#78;:T2601:3:E 4 0 71 81 120
+Edge25	#56;:T2601:3:E 3 0 59 86
+Edge26	#c9;:T2601:3:E 4 0 35 45 201
+Edge27	#ca;:T2601:3:E 4 0 31 47 202
+Edge28	#cb;:T2601:3:E 5 36 0 37 48 203
+Edge29	#cc;:T2601:3:E 4 0 35 49 204
+Edge3	#71;:T2601:3:E 4 0 63 78 113
+Edge30	#cd;:T2601:3:E 4 0 32 50 205
+Edge4	#57;:T2601:3:E 3 0 60 87
+Edge5	#58;:T2601:3:E 3 0 61 88
+Edge6	#75;:T2601:3:E 4 0 63 78 117
+Edge7	#79;:T2601:3:E 4 0 63 78 121
+Edge8	#59;:T2601:3:E 3 0 62 89
+Edge9	#c8;:T2601:3:E 5 36 0 38 46 200
+Face1	#4e;:T2601:3:F 3 0 63 78
+Face10	#cf;:T2601:3:F 4 0 36 51 207
+Face11	#4a;:T2601:3:F 3 0 64 74
+Face12	#d0;:T2601:3:F 4 0 33 52 208
+Face13	#d1;:T2601:3:F 4 0 36 53 209
+Face14	#d2;:T2601:3:F 4 0 34 54 210
+Face2	#49;:T2601:3:F 3 0 65 73
+Face3	#4b;:T2601:3:F 3 0 66 75
+Face4	#4c;:T2601:3:F 3 0 67 76
+Face5	#4d;:T2601:3:F 3 0 68 77
+Face6	#4f;:T2601:3:F 3 0 69 79
+Face7	#50;:T2601:3:F 3 0 70 80
+Face8	#51;:T2601:3:F 3 0 71 81
+Face9	#ce;:T2601:3:F 3 0 72 206
+Vertex1	#5c;:T2601:3:V 4 0 55 82 92
+Vertex10	#5a;:T2601:3:V 4 0 56 83 90
+Vertex11	#5e;:T2601:3:V 4 0 56 83 94
+Vertex12	#5b;:T2601:3:V 4 0 57 84 91
+Vertex13	#5f;:T2601:3:V 4 0 58 85 95
+Vertex14	#62;:T2601:3:V 4 0 57 84 98
+Vertex15	#66;:T2601:3:V 4 0 58 85 102
+Vertex16	#63;:T2601:3:V 4 0 59 86 99
+Vertex17	#67;:T2601:3:V 4 0 59 86 103
+Vertex18	#c5;:T2601:3:V 4 0 29 42 197
+Vertex19	#c6;:T2601:3:V 5 0 40 35 43 198
+Vertex2	#60;:T2601:3:V 4 0 55 82 96
+Vertex20	#c7;:T2601:3:V 4 0 30 44 199
+Vertex3	#5d;:T2601:3:V 4 0 60 87 93
+Vertex4	#61;:T2601:3:V 4 0 61 88 97
+Vertex5	#64;:T2601:3:V 4 0 60 87 100
+Vertex6	#68;:T2601:3:V 4 0 61 88 104
+Vertex7	#65;:T2601:3:V 4 0 62 89 101
+Vertex8	#69;:T2601:3:V 4 0 62 89 105
+Vertex9	#c4;:T2601:3:V 5 0 39 35 41 196
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="SingleSolid" type="App::PropertyBool">
       <Bool value="false"/>

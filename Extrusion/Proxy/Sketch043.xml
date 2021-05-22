@@ -47,7 +47,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -55,7 +55,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -127,7 +127,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -138,10 +138,10 @@ Locations 1
               0               0               1               0 
 Curve2ds 0
 Curves 5
-1 -22.723692242410866 9.5 0 1 0 0 
-1 22.276307757589134 9.5 0 0 -1 0 
-1 22.276307757589134 -22.499999999999996 0 -1 0 0 
-1 -22.723692242410866 -22.499999999999996 0 0 1 0 
+1 -22.72369224241087 9.5 0 1 0 0 
+1 22.27630775758913 9.5 0 0 -1 0 
+1 22.27630775758913 -22.5 0 -1 0 0 
+1 -22.72369224241087 -22.5 0 0 1 0 
 2 0 0 0 0 0 1 1 0 0 0 1 0 4
 Polygon3D 0
 PolygonOnTriangulations 0
@@ -234,75 +234,24 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="10">
+      <ElementMap count="14">
 <![CDATA[
-1 PostfixCount 5
-Edge
-Vertex
-;:H,E;SKT
-;:H,V;SKT
-;SKT
-
-MapCount 2
-
-ElementMap 1 2 2
-
-Edge
-
-ChildCount 0
-
-NameCount 5
-0
-;g91.3 0
-;g92.5 0
-;g93.5 0
-;g94.5 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 5
-0
-;g91v1.4 ;g94v2.5 0
-;g91v2.4 ;g92v1.5 0
-;g92v2.5 ;g93v1.5 0
-;g93v2.5 ;g94v1.5 0
-
-EndMap
-
-ElementMap 2 1 2
-
-Edge
-
-ChildCount 1
-1 0 4 0 1 ;:H,E 0
-
-NameCount 6
-0
-0
-0
-0
-0
-;g95.5 0
-
-Vertex
-
-ChildCount 1
-1 0 4 0 1 ;:H,V 0
-
-NameCount 6
-0
-0
-0
-0
-0
-;g95v1.5 0
-
-EndMap
+Edge1	g91;SKT 0
+Edge2	g92;SKT 0
+Edge3	g93;SKT 0
+Edge4	g94;SKT 0
+Edge5	g95;SKT 0
+Vertex1	g91v1;SKT 0
+Vertex1	g94v2;SKT 0
+Vertex2	g91v2;SKT 0
+Vertex2	g92v1;SKT 0
+Vertex3	g92v2;SKT 0
+Vertex3	g93v1;SKT 0
+Vertex4	g93v2;SKT 0
+Vertex4	g94v1;SKT 0
+Vertex5	g95v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="0">

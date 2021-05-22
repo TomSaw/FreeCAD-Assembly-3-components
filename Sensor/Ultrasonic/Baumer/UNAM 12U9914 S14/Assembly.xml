@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="23" TransientCount="2">
+  <Properties Count="24" TransientCount="2">
     <_Property name="Shape" type="Part::PropertyPartShape" status="16"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AutoRelax" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097152">
@@ -32,7 +32,7 @@
     <Property name="Freeze" type="App::PropertyBool" group="Base" attr="0" ro="0" hide="0" doc="" status="2098176">
       <Bool value="false"/>
     </Property>
-    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097419">
+    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097418">
       <LinkList count="3">
         <Link value="Constraints"/>
         <Link value="Elements"/>
@@ -49,10 +49,10 @@
     <Property name="Placement" type="App::PropertyPlacement" status="8388864">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
-    <Property name="Price" type="App::PropertyFloat" group="Resources" attr="0" ro="0" hide="0" docID="1" status="2097152">
+    <Property name="Price" type="App::PropertyFloat" group="Resources" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Float value="279.91"/>
     </Property>
-    <Property name="Process" type="App::PropertyEnumeration" group="Resources" attr="0" ro="0" hide="0" docID="2" status="2097152">
+    <Property name="Process" type="App::PropertyEnumeration" group="Resources" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Integer value="0" CustomEnum="true"/>
       <CustomEnumList count="11">
 <Enum value=""/>
@@ -71,14 +71,14 @@
     <Property name="Proxy" type="App::PropertyPythonObject">
       <Python  module="freecad.asm3.assembly" class="Assembly" value="null"/>
     </Property>
-    <Property name="SKU" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="3" status="2097152">
+    <Property name="SKU" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" doc="" status="2097152">
       <String value="300-79-141"/>
     </Property>
     <Property name="SolverType" type="App::PropertyEnumeration" group="Solver" attr="2" ro="0" hide="0" doc="" status="35651584"></Property>
-    <Property name="Source" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="4" status="2097152">
+    <Property name="Source" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" doc="" status="2097152">
       <String value="https://www.distrelec.de/de/ultraschallsensor-20mm-200mm-bis-10-10-bis-baumer-electric-unam-12u9914-s14/p/30079141?channel=b2c&amp;price_gs=279.908&amp;source=googleps&amp;ext_cid=shgooaqdede-na&amp;kw=%7Bkeyword%7D&amp;ext_cid=shgooaqdede-P-Shopping-css-maincampaign&amp;gclid=EAIaIQobChMIptCO-Nm76wIVird3Ch3wXAiaEAkYASABEgJ7FvD_BwE"/>
     </Property>
-    <Property name="Time" type="App::PropertyInteger" group="Resources" attr="0" ro="0" hide="0" docID="5" status="2097152">
+    <Property name="Time" type="App::PropertyInteger" group="Resources" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Integer value="0"/>
     </Property>
     <Property name="Verbose" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097152">
@@ -89,6 +89,9 @@
     </Property>
     <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2099082">
       <BoolList value="111"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

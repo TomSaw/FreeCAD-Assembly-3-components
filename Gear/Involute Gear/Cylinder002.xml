@@ -61,7 +61,7 @@
       <Float value="11"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -79,7 +79,7 @@ Curve2ds 6
 2 0 0 1 0 -0 1 11
 Curves 3
 2 0 0 11 0 0 1 1 0 -0 -0 1 0 11
-1 11 -2.6942229581241772e-15 0 0 0 1 
+1 11 -2.6899999999999999e-15 0 0 0 1 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 11
 Polygon3D 0
 PolygonOnTriangulations 0
@@ -92,7 +92,7 @@ Triangulations 0
 TShapes 13
 Ve
 1e-07
-11 -2.69422295812418e-15 11
+11 -3e-15 11
 0 0
 
 0101101
@@ -108,7 +108,7 @@ Ed
 +13 0 -13 0 *
 Ve
 1e-07
-11 -2.69422295812418e-15 0
+11 -3e-15 0
 0 0
 
 0101101

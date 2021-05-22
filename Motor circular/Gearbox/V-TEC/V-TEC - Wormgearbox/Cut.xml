@@ -442,74 +442,11 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="32">
+      <ElementMap count="1">
 <![CDATA[
-3 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 3 3
-
-Edge
-
-ChildCount 0
-
-NameCount 16
-0
-;Edge1;:M;CUT;:T2545:5:E.0 0
-;Face1;:G6#23;CUT;:T2545:5:E.0.1d 0
-;Face1;:G8#24;CUT;:T2545:5:E.0.1b 0
-;Edge2;:M;CUT;:T2545:5:E.0 0
-;Face1;:G12#26;CUT;:T2545:5:E.0.25 0
-;Face1;:G10#28;CUT;:T2545:5:E.0.27 0
-;Edge3;:M;CUT;:T2545:5:E.0 0
-;Face1;:G9#29;CUT;:T2545:5:E.0.27 0
-;Face1;:G11#2a;CUT;:T2545:5:E.0.25 0
-;Face1;:G7#1c;CUT;:T2545:5:E.0.1b 0
-;Face1;:G5#1e;CUT;:T2545:5:E.0.1d 0
-;#1f;:M;CUT;:T2548:3:E.0 0
-;#20;:M;CUT;:T2548:3:E.0 0
-;#21;:M;CUT;:T2548:3:E.0 0
-;#22;:M;CUT;:T2548:3:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 8
-0
-;Face1;:M;CUT;:T2545:5:F.0 0
-;Face2;:M;CUT;:T2545:5:F.0 0
-;#1d;:M;CUT;:T2548:3:F.0 0
-;#1b;:M;CUT;:T2548:3:F.0 0
-;#25;:M;CUT;:T2548:3:F.0 0
-;#27;:M;CUT;:T2548:3:F.0 0
-;Face3;:M;CUT;:T2545:5:F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 11
-0
-;Edge1;:G#2b;CUT;:T2545:5:V.0.1f 0
-;Edge1;:G2#2d;CUT;:T2545:5:V.0.1f 0
-;#20;:G#2e;CUT;:T2548:3:V.0 0
-;Edge2;:G#30;CUT;:T2545:5:V.0.2f 0
-;Edge2;:G2#32;CUT;:T2545:5:V.0.31 0
-;#21;:G#33;CUT;:T2548:3:V.0 0
-;Edge3;:G2#34;CUT;:T2545:5:V.0.22 0
-;Edge3;:G#35;CUT;:T2545:5:V.0.22 0
-;#21;:G2#36;CUT;:T2548:3:V.0 0
-;#20;:G2#2c;CUT;:T2548:3:V.0 0
-
-EndMap
+Dummy	Dummy 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Tool" type="App::PropertyLink">
       <Link value="Fusion"/>

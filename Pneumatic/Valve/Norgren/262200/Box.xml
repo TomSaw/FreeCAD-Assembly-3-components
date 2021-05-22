@@ -55,18 +55,18 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="-12.24999999999999" Py="28.5" Pz="61.46766842455654" Q0="-0.7071067811865475" Q1="1.409612852089176e-16" Q2="3.926001892839213e-16" Q3="0.7071067811865476" A="1.570796326794897" Ox="-1" Oy="1.993493613119933e-16" Oz="5.552205122755658e-16"/>
+      <PropertyPlacement Px="-12.25000000000003" Py="28.49999999999999" Pz="61.46766842455666" Q0="-0.7071067811865475" Q1="-6.429941840768859e-16" Q2="1.39142430357122e-15" Q3="0.7071067811865476" A="1.570796326794897" Ox="-1" Oy="-9.093310956485544e-16" Oz="1.967771121125958e-15"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-              1 -7.54569873587559e-16 -3.55871150963572e-16          -12.25 
-3.55871150963572e-16 2.22044604925031e-16               1            28.5 
--7.54569873587559e-16              -1 2.22044604925032e-16 61.4676684245565 
+              1 -1.0584400254774e-15 -2.87710221677451e-15          -12.25 
+2.87710221677451e-15 2.22044604925031e-16               1            28.5 
+-1.0584400254774e-15              -1 2.22044604925034e-16 61.4676684245567 
 Curve2ds 24
 1 0 0 1 0 
 1 0 0 1 0 
@@ -350,7 +350,7 @@ So
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Body" sub="Face2" shadow=";#f2;:H16,F;:H18,F.Face2"/>
+        <Link obj="Body" sub="Face2" shadow=";#1b4;:T24:4:F.Face2"/>
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

@@ -2,11 +2,11 @@
 <!-- FreeCAD DocumentObject -->
 <Document SchemaVersion="4" FileVersion="2">
 <Object name="Revolution">
-  <Properties Count="28" TransientCount="2">
+  <Properties Count="29" TransientCount="2">
     <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AddSubShape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -17,12 +17,12 @@ Locations 5
               0               0               1               0 
 1
               1               0               0               0 
-              0 2.22044604925031e-16              -1               0 
-              0               1 2.22044604925031e-16               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 1
               1               0               0               0 
-              0 1.11022302462516e-16              -1               0 
-              0               1 1.11022302462516e-16               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 2  1 1 2 1 3 -1 0
 2  3 1 2 -1 1 -1 0
 Curve2ds 18
@@ -45,24 +45,24 @@ Curve2ds 18
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
 Curves 9
-2 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 19.199999999999999
-2 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 19.199999999999999
+2 0 -2 0 0 1 0 -1 0 0 0 -0 1 19.199999999999999
+2 0 0 0 0 1 0 -1 0 0 0 -0 1 19.199999999999999
 1 -19.199999999999999 -2 0 0 1 0 
-2 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 10
-2 0 5 -5.5511151231257827e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 10
+2 0 0 0 0 1 0 -1 0 0 0 -0 1 10
+2 0 5 0 0 1 0 -1 0 0 0 -0 1 10
 1 -10 0 0 0 1 0 
-2 0 5 -5.5511151231257827e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 3
-2 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 3
+2 0 5 0 0 1 0 -1 0 0 0 -0 1 3
+2 0 -2 0 0 1 0 -1 0 0 0 -0 1 3
 1 -3 5 0 0 -1 0 
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 6
-2 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 19.199999999999999
-1 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 1 -0 -0 0 1.1102230246251565e-16 1 
-1 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 
-2 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 10
-1 0 5 -5.5511151231257827e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 
-2 0 5 -5.5511151231257827e-16 -0 -1 1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 3
+2 0 -2 0 0 1 0 -1 0 0 0 -0 1 19.199999999999999
+1 0 -2 0 0 1 0 1 -0 -0 0 -0 1 
+1 0 0 0 0 1 0 -1 0 0 0 -0 1 
+2 0 0 0 0 1 0 -1 0 0 0 -0 1 10
+1 0 5 0 0 1 0 -1 0 0 0 -0 1 
+2 0 5 0 -0 -1 -0 -1 0 0 -0 -0 1 3
 Triangulations 0
 
 TShapes 32
@@ -263,70 +263,37 @@ So
 
 +1 0 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="27">
+      <ElementMap count="27">
 <![CDATA[
-4 PostfixCount 10
-Edge
-Face
-Vertex
-;:H1,E
-;:G;RVL;:H1:7,F
-;:G;RVL;:H1:7,E
-;:L;RVL;:H1:7,F
-;:L;RVL;:H1:7,F;:L;RVL;:H1:16,F
-;:L;RVL;:H1:7,F;:L;RVL;:H1:16,F;:L;RVL;:H1:26,F
-;:H1,V
-
-MapCount 1
-
-ElementMap 1 4 3
-
-Edge
-
-ChildCount 0
-
-NameCount 10
-0
-$#1a.6 0
-$#1b.6 0
-$#11.4 0
-$#1c.6 0
-$#1d.6 0
-$#13.4 0
-$#1e.6 0
-$#1f.6 0
-$#15.4 0
-
-Face
-
-ChildCount 0
-
-NameCount 7
-0
-$#18.5 0
-$#23.7 0
-$#20.5 0
-$#24.8 0
-$#21.5 0
-$#25.9 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 7
-0
-$#3.a $#5.a 0
-$#6.a $#7.a 0
-$#8.a $#9.a 0
-$#a.a $#b.a 0
-$#c.a $#d.a 0
-$#e.a $#f.a 0
-
-EndMap
+Edge1	#14;:G;RVL;:T1:3:E 2 1 20
+Edge2	#15;:G;RVL;:T1:3:E 2 3 21
+Edge3	#d;:T1:2:E 1 13
+Edge4	#16;:G;RVL;:T1:3:E 2 5 22
+Edge5	#17;:G;RVL;:T1:3:E 2 7 23
+Edge6	#f;:T1:2:E 1 15
+Edge7	#18;:G;RVL;:T1:3:E 2 9 24
+Edge8	#19;:G;RVL;:T1:3:E 2 11 25
+Edge9	#11;:T1:3:E 1 17
+Face1	#13;:G;RVL;:T1:3:F 2 13 19
+Face2	#1c;Edge2;:L;RVL;:T1:3:F 3 3 21 28
+Face3	#1a;:G;RVL;:T1:3:F 2 15 26
+Face4	#1d;Edge5;:L;RVL;:T1:3:F 3 7 23 29
+Face5	#1b;:G;RVL;:T1:3:F 2 17 27
+Face6	#1e;Edge1;:L;RVL;:T1:3:F 3 1 20 30
+Vertex1	#1;:T1:2:V 1 1
+Vertex1	#2;:T1:2:V 1 2
+Vertex2	#3;:T1:2:V 1 3
+Vertex2	#4;:T1:2:V 1 4
+Vertex3	#5;:T1:2:V 1 5
+Vertex3	#6;:T1:2:V 1 6
+Vertex4	#7;:T1:2:V 1 7
+Vertex4	#8;:T1:2:V 1 8
+Vertex5	#9;:T1:2:V 1 9
+Vertex5	#a;:T1:2:V 1 10
+Vertex6	#b;:T1:2:V 1 11
+Vertex6	#c;:T1:2:V 1 12
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="AllowMultiFace" type="App::PropertyBool">
       <Bool value="false"/>
@@ -335,7 +302,7 @@ EndMap
       <Float value="360"/>
     </Property>
     <Property name="Axis" type="App::PropertyVector" status="16777216">
-      <PropertyVector valueX="0" valueY="2.220446049250313e-16" valueZ="1"/>
+      <PropertyVector valueX="0" valueY="-4.440892098500626e-16" valueZ="1"/>
     </Property>
     <Property name="Base" type="App::PropertyVector" status="16777216">
       <PropertyVector valueX="0" valueY="0" valueZ="0"/>
@@ -378,7 +345,7 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388620">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865475" Q1="-0" Q2="-0" Q3="0.7071067811865476" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865477" Q1="-0" Q2="-0" Q3="0.7071067811865474" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
     </Property>
     <Property name="Profile" type="App::PropertyLinkSub">
       <LinkSub value="Sketch" count="0">
@@ -396,27 +363,27 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 6
 1
               1               0              -0               0 
-             -0 2.22044604925031e-16              -1               0 
-              0               1 2.22044604925031e-16               0 
+             -0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 1
               1               0               0               0 
               0               1               0               0 
               0               0               1               0 
 1
               1               0               0               0 
-              0 2.22044604925031e-16              -1               0 
-              0               1 2.22044604925031e-16               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 1
               1               0               0               0 
-              0 1.11022302462516e-16              -1               0 
-              0               1 1.11022302462516e-16               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
 2  2 1 3 1 4 -1 0
 2  4 1 3 -1 2 -1 0
 Curve2ds 18
@@ -439,24 +406,24 @@ Curve2ds 18
 1 6.2831853071795862 0 0 1 
 1 0 0 0 1 
 Curves 9
-2 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 19.199999999999999
-2 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 19.199999999999999
+2 0 -2 0 0 1 0 -1 0 0 0 -0 1 19.199999999999999
+2 0 0 0 0 1 0 -1 0 0 0 -0 1 19.199999999999999
 1 -19.199999999999999 -2 0 0 1 0 
-2 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 10
-2 0 5 -5.5511151231257827e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 10
+2 0 0 0 0 1 0 -1 0 0 0 -0 1 10
+2 0 5 0 0 1 0 -1 0 0 0 -0 1 10
 1 -10 0 0 0 1 0 
-2 0 5 -5.5511151231257827e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 3
-2 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 3
+2 0 5 0 0 1 0 -1 0 0 0 -0 1 3
+2 0 -2 0 0 1 0 -1 0 0 0 -0 1 3
 1 -3 5 0 0 -1 0 
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 6
-2 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 19.199999999999999
-1 0 -2 2.2204460492503131e-16 0 1 -1.1102230246251565e-16 1 -0 -0 0 1.1102230246251565e-16 1 
-1 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 
-2 0 0 0 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 10
-1 0 5 -5.5511151231257827e-16 0 1 -1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 
-2 0 5 -5.5511151231257827e-16 -0 -1 1.1102230246251565e-16 -1 0 0 0 1.1102230246251565e-16 1 3
+2 0 -2 0 0 1 0 -1 0 0 0 -0 1 19.199999999999999
+1 0 -2 0 0 1 0 1 -0 -0 0 -0 1 
+1 0 0 0 0 1 0 -1 0 0 0 -0 1 
+2 0 0 0 0 1 0 -1 0 0 0 -0 1 10
+1 0 5 0 0 1 0 -1 0 0 0 -0 1 
+2 0 5 0 -0 -1 -0 -1 0 0 -0 -0 1 3
 Triangulations 0
 
 TShapes 32
@@ -657,101 +624,43 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="21">
+      <ElementMap count="27">
 <![CDATA[
-5 PostfixCount 10
-Edge
-Face
-Vertex
-;:H1,E
-;:G;RVL;:H1:7,F
-;:G;RVL;:H1:7,E
-;:L;RVL;:H1:7,F
-;:L;RVL;:H1:7,F;:L;RVL;:H1:16,F
-;:L;RVL;:H1:7,F;:L;RVL;:H1:16,F;:L;RVL;:H1:26,F
-;:H1,V
-
-MapCount 2
-
-ElementMap 1 4 3
-
-Edge
-
-ChildCount 0
-
-NameCount 10
-0
-$#1a.6 0
-$#1b.6 0
-$#11.4 0
-$#1c.6 0
-$#1d.6 0
-$#13.4 0
-$#1e.6 0
-$#1f.6 0
-$#15.4 0
-
-Face
-
-ChildCount 0
-
-NameCount 7
-0
-$#18.5 0
-$#23.7 0
-$#20.5 0
-$#24.8 0
-$#21.5 0
-$#25.9 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 7
-0
-$#3.a $#5.a 0
-$#6.a $#7.a 0
-$#8.a $#9.a 0
-$#a.a $#b.a 0
-$#c.a $#d.a 0
-$#e.a $#f.a 0
-
-EndMap
-
-ElementMap 2 5 3
-
-Edge
-
-ChildCount 1
-1 0 9 -10 1 ;:H-a,E 0
-
-NameCount 0
-
-Face
-
-ChildCount 1
-1 0 6 -10 1 ;:H-a,F 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 1
-1 0 6 -10 1 ;:H-a,V 0
-
-NameCount 0
-
-EndMap
+Edge1	#1e;:T-10:3:E 3 1 20 30
+Edge2	#1c;:T-10:3:E 3 3 21 28
+Edge3	#13;:T-10:3:E 2 13 19
+Edge4	#25;:T-10:3:E 3 5 22 37
+Edge5	#1d;:T-10:3:E 3 7 23 29
+Edge6	#1a;:T-10:3:E 2 15 26
+Edge7	#26;:T-10:3:E 3 9 24 38
+Edge8	#27;:T-10:3:E 3 11 25 39
+Edge9	#1b;:T-10:3:E 2 17 27
+Face1	#28;:T-10:3:F 3 13 19 40
+Face2	#29;:T-10:3:F 4 3 21 28 41
+Face3	#2a;:T-10:3:F 3 15 26 42
+Face4	#2b;:T-10:3:F 4 7 23 29 43
+Face5	#2c;:T-10:3:F 3 17 27 44
+Face6	#2d;:T-10:3:F 4 1 20 30 45
+Vertex1	#14;:T-10:3:V 2 1 20
+Vertex1	#1f;:T-10:3:V 2 2 31
+Vertex2	#15;:T-10:3:V 2 3 21
+Vertex2	#20;:T-10:3:V 2 4 32
+Vertex3	#16;:T-10:3:V 2 5 22
+Vertex3	#21;:T-10:3:V 2 6 33
+Vertex4	#17;:T-10:3:V 2 7 23
+Vertex4	#22;:T-10:3:V 2 8 34
+Vertex5	#18;:T-10:3:V 2 9 24
+Vertex5	#23;:T-10:3:V 2 10 35
+Vertex6	#19;:T-10:3:V 2 11 25
+Vertex6	#24;:T-10:3:V 2 12 36
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Suppress" type="App::PropertyBool">
       <Bool value="false"/>
     </Property>
     <Property name="SuppressedShape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -775,6 +684,9 @@ TShapes 0
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_ProfileBasedVersion" type="App::PropertyInteger" status="67108864">
+      <Integer value="0"/>
     </Property>
     <Property name="_Siblings" type="App::PropertyLinkList" status="218103808">
       <LinkList count="0">

@@ -35,7 +35,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -43,7 +43,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -87,7 +87,7 @@
       <PropertyPlacement Px="0" Py="19" Pz="0" Q0="0" Q1="0.7071067811865476" Q2="0.7071067811865475" Q3="0" A="3.141592653589793" Ox="0" Oy="0.7071067811865476" Oz="0.7071067811865475"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -98,7 +98,7 @@ Locations 1
               0               1 -2.22044604925031e-16               0 
 Curve2ds 0
 Curves 1
-2 0 -6.5914720000000004 0 0 0 1 1 0 -0 -0 1 0 4.290978
+2 0 -6.5914720000000004 0 0 0 1 1 0 0 0 1 0 4.290978
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
@@ -126,41 +126,16 @@ Wi
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="2">
+      <ElementMap count="2">
 <![CDATA[
-7 PostfixCount 3
-Edge
-Vertex
-;SKT
-
-MapCount 1
-
-ElementMap 1 7 2
-
-Edge
-
-ChildCount 0
-
-NameCount 2
-0
-;g1999.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 2
-0
-;g1999v1.3 0
-
-EndMap
+Edge1	g1999;SKT 0
+Vertex1	g1999v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Pad" sub="Face1" shadow=";#26;:G;XTR;:H9:7,F;:H-a,F.Face1"/>
+        <Link obj="Pad" sub="Face1" shadow=";#25;:T-10:3:F.Face1"/>
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

@@ -48,7 +48,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -56,7 +56,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -64,7 +64,7 @@
         <Geometry type="Part::GeomPoint" id="1" ref="Sketch.;g195v1;SKT" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch.;g195v1;SKT"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch.;g195v1;SKT" Flags="0"/>
           </GeoExtensions>
           <GeomPoint X="1.195" Y="0" Z="0"/>
           <Construction value="1"/>
@@ -72,7 +72,7 @@
         <Geometry type="Part::GeomPoint" id="2" ref="Sketch.;g198v1;SKT" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch.;g198v1;SKT"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch.;g198v1;SKT" Flags="0"/>
           </GeoExtensions>
           <GeomPoint X="1.105" Y="13.2" Z="0"/>
           <Construction value="1"/>
@@ -143,18 +143,40 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865475" Q1="0" Q2="0" Q3="0.7071067811865476" A="1.570796326794897" Ox="1" Oy="0" Oz="0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865477" Q1="0" Q2="0" Q3="0.7071067811865474" A="1.570796326794897" Ox="1" Oy="0" Oz="0"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
       <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
-Locations 8
+Locations 15
 1
               1               0               0               0 
               0               0              -1               0 
               0               1               0               0 
+1
+              1               0               0              -0 
+              0               1               0 -14.0208170580456 
+              0               0               1 -6.22649356875974e-15 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 -1 3 1 4 -1 5 -1 0
+1
+              1               0               0               0 
+              0               1               0 28.0416341160912 
+              0               0               1 1.24529871375195e-14 
+2  7 -1 2 -1 3 1 4 -1 5 -1 0
 1
               1               0               0              -0 
               0               1               0           -5000 
@@ -171,15 +193,23 @@ Locations 8
               1               0               0               0 
               0               1               0               0 
               0               0               1               0 
-2  2 -1 3 1 4 -1 5 -1 0
+2  9 -1 10 1 11 -1 12 -1 0
 1
               1               0               0               0 
               0               1               0           10000 
               0               0               1       -2.22e-12 
-2  7 -1 2 -1 3 1 4 -1 5 -1 0
-Curve2ds 2
+2  14 -1 9 -1 10 1 11 -1 12 -1 0
+Curve2ds 10
+1 0 -0 1 0 
+1 0 -28.041634116091153 1 0 
+1 0 -0 1 0 
+1 -1.7578675776825246e-15 -28.041634116091153 1 0 
 1 0 0 1 0 
 1 0 -10000 1 0 
+1 0 0 1 0 
+1 0 -28.041634116091153 1 0 
+1 0 -0 1 0 
+1 -1.7578675776825246e-15 -28.041634116091153 1 0 
 Curves 4
 1 1.105 13.199999999999999 0 -1 0 0 
 1 0.20000000000000001 13.199999999999999 0 0 -1 0 
@@ -187,8 +217,12 @@ Curves 4
 1 1.105 13.199999999999999 0 0 -1 0 
 Polygon3D 0
 PolygonOnTriangulations 0
-Surfaces 1
+Surfaces 5
+1 1.105 -14.020817058045582 13.199999999999992 0 -4.4408920985006262e-16 1 -1 0 0 -0 -1 -4.4408920985006262e-16 
+1 0.20000000000000001 -14.020817058045582 13.199999999999992 -1 0 0 0 4.4408920985006262e-16 -1 -0 -1 -4.4408920985006262e-16 
 2 1.104999990522322 -5000 10.804999990523431 0 -1 2.2e-16 1 0 0 -0 2.2e-16 1 0.90499999052232205
+2 1.104999990522322 -14.020817058045582 10.804999990522314 0 -1 -4.4408920985006262e-16 1 0 0 0 -4.4408920985006262e-16 1 0.90499999052232205
+1 1.105 -14.020817058045582 13.199999999999992 -1 0 0 0 4.4408920985006262e-16 -1 -0 -1 -4.4408920985006262e-16 
 Triangulations 0
 
 TShapes 9
@@ -209,6 +243,8 @@ Ve
 Ed
  1e-07 1 1 0
 1  1 0 0 0.905
+2  1 1 6 0 0.905
+2  2 1 8 0 0.905
 0
 
 0101000
@@ -223,6 +259,8 @@ Ve
 Ed
  1e-07 1 1 0
 1  2 0 0 2.39500000947768
+2  3 2 6 0 2.39500000947768
+2  4 2 8 0 2.39500000947768
 0
 
 0101000
@@ -237,8 +275,10 @@ Ve
 Ed
  1e-07 1 1 0
 1  3 0 3.14159265358979 4.71238899085726
-2  1 1 6 3.14159265358979 4.71238899085726
-2  2 1 8 3.14159265358979 4.71238899085726
+2  5 3 13 3.14159265358979 4.71238899085726
+2  6 3 15 3.14159265358979 4.71238899085726
+2  7 4 6 3.14159265358979 4.71238899085726
+2  8 4 8 3.14159265358979 4.71238899085726
 0
 
 0101000
@@ -246,6 +286,8 @@ Ed
 Ed
  1e-07 1 1 0
 1  4 0 0 3.3
+2  9 5 6 0 3.3
+2  10 5 8 0 3.3
 0
 
 0101000
@@ -257,42 +299,11 @@ Wi
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="12">
+      <ElementMap count="1">
 <![CDATA[
-2 PostfixCount 2
-Edge
-Vertex
-
-MapCount 1
-
-ElementMap 1 2 2
-
-Edge
-
-ChildCount 0
-
-NameCount 5
-0
-;g206;SKT.0 0
-;g207;SKT.0 0
-;g209;SKT.0 0
-;g208;SKT.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 5
-0
-;g206v1;SKT.0 ;g208v1;SKT.0 0
-;g206v2;SKT.0 ;g207v1;SKT.0 0
-;g207v2;SKT.0 ;g209v1;SKT.0 0
-;g208v2;SKT.0 ;g209v2;SKT.0 0
-
-EndMap
+Dummy	Dummy 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="0">

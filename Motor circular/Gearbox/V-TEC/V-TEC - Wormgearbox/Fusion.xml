@@ -612,94 +612,11 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="52">
+      <ElementMap count="1">
 <![CDATA[
-2 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 2 3
-
-Edge
-
-ChildCount 0
-
-NameCount 25
-0
-;#9;:T2547:2:E.0 0
-;#a;:T2547:2:E.0 0
-;#b;:T2547:2:E.0 0
-;#c;:T2547:2:E.0 0
-;#d;:T2547:2:E.0 0
-;#e;:T2547:2:E.0 0
-;#f;:T2547:2:E.0 0
-;#10;:T2547:3:E.0 0
-;#11;:T2547:3:E.0 0
-;#12;:T2547:3:E.0 0
-;#13;:T2547:3:E.0 0
-;#14;:T2547:3:E.0 0
-;Edge1;:T2546:5:E.0 0
-;Edge2;:T2546:5:E.0 0
-;Edge3;:T2546:5:E.0 0
-;Edge4;:T2546:5:E.0 0
-;Edge5;:T2546:5:E.0 0
-;Edge6;:T2546:5:E.0 0
-;Edge7;:T2546:5:E.0 0
-;Edge8;:T2546:5:E.0 0
-;Edge9;:T2546:5:E.0 0
-;Edge10;:T2546:6:E.0 0
-;Edge11;:T2546:6:E.0 0
-;Edge12;:T2546:6:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 13
-0
-;#15;:T2547:3:F.0 0
-;#16;:T2547:3:F.0 0
-;#17;:T2547:3:F.0 0
-;#18;:T2547:3:F.0 0
-;#19;:T2547:3:F.0 0
-;#1a;:T2547:3:F.0 0
-;Face1;:T2546:5:F.0 0
-;Face2;:T2546:5:F.0 0
-;Face3;:T2546:5:F.0 0
-;Face4;:T2546:5:F.0 0
-;Face5;:T2546:5:F.0 0
-;Face6;:T2546:5:F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 17
-0
-;#1;:T2547:2:V.0 0
-;#2;:T2547:2:V.0 0
-;#3;:T2547:2:V.0 0
-;#4;:T2547:2:V.0 0
-;#5;:T2547:2:V.0 0
-;#6;:T2547:2:V.0 0
-;#7;:T2547:2:V.0 0
-;#8;:T2547:2:V.0 0
-;Vertex1;:T2546:7:V.0 0
-;Vertex2;:T2546:7:V.0 0
-;Vertex3;:T2546:7:V.0 0
-;Vertex4;:T2546:7:V.0 0
-;Vertex5;:T2546:7:V.0 0
-;Vertex6;:T2546:7:V.0 0
-;Vertex7;:T2546:7:V.0 0
-;Vertex8;:T2546:7:V.0 0
-
-EndMap
+Dummy	Dummy 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Shapes" type="App::PropertyLinkList">
       <LinkList count="2">

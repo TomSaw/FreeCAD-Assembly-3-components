@@ -7,10 +7,10 @@
     </Extension>
   </Extensions>
   <Properties Count="23" TransientCount="2">
-    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658241"/>
+    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AddSubShape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -272,7 +272,7 @@ Wi
 Fa
 0  1e-07 5 0
 
-0111000
+0101000
 +6 0 *
 Wi
 
@@ -281,7 +281,7 @@ Wi
 Fa
 0  1e-07 3 0
 
-0111000
+0101000
 +4 0 *
 Sh
 
@@ -294,42 +294,36 @@ So
 
 +1 0 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="26">
+      <ElementMap count="26">
 <![CDATA[
-22 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 22 3
-
-Edge
-
-ChildCount 1
-1 0 12 -2593 0 ;:H-a21,E 0
-
-NameCount 0
-
-Face
-
-ChildCount 1
-1 0 6 -2593 0 ;:H-a21,F 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 1
-1 0 8 -2593 0 ;:H-a21,V 0
-
-NameCount 0
-
-EndMap
+Edge1	Edge1;:T-2593:5:E 1 0
+Edge10	Edge10;:T-2593:6:E 1 0
+Edge11	Edge11;:T-2593:6:E 1 0
+Edge12	Edge12;:T-2593:6:E 1 0
+Edge2	Edge2;:T-2593:5:E 1 0
+Edge3	Edge3;:T-2593:5:E 1 0
+Edge4	Edge4;:T-2593:5:E 1 0
+Edge5	Edge5;:T-2593:5:E 1 0
+Edge6	Edge6;:T-2593:5:E 1 0
+Edge7	Edge7;:T-2593:5:E 1 0
+Edge8	Edge8;:T-2593:5:E 1 0
+Edge9	Edge9;:T-2593:5:E 1 0
+Face1	Face1;:T-2593:5:F 1 0
+Face2	Face2;:T-2593:5:F 1 0
+Face3	Face3;:T-2593:5:F 1 0
+Face4	Face4;:T-2593:5:F 1 0
+Face5	Face5;:T-2593:5:F 1 0
+Face6	Face6;:T-2593:5:F 1 0
+Vertex1	Vertex1;:T-2593:7:V 1 0
+Vertex2	Vertex2;:T-2593:7:V 1 0
+Vertex3	Vertex3;:T-2593:7:V 1 0
+Vertex4	Vertex4;:T-2593:7:V 1 0
+Vertex5	Vertex5;:T-2593:7:V 1 0
+Vertex6	Vertex6;:T-2593:7:V 1 0
+Vertex7	Vertex7;:T-2593:7:V 1 0
+Vertex8	Vertex8;:T-2593:7:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="AttacherType" type="App::PropertyString" status="8">
       <String value="Attacher::AttachEngine3D"/>
@@ -390,7 +384,7 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -524,7 +518,7 @@ Wi
 Fa
 0  1e-07 1 4
 
-0101000
+0111000
 +49 0 *
 Ve
 1e-07
@@ -610,7 +604,7 @@ Wi
 Fa
 0  1e-07 3 0
 
-0101000
+0111000
 +36 0 *
 Ve
 1e-07
@@ -660,7 +654,7 @@ Wi
 Fa
 0  1e-07 4 0
 
-0101000
+0111000
 +29 0 *
 Ve
 1e-07
@@ -694,7 +688,7 @@ Wi
 Fa
 0  1e-07 5 0
 
-0101000
+0111000
 +24 0 *
 Ve
 1e-07
@@ -728,7 +722,7 @@ Wi
 Fa
 0  1e-07 6 0
 
-0101000
+0111000
 +19 0 *
 Ed
  1e-07 1 1 0
@@ -746,7 +740,7 @@ Wi
 Fa
 0  1e-07 7 0
 
-0101000
+0111000
 +16 0 *
 Wi
 
@@ -808,7 +802,7 @@ Wi
 Fa
 0  1e-07 1 4
 
-0101000
+0111000
 +6 0 *
 Wi
 
@@ -817,7 +811,7 @@ Wi
 Fa
 0  1e-07 9 0
 
-0101000
+0111000
 -4 0 *
 Sh
 
@@ -831,97 +825,50 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="40">
+      <ElementMap count="40">
 <![CDATA[
-23 PostfixCount 18
-Edge
-Face
-Vertex
-;:Ha22,V
-;:Ha22,E
-;:Ha22,F
-;:G#853;FUS;:Ha22:b,V
-;:G2#852;FUS;:Ha22:c,V
-;:M2;FUS;:Ha22:8,E
-;:M;FUS;:Ha22:7,E
-;:M2;FUS;:Ha22:8,F
-;:M;FUS;:Ha22:7,F
-;:H-a21,E
-;:H-a21,F
-;:G2#851;FUS;:H-a21:c,E
-;:M;FUS;:H-a21:7,F
-;:G2#850;FUS;:H-a21:c,E
-;:H-a21,V
-
-MapCount 1
-
-ElementMap 1 23 3
-
-Edge
-
-ChildCount 0
-
-NameCount 19
-0
-$#84e.9 0
-:2.6.11.850.84f 0
-$#849.5 0
-:1.2.d 0
-:1.c.d 0
-:1.a.d 0
-:1.6.d 0
-:1.1.d 0
-:1.3.d 0
-:1.4.d 0
-:1.b.d 0
-:1.7.d 0
-:1.9.d 0
-:1.5.d 0
-:1.8.d 0
-:2.5.f.84f.851 0
-$#84e.a 0
-$#84a.5 0
-
-Face
-
-ChildCount 0
-
-NameCount 11
-0
-$#84f.c 0
-:2.6.10 0
-$#84c.6 0
-:2.1.e 0
-:2.4.e 0
-:2.3.e 0
-:2.2.e 0
-:2.5.10 0
-$#84f.b 0
-$#84d.6 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 13
-0
-$#84e.8 0
-$#846.4 0
-:3.3.12 0
-:3.1.12 0
-:3.7.12 0
-:3.5.12 0
-:3.2.12 0
-:3.4.12 0
-:3.8.12 0
-:3.6.12 0
-$#84e.7 0
-$#847.4 0
-
-EndMap
+Edge1	#23;:M2;FUS;:T2594:3:E 2 0 35
+Edge10	Edge4;:T-2593:5:E 1 0
+Edge11	Edge11;:T-2593:6:E 1 0
+Edge12	Edge7;:T-2593:5:E 1 0
+Edge13	Edge9;:T-2593:5:E 1 0
+Edge14	Edge5;:T-2593:5:E 1 0
+Edge15	Edge8;:T-2593:5:E 1 0
+Edge16	Face5;:G2#25;FUS;:T-2593:5:E 3 36 0 37
+Edge17	#23;:M;FUS;:T2594:3:E 2 0 35
+Edge18	#20;:T2594:3:E 2 0 32
+Edge2	Face6;:G2#26;FUS;:T-2593:5:E 3 36 0 38
+Edge3	#1f;:T2594:3:E 2 0 31
+Edge4	Edge2;:T-2593:5:E 1 0
+Edge5	Edge12;:T-2593:6:E 1 0
+Edge6	Edge10;:T-2593:6:E 1 0
+Edge7	Edge6;:T-2593:5:E 1 0
+Edge8	Edge1;:T-2593:5:E 1 0
+Edge9	Edge3;:T-2593:5:E 1 0
+Face1	#24;:M;FUS;:T2594:3:F 2 0 36
+Face10	#22;:T2594:3:F 2 0 34
+Face2	Face6;:M;FUS;:T-2593:5:F 1 0
+Face3	#21;:T2594:3:F 2 0 33
+Face4	Face1;:T-2593:5:F 1 0
+Face5	Face4;:T-2593:5:F 1 0
+Face6	Face3;:T-2593:5:F 1 0
+Face7	Face2;:T-2593:5:F 1 0
+Face8	Face5;:M;FUS;:T-2593:5:F 1 0
+Face9	#24;:M2;FUS;:T2594:3:F 2 0 36
+Vertex1	#23;:G2#27;FUS;:T2594:3:V 3 0 39 35
+Vertex10	Vertex6;:T-2593:7:V 1 0
+Vertex11	#23;:G#28;FUS;:T2594:3:V 3 0 40 35
+Vertex12	#1e;:T2594:3:V 2 0 30
+Vertex2	#1d;:T2594:3:V 2 0 29
+Vertex3	Vertex3;:T-2593:7:V 1 0
+Vertex4	Vertex1;:T-2593:7:V 1 0
+Vertex5	Vertex7;:T-2593:7:V 1 0
+Vertex6	Vertex5;:T-2593:7:V 1 0
+Vertex7	Vertex2;:T-2593:7:V 1 0
+Vertex8	Vertex4;:T-2593:7:V 1 0
+Vertex9	Vertex8;:T-2593:7:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
@@ -932,7 +879,7 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="SuppressedShape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision

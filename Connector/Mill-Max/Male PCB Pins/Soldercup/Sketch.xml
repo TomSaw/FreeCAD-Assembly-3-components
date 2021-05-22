@@ -74,7 +74,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -82,7 +82,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -196,7 +196,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865475" Q1="-0" Q2="-0" Q3="0.7071067811865476" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865477" Q1="-0" Q2="-0" Q3="0.7071067811865474" A="1.570796326794897" Ox="1" Oy="-0" Oz="-0"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
       <Part ElementMap="0.15.70200.3" brep="1">
@@ -364,50 +364,11 @@ Wi
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="24">
+      <ElementMap count="1">
 <![CDATA[
-1 PostfixCount 2
-Edge
-Vertex
-
-MapCount 1
-
-ElementMap 1 1 2
-
-Edge
-
-ChildCount 0
-
-NameCount 9
-0
-;g197;SKT.0 0
-;g198;SKT.0 0
-;g199;SKT.0 0
-;g200;SKT.0 0
-;g195;SKT.0 0
-;g196;SKT.0 0
-;g204;SKT.0 0
-;g203;SKT.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 9
-0
-;g197v1;SKT.0 ;g203v1;SKT.0 0
-;g197v2;SKT.0 ;g198v1;SKT.0 0
-;g198v2;SKT.0 ;g199v1;SKT.0 0
-;g199v2;SKT.0 ;g200v1;SKT.0 0
-;g195v1;SKT.0 ;g200v2;SKT.0 0
-;g195v2;SKT.0 ;g196v1;SKT.0 0
-;g196v2;SKT.0 ;g204v2;SKT.0 0
-;g203v2;SKT.0 ;g204v1;SKT.0 0
-
-EndMap
+Dummy	Dummy 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="0">

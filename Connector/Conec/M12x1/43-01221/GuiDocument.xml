@@ -3,19 +3,23 @@
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
-<Expand />
+<Expand  count="1">
+  <Expand name="Assembly" count="1">
+    <Expand name="Parts"/>
+  </Expand>
+</Expand>
 >
-  <Camera extra="0" id="35" binding="0">
+  <Camera extra="0" id="3" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 14.177397 -16.733355 -5.0226097
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 1.1392405
-  farDistance 40.915802
+  position 30.349754 -39.315834 41.489841
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance 34.434002
+  farDistance 82.061943
   aspectRatio 1
   focalDistance 24.555962
-  height 49.111923
+  height 56.679897
 
 }
 ## overrideMode: As Is]]>

@@ -36,7 +36,7 @@
     <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
       <BoolList value=""/>
     </Property>
-    <Property name="Pattern" type="App::PropertyEnumeration" group="Draft" attr="0" ro="0" hide="0" docID="26" status="2097153">
+    <Property name="Pattern" type="App::PropertyEnumeration" group="Draft" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Integer value="0" CustomEnum="true"/>
       <CustomEnumList count="23">
 <Enum value="None"/>
@@ -64,7 +64,7 @@
 <Enum value="zinc"/>
       </CustomEnumList>
     </Property>
-    <Property name="PatternSize" type="App::PropertyFloat" group="Draft" attr="0" ro="0" hide="0" docID="27" status="2097153">
+    <Property name="PatternSize" type="App::PropertyFloat" group="Draft" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Float value="1"/>
     </Property>
     <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">

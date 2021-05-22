@@ -6,7 +6,7 @@
     <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AddSubShape" type="Part::PropertyPartShape" status="128">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -29,10 +29,10 @@ TShapes 0
     </Property>
     <Property name="Base" type="App::PropertyLinkSub">
       <LinkSub value="Box002" count="4">
-        <Sub value="Face1" shadow=";Face1;:H-10d,F.Face1"/>
-        <Sub value="Face3" shadow=";Face3;:H-10d,F.Face3"/>
-        <Sub value="Face2" shadow=";Face2;:H-10d,F.Face2"/>
-        <Sub value="Face4" shadow=";Face4;:H-10d,F.Face4"/>
+        <Sub value="Face1" shadow=";Face1;:T-269:5:F.Face1"/>
+        <Sub value="Face3" shadow=";Face3;:T-269:5:F.Face3"/>
+        <Sub value="Face2" shadow=";Face2;:T-269:5:F.Face2"/>
+        <Sub value="Face4" shadow=";Face4;:T-269:5:F.Face4"/>
       </LinkSub>
     </Property>
     <Property name="BaseFeature" type="App::PropertyLink" status="8">
@@ -53,7 +53,7 @@ TShapes 0
     </Property>
     <Property name="NeutralPlane" type="App::PropertyLinkSub">
       <LinkSub value="Box002" count="1">
-        <Sub value="Face5" shadow=";Face5;:H-10d,F.Face5"/>
+        <Sub value="Face5" shadow=";Face5;:T-269:5:F.Face5"/>
       </LinkSub>
     </Property>
     <Property name="NewSolid" type="App::PropertyBool">
@@ -73,7 +73,7 @@ TShapes 0
       <Bool value="true"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -390,76 +390,36 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="26">
+      <ElementMap count="26">
 <![CDATA[
-23 PostfixCount 11
-Edge
-Face
-Vertex
-;:G;DFT;:H10d:7,F
-;:M;DFT;:H10d:7,F
-;:U2;DFT;:H10d:8,E
-;:U3;DFT;:H10d:8,E
-;:U4;DFT;:H10d:8,E
-;:U;DFT;:H10d:7,E
-;:U2;DFT;:H10d:8,V
-;:U;DFT;:H10d:7,V
-
-MapCount 1
-
-ElementMap 1 23 3
-
-Edge
-
-ChildCount 0
-
-NameCount 13
-0
-$#3c7.9 0
-$#3c7.6 0
-$#3c7.7 0
-$#3c7.8 0
-$#3c8.9 0
-$#3c8.6 0
-$#3c8.7 0
-$#3c8.8 0
-$#3c9.9 0
-$#3c9.7 0
-$#3ca.9 0
-$#3ca.7 0
-
-Face
-
-ChildCount 0
-
-NameCount 7
-0
-$#3c0.4 0
-$#3c1.4 0
-$#3c2.4 0
-$#3c3.4 0
-$#3c4.5 0
-$#3c5.5 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 9
-0
-$#3cc.a 0
-$#3ce.a 0
-$#3cc.b 0
-$#3d0.a 0
-$#3d1.a 0
-$#3d2.a 0
-$#3d1.b 0
-$#3d3.a 0
-
-EndMap
+Edge1	#42e;:U;DFT;:T269:4:E 3 0 1064 1070
+Edge10	#42f;:U3;DFT;:T269:4:E 3 0 1066 1071
+Edge11	#430;:U;DFT;:T269:4:E 3 0 1067 1072
+Edge12	#430;:U3;DFT;:T269:4:E 3 0 1067 1072
+Edge2	#42e;:U2;DFT;:T269:4:E 3 0 1064 1070
+Edge3	#42e;:U3;DFT;:T269:4:E 3 0 1064 1070
+Edge4	#42e;:U4;DFT;:T269:4:E 3 0 1064 1070
+Edge5	#431;:U;DFT;:T269:4:E 3 0 1065 1073
+Edge6	#431;:U2;DFT;:T269:4:E 3 0 1065 1073
+Edge7	#431;:U3;DFT;:T269:4:E 3 0 1065 1073
+Edge8	#431;:U4;DFT;:T269:4:E 3 0 1065 1073
+Edge9	#42f;:U;DFT;:T269:4:E 3 0 1066 1071
+Face1	#428;:G;DFT;:T269:4:F 2 0 1064
+Face2	#429;:G;DFT;:T269:4:F 2 0 1065
+Face3	#42a;:G;DFT;:T269:4:F 2 0 1066
+Face4	#42b;:G;DFT;:T269:4:F 2 0 1067
+Face5	#42c;:M;DFT;:T269:4:F 2 0 1068
+Face6	#42d;:M;DFT;:T269:4:F 2 0 1069
+Vertex1	#432;:U2;DFT;:T269:4:V 4 0 1064 1070 1074
+Vertex2	#433;:U2;DFT;:T269:4:V 4 0 1064 1070 1075
+Vertex3	#432;:U;DFT;:T269:4:V 4 0 1064 1070 1074
+Vertex4	#434;:U2;DFT;:T269:4:V 4 0 1064 1070 1076
+Vertex5	#435;:U;DFT;:T269:4:V 4 0 1066 1071 1077
+Vertex6	#436;:U;DFT;:T269:4:V 4 0 1066 1071 1078
+Vertex7	#437;:U;DFT;:T269:4:V 4 0 1067 1072 1079
+Vertex8	#438;:U;DFT;:T269:4:V 4 0 1067 1072 1080
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="SupportTransform" type="App::PropertyBool">
       <Bool value="false"/>
@@ -468,7 +428,7 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="SuppressedShape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision

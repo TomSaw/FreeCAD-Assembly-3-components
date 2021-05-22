@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="06bd6f6a-1a44-4bcd-9a4e-f87792e1f04f" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="3">
+<![CDATA[
+1 0 0:Price of product or material (currency not specified yet)
+2 0 0:URL to Product
+3 0 0:Manufacturers SKU
+]]>
+  </StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-06-09T05:54:49Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Reducing Strip"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-09-29T04:54:24Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value="Part"/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="06bd6f6a-1a44-4bcd-9a4e-f87792e1f04f"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="72" Dependencies="1">
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Parts"/>
+      <Dep Name="Constraints"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="1">
+      <Dep Name="Constraint"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Elements" Count="5">
+      <Dep Name="Element"/>
+      <Dep Name="Element002"/>
+      <Dep Name="Element001"/>
+      <Dep Name="Element030"/>
+      <Dep Name="Element003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="1">
+      <Dep Name="Solid"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part" Count="6">
+      <Dep Name="Origin"/>
+      <Dep Name="Assembly003"/>
+      <Dep Name="Assembly"/>
+      <Dep Name="Assembly001"/>
+      <Dep Name="Assembly002"/>
+      <Dep Name="Assembly004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="0"/>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Solid"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element001" Count="2">
+      <Dep Name="Solid"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Solid"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element003" Count="2">
+      <Dep Name="Solid"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints001" Count="1">
+      <Dep Name="Constraint001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element004" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Solid001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Elements001" Count="6">
+      <Dep Name="Element007"/>
+      <Dep Name="Element006"/>
+      <Dep Name="Element031"/>
+      <Dep Name="Element004"/>
+      <Dep Name="Element020"/>
+      <Dep Name="Element005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element005" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Solid001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element006" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Solid001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly001" Count="3">
+      <Dep Name="Constraints001"/>
+      <Dep Name="Parts001"/>
+      <Dep Name="Elements001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts001" Count="1">
+      <Dep Name="Solid001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element007" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Solid001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints002" Count="1">
+      <Dep Name="Constraint002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element008" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Elements002" Count="7">
+      <Dep Name="Element022"/>
+      <Dep Name="Element021"/>
+      <Dep Name="Element010"/>
+      <Dep Name="Element009"/>
+      <Dep Name="Element032"/>
+      <Dep Name="Element011"/>
+      <Dep Name="Element008"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element009" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element010" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly002" Count="3">
+      <Dep Name="Elements002"/>
+      <Dep Name="Parts002"/>
+      <Dep Name="Constraints002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts002" Count="1">
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element011" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints003" Count="1">
+      <Dep Name="Constraint003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element012" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Elements003" Count="8">
+      <Dep Name="Element014"/>
+      <Dep Name="Element013"/>
+      <Dep Name="Element015"/>
+      <Dep Name="Element024"/>
+      <Dep Name="Element023"/>
+      <Dep Name="Element033"/>
+      <Dep Name="Element025"/>
+      <Dep Name="Element012"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element013" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element014" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly003" Count="3">
+      <Dep Name="Parts003"/>
+      <Dep Name="Constraints003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts003" Count="1">
+      <Dep Name="Solid003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element015" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints004" Count="1">
+      <Dep Name="Constraint004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element016" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Elements004" Count="9">
+      <Dep Name="Element026"/>
+      <Dep Name="Element027"/>
+      <Dep Name="Element029"/>
+      <Dep Name="Element016"/>
+      <Dep Name="Element034"/>
+      <Dep Name="Element019"/>
+      <Dep Name="Element028"/>
+      <Dep Name="Element018"/>
+      <Dep Name="Element017"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element017" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element018" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly004" Count="3">
+      <Dep Name="Parts004"/>
+      <Dep Name="Constraints004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts004" Count="1">
+      <Dep Name="Solid004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element019" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Solid" Count="0"/>
+    <ObjectDeps Name="Solid001" Count="0"/>
+    <ObjectDeps Name="Element020" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Solid001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Solid002" Count="0"/>
+    <ObjectDeps Name="Element021" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element022" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element023" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element024" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Solid003" Count="0"/>
+    <ObjectDeps Name="Element025" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Solid004" Count="0"/>
+    <ObjectDeps Name="Element026" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element027" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element028" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element029" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element030" Count="2">
+      <Dep Name="Solid"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element031" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Solid001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element032" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Solid002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element033" Count="2">
+      <Dep Name="Solid003"/>
+      <Dep Name="Elements003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element034" Count="2">
+      <Dep Name="Solid004"/>
+      <Dep Name="Elements004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint" Count="2">
+      <Dep Name="ElementLink"/>
+      <Dep Name="Constraints"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink" Count="2">
+      <Dep Name="Constraint"/>
+      <Dep Name="Element030"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint001" Count="2">
+      <Dep Name="Constraints001"/>
+      <Dep Name="ElementLink001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink001" Count="2">
+      <Dep Name="Element031"/>
+      <Dep Name="Constraint001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint002" Count="2">
+      <Dep Name="Constraints002"/>
+      <Dep Name="ElementLink002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink002" Count="2">
+      <Dep Name="Constraint002"/>
+      <Dep Name="Element032"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint003" Count="2">
+      <Dep Name="Constraints003"/>
+      <Dep Name="ElementLink003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink003" Count="2">
+      <Dep Name="Constraint003"/>
+      <Dep Name="Element033"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint004" Count="2">
+      <Dep Name="ElementLink004"/>
+      <Dep Name="Constraints004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink004" Count="2">
+      <Dep Name="Constraint004"/>
+      <Dep Name="Element034"/>
+    </ObjectDeps>
+    <Object type="Part::FeaturePython" name="Assembly" id="2404" revision="109" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="2405" revision="6" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="2406" revision="58" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="2407" revision="21" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="App::Part" name="Part" id="2408" revision="217" file="Part.xml" />
+    <Object type="App::Origin" name="Origin" id="2409" revision="0" file="Origin.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="2414" revision="22" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="2415" revision="20" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="2416" revision="22" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="2417" revision="22" file="Element003.xml" />
+    <Object type="App::FeaturePython" name="Constraints001" id="2418" revision="6" ViewType="Gui::ViewProviderLinkPython" file="Constraints001.xml" />
+    <Object type="Part::FeaturePython" name="Element004" id="2419" revision="28" file="Element004.xml" />
+    <Object type="App::FeaturePython" name="Elements001" id="2420" revision="77" ViewType="Gui::ViewProviderLinkPython" file="Elements001.xml" />
+    <Object type="Part::FeaturePython" name="Element005" id="2421" revision="28" file="Element005.xml" />
+    <Object type="Part::FeaturePython" name="Element006" id="2422" revision="28" file="Element006.xml" />
+    <Object type="Part::FeaturePython" name="Assembly001" id="2423" revision="199" ViewType="Gui::ViewProviderLinkPython" file="Assembly001.xml" />
+    <Object type="Part::FeaturePython" name="Parts001" id="2424" revision="40" ViewType="Gui::ViewProviderLinkPython" file="Parts001.xml" />
+    <Object type="Part::FeaturePython" name="Element007" id="2425" revision="26" file="Element007.xml" />
+    <Object type="App::FeaturePython" name="Constraints002" id="2426" revision="6" ViewType="Gui::ViewProviderLinkPython" file="Constraints002.xml" />
+    <Object type="Part::FeaturePython" name="Element008" id="2427" revision="30" file="Element008.xml" />
+    <Object type="App::FeaturePython" name="Elements002" id="2428" revision="79" ViewType="Gui::ViewProviderLinkPython" file="Elements002.xml" />
+    <Object type="Part::FeaturePython" name="Element009" id="2429" revision="30" file="Element009.xml" />
+    <Object type="Part::FeaturePython" name="Element010" id="2430" revision="30" file="Element010.xml" />
+    <Object type="Part::FeaturePython" name="Assembly002" id="2431" revision="218" ViewType="Gui::ViewProviderLinkPython" file="Assembly002.xml" />
+    <Object type="Part::FeaturePython" name="Parts002" id="2432" revision="32" ViewType="Gui::ViewProviderLinkPython" file="Parts002.xml" />
+    <Object type="Part::FeaturePython" name="Element011" id="2433" revision="28" file="Element011.xml" />
+    <Object type="App::FeaturePython" name="Constraints003" id="2434" revision="6" ViewType="Gui::ViewProviderLinkPython" file="Constraints003.xml" />
+    <Object type="Part::FeaturePython" name="Element012" id="2435" revision="36" file="Element012.xml" />
+    <Object type="App::FeaturePython" name="Elements003" id="2436" revision="99" ViewType="Gui::ViewProviderLinkPython" file="Elements003.xml" />
+    <Object type="Part::FeaturePython" name="Element013" id="2437" revision="36" file="Element013.xml" />
+    <Object type="Part::FeaturePython" name="Element014" id="2438" revision="36" file="Element014.xml" />
+    <Object type="Part::FeaturePython" name="Assembly003" id="2439" revision="495" ViewType="Gui::ViewProviderLinkPython" file="Assembly003.xml" />
+    <Object type="Part::FeaturePython" name="Parts003" id="2440" revision="35" ViewType="Gui::ViewProviderLinkPython" file="Parts003.xml" />
+    <Object type="Part::FeaturePython" name="Element015" id="2441" revision="45" file="Element015.xml" />
+    <Object type="App::FeaturePython" name="Constraints004" id="2442" revision="6" ViewType="Gui::ViewProviderLinkPython" file="Constraints004.xml" />
+    <Object type="Part::FeaturePython" name="Element016" id="2443" revision="30" file="Element016.xml" />
+    <Object type="App::FeaturePython" name="Elements004" id="2444" revision="91" ViewType="Gui::ViewProviderLinkPython" file="Elements004.xml" />
+    <Object type="Part::FeaturePython" name="Element017" id="2445" revision="30" file="Element017.xml" />
+    <Object type="Part::FeaturePython" name="Element018" id="2446" revision="30" file="Element018.xml" />
+    <Object type="Part::FeaturePython" name="Assembly004" id="2447" revision="250" ViewType="Gui::ViewProviderLinkPython" file="Assembly004.xml" />
+    <Object type="Part::FeaturePython" name="Parts004" id="2448" revision="29" ViewType="Gui::ViewProviderLinkPython" file="Parts004.xml" />
+    <Object type="Part::FeaturePython" name="Element019" id="2449" revision="28" file="Element019.xml" />
+    <Object type="Part::Feature" name="Solid" id="2411" revision="2" file="Solid.xml" />
+    <Object type="Part::Feature" name="Solid001" id="2459" revision="4" file="Solid001.xml" />
+    <Object type="Part::FeaturePython" name="Element020" id="2460" revision="18" file="Element020.xml" />
+    <Object type="Part::Feature" name="Solid002" id="2461" revision="2" file="Solid002.xml" />
+    <Object type="Part::FeaturePython" name="Element021" id="2462" revision="18" file="Element021.xml" />
+    <Object type="Part::FeaturePython" name="Element022" id="2463" revision="18" file="Element022.xml" />
+    <Object type="Part::FeaturePython" name="Element023" id="2465" revision="24" file="Element023.xml" />
+    <Object type="Part::FeaturePython" name="Element024" id="2466" revision="24" file="Element024.xml" />
+    <Object type="Part::Feature" name="Solid003" id="2468" revision="2" file="Solid003.xml" />
+    <Object type="Part::FeaturePython" name="Element025" id="2469" revision="18" file="Element025.xml" />
+    <Object type="Part::Feature" name="Solid004" id="2470" revision="4" file="Solid004.xml" />
+    <Object type="Part::FeaturePython" name="Element026" id="2471" revision="18" file="Element026.xml" />
+    <Object type="Part::FeaturePython" name="Element027" id="2472" revision="18" file="Element027.xml" />
+    <Object type="Part::FeaturePython" name="Element028" id="2473" revision="18" file="Element028.xml" />
+    <Object type="Part::FeaturePython" name="Element029" id="2474" revision="18" file="Element029.xml" />
+    <Object type="Part::FeaturePython" name="Element030" id="2475" revision="33" file="Element030.xml" />
+    <Object type="Part::FeaturePython" name="Element031" id="2476" revision="15" file="Element031.xml" />
+    <Object type="Part::FeaturePython" name="Element032" id="2477" revision="15" file="Element032.xml" />
+    <Object type="Part::FeaturePython" name="Element033" id="2478" revision="10" file="Element033.xml" />
+    <Object type="Part::FeaturePython" name="Element034" id="2479" revision="10" file="Element034.xml" />
+    <Object type="App::FeaturePython" name="Constraint" id="2480" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Constraint.xml" />
+    <Object type="App::FeaturePython" name="ElementLink" id="2481" revision="8" ViewType="Gui::ViewProviderLinkPython" file="ElementLink.xml" />
+    <Object type="App::FeaturePython" name="Constraint001" id="2482" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Constraint001.xml" />
+    <Object type="App::FeaturePython" name="ElementLink001" id="2483" revision="8" ViewType="Gui::ViewProviderLinkPython" file="ElementLink001.xml" />
+    <Object type="App::FeaturePython" name="Constraint002" id="2484" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Constraint002.xml" />
+    <Object type="App::FeaturePython" name="ElementLink002" id="2485" revision="8" ViewType="Gui::ViewProviderLinkPython" file="ElementLink002.xml" />
+    <Object type="App::FeaturePython" name="Constraint003" id="2486" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Constraint003.xml" />
+    <Object type="App::FeaturePython" name="ElementLink003" id="2487" revision="8" ViewType="Gui::ViewProviderLinkPython" file="ElementLink003.xml" />
+    <Object type="App::FeaturePython" name="Constraint004" id="2488" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Constraint004.xml" />
+    <Object type="App::FeaturePython" name="ElementLink004" id="2489" revision="8" ViewType="Gui::ViewProviderLinkPython" file="ElementLink004.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

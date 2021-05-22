@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="3ca28e7e-5124-4dd1-822b-bc963589ce1d" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="178">
+<![CDATA[
+1 0 0:Height of the tube
+2 0 0:Inner radius
+3 0 0:Outer radius
+4 0 0:Relief Type
+5 0 0:Wall Sketch object
+6 0 0:Extrude Symmetric to Plane
+7 0 0:Reverse Extrusion Direction
+8 0 0:Length of wall
+9 0 0:Bend Radius
+10 0 0:Thickness of sheetmetal
+11 0 0:Force sync pattern placements even when array elements are expanded
+12 0 0:Angle to cover with copies
+13 0 3:The type of array to create.
+- Ortho: places the copies in the direction of the global X, Y, Z axes.
+- Polar: places the copies along a circular arc, up to a specified angle, and with certain orientation defined by a center and an axis.
+- Circular: places the copies in concentric circular layers around the base object.
+14 0 0:The axis direction around which the elements in a polar or a circular array will be created
+15 0 2:The axis object that overrides the value of 'Axis' and 'Center', for example, a datum line.
+Its placement, position and rotation, will be used when creating polar and circular arrays.
+Leave this property empty to be able to set 'Axis' and 'Center' manually.
+16 0 0:The base object that will be duplicated
+17 0 1:Center point for polar and circular arrays.
+The 'Axis' passes through this point.
+18 0 1:Total number of elements in the array.
+This property is read-only, as the number depends on the parameters of the array.
+19 0 0:Show the individual array elements (only for Link arrays)
+20 0 0:Specifies if the copies should be fused together if they touch each other (slower)
+21 0 0:Distance and orientation of intervals in 'Axis' direction
+22 0 0:Distance and orientation of intervals in X direction
+23 0 0:Distance and orientation of intervals in Y direction
+24 0 0:Distance and orientation of intervals in Z direction
+25 0 0:Number of circular layers. The 'Base' object counts as one layer.
+26 0 0:Number of copies in the polar direction
+27 0 0:Number of copies in X direction
+28 0 0:Number of copies in Y direction
+29 0 0:Number of copies in Z direction
+30 0 0:Distance between circular layers
+31 0 0:A parameter that determines how many symmetry planes  the circular array will have.
+32 0 0:Distance between copies in the same circular layer
+33 0 0:Center of Box
+34 0 0:End of Box
+35 0 0:Size of Box
+36 0 0:Start of Box
+37 0 0:Adjust Segment Count
+38 0 0:Center of GridBox
+39 0 0:End of GridBox
+40 0 0:Size of GridBox
+41 0 0:Start of GridBox
+42 0 0:End of Grid
+43 0 0:Size of Grid
+44 0 0:Start of Grid
+45 0 0:Select mode for ModeEndX
+46 0 0:Select mode for ModeEndY
+47 0 0:Select mode for ModeEndZ
+48 0 0:Select mode for ModeStartX
+49 0 0:Select mode for ModeStartY
+50 0 0:Select mode for ModeStartZ
+51 0 0:Offset per dimension
+52 0 0:Quantisation Pitch
+53 0 0:Objects to Wrap the GridBox around
+54 0 0:g3v1;SKT
+55 0 0:g9v1;SKT
+56 0 0:g3v2;SKT
+57 0 0:g4v1;SKT
+58 0 0:g4v2;SKT
+59 0 0:g5v1;SKT
+60 0 0:g5v2;SKT
+61 0 0:g6v1;SKT
+62 0 0:g6v2;SKT
+63 0 0:g7v1;SKT
+64 0 0:g7v2;SKT
+65 0 0:g17v2;SKT
+66 0 0:g16v2;SKT
+67 0 0:g17v1;SKT
+68 0 0:g15v2;SKT
+69 0 0:g16v1;SKT
+70 0 0:g14v2;SKT
+71 0 0:g15v1;SKT
+72 0 0:g13v2;SKT
+73 0 0:g14v1;SKT
+74 0 0:g12v2;SKT
+75 0 0:g13v1;SKT
+76 0 0:g11v2;SKT
+77 0 0:g12v1;SKT
+78 0 0:g10v2;SKT
+79 0 0:g11v1;SKT
+80 0 0:g9v2;SKT
+81 0 0:g10v1;SKT
+82 0 0:g3;SKT
+83 0 0:g4;SKT
+84 0 0:g5;SKT
+85 0 0:g6;SKT
+86 0 0:g7;SKT
+87 0 0:g17;SKT
+88 0 0:g16;SKT
+89 0 0:g15;SKT
+90 0 0:g14;SKT
+91 0 0:g13;SKT
+92 0 0:g12;SKT
+93 0 0:g11;SKT
+94 0 0:g10;SKT
+95 0 0:g9;SKT
+96 0 0:g19v1;SKT
+97 0 0:g19;SKT
+98 0 0:g20v1;SKT
+99 0 0:g20;SKT
+100 0 0:#52;:T120:3:E
+101 0 0:#36;:T120:3:V
+102 0 0:#3e;:T120:3:V
+103 0 0:#40;:T120:3:V
+104 0 0:#42;:T120:3:V
+105 0 0:#38;:T120:3:V
+106 0 0:#44;:T120:3:V
+107 0 0:#46;:T120:3:V
+108 0 0:#48;:T120:3:V
+109 0 0:#4a;:T120:3:V
+110 0 0:#4c;:T120:3:V
+111 0 0:#4e;:T120:3:V
+112 0 0:#50;:T120:3:V
+113 0 0:#62;:T120:3:V
+114 0 0:#60;:T120:3:V
+115 0 0:#3a;:T120:3:V
+116 0 0:#3c;:T120:3:V
+117 0 0:#5b;:T120:3:E
+118 0 0:#5c;:T120:3:E
+119 0 0:#5d;:T120:3:E
+120 0 0:#5e;:T120:3:E
+121 0 0:#5f;:T120:3:E
+122 0 0:#63;:T120:3:E
+123 0 0:#61;:T120:3:E
+124 0 0:#64;FAC;:T120:3:F
+125 0 0:#53;:T120:3:E
+126 0 0:#54;:T120:3:E
+127 0 0:#55;:T120:3:E
+128 0 0:#56;:T120:3:E
+129 0 0:#57;:T120:3:E
+130 0 0:#58;:T120:3:E
+131 0 0:#59;:T120:3:E
+132 0 0:#5a;:T120:3:E
+133 0 0:#7e;:G;XTR;:T120:3:F
+134 0 0:#7f;:G;XTR;:T120:3:F
+135 0 0:#80;:G;XTR;:T120:3:F
+136 0 0:#81;:G;XTR;:T120:3:F
+137 0 0:#82;:G;XTR;:T120:3:F
+138 0 0:#83;:G;XTR;:T120:3:F
+139 0 0:#84;:G;XTR;:T120:3:F
+140 0 0:#75;:G;XTR;:T120:3:F
+141 0 0:#76;:G;XTR;:T120:3:F
+142 0 0:#77;:G;XTR;:T120:3:F
+143 0 0:#64;:G;XTR;:T120:3:F
+144 0 0:#78;:G;XTR;:T120:3:F
+145 0 0:#79;:G;XTR;:T120:3:F
+146 0 0:#7a;:G;XTR;:T120:3:F
+147 0 0:#7b;:G;XTR;:T120:3:F
+148 0 0:#7d;:G;XTR;:T120:3:F
+149 0 0:#66;:G;XTR;:T120:3:E
+150 0 0:#67;:G;XTR;:T120:3:E
+151 0 0:#68;:G;XTR;:T120:3:E
+152 0 0:#6a;:G;XTR;:T120:3:E
+153 0 0:#6b;:G;XTR;:T120:3:E
+154 0 0:#65;:G;XTR;:T120:3:E
+155 0 0:#6c;:G;XTR;:T120:3:E
+156 0 0:#6d;:G;XTR;:T120:3:E
+157 0 0:#6e;:G;XTR;:T120:3:E
+158 0 0:#6f;:G;XTR;:T120:3:E
+159 0 0:#70;:G;XTR;:T120:3:E
+160 0 0:#71;:G;XTR;:T120:3:E
+161 0 0:#72;:G;XTR;:T120:3:E
+162 0 0:#69;:G;XTR;:T120:3:E
+163 0 0:#73;:G;XTR;:T120:3:E
+164 0 0:#74;:G;XTR;:T120:3:E
+165 0 0:Vertex1;I0;:T144:7:V
+166 0 0:Vertex2;I0;:T144:7:V
+167 0 0:Vertex1;I1;:T144:7:V
+168 0 0:Vertex2;I1;:T144:7:V
+169 0 0:Edge1;I0;:T144:5:E
+170 0 0:Edge2;I0;:T144:5:E
+171 0 0:Edge3;I0;:T144:5:E
+172 0 0:Edge1;I1;:T144:5:E
+173 0 0:Edge2;I1;:T144:5:E
+174 0 0:Edge3;I1;:T144:5:E
+175 0 0:Face1;I0;:T144:5:F
+176 0 0:Face2;I0;:T144:5:F
+177 0 0:Face1;I1;:T144:5:F
+178 0 0:Face2;I1;:T144:5:F
+]]>
+  </StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-06-18T11:54:22Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Endswitch"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-10-03T15:23:07Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886081">
+      <String value="Part"/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="3ca28e7e-5124-4dd1-822b-bc963589ce1d"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="25" Dependencies="1">
+    <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Elements"/>
+      <Dep Name="Constraints"/>
+      <Dep Name="Parts"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="0"/>
+    <ObjectDeps Name="Elements" Count="8">
+      <Dep Name="Element005"/>
+      <Dep Name="Element006"/>
+      <Dep Name="Element004"/>
+      <Dep Name="Element001"/>
+      <Dep Name="Group"/>
+      <Dep Name="Element"/>
+      <Dep Name="Element003"/>
+      <Dep Name="Element002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="5">
+      <Dep Name="Fusion"/>
+      <Dep Name="BaseBend"/>
+      <Dep Name="Array"/>
+      <Dep Name="Tube"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Tube" Count="0"/>
+    <ObjectDeps Name="Sketch001" Count="0"/>
+    <ObjectDeps Name="BaseBend" Count="1">
+      <Dep Name="Sketch001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Sketch" Count="0"/>
+    <ObjectDeps Name="Extrude" Count="1">
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Box" Count="1">
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Array" Count="1">
+      <Dep Name="Box"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Part" Count="2">
+      <Dep Name="Assembly"/>
+      <Dep Name="Origin"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Origin" Count="0"/>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element001" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element003" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element004" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element005" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element006" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Tube"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Group" Count="7">
+      <Dep Name="Element005"/>
+      <Dep Name="Element004"/>
+      <Dep Name="Element001"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Element"/>
+      <Dep Name="Element003"/>
+      <Dep Name="Element002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="GridBox" Count="3">
+      <Dep Name="Array"/>
+      <Dep Name="Tube"/>
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder" Count="1">
+      <Dep Name="Extrude"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Array001" Count="2">
+      <Dep Name="Sketch"/>
+      <Dep Name="Cylinder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fusion" Count="2">
+      <Dep Name="Array001"/>
+      <Dep Name="GridBox"/>
+    </ObjectDeps>
+    <Object type="Part::FeaturePython" name="Assembly" id="108" revision="150" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="109" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="110" revision="85" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="111" revision="94" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Tube" id="122" revision="25" file="Tube.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch001" id="123" revision="65" file="Sketch001.xml" />
+    <Object type="Part::FeaturePython" name="BaseBend" id="124" revision="18" file="BaseBend.xml" />
+    <Object type="Sketcher::SketchObject" name="Sketch" id="120" revision="351" file="Sketch.xml" />
+    <Object type="Part::Extrusion" name="Extrude" id="126" revision="32" file="Extrude.xml" />
+    <Object type="Part::Box" name="Box" id="131" revision="371" file="Box.xml" />
+    <Object type="Part::FeaturePython" name="Array" id="132" revision="444" ViewType="Gui::ViewProviderLinkPython" file="Array.xml" />
+    <Object type="App::Part" name="Part" id="133" revision="71" file="Part.xml" />
+    <Object type="App::Origin" name="Origin" id="134" revision="0" file="Origin.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="135" revision="27" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="136" revision="27" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="137" revision="27" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="138" revision="27" file="Element003.xml" />
+    <Object type="Part::FeaturePython" name="Element004" id="139" revision="27" file="Element004.xml" />
+    <Object type="Part::FeaturePython" name="Element005" id="140" revision="27" file="Element005.xml" />
+    <Object type="Part::FeaturePython" name="Element006" id="141" revision="10" file="Element006.xml" />
+    <Object type="App::DocumentObjectGroupPython" name="Group" id="142" revision="47" file="Group.xml" />
+    <Object type="Part::FeaturePython" name="GridBox" id="143" revision="251" file="GridBox.xml" />
+    <Object type="Part::Cylinder" name="Cylinder" id="144" revision="45" file="Cylinder.xml" />
+    <Object type="Part::FeaturePython" name="Array001" id="146" revision="77" ViewType="Gui::ViewProviderLinkPython" file="Array001.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="147" revision="45" file="Fusion.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

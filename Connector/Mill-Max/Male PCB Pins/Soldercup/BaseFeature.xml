@@ -106,7 +106,7 @@ Ed
 0101000
 +33 4 -33 4 *
 Ve
-1e-07
+1.0000000292825e-07
 1.105 13.2 0
 0 0
 
@@ -136,7 +136,7 @@ Wi
 Fa
 0  1e-07 1 0
 
-0101000
+0111000
 +28 0 *
 Wi
 
@@ -170,7 +170,7 @@ Wi
 Fa
 0  1e-07 4 0
 
-0101000
+0111000
 +22 0 *
 Ve
 1e-07
@@ -203,7 +203,7 @@ Wi
 Fa
 0  1e-07 5 0
 
-0101000
+0111000
 +17 0 *
 Wi
 
@@ -232,7 +232,7 @@ Wi
 Fa
 0  1e-07 6 0
 
-0101000
+0111000
 +15 0 +12 0 *
 Ve
 1e-07
@@ -265,7 +265,7 @@ Wi
 Fa
 0  1e-07 7 0
 
-0101000
+0111000
 +7 0 *
 Wi
 
@@ -278,7 +278,7 @@ Wi
 Fa
 0  1e-07 2 0
 
-0101000
+0111000
 +5 0 +4 0 *
 Sh
 
@@ -291,64 +291,11 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="28">
+      <ElementMap count="1">
 <![CDATA[
-6 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 6 3
-
-Edge
-
-ChildCount 0
-
-NameCount 10
-0
-;#17;:T5020:3:E.0.4.17 0
-;#d;:T5020:2:E.0.5.d 0
-;#a;:T5020:2:E.0 0
-;#e;:T5020:2:E.0.e.6 0
-;#18;:T5020:3:E.0.7.18 0
-;#b;:T5020:2:E.0 0
-;#f;:T5020:2:E.0.8.f 0
-;#10;:T5020:3:E.0.9.10 0
-;#c;:T5020:2:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 8
-0
-;#19;:T5020:3:F.0.19.a 0
-;#1a;:T5020:3:F.0.1a.5.d 0
-;#1b;:T5020:3:F.0.e.1b.6 0
-;#1c;:T5020:3:F.0.b.1c 0
-;#1d;:T5020:3:F.0.8.1d.f 0
-;#1e;:T5020:3:F.0.1e.c 0
-;#1f;:T5020:3:F.0.1f.9.10 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 7
-0
-;#11;:T5020:3:V.0 ;#4;:T5020:2:V.0 0
-;#12;:T5020:3:V.0 ;#5;:T5020:2:V.0 0
-;#13;:T5020:3:V.0 ;#6;:T5020:2:V.0 0
-;#14;:T5020:3:V.0 ;#7;:T5020:2:V.0 0
-;#15;:T5020:3:V.0 ;#8;:T5020:2:V.0 0
-;#16;:T5020:3:V.0 ;#9;:T5020:2:V.0 0
-
-EndMap
+Dummy	Dummy 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Suppress" type="App::PropertyBool">
       <Bool value="false"/>

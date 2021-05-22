@@ -5,17 +5,17 @@
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
 <Expand />
 >
-  <Camera extra="0" id="3" binding="0">
+  <Camera extra="0" id="5" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 75.190323 -75.190285 70.890289
+  position 62.074917 -71.00148 95.277237
   orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 30.016935
-  farDistance 226.89378
+  nearDistance 30.687689
+  farDistance 234.40829
   aspectRatio 1
   focalDistance 130.23341
-  height 260.46683
+  height 213.2522
 
 }
 ## overrideMode: As Is]]>

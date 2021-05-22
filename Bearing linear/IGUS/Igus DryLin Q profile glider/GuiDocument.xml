@@ -3,11 +3,17 @@
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
-<Expand  count="2">
+<Expand  count="3">
+  <Expand name="Assembly" count="1">
+    <Expand name="Parts" count="1">
+      <Expand name="Cut001" count="1">
+        <Expand name="Cut"/>
+      </Expand>
+    </Expand>
+  </Expand>
   <Expand name="Assembly001" count="1">
     <Expand name="Parts001" count="1">
-      <Expand name="Cut003" count="2">
-        <Expand name="Cut002"/>
+      <Expand name="Cut003" count="1">
         <Expand name="Fusion001" count="1">
           <Expand name="Link002"/>
         </Expand>
@@ -24,13 +30,13 @@
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 48.443993 -36.82666 150.00497
-  orientation 0.40709543 0.34440842 0.84596467  1.2877266
-  nearDistance 40.979359
-  farDistance 182.84538
+  position 20.863621 -31.449366 122.6969
+  orientation 0.83116513 0.15017526 0.53536022  0.65097928
+  nearDistance 38.785221
+  farDistance 144.34856
   aspectRatio 1
   focalDistance 64.274811
-  height 171.67709
+  height 168.55835
 
 }
 ## overrideMode: As Is]]>

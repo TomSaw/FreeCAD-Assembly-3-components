@@ -42,8 +42,43 @@ abffcc
       <PropertyColor value="16776960"/>
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
-ffff00
+      <ColorList count="36" >
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
+ffffcc
       </ColorList>
     </Property>
     <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
@@ -74,8 +109,31 @@ ffff00
       <PropertyColor value="421075200"/>
     </Property>
     <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
-19191900
+      <ColorList count="24" >
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
+191919cc
       </ColorList>
     </Property>
     <Property name="PointMaterial" type="App::PropertyMaterial" status="1">

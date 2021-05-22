@@ -2,15 +2,14 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="dfeb45d2-eecc-42de-9505-2ed099bc712d" StringHasher="1">
-  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="3">
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="dfeb45d2-eecc-42de-9505-2ed099bc712d" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="3">
 <![CDATA[
--1.0 0:Price of product or material (currency not specified yet)
--1.0 0:Manufacturers SKU
--1.0 0:URL or String of the product or machine to source from
+1 0 0:Price of product or material (currency not specified yet)
+2 0 0:Manufacturers SKU
+3 0 0:URL or String of the product or machine to source from
 ]]>
-  </StringHasher2>
+  </StringHasher>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -40,7 +39,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T08:03:59Z"/>
+      <String value="2021-09-29T04:25:48Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -71,7 +70,7 @@
     <Property name="Uid" type="App::PropertyUUID" status="16777217">
       <Uuid value="dfeb45d2-eecc-42de-9505-2ed099bc712d"/>
     </Property>
-    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
   </Properties>
@@ -79,8 +78,8 @@
     <ObjectDeps Name="Part__Feature" Count="0"/>
     <ObjectDeps Name="Assembly" Count="3">
       <Dep Name="Elements"/>
-      <Dep Name="Parts"/>
       <Dep Name="Constraints"/>
+      <Dep Name="Parts"/>
     </ObjectDeps>
     <ObjectDeps Name="Constraints" Count="0"/>
     <ObjectDeps Name="Elements" Count="1">
@@ -90,8 +89,8 @@
       <Dep Name="Part__Feature"/>
     </ObjectDeps>
     <ObjectDeps Name="Element" Count="2">
-      <Dep Name="Part__Feature"/>
       <Dep Name="Elements"/>
+      <Dep Name="Part__Feature"/>
     </ObjectDeps>
     <Object type="Part::Feature" name="Part__Feature" id="1250" revision="1" file="Part__Feature.xml" />
     <Object type="Part::FeaturePython" name="Assembly" id="1251" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />

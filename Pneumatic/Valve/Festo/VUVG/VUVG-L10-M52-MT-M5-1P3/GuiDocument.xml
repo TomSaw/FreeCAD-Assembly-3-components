@@ -5,22 +5,24 @@
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
 <Expand  count="1">
   <Expand name="Assembly" count="2">
-    <Expand name="Elements"/>
+    <Expand name="Elements" count="1">
+      <Expand name="Group"/>
+    </Expand>
     <Expand name="Parts"/>
   </Expand>
 </Expand>
 >
-  <Camera extra="0" id="59" binding="0">
+  <Camera extra="0" id="39" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 27.058834 -25.812042 41.942009
-  orientation 0.86492187 0.23175442 0.44519675  1.0835806
-  nearDistance 30.996298
-  farDistance 97.078354
+  position 13.854317 -6.6158752 22.365786
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance -8.3094501
+  farDistance 71.328293
   aspectRatio 1
   focalDistance 38.738678
-  height 115.58263
+  height 66.881798
 
 }
 ## overrideMode: As Is]]>

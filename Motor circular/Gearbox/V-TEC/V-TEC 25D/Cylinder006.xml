@@ -22,8 +22,12 @@
       </LinkSub>
     </Property>
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
-      <ExpressionEngine count="1" cdata="1">
+      <ExpressionEngine count="2" cdata="1">
         <Expressions><![CDATA[
+0:.Placement.Base.z
+0:-Height
+0:
+
 0:Radius
 0:<<Cylinder Gearbox>>.Radius + 0.3mm
 0:
@@ -36,7 +40,7 @@
       <Float value="53"/>
     </Property>
     <Property name="Label" type="App::PropertyString" status="134217728">
-      <String value="Cylinder Body"/>
+      <String value="Proxy Body"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
@@ -51,7 +55,7 @@
       <Bool value="true"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="1" Q2="0" Q3="6.123233995736766e-17" A="3.141592653589793" Ox="0" Oy="1" Oz="0"/>
+      <PropertyPlacement Px="0" Py="0" Pz="-53" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="1" Oz="0"/>
     </Property>
     <Property name="Radius" type="App::PropertyLength">
       <Float value="12.8"/>
@@ -61,28 +65,119 @@
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
-Locations 1
+Locations 25
 1
-             -1               0               0               0 
+              1               0               0               0 
               0               1               0               0 
-             -0               0              -1               0 
-Curve2ds 6
+              0               0               1             -53 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             -53 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 -1 3 -1 4 -1 5 -1 6 -1 7 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             -53 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  9 -1 10 -1 11 -1 12 -1 13 -1 14 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             -59 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  16 1 17 1 18 -1 19 -1 20 -1 5 -1 6 -1 7 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             -59 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  22 1 23 1 24 -1 3 -1 4 -1 5 -1 6 -1 7 -1 0
+Curve2ds 10
 1 0 53 1 0 
 2 0 0 1 0 -0 1 12.800000000000001
+1 0 53 1 0 
+1 0 53 1 0 
 1 6.2831853071795862 -0 0 1 
 1 0 -0 0 1 
 1 0 0 1 0 
 2 0 0 1 0 -0 1 12.800000000000001
+1 0 6 1 0 
+1 0 6 1 0 
 Curves 3
 2 0 0 53 0 0 1 1 0 -0 -0 1 0 12.800000000000001
 1 12.800000000000001 -3.1400000000000001e-15 0 0 0 1 
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 12.800000000000001
 Polygon3D 0
 PolygonOnTriangulations 0
-Surfaces 3
+Surfaces 6
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 12.800000000000001
 1 0 0 53 0 0 1 1 0 -0 -0 1 0 
+2 0 0 -53 0 0 1 1 0 -0 -0 1 0 12.800000000000001
+2 0 0 -53 0 0 1 1 0 -0 -0 1 0 12.800000000000001
 1 0 0 0 0 0 1 1 0 -0 -0 1 0 
+2 0 0 0 0 0 1 1 0 -0 -0 1 0 12.800000000000001
 Triangulations 0
 
 TShapes 13
@@ -98,12 +193,14 @@ Ed
 1  1 0 0 6.28318530717959
 2  1 1 0 0 6.28318530717959
 2  2 2 0 0 6.28318530717959
+2  3 3 8 0 6.28318530717959
+2  4 4 15 0 6.28318530717959
 0
 
 0101000
 +13 0 -13 0 *
 Ve
-1e-07
+1.00000012e-07
 12.8 -3e-15 0
 0 0
 
@@ -112,16 +209,18 @@ Ve
 Ed
  1e-07 1 1 0
 1  2 0 0 53
-3  3 4CN 1 0 0 53
+3  5 6CN 1 0 0 53
 0
 
 0101000
 -13 0 +11 0 *
 Ed
- 1e-07 1 1 0
+ 1.00000012e-07 1 1 0
 1  3 0 0 6.28318530717959
-2  5 1 0 0 6.28318530717959
-2  6 3 0 0 6.28318530717959
+2  7 1 0 0 6.28318530717959
+2  8 5 0 0 6.28318530717959
+2  9 6 21 0 6.28318530717959
+2  10 6 25 0 6.28318530717959
 0
 
 0101000
@@ -149,7 +248,7 @@ Wi
 0101100
 -9 0 *
 Fa
-0  1e-07 3 0
+0  1e-07 5 0
 
 0101000
 -4 0 *
@@ -170,8 +269,8 @@ So
       <LinkSubList count="0">
       </LinkSubList>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="649">
-      <Bool value="true"/>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
     </Property>
   </Properties>
 </Object>

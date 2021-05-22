@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Import">
+  <Properties Count="19" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="BindCopyOnChange" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="BindMode" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="Cache_Body" type="App::PropertyMatrix" group="Cache" attr="0" ro="0" hide="1" doc="" status="69206016">
+      <PropertyMatrix a11="1" a12="0" a13="0" a14="0" a21="0" a22="1" a23="0" a24="0" a31="0" a32="0" a33="1" a34="0" a41="0" a42="0" a43="0" a44="1"/>
+    </Property>
+    <Property name="ClaimChildren" type="App::PropertyBool" status="134217728">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Context" type="App::PropertyXLink" status="67108864">
+      <XLink file="" stamp="" name="Assembly" sub="Parts.Body001.Import."/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="FillStyle" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="Fuse" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Import(Bearing Sketch)"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MakeFace" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="PartialLoad" type="App::PropertyBool" status="1024">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Relative" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 6
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 1 3 1 4 1 0
+2  3 -1 2 -1 0
+Curve2ds 0
+Curves 6
+1 -4 -8 0 0 1 0 
+1 -4 0 0 -1 0 0 
+1 -6.5 0 0 0 -1 0 
+1 -6.5 -1 0 1 0 0 
+1 -5 -1 0 0 -1 0 
+1 -5 -8 0 1 0 0 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 0
+Triangulations 0
+
+TShapes 14
+Ve
+1e-07
+-4 3.5527136788005e-15 -8
+0 0
+
+0101101
+*
+Ve
+1e-07
+-4 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 8
+0
+
+0101000
++14 6 -13 6 *
+Ve
+1e-07
+-6.5 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 2.5
+0
+
+0101000
++13 6 -11 6 *
+Ve
+1e-07
+-6.5 4.44089209850063e-16 -1
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  3 0 0 1
+0
+
+0101000
++11 6 -9 6 *
+Ve
+1e-07
+-5 4.44089209850063e-16 -1
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 1.5
+0
+
+0101000
++9 6 -7 6 *
+Ve
+1e-07
+-5 3.5527136788005e-15 -8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  5 0 0 7
+0
+
+0101000
++7 6 -5 6 *
+Ed
+ 1e-07 1 1 0
+1  6 0 0 1
+0
+
+0101000
++5 6 -14 6 *
+Wi
+
+0101100
++12 0 +10 0 +8 0 +6 0 +4 0 +3 0 *
+Co
+
+1100000
++2 5 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap count="18">
+<![CDATA[
+Edge1	#d;:T2721:2:E 1 13
+Edge2	#e;:T2721:2:E 1 14
+Edge3	#f;:T2721:2:E 1 15
+Edge4	#10;:T2721:3:E 1 16
+Edge5	#11;:T2721:3:E 1 17
+Edge6	#12;:T2721:3:E 1 18
+Vertex1	#1;:T2721:2:V 1 1
+Vertex1	#2;:T2721:2:V 1 2
+Vertex2	#3;:T2721:2:V 1 3
+Vertex2	#4;:T2721:2:V 1 4
+Vertex3	#5;:T2721:2:V 1 5
+Vertex3	#6;:T2721:2:V 1 6
+Vertex4	#7;:T2721:2:V 1 7
+Vertex4	#8;:T2721:2:V 1 8
+Vertex5	#9;:T2721:2:V 1 9
+Vertex5	#a;:T2721:2:V 1 10
+Vertex6	#b;:T2721:2:V 1 11
+Vertex6	#c;:T2721:2:V 1 12
+]]>
+      </ElementMap>
+    </Property>
+    <Property name="Support" type="App::PropertyXLinkSubList">
+      <XLinkSubList count="1">
+        <XLink file="" stamp="" name="Body" sub="Sketch."/>
+      </XLinkSubList>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="_Version" type="App::PropertyInteger" status="83886080">
+      <Integer value="7"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Body" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="App::OriginGroupExtension" name="OriginGroupExtension">
+    </Extension>
+  </Extensions>
+  <Properties Count="16" TransientCount="2">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <_Property name="_GroupTouched" type="App::PropertyBool" status="100663425"/>
+    <Property name="AutoGroupSolids" type="App::PropertyBool" status="134217728">
+      <Bool value="false"/>
+    </Property>
+    <Property name="BaseFeature" type="App::PropertyLink">
+      <Link value=""/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="ExportMode" type="App::PropertyEnumeration" status="8">
+      <Integer value="0"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Group" type="App::PropertyLinkList">
+      <LinkList count="2">
+        <Link value="Sketch"/>
+        <Link value="Revolution"/>
+      </LinkList>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Bearing"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Origin" type="App::PropertyLink" status="67108864">
+      <Link value="Origin"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 9
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
+2  2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
+1
+              1               0               0               0 
+              0 -4.44089209850063e-16              -1               0 
+              0               1 -4.44089209850063e-16               0 
+2  4 1 5 1 6 -1 0
+2  6 1 5 -1 4 -1 0
+2  2 -1 6 1 5 -1 4 -1 0
+Curve2ds 12
+1 0 0 1 0 
+1 0 8 1 0 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 0 0 1 0 
+1 0 1 1 0 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 0 0 1 0 
+1 0 7 1 0 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+Curves 9
+2 0 3.5527136788005009e-15 -8 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 4
+2 0 0 0 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 4
+1 -4 3.5527136788005009e-15 -8 0 -4.4408920985006262e-16 1 
+2 0 0 0 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 6.5
+2 0 4.4408920985006262e-16 -1 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 6.5
+1 -6.5 0 0 0 4.4408920985006262e-16 -1 
+2 0 4.4408920985006262e-16 -1 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 5
+2 0 3.5527136788005009e-15 -8 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 5
+1 -5 4.4408920985006262e-16 -1 0 4.4408920985006262e-16 -1 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 6
+2 0 3.5527136788005009e-15 -8 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 4
+1 0 0 0 0 -4.4408920985006262e-16 1 1 0 0 0 -1 -4.4408920985006262e-16 
+2 0 0 0 -0 4.4408920985006262e-16 -1 -1 -0 0 0 -1 -4.4408920985006262e-16 6.5
+1 0 4.4408920985006262e-16 -1 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 
+2 0 4.4408920985006262e-16 -1 -0 4.4408920985006262e-16 -1 -1 -0 0 0 -1 -4.4408920985006262e-16 5
+1 0 3.5527136788005009e-15 -8 0 -4.4408920985006262e-16 1 -1 -0 0 0 -1 -4.4408920985006262e-16 
+Triangulations 0
+
+TShapes 32
+Ve
+1e-07
+-4 8 7.105427357601e-15
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 6.28318530717959
+2  1 1 0 0 6.28318530717959
+0
+
+0101000
++32 3 -32 3 *
+Ve
+1e-07
+-4 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 6.28318530717959
+2  2 1 0 0 6.28318530717959
+0
+
+0101000
++30 3 -30 3 *
+Ed
+ 1e-07 1 1 0
+1  3 0 0 8
+3  3 4CN 1 8 0 8
+0
+
+0101000
++32 9 -30 9 *
+Wi
+
+0101100
++31 0 -29 0 -28 7 +28 7 *
+Fa
+0  1e-07 1 0
+
+0101000
++27 0 *
+Wi
+
+0101100
++29 0 *
+Ve
+1e-07
+-6.5 0 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 6.28318530717959
+2  5 3 0 0 6.28318530717959
+0
+
+0101000
++24 3 -24 3 *
+Wi
+
+0101100
+-23 0 *
+Fa
+0  1e-07 2 0
+
+0101000
++25 0 +22 0 *
+Ve
+1e-07
+-6.5 1 8.88178419700125e-16
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  5 0 0 6.28318530717959
+2  6 3 0 0 6.28318530717959
+0
+
+0101000
++20 3 -20 3 *
+Ed
+ 1e-07 1 1 0
+1  6 0 0 1
+3  7 8CN 3 8 0 1
+0
+
+0101000
++24 9 -20 9 *
+Wi
+
+0101100
++23 0 -19 0 -18 7 +18 7 *
+Fa
+0  1e-07 3 0
+
+0101000
++17 0 *
+Wi
+
+0101100
++19 0 *
+Ve
+1e-07
+-5 1 8.88178419700125e-16
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  7 0 0 6.28318530717959
+2  9 5 0 0 6.28318530717959
+0
+
+0101000
++14 3 -14 3 *
+Wi
+
+0101100
+-13 0 *
+Fa
+0  1e-07 4 0
+
+0101000
++15 0 +12 0 *
+Ve
+1e-07
+-5 8 7.105427357601e-15
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  8 0 0 6.28318530717959
+2  10 5 0 0 6.28318530717959
+0
+
+0101000
++10 3 -10 3 *
+Ed
+ 1e-07 1 1 0
+1  9 0 0 7
+3  11 12CN 5 8 0 7
+0
+
+0101000
++14 9 -10 9 *
+Wi
+
+0101100
++13 0 -9 0 -8 7 +8 7 *
+Fa
+0  1e-07 5 0
+
+0101000
++7 0 *
+Wi
+
+0101100
++9 0 *
+Wi
+
+0101100
+-31 0 *
+Fa
+0  1e-07 6 0
+
+0101000
++5 0 +4 0 *
+Sh
+
+0101100
+-26 0 -21 0 -16 0 -11 0 -6 0 -3 0 *
+So
+
+1100000
++2 0 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap count="27">
+<![CDATA[
+Edge1	#3a;:T2722:3:E 4 1 20 37 58
+Edge2	#3b;:T2722:3:E 4 3 21 38 59
+Edge3	#3c;:T2722:3:E 3 13 19 60
+Edge4	#3d;:T2722:3:E 4 5 22 28 61
+Edge5	#3e;:T2722:3:E 4 7 23 29 62
+Edge6	#3f;:T2722:3:E 3 15 26 63
+Edge7	#40;:T2722:3:E 4 9 24 39 64
+Edge8	#41;:T2722:3:E 4 11 25 30 65
+Edge9	#42;:T2722:3:E 3 17 27 66
+Face1	#43;:T2722:3:F 4 13 19 40 67
+Face2	#44;:T2722:3:F 5 5 22 28 41 68
+Face3	#45;:T2722:3:F 4 15 26 42 69
+Face4	#46;:T2722:3:F 5 7 23 29 43 70
+Face5	#47;:T2722:3:F 4 17 27 44 71
+Face6	#48;:T2722:3:F 5 11 25 30 45 72
+Vertex1	#2e;:T2722:3:V 3 1 20 46
+Vertex1	#2f;:T2722:3:V 3 2 31 47
+Vertex2	#30;:T2722:3:V 3 3 21 48
+Vertex2	#31;:T2722:3:V 3 4 32 49
+Vertex3	#32;:T2722:3:V 3 5 22 50
+Vertex3	#33;:T2722:3:V 3 6 33 51
+Vertex4	#34;:T2722:3:V 3 7 23 52
+Vertex4	#35;:T2722:3:V 3 8 34 53
+Vertex5	#36;:T2722:3:V 3 9 24 54
+Vertex5	#37;:T2722:3:V 3 10 35 55
+Vertex6	#38;:T2722:3:V 3 11 25 56
+Vertex6	#39;:T2722:3:V 3 12 36 57
+]]>
+      </ElementMap>
+    </Property>
+    <Property name="SingleSolid" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Tip" type="App::PropertyLink">
+      <Link value="Revolution"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="_ExportChildren" type="App::PropertyLinkList" status="218104320">
+      <LinkList count="1">
+        <Link value="Revolution"/>
+      </LinkList>
+    </Property>
+    <Property name="_GroupVersion" type="App::PropertyInteger" status="218103808">
+      <Integer value="1"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

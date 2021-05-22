@@ -11,14 +11,14 @@
   <Expand name="Assembly001"/>
 </Expand>
 >
-  <Camera extra="0" id="57" binding="0">
+  <Camera extra="0" id="24" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
   position 60.593102 -60.593067 -10.156925
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 19.535461
-  farDistance 190.53589
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance 7.7667389
+  farDistance 197.47974
   aspectRatio 1
   focalDistance 104.95029
   height 209.90057

@@ -2,58 +2,366 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.519R24301 +3652 (Git)" FileVersion="2" Uid="16204bba-2abe-4473-b60d-ad62d6df4225" StringHasher="1">
-  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="39">
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="16204bba-2abe-4473-b60d-ad62d6df4225" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="348">
 <![CDATA[
--1.0 0:Source or Documentation
--1.0 0:Description
--1.0 0:Price of product or material (currency not specified yet)
--1.0 0:Manufacturers SKU
--1.0 0:URL or String of the product or machine to source from
--1.0 0:Angle to cover with copies
--1.0 3:The type of array to create.
+1 0 0:Force sync pattern placements even when array elements are expanded
+2 0 0:Angle to cover with copies
+3 0 3:The type of array to create.
 - Ortho: places the copies in the direction of the global X, Y, Z axes.
 - Polar: places the copies along a circular arc, up to a specified angle, and with certain orientation defined by a center and an axis.
 - Circular: places the copies in concentric circular layers around the base object.
--1.0 0:The axis direction around which the elements in a polar or a circular array will be created
--1.0 2:The axis object that overrides the value of 'Axis' and 'Center', for example, a datum line.
+4 0 0:The axis direction around which the elements in a polar or a circular array will be created
+5 0 2:The axis object that overrides the value of 'Axis' and 'Center', for example, a datum line.
 Its placement, position and rotation, will be used when creating polar and circular arrays.
 Leave this property empty to be able to set 'Axis' and 'Center' manually.
--1.0 0:The base object that will be duplicated
--1.0 1:Center point for polar and circular arrays.
+6 0 0:The base object that will be duplicated
+7 0 1:Center point for polar and circular arrays.
 The 'Axis' passes through this point.
--1.0 1:Total number of elements in the array.
+8 0 1:Total number of elements in the array.
 This property is read-only, as the number depends on the parameters of the array.
--1.0 0:Show the individual array elements (only for Link arrays)
--1.0 0:Specifies if the copies should be fused together if they touch each other (slower)
--1.0 0:Distance and orientation of intervals in 'Axis' direction
--1.0 0:Distance and orientation of intervals in X direction
--1.0 0:Distance and orientation of intervals in Y direction
--1.0 0:Distance and orientation of intervals in Z direction
--1.0 0:Number of circular layers. The 'Base' object counts as one layer.
--1.0 0:Number of copies in the polar direction
--1.0 0:Number of copies in X direction
--1.0 0:Number of copies in Y direction
--1.0 0:Number of copies in Z direction
--1.0 0:Distance between circular layers
--1.0 0:A parameter that determines how many symmetry planes  the circular array will have.
--1.0 0:Distance between copies in the same circular layer
--2.0 0:Force sync pattern placements even when array elements are expanded
--a.0 0:Face1;I0;:T3785:5:F
--2.0 0:Face1;I1;:T3785:5:F
--1e.0 0:(Face2;K-2;:T3731:5:F)
--1.0 0:(Face6;K-2;:T3731:5:F)
--1.0 0:(Face6;K-1;:T3731:5:F)
--1.0 0:(Face2;K-1;:T3731:5:F)
--1.0 0:(Edge8;K-1;:T3731:5:E)
--1.0 0:(Edge8;K-2;:T3731:5:E)
--1.0 0:(Face1;K-1;:T3730:5:F)
--1.0 0:(Edge2;K-1;:T3731:5:E)
--1.0 0:(Face1;K-2;:T3730:5:F)
--8.0 0:Shape cache
+9 0 0:Show the individual array elements (only for Link arrays)
+10 0 0:Specifies if the copies should be fused together if they touch each other (slower)
+11 0 0:Distance and orientation of intervals in 'Axis' direction
+12 0 0:Distance and orientation of intervals in X direction
+13 0 0:Distance and orientation of intervals in Y direction
+14 0 0:Distance and orientation of intervals in Z direction
+15 0 0:Number of circular layers. The 'Base' object counts as one layer.
+16 0 0:Number of copies in the polar direction
+17 0 0:Number of copies in X direction
+18 0 0:Number of copies in Y direction
+19 0 0:Number of copies in Z direction
+20 0 0:Distance between circular layers
+21 0 0:A parameter that determines how many symmetry planes  the circular array will have.
+22 0 0:Distance between copies in the same circular layer
+23 0 0:Source or Documentation
+24 0 0:Description
+25 0 0:Price of product or material (currency not specified yet)
+26 0 0:Manufacturers SKU
+27 0 0:URL or String of the product or machine to source from
+28 0 0:Vertex1;I0;:T3785:7:V
+29 0 0:Vertex1;I1;:T3785:7:V
+30 0 0:Edge1;I0;:T3785:5:E
+31 0 0:Edge1;I1;:T3785:5:E
+32 0 0:Face2;I0;:T3785:5:F
+33 0 0:Face2;I1;:T3785:5:F
+34 0 0:Face1;I0;:T3785:5:F
+35 0 0:(#22;K-1;:T3787:3:F)
+36 0 0:Face1;I1;:T3785:5:F
+37 0 0:(#24;K-1;:T3787:3:F)
+38 0 0:Edge2;I0;:T3785:5:E
+39 0 0:Edge2;I1;:T3785:5:E
+40 0 0:(Face2;K-1;:T3758:5:F)
+41 0 0:(Face2;K-2;:T3758:5:F)
+42 0 0:Vertex1;:T3758:7:V
+43 0 0:Vertex2;:T3758:7:V
+44 0 0:#26;:G#28;CUT;:T3787:3:V
+45 0 0:#27;:G#29;CUT;:T3787:3:V
+46 0 0:#1c;:T3787:3:V
+47 0 0:#1d;:T3787:3:V
+48 0 0:Edge1;:T3758:5:E
+49 0 0:Edge2;:T3758:5:E
+50 0 0:Edge3;:T3758:5:E
+51 0 0:Face2;:G3#23;CUT;:T3758:5:E
+52 0 0:Face2;:G4#25;CUT;:T3758:5:E
+53 0 0:#26;:M;CUT;:T3787:3:E
+54 0 0:#1e;:T3787:3:E
+55 0 0:#27;:M;CUT;:T3787:3:E
+56 0 0:#1f;:T3787:3:E
+57 0 0:Face1;:T3758:5:F
+58 0 0:Face3;:T3758:5:F
+59 0 0:#22;:M;CUT;:T3787:3:F
+60 0 0:#24;:M;CUT;:T3787:3:F
+61 0 0:#20;:T3787:3:F
+62 0 0:#21;:T3787:3:F
+63 0 0:Face2;:M;CUT;:T3758:5:F
+64 0 0:(Face2;K-2;:T3731:5:F)
+65 0 0:(Face6;K-2;:T3731:5:F)
+66 0 0:(Face6;K-1;:T3731:5:F)
+67 0 0:(Face2;K-1;:T3731:5:F)
+68 0 0:(Edge8;K-1;:T3731:5:E)
+69 0 0:(Edge8;K-2;:T3731:5:E)
+70 0 0:(Face1;K-1;:T3730:5:F)
+71 0 0:(Edge2;K-1;:T3731:5:E)
+72 0 0:(Face1;K-2;:T3730:5:F)
+73 0 0:(Face2;K-1;:T3734:5:F)
+74 0 0:(Face2;K-2;:T3734:5:F)
+75 0 0:Edge3;:G;FLT;:T3735:5:F
+76 0 0:#4b;:U2;FLT;:T3735:3:E
+77 0 0:#4b;:U3;FLT;:T3735:3:E
+80 0 0:#2c;:T3789:3:V
+81 0 0:#2d;:T3789:3:V
+82 0 0:Vertex2;:T3759:7:V
+83 0 0:#2e;:T3789:3:V
+84 0 0:#2f;:T3789:3:V
+85 0 0:Vertex1;:T3759:7:V
+89 0 0:#33;:T3789:3:E
+90 0 0:#34;:T3789:3:E
+91 0 0:Edge3;:T3759:5:E
+92 0 0:#35;:T3789:3:E
+93 0 0:#36;:T3789:3:E
+94 0 0:#37;:T3789:3:E
+95 0 0:#38;:T3789:3:E
+96 0 0:Edge1;:T3759:5:E
+97 0 0:Edge2;:T3759:5:E
+98 0 0:#39;:T3789:3:F
+99 0 0:#3f;:M;FUS;:T3789:3:F
+101 0 0:#3b;:T3789:3:F
+102 0 0:#3c;:T3789:3:F
+103 0 0:Face1;:T3759:5:F
+104 0 0:#3d;:T3789:3:F
+105 0 0:#3e;:T3789:3:F
+106 0 0:Face2;:T3759:5:F
+108 0 0:#50;:T3760:3:V
+109 0 0:#51;:T3760:3:V
+110 0 0:#52;:T3760:3:V
+111 0 0:#53;:T3760:3:V
+112 0 0:#54;:T3760:3:V
+113 0 0:#55;:T3760:3:V
+115 0 0:#59;:T3760:3:E
+116 0 0:#5a;:T3760:3:E
+117 0 0:#5b;:T3760:3:E
+118 0 0:#5c;:T3760:3:E
+119 0 0:#5d;:T3760:3:E
+120 0 0:#5e;:T3760:3:E
+121 0 0:#5f;:T3760:3:E
+122 0 0:#60;:T3760:3:E
+123 0 0:#61;:T3760:3:E
+124 0 0:#63;:T3760:3:F
+125 0 0:#65;:T3760:3:F
+126 0 0:#66;:T3760:3:F
+127 0 0:#67;:T3760:3:F
+128 0 0:#68;:T3760:3:F
+129 0 0:#69;:T3760:3:F
+130 0 0:#6a;:T3760:3:F
+134 0 0:#62;:T3760:3:F
+137 0 0:#7c;:T3795:3:F
+138 0 0:#86;:M;FUS;:T3795:3:F
+139 0 0:#89;:M;RFI;:T3795:3:F
+140 0 0:#8a;:M;RFI;:T3795:3:F
+141 0 0:#8b;:U;RFI;:T3795:3:E
+142 0 0:#8c;:U2;RFI;:T3795:3:E
+143 0 0:#8c;:U3;RFI;:T3795:3:E
+144 0 0:Vertex1;:T3734:7:V
+145 0 0:Vertex2;:T3734:7:V
+146 0 0:#26;:G#49;CUT;:T3787:3:V
+147 0 0:#27;:G#4a;CUT;:T3787:3:V
+148 0 0:Edge1;:T3734:5:E
+149 0 0:Edge2;:T3734:5:E
+150 0 0:Edge3;:T3734:5:E
+151 0 0:Face2;:G3#23;CUT;:T3734:5:E
+152 0 0:Face2;:G4#25;CUT;:T3734:5:E
+153 0 0:Face1;:T3734:5:F
+154 0 0:Face2;:M;CUT;:T3734:5:F
+155 0 0:Face3;:T3734:5:F
+156 0 0:Edge1;:G#44;CUT;:T3730:5:V
+157 0 0:Edge1;:G2#45;CUT;:T3730:5:V
+158 0 0:Edge6;:G#46;CUT;:T3731:5:V
+159 0 0:Edge2;:G#47;CUT;:T3730:5:V
+160 0 0:Vertex2;:T3730:7:V
+161 0 0:Edge6;:G2#48;CUT;:T3731:5:V
+162 0 0:Edge1;:M;CUT;:T3730:5:E
+163 0 0:Face1;:G4#40;CUT;:T3730:5:E
+164 0 0:Face1;:G6#41;CUT;:T3730:5:E
+165 0 0:Edge2;:M;CUT;:T3730:5:E
+166 0 0:Edge3;:T3730:5:E
+167 0 0:Face1;:G5#42;CUT;:T3730:5:E
+168 0 0:Face1;:G3#43;CUT;:T3730:5:E
+169 0 0:Edge8;:M;CUT;:T3731:5:E
+170 0 0:Edge6;:M;CUT;:T3731:5:E
+171 0 0:Face1;:M;CUT;:T3730:5:F
+172 0 0:Face2;:M;CUT;:T3730:5:F
+173 0 0:Face2;:M;CUT;:T3731:5:F
+174 0 0:Face6;:M;CUT;:T3731:5:F
+175 0 0:Face3;:T3730:5:F
+176 0 0:#4c;:U;FLT;:T3735:3:V
+177 0 0:Vertex1;:T3735:7:V
+178 0 0:#4d;:U;FLT;:T3735:3:V
+179 0 0:Edge2;:M;FLT;:T3735:5:E
+180 0 0:Edge1;:T3735:5:E
+181 0 0:#4b;:U;FLT;:T3735:3:E
+182 0 0:Face1;:M;FLT;:T3735:5:F
+183 0 0:Face2;:T3735:5:F
+184 0 0:Face3;:M;FLT;:T3735:5:F
+185 0 0:Shape cache
+186 0 0:#90;:T3788:3:V
+187 0 0:#91;:T3788:3:V
+188 0 0:#92;:T3788:3:V
+189 0 0:#93;:T3788:3:V
+190 0 0:#2e;:T3788:3:V
+191 0 0:#2f;:T3788:3:V
+192 0 0:Vertex1;:T3733:7:V
+193 0 0:Vertex2;:T3733:7:V
+194 0 0:#9c;:T3784:3:V
+195 0 0:#9d;:T3784:3:V
+196 0 0:#9e;:T3784:3:V
+197 0 0:#9f;:T3784:3:V
+198 0 0:#a0;:T3784:3:V
+199 0 0:#a1;:T3784:3:V
+200 0 0:#b0;:T3736:3:V
+201 0 0:#b1;:T3736:3:V
+202 0 0:#b2;:T3736:3:V
+203 0 0:#94;:T3788:3:E
+204 0 0:#95;:T3788:3:E
+205 0 0:#96;:T3788:3:E
+206 0 0:#97;:T3788:3:E
+207 0 0:#98;:T3788:3:E
+208 0 0:#35;:T3788:3:E
+209 0 0:#36;:T3788:3:E
+210 0 0:#37;:T3788:3:E
+211 0 0:#38;:T3788:3:E
+212 0 0:Edge1;:T3733:5:E
+213 0 0:Edge2;:T3733:5:E
+214 0 0:Edge3;:T3733:5:E
+215 0 0:#a2;:T3784:3:E
+216 0 0:#a3;:T3784:3:E
+217 0 0:#a4;:T3784:3:E
+218 0 0:#a5;:T3784:3:E
+219 0 0:#a6;:T3784:3:E
+220 0 0:#a7;:T3784:3:E
+221 0 0:#a8;:T3784:3:E
+222 0 0:#a9;:T3784:3:E
+223 0 0:#aa;:T3784:3:E
+224 0 0:#b3;:T3736:3:E
+225 0 0:#4c;:T3736:3:E
+226 0 0:#b4;:T3736:3:E
+227 0 0:#b5;:T3736:3:E
+228 0 0:#4d;:T3736:3:E
+229 0 0:#99;:T3788:3:F
+230 0 0:#9a;:T3788:3:F
+231 0 0:#9b;:T3788:3:F
+232 0 0:#3b;:T3788:3:F
+233 0 0:#3c;:T3788:3:F
+234 0 0:#3d;:T3788:3:F
+235 0 0:#3e;:T3788:3:F
+236 0 0:Face1;:T3733:5:F
+237 0 0:Face2;:T3733:5:F
+238 0 0:Face3;:T3733:5:F
+239 0 0:#ab;:T3784:3:F
+240 0 0:#ac;:T3784:3:F
+241 0 0:#ad;:T3784:3:F
+242 0 0:#ae;:T3784:3:F
+243 0 0:#af;:T3784:3:F
+244 0 0:#b6;:T3736:3:F
+245 0 0:#4b;:T3736:3:F
+246 0 0:#b7;:T3736:3:F
+247 0 0:#b8;:T3736:3:F
+248 0 0:#ba;:T3768:3:V
+249 0 0:#bb;:T3768:3:V
+250 0 0:#bc;:T3768:3:V
+251 0 0:#bd;:T3768:3:V
+252 0 0:#be;:T3768:3:V
+253 0 0:#bf;:T3768:3:V
+254 0 0:#c0;:T3768:3:V
+255 0 0:#c1;:T3768:3:V
+256 0 0:#c2;:T3768:3:V
+257 0 0:#c3;:T3768:3:V
+258 0 0:#c4;:T3768:3:V
+259 0 0:#c5;:T3768:3:V
+260 0 0:#c6;:T3768:3:V
+261 0 0:#c7;:T3768:3:V
+262 0 0:#c8;:T3768:3:V
+263 0 0:#c9;:T3768:3:V
+264 0 0:#ca;:T3768:3:V
+265 0 0:#cb;:T3768:3:E
+266 0 0:#cc;:T3768:3:E
+267 0 0:#cd;:T3768:3:E
+268 0 0:#ce;:T3768:3:E
+269 0 0:#cf;:T3768:3:E
+270 0 0:#d0;:T3768:3:E
+271 0 0:#d1;:T3768:3:E
+272 0 0:#d2;:T3768:3:E
+273 0 0:#d3;:T3768:3:E
+274 0 0:#d4;:T3768:3:E
+275 0 0:#d5;:T3768:3:E
+276 0 0:#d6;:T3768:3:E
+277 0 0:#d7;:T3768:3:E
+278 0 0:#d8;:T3768:3:E
+279 0 0:#d9;:T3768:3:E
+280 0 0:#da;:T3768:3:E
+281 0 0:#db;:T3768:3:E
+282 0 0:#dc;:T3768:3:E
+283 0 0:#dd;:T3768:3:E
+284 0 0:#de;:T3768:3:E
+285 0 0:#df;:T3768:3:E
+286 0 0:#e0;:T3768:3:E
+287 0 0:#e1;:T3768:3:E
+288 0 0:#e2;:T3768:3:E
+289 0 0:#e3;:T3768:3:E
+290 0 0:#e4;:T3768:3:E
+291 0 0:#e5;:T3768:3:F
+292 0 0:#e6;:T3768:3:F
+293 0 0:#e7;:T3768:3:F
+294 0 0:#e8;:T3768:3:F
+295 0 0:#e9;:T3768:3:F
+296 0 0:#ea;:T3768:3:F
+297 0 0:#eb;:T3768:3:F
+298 0 0:#ec;:T3768:3:F
+299 0 0:#ed;:T3768:3:F
+300 0 0:#ee;:T3768:3:F
+301 0 0:#ef;:T3768:3:F
+302 0 0:#f0;:T3768:3:F
+303 0 0:#f1;:T3768:3:F
+304 0 0:#f2;:T3768:3:F
+305 0 0:#f3;:T3768:3:F
+306 0 0:#f4;:T3768:3:F
+307 0 0:#f5;:T3768:3:F
+308 0 0:#f6;:T3768:3:F
+309 0 0:#f7;:T3768:3:F
+310 0 0:Vertex1;I0;:T3802:7:V
+311 0 0:Vertex2;I0;:T3802:7:V
+312 0 0:Vertex3;I0;:T3802:7:V
+313 0 0:Vertex4;I0;:T3802:7:V
+314 0 0:Vertex5;I0;:T3802:7:V
+315 0 0:Vertex6;I0;:T3802:7:V
+316 0 0:Vertex7;I0;:T3802:7:V
+317 0 0:Vertex8;I0;:T3802:7:V
+318 0 0:Vertex1;I1;:T3802:7:V
+319 0 0:Vertex2;I1;:T3802:7:V
+320 0 0:Vertex3;I1;:T3802:7:V
+321 0 0:Vertex4;I1;:T3802:7:V
+322 0 0:Vertex5;I1;:T3802:7:V
+323 0 0:Vertex6;I1;:T3802:7:V
+324 0 0:Vertex7;I1;:T3802:7:V
+325 0 0:Vertex8;I1;:T3802:7:V
+326 0 0:Edge1;I0;:T3802:5:E
+327 0 0:Edge2;I0;:T3802:5:E
+328 0 0:Edge3;I0;:T3802:5:E
+329 0 0:Edge4;I0;:T3802:5:E
+330 0 0:Edge5;I0;:T3802:5:E
+331 0 0:Edge6;I0;:T3802:5:E
+332 0 0:Edge7;I0;:T3802:5:E
+333 0 0:Edge8;I0;:T3802:5:E
+334 0 0:Edge9;I0;:T3802:5:E
+335 0 0:Edge10;I0;:T3802:6:E
+336 0 0:Edge11;I0;:T3802:6:E
+337 0 0:Edge12;I0;:T3802:6:E
+338 0 0:Edge1;I1;:T3802:5:E
+339 0 0:Edge2;I1;:T3802:5:E
+340 0 0:Edge3;I1;:T3802:5:E
+341 0 0:Edge4;I1;:T3802:5:E
+342 0 0:Edge5;I1;:T3802:5:E
+343 0 0:Edge6;I1;:T3802:5:E
+344 0 0:Edge7;I1;:T3802:5:E
+345 0 0:Edge8;I1;:T3802:5:E
+346 0 0:Edge9;I1;:T3802:5:E
+347 0 0:Edge10;I1;:T3802:6:E
+348 0 0:Edge11;I1;:T3802:6:E
+349 0 0:Edge12;I1;:T3802:6:E
+350 0 0:Face1;I0;:T3802:5:F
+351 0 0:Face2;I0;:T3802:5:F
+352 0 0:Face3;I0;:T3802:5:F
+353 0 0:Face4;I0;:T3802:5:F
+354 0 0:Face5;I0;:T3802:5:F
+355 0 0:Face6;I0;:T3802:5:F
+356 0 0:Face1;I1;:T3802:5:F
+357 0 0:Face2;I1;:T3802:5:F
+358 0 0:Face3;I1;:T3802:5:F
+359 0 0:Face4;I1;:T3802:5:F
+360 0 0:Face5;I1;:T3802:5:F
+361 0 0:Face6;I1;:T3802:5:F
 ]]>
-  </StringHasher2>
+  </StringHasher>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -83,7 +391,7 @@ This property is read-only, as the number depends on the parameters of the array
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-05-20T08:46:13Z"/>
+      <String value="2021-10-03T11:07:02Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -114,27 +422,18 @@ This property is read-only, as the number depends on the parameters of the array
     <Property name="Uid" type="App::PropertyUUID" status="16777217">
       <Uuid value="16204bba-2abe-4473-b60d-ad62d6df4225"/>
     </Property>
-    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
   </Properties>
-  <Objects Count="21" Dependencies="1">
+  <Objects Count="37" Dependencies="1">
     <ObjectDeps Name="Cylinder" Count="1">
       <Dep Name="Cylinder002"/>
-    </ObjectDeps>
-    <ObjectDeps Name="Box" Count="1">
-      <Dep Name="Cylinder"/>
     </ObjectDeps>
     <ObjectDeps Name="Cylinder001" Count="1">
       <Dep Name="Cylinder002"/>
     </ObjectDeps>
     <ObjectDeps Name="Cylinder002" Count="0"/>
-    <ObjectDeps Name="Cylinder003" Count="1">
-      <Dep Name="Cylinder002"/>
-    </ObjectDeps>
-    <ObjectDeps Name="Fillet" Count="1">
-      <Dep Name="Cylinder003"/>
-    </ObjectDeps>
     <ObjectDeps Name="Cylinder006" Count="1">
       <Dep Name="Cylinder002"/>
     </ObjectDeps>
@@ -147,77 +446,156 @@ This property is read-only, as the number depends on the parameters of the array
       <Dep Name="Cylinder007"/>
       <Dep Name="Cut002"/>
     </ObjectDeps>
-    <ObjectDeps Name="Assembly" Count="7">
-      <Dep Name="Cylinder"/>
-      <Dep Name="Cylinder002"/>
+    <ObjectDeps Name="Cylinder009" Count="0"/>
+    <ObjectDeps Name="Array" Count="1">
+      <Dep Name="Cylinder009"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut002" Count="2">
+      <Dep Name="Array"/>
       <Dep Name="Cylinder006"/>
-      <Dep Name="Cylinder001"/>
-      <Dep Name="Constraints"/>
-      <Dep Name="Elements"/>
-      <Dep Name="Parts"/>
     </ObjectDeps>
     <ObjectDeps Name="Constraints" Count="0"/>
-    <ObjectDeps Name="Elements" Count="3">
-      <Dep Name="Element001"/>
-      <Dep Name="Element002"/>
-      <Dep Name="Element"/>
-    </ObjectDeps>
-    <ObjectDeps Name="Parts" Count="5">
-      <Dep Name="Fillet"/>
-      <Dep Name="Cylinder001"/>
-      <Dep Name="Fusion"/>
+    <ObjectDeps Name="Element" Count="2">
       <Dep Name="Cut"/>
-      <Dep Name="Cut001"/>
+      <Dep Name="Elements"/>
     </ObjectDeps>
     <ObjectDeps Name="Element001" Count="2">
       <Dep Name="Elements"/>
       <Dep Name="Cut001"/>
     </ObjectDeps>
-    <ObjectDeps Name="Element002" Count="2">
-      <Dep Name="Fillet"/>
-      <Dep Name="Elements"/>
+    <ObjectDeps Name="Elements" Count="3">
+      <Dep Name="Element"/>
+      <Dep Name="Element002"/>
+      <Dep Name="Element001"/>
     </ObjectDeps>
-    <ObjectDeps Name="Element" Count="2">
-      <Dep Name="Elements"/>
+    <ObjectDeps Name="Parts" Count="5">
       <Dep Name="Cut"/>
+      <Dep Name="Cut001"/>
+      <Dep Name="Fillet"/>
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly" Count="7">
+      <Dep Name="Constraints"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Cylinder"/>
+      <Dep Name="Cylinder006"/>
+      <Dep Name="Cylinder001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Fillet" Count="1">
+      <Dep Name="Cylinder003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder003" Count="1">
+      <Dep Name="Cylinder002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cut001" Count="2">
+      <Dep Name="Cylinder002"/>
+      <Dep Name="Array"/>
     </ObjectDeps>
     <ObjectDeps Name="Cut" Count="2">
       <Dep Name="Cylinder"/>
       <Dep Name="Box"/>
     </ObjectDeps>
-    <ObjectDeps Name="Cylinder009" Count="0"/>
-    <ObjectDeps Name="Cut001" Count="2">
-      <Dep Name="Cylinder002"/>
-      <Dep Name="Array"/>
+    <ObjectDeps Name="Box" Count="1">
+      <Dep Name="Cylinder"/>
     </ObjectDeps>
-    <ObjectDeps Name="Array" Count="1">
-      <Dep Name="Cylinder009"/>
+    <ObjectDeps Name="Element002" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Fusion"/>
     </ObjectDeps>
-    <ObjectDeps Name="Cut002" Count="2">
-      <Dep Name="Cylinder006"/>
-      <Dep Name="Array"/>
+    <ObjectDeps Name="Constraints001" Count="0"/>
+    <ObjectDeps Name="Link" Count="1">
+      <Dep Name="Assembly"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element003" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element004" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Link001" Count="1">
+      <Dep Name="Fusion"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder010" Count="0"/>
+    <ObjectDeps Name="Fusion001" Count="2">
+      <Dep Name="Link001"/>
+      <Dep Name="Cylinder010"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element005" Count="2">
+      <Dep Name="Fusion001"/>
+      <Dep Name="Elements001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Box001" Count="0"/>
+    <ObjectDeps Name="Element006" Count="2">
+      <Dep Name="Elements001"/>
+      <Dep Name="Box001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Elements001" Count="4">
+      <Dep Name="Element003"/>
+      <Dep Name="Element004"/>
+      <Dep Name="Element005"/>
+      <Dep Name="Element006"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Box002" Count="0"/>
+    <ObjectDeps Name="Array001" Count="1">
+      <Dep Name="Box002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Cylinder005" Count="0"/>
+    <ObjectDeps Name="Parts001" Count="5">
+      <Dep Name="Cylinder005"/>
+      <Dep Name="Fusion001"/>
+      <Dep Name="Box001"/>
+      <Dep Name="Array001"/>
+      <Dep Name="Link"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly001" Count="5">
+      <Dep Name="Parts001"/>
+      <Dep Name="Elements001"/>
+      <Dep Name="Cylinder010"/>
+      <Dep Name="Link"/>
+      <Dep Name="Constraints001"/>
     </ObjectDeps>
     <Object type="Part::Cylinder" name="Cylinder" id="3730" revision="2" file="Cylinder.xml" />
-    <Object type="Part::Box" name="Box" id="3731" revision="4" file="Box.xml" />
     <Object type="Part::Cylinder" name="Cylinder001" id="3733" revision="2" file="Cylinder001.xml" />
     <Object type="Part::Cylinder" name="Cylinder002" id="3734" revision="2" file="Cylinder002.xml" />
-    <Object type="Part::Cylinder" name="Cylinder003" id="3735" revision="2" file="Cylinder003.xml" />
-    <Object type="Part::Fillet" name="Fillet" id="3736" revision="2" file="Fillet.xml" />
-    <Object type="Part::Cylinder" name="Cylinder006" id="3758" revision="5" file="Cylinder006.xml" />
-    <Object type="Part::Cylinder" name="Cylinder007" id="3759" revision="5" file="Cylinder007.xml" />
-    <Object type="Part::MultiFuse" name="Fusion" id="3760" revision="3" file="Fusion.xml" />
-    <Object type="Part::FeaturePython" name="Assembly" id="3768" revision="10" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
-    <Object type="App::FeaturePython" name="Constraints" id="3769" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
-    <Object type="App::FeaturePython" name="Elements" id="3770" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
-    <Object type="Part::FeaturePython" name="Parts" id="3771" revision="13" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
-    <Object type="Part::FeaturePython" name="Element001" id="3780" revision="4" file="Element001.xml" />
-    <Object type="Part::FeaturePython" name="Element002" id="3781" revision="3" file="Element002.xml" />
-    <Object type="Part::FeaturePython" name="Element" id="3783" revision="4" file="Element.xml" />
-    <Object type="Part::Cut" name="Cut" id="3784" revision="2" file="Cut.xml" />
+    <Object type="Part::Cylinder" name="Cylinder006" id="3758" revision="10" file="Cylinder006.xml" />
+    <Object type="Part::Cylinder" name="Cylinder007" id="3759" revision="14" file="Cylinder007.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="3760" revision="11" file="Fusion.xml" />
     <Object type="Part::Cylinder" name="Cylinder009" id="3785" revision="2" file="Cylinder009.xml" />
-    <Object type="Part::Cut" name="Cut001" id="3788" revision="2" file="Cut001.xml" />
     <Object type="Part::FeaturePython" name="Array" id="3787" revision="4" ViewType="Gui::ViewProviderLinkPython" file="Array.xml" />
-    <Object type="Part::Cut" name="Cut002" id="3789" revision="3" file="Cut002.xml" />
+    <Object type="Part::Cut" name="Cut002" id="3789" revision="7" file="Cut002.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="3769" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="3783" revision="17" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="3780" revision="17" file="Element001.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="3770" revision="16" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="3771" revision="39" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="3768" revision="42" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="Part::Fillet" name="Fillet" id="3736" revision="12" file="Fillet.xml" />
+    <Object type="Part::Cylinder" name="Cylinder003" id="3735" revision="5" file="Cylinder003.xml" />
+    <Object type="Part::Cut" name="Cut001" id="3788" revision="9" file="Cut001.xml" />
+    <Object type="Part::Cut" name="Cut" id="3784" revision="10" file="Cut.xml" />
+    <Object type="Part::Box" name="Box" id="3731" revision="7" file="Box.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="3790" revision="23" file="Element002.xml" />
+    <Object type="App::FeaturePython" name="Constraints001" id="3791" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Constraints001.xml" />
+    <Object type="App::Link" name="Link" id="3792" revision="28" file="Link.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="3793" revision="27" file="Element003.xml" />
+    <Object type="Part::FeaturePython" name="Element004" id="3794" revision="26" file="Element004.xml" />
+    <Object type="App::Link" name="Link001" id="3795" revision="16" file="Link001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder010" id="3796" revision="107" file="Cylinder010.xml" />
+    <Object type="Part::MultiFuse" name="Fusion001" id="3797" revision="41" file="Fusion001.xml" />
+    <Object type="Part::FeaturePython" name="Element005" id="3798" revision="16" file="Element005.xml" />
+    <Object type="Part::Box" name="Box001" id="3799" revision="10" file="Box001.xml" />
+    <Object type="Part::FeaturePython" name="Element006" id="3800" revision="14" file="Element006.xml" />
+    <Object type="App::FeaturePython" name="Elements001" id="3801" revision="39" ViewType="Gui::ViewProviderLinkPython" file="Elements001.xml" />
+    <Object type="Part::Box" name="Box002" id="3802" revision="136" file="Box002.xml" />
+    <Object type="Part::FeaturePython" name="Array001" id="3803" revision="112" ViewType="Gui::ViewProviderLinkPython" file="Array001.xml" />
+    <Object type="Part::Cylinder" name="Cylinder005" id="3804" revision="10" file="Cylinder005.xml" />
+    <Object type="Part::FeaturePython" name="Parts001" id="3805" revision="131" ViewType="Gui::ViewProviderLinkPython" file="Parts001.xml" />
+    <Object type="Part::FeaturePython" name="Assembly001" id="3806" revision="208" ViewType="Gui::ViewProviderLinkPython" file="Assembly001.xml" />
   </Objects>
   <ObjectData Count="0">
   </ObjectData>

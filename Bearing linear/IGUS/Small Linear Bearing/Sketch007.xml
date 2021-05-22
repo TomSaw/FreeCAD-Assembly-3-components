@@ -21,7 +21,7 @@
     <Property name="Constraints" type="Sketcher::PropertyConstraintList">
       <ConstraintList count="2">
         <Constrain Name="" Type="1" Value="0" First="0" FirstPos="3" Second="-1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10" LabelPosition="0" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
-        <Constrain Name="" Type="18" Value="2.5" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="1.738945841789246" LabelPosition="10" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+        <Constrain Name="" Type="18" Value="2.5" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="6.781652927398682" LabelPosition="0.9983773827552795" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
       </ConstraintList>
     </Property>
     <Property name="Exports" type="App::PropertyLinkListHidden" status="67108864">
@@ -36,7 +36,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -44,7 +44,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -85,18 +85,18 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="3.341771304121721e-15" Py="-4.773959005888174e-15" Pz="-8.600000000000001" Q0="0.7071067811865476" Q1="0.7071067811865475" Q2="-5.887846720064161e-17" Q3="3.336446474703022e-16" A="3.141592653589793" Ox="0.7071067811865476" Oy="0.7071067811865475" Oz="-5.887846720064161e-17"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="-1.962615573354722e-17" Q1="-2.943923360032077e-16" Q2="-0.7071067811865476" Q3="0.7071067811865475" A="1.570796326794897" Ox="-2.775557561562896e-17" Oy="-4.163336342344335e-16" Oz="-1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-2.22044604925031e-16               1 3.88578058618805e-16 3.34177130412172e-15 
-              1 -2.22044604925031e-16 -5.55111512312578e-16 -4.77395900588817e-15 
--5.55111512312578e-16 3.88578058618805e-16              -1            -8.6 
+-2.22044604925031e-16               1 -3.88578058618804e-16               0 
+             -1 -2.22044604925031e-16 4.44089209850063e-16               0 
+4.44089209850062e-16 3.88578058618805e-16               1               0 
 Curve2ds 0
 Curves 1
 2 0 0 0 0 0 1 1 0 0 0 1 0 1.25
@@ -127,41 +127,16 @@ Wi
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="2">
+      <ElementMap count="2">
 <![CDATA[
-4 PostfixCount 3
-Edge
-Vertex
-;SKT
-
-MapCount 1
-
-ElementMap 1 4 2
-
-Edge
-
-ChildCount 0
-
-NameCount 2
-0
-;g178.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 2
-0
-;g178v1.3 0
-
-EndMap
+Edge1	g178;SKT 0
+Vertex1	g178v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Pad002" sub="Face8" shadow=";#64;:G;XTR;:Hbbf:7,F;:H-bc0,F.Face8"/>
+        <Link obj="Pad002" sub="Face2" shadow=";#49;:T-3008:3:F.Face2"/>
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

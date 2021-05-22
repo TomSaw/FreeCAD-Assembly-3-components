@@ -55,27 +55,79 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="1" Q3="0" A="3.141592653589793" Ox="0" Oy="0" Oz="1"/>
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Radius" type="App::PropertyLength">
       <Float value="3.5"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
-Locations 1
+Locations 15
 1
-             -1               0               0               0 
-              0              -1               0               0 
+              1               0               0               0 
+              0               1               0               0 
               0               0               1               0 
-Curve2ds 6
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             -53 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 1 3 1 4 1 5 1 6 -1 7 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1             -53 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  9 1 10 1 11 1 12 1 13 -1 14 -1 0
+Curve2ds 8
 1 0 12.5 1 0 
 2 0 0 1 0 -0 1 3.5
 1 6.2831853071795862 -0 0 1 
 1 0 -0 0 1 
 1 0 0 1 0 
+2 0 0 1 0 -0 1 3.5
+2 0 0 1 0 -0 1 3.5
 2 0 0 1 0 -0 1 3.5
 Curves 3
 2 0 0 12.5 0 0 1 1 0 -0 -0 1 0 3.5
@@ -83,10 +135,12 @@ Curves 3
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 3.5
 Polygon3D 0
 PolygonOnTriangulations 0
-Surfaces 3
+Surfaces 5
 2 0 0 0 0 0 1 1 0 -0 -0 1 0 3.5
 1 0 0 12.5 0 0 1 1 0 -0 -0 1 0 
 1 0 0 0 0 0 1 1 0 -0 -0 1 0 
+1 0 0 53 0 0 1 1 0 -0 -0 1 0 
+1 0 0 53 0 0 1 1 0 -0 -0 1 0 
 Triangulations 0
 
 TShapes 13
@@ -126,6 +180,8 @@ Ed
 1  3 0 0 6.28318530717959
 2  5 1 0 0 6.28318530717959
 2  6 3 0 0 6.28318530717959
+2  7 4 8 0 6.28318530717959
+2  8 5 15 0 6.28318530717959
 0
 
 0101000
@@ -163,7 +219,7 @@ Sh
 +7 0 +5 0 -3 0 *
 So
 
-1100000
+0100000
 +2 0 *
 
 +1 1 ]]>
@@ -172,7 +228,7 @@ So
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Cylinder006" sub="Face3"/>
+        <Link obj="Cylinder006" sub="Face2"/>
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

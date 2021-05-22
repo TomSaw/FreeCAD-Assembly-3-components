@@ -36,7 +36,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -44,7 +44,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -99,7 +99,7 @@ Locations 1
               0               0               1           12.95 
 Curve2ds 0
 Curves 1
-2 0 0 0 0 0 1 1 0 -0 -0 1 0 0.80000000000000004
+2 0 0 0 0 0 1 1 0 0 0 1 0 0.80000000000000004
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
@@ -127,40 +127,16 @@ Wi
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="2">
+      <ElementMap count="2">
 <![CDATA[
-3 PostfixCount 2
-Edge
-Vertex
-
-MapCount 1
-
-ElementMap 1 3 2
-
-Edge
-
-ChildCount 0
-
-NameCount 2
-0
-;g24003;SKT.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 2
-0
-;g24003v1;SKT.0 0
-
-EndMap
+Edge1	g24003;SKT 0
+Vertex1	g24003v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="BaseFeature" sub="Face3" shadow=";#27;:T5011:3:F.Face3"/>
+        <Link obj="BaseFeature" sub="Face3" shadow=";#26;:T5011:3:F.Face3"/>
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

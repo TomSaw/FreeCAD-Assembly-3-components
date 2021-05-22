@@ -6,17 +6,14 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="9" TransientCount="0">
+  <Properties Count="10" TransientCount="0">
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
     <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097418">
-      <LinkList count="5">
-        <Link value="Element001"/>
-        <Link value="Element002"/>
-        <Link value="Element003"/>
-        <Link value="Element"/>
-        <Link value="Element004"/>
+      <LinkList count="2">
+        <Link value="Group"/>
+        <Link value="Element005"/>
       </LinkList>
     </Property>
     <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097434"></Property>
@@ -33,7 +30,10 @@
       <Bool value="false"/>
     </Property>
     <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2099082">
-      <BoolList value="00000"/>
+      <BoolList value="1111111"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

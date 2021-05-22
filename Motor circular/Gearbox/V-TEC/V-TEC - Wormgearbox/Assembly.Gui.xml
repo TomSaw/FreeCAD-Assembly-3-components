@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- FreeCAD ViewProvider -->
 <Document SchemaVersion="1" FileVersion="2">
-<ViewProvider name="Assembly" expanded="0" Extensions="True">
+<ViewProvider name="Assembly" expanded="1" Extensions="True">
   <Extensions Count="1">
     <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
     </Extension>
@@ -57,11 +57,11 @@
     <Property name="ShowInTree" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
-    <Property name="ShowParts" type="App::PropertyBool" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097152">
+    <Property name="ShowParts" type="App::PropertyBool" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Bool value="false"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="9">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
   </Properties>
 </ViewProvider>

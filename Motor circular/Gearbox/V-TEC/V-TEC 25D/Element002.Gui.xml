@@ -31,7 +31,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="Lighting" type="App::PropertyEnumeration" status="1">
-      <Integer value="0"/>
+      <Integer value="1"/>
     </Property>
     <Property name="LineColor" type="App::PropertyColor" status="1">
       <PropertyColor value="1023409920"/>

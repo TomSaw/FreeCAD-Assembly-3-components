@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="13" TransientCount="0">
+  <Properties Count="14" TransientCount="0">
     <Property name="ConstraintType" type="App::PropertyEnumeration" group="Base" attr="2" ro="0" hide="0" doc="" status="35651584"></Property>
     <Property name="Disabled" type="App::PropertyBool" group="Base" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Bool value="false"/>
@@ -36,6 +36,9 @@
       <BoolList value="0"/>
     </Property>
     <Property name="_ConstraintType" type="App::PropertyInteger" group="Base" attr="0" ro="0" hide="1" doc="" status="69206016">
+      <Integer value="0"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
       <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">

@@ -46,7 +46,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -329,7 +329,7 @@ Sh
 -25 0 +15 0 -11 0 +7 0 -5 0 +3 0 *
 So
 
-0100000
+1100000
 +2 0 *
 
 +1 1 ]]>
@@ -340,7 +340,7 @@ So
       <LinkSubList count="0">
       </LinkSubList>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="649">
+    <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
     </Property>
     <Property name="Width" type="App::PropertyLength">

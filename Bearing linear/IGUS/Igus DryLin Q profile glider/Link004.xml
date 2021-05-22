@@ -6,7 +6,7 @@
     <Extension type="App::LinkExtension" name="LinkExtension">
     </Extension>
   </Extensions>
-  <Properties Count="25" TransientCount="0">
+  <Properties Count="24" TransientCount="0">
     <Property name="AutoLinkLabel" type="App::PropertyBool" status="67109120">
       <Bool value="true"/>
     </Property>
@@ -64,9 +64,6 @@
     </Property>
     <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
       <PlacementList file=""/>
-    </Property>
-    <Property name="RetagElements" type="App::PropertyBool" status="67109120">
-      <Bool value="false"/>
     </Property>
     <Property name="Scale" type="App::PropertyFloat" status="256">
       <Float value="1"/>

@@ -688,7 +688,7 @@ EndMap
       </ElementMap2>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="true"/>
+      <Bool value="false"/>
     </Property>
   </Properties>
 </Object>

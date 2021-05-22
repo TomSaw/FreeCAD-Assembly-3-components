@@ -6,19 +6,19 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="13" TransientCount="1">
-    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
-    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+  <Properties Count="14" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881025"/>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103809">
       <LinkSub value="" count="0">
       </LinkSub>
     </Property>
-    <Property name="DerivedFrom" type="App::PropertyLink" group="Base" attr="0" ro="0" hide="0" doc="" status="2097152">
+    <Property name="DerivedFrom" type="App::PropertyLink" group="Base" attr="0" ro="0" hide="0" doc="" status="2097153">
       <Link value=""/>
     </Property>
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
-    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097416">
+    <Property name="Group" type="App::PropertyLinkList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097417">
       <LinkList count="4">
         <Link value="Box005"/>
         <Link value="Cut001"/>
@@ -26,23 +26,23 @@
         <Link value="Array"/>
       </LinkList>
     </Property>
-    <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097408">
+    <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" attr="0" ro="0" hide="0" doc="" status="2097409">
       <Integer value="0"/>
     </Property>
-    <Property name="Label" type="App::PropertyString" status="134217728">
+    <Property name="Label" type="App::PropertyString" status="134217729">
       <String value="Parts"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
     </Property>
-    <Property name="Placement" type="App::PropertyPlacement" status="8388744">
+    <Property name="Placement" type="App::PropertyPlacement" status="8388745">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
-    <Property name="Proxy" type="App::PropertyPythonObject">
+    <Property name="Proxy" type="App::PropertyPythonObject" status="1">
       <Python  module="freecad.asm3.assembly" class="AsmPartGroup" value="null"/>
     </Property>
-    <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+    <Property name="Shape" type="Part::PropertyPartShape" status="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -60,14 +60,17 @@ TShapes 0
       </Part>
       <ElementMap/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
+    <Property name="Visibility" type="App::PropertyBool" status="649">
       <Bool value="false"/>
     </Property>
-    <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097418">
+    <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2097419">
       <BoolList value="1110"/>
     </Property>
-    <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326593">
       <Integer value="0"/>
+    </Property>
+    <Property name="_LinkVersion" type="App::PropertyInteger" status="83886081">
+      <Integer value="1"/>
     </Property>
   </Properties>
 </Object>

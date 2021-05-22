@@ -7,7 +7,7 @@
     </Extension>
   </Extensions>
   <Properties Count="23" TransientCount="2">
-    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658241"/>
+    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AddSubShape" type="Part::PropertyPartShape">
       <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
@@ -272,7 +272,7 @@ Wi
 Fa
 0  1e-07 5 0
 
-0111000
+0101000
 +6 0 *
 Wi
 
@@ -281,7 +281,7 @@ Wi
 Fa
 0  1e-07 3 0
 
-0111000
+0101000
 +4 0 *
 Sh
 
@@ -294,68 +294,36 @@ So
 
 +1 0 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="26">
+      <ElementMap count="26">
 <![CDATA[
-5 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 5 3
-
-Edge
-
-ChildCount 0
-
-NameCount 13
-0
-;Edge1;:T-2558:5:E.0 0
-;Edge2;:T-2558:5:E.0 0
-;Edge3;:T-2558:5:E.0 0
-;Edge4;:T-2558:5:E.0 0
-;Edge5;:T-2558:5:E.0 0
-;Edge6;:T-2558:5:E.0 0
-;Edge7;:T-2558:5:E.0 0
-;Edge8;:T-2558:5:E.0 0
-;Edge9;:T-2558:5:E.0 0
-;Edge10;:T-2558:6:E.0 0
-;Edge11;:T-2558:6:E.0 0
-;Edge12;:T-2558:6:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 7
-0
-;Face1;:T-2558:5:F.0 0
-;Face2;:T-2558:5:F.0 0
-;Face3;:T-2558:5:F.0 0
-;Face4;:T-2558:5:F.0 0
-;Face5;:T-2558:5:F.0 0
-;Face6;:T-2558:5:F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 9
-0
-;Vertex1;:T-2558:7:V.0 0
-;Vertex2;:T-2558:7:V.0 0
-;Vertex3;:T-2558:7:V.0 0
-;Vertex4;:T-2558:7:V.0 0
-;Vertex5;:T-2558:7:V.0 0
-;Vertex6;:T-2558:7:V.0 0
-;Vertex7;:T-2558:7:V.0 0
-;Vertex8;:T-2558:7:V.0 0
-
-EndMap
+Edge1	Edge1;:T-2558:5:E 1 0
+Edge10	Edge10;:T-2558:6:E 1 0
+Edge11	Edge11;:T-2558:6:E 1 0
+Edge12	Edge12;:T-2558:6:E 1 0
+Edge2	Edge2;:T-2558:5:E 1 0
+Edge3	Edge3;:T-2558:5:E 1 0
+Edge4	Edge4;:T-2558:5:E 1 0
+Edge5	Edge5;:T-2558:5:E 1 0
+Edge6	Edge6;:T-2558:5:E 1 0
+Edge7	Edge7;:T-2558:5:E 1 0
+Edge8	Edge8;:T-2558:5:E 1 0
+Edge9	Edge9;:T-2558:5:E 1 0
+Face1	Face1;:T-2558:5:F 1 0
+Face2	Face2;:T-2558:5:F 1 0
+Face3	Face3;:T-2558:5:F 1 0
+Face4	Face4;:T-2558:5:F 1 0
+Face5	Face5;:T-2558:5:F 1 0
+Face6	Face6;:T-2558:5:F 1 0
+Vertex1	Vertex1;:T-2558:7:V 1 0
+Vertex2	Vertex2;:T-2558:7:V 1 0
+Vertex3	Vertex3;:T-2558:7:V 1 0
+Vertex4	Vertex4;:T-2558:7:V 1 0
+Vertex5	Vertex5;:T-2558:7:V 1 0
+Vertex6	Vertex6;:T-2558:7:V 1 0
+Vertex7	Vertex7;:T-2558:7:V 1 0
+Vertex8	Vertex8;:T-2558:7:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="AttacherType" type="App::PropertyString" status="8">
       <String value="Attacher::AttachEngine3D"/>
@@ -475,7 +443,7 @@ Curve2ds 34
 1 0 0 1 0 
 2 0 0 1 0 -0 1 9.5
 Curves 17
-1 9.5 -2.33e-15 0 0 0 1 
+1 9.5 -2.326828918379971e-15 0 0 0 1 
 2 20 20 26.600000000000001 0 0 1 1 0 -0 -0 1 0 9.5
 2 0 0 35.600000000000001 0 0 1 1 0 -0 -0 1 0 9.5
 1 0 0 26.600000000000001 -0 1 0 
@@ -508,7 +476,7 @@ Triangulations 0
 
 TShapes 54
 Ve
-1.00000004e-07
+1.00000003552714e-07
 29.5 20 26.6
 0 0
 
@@ -516,7 +484,7 @@ Ve
 *
 Ve
 1e-07
-9.5 -2e-15 35.6
+9.5 -2.32682891837997e-15 35.6
 0 0
 
 0101101
@@ -640,7 +608,7 @@ Wi
 Fa
 0  1e-07 3 0
 
-0101000
+0111000
 +36 0 *
 Ve
 1e-07
@@ -690,7 +658,7 @@ Wi
 Fa
 0  1e-07 4 0
 
-0101000
+0111000
 +29 0 *
 Ve
 1e-07
@@ -724,7 +692,7 @@ Wi
 Fa
 0  1e-07 5 0
 
-0101000
+0111000
 +24 0 *
 Ve
 1e-07
@@ -758,7 +726,7 @@ Wi
 Fa
 0  1e-07 6 0
 
-0101000
+0111000
 +19 0 *
 Ed
  1e-07 1 1 0
@@ -776,14 +744,14 @@ Wi
 Fa
 0  1e-07 7 0
 
-0101000
+0111000
 +16 0 *
 Wi
 
 0101100
 -30 0 -26 0 +21 0 +17 0 *
 Ve
-1.00000004e-07
+1.00000003552714e-07
 29.5 20 0
 0 0
 
@@ -809,7 +777,7 @@ Fa
 +14 0 +11 0 *
 Ve
 1e-07
-9.5 -2e-15 0
+9.5 -2.32682891837997e-15 0
 0 0
 
 0101101
@@ -847,7 +815,7 @@ Wi
 Fa
 0  1e-07 9 0
 
-0101000
+0111000
 -4 0 *
 Sh
 
@@ -861,82 +829,50 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="40">
+      <ElementMap count="40">
 <![CDATA[
-6 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 6 3
-
-Edge
-
-ChildCount 0
-
-NameCount 19
-0
-;#88;:M2;FUS;:T2561:3:E.0 0
-;Face6;:G2#9c;FUS;:T-2558:5:E.0.8a 0
-;#87;:T2561:3:E.0 0
-;Edge2;:T-2558:5:E.0 0
-;Edge12;:T-2558:6:E.0 0
-;Edge10;:T-2558:6:E.0 0
-;Edge6;:T-2558:5:E.0 0
-;Edge1;:T-2558:5:E.0 0
-;Edge3;:T-2558:5:E.0 0
-;Edge4;:T-2558:5:E.0 0
-;Edge11;:T-2558:6:E.0 0
-;Edge7;:T-2558:5:E.0 0
-;Edge9;:T-2558:5:E.0 0
-;Edge5;:T-2558:5:E.0 0
-;Edge8;:T-2558:5:E.0 0
-;Face5;:G2#9b;FUS;:T-2558:5:E.0.8a 0
-;#88;:M;FUS;:T2561:3:E.0 0
-;#89;:T2561:3:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 11
-0
-;#8a;:M;FUS;:T2561:3:F.0 0
-;Face6;:M;FUS;:T-2558:5:F.0 0
-;#8b;:T2561:3:F.0 0
-;Face1;:T-2558:5:F.0 0
-;Face4;:T-2558:5:F.0 0
-;Face3;:T-2558:5:F.0 0
-;Face2;:T-2558:5:F.0 0
-;Face5;:M;FUS;:T-2558:5:F.0 0
-;#8a;:M2;FUS;:T2561:3:F.0 0
-;#8c;:T2561:3:F.0 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 13
-0
-;#88;:G2#9d;FUS;:T2561:3:V.0 0
-;#85;:T2561:3:V.0 0
-;Vertex3;:T-2558:7:V.0 0
-;Vertex1;:T-2558:7:V.0 0
-;Vertex7;:T-2558:7:V.0 0
-;Vertex5;:T-2558:7:V.0 0
-;Vertex2;:T-2558:7:V.0 0
-;Vertex4;:T-2558:7:V.0 0
-;Vertex8;:T-2558:7:V.0 0
-;Vertex6;:T-2558:7:V.0 0
-;#88;:G#9e;FUS;:T2561:3:V.0 0
-;#86;:T2561:3:V.0 0
-
-EndMap
+Edge1	#a;:M2;FUS;:T2561:2:E 2 0 10
+Edge10	Edge4;:T-2558:5:E 1 0
+Edge11	Edge11;:T-2558:6:E 1 0
+Edge12	Edge7;:T-2558:5:E 1 0
+Edge13	Edge9;:T-2558:5:E 1 0
+Edge14	Edge5;:T-2558:5:E 1 0
+Edge15	Edge8;:T-2558:5:E 1 0
+Edge16	Face5;:G2#c;FUS;:T-2558:5:E 3 11 0 12
+Edge17	#a;:M;FUS;:T2561:2:E 2 0 10
+Edge18	#7;:T2561:2:E 2 0 7
+Edge2	Face6;:G2#d;FUS;:T-2558:5:E 3 11 0 13
+Edge3	#6;:T2561:2:E 2 0 6
+Edge4	Edge2;:T-2558:5:E 1 0
+Edge5	Edge12;:T-2558:6:E 1 0
+Edge6	Edge10;:T-2558:6:E 1 0
+Edge7	Edge6;:T-2558:5:E 1 0
+Edge8	Edge1;:T-2558:5:E 1 0
+Edge9	Edge3;:T-2558:5:E 1 0
+Face1	#b;:M;FUS;:T2561:2:F 2 0 11
+Face10	#9;:T2561:2:F 2 0 9
+Face2	Face6;:M;FUS;:T-2558:5:F 1 0
+Face3	#8;:T2561:2:F 2 0 8
+Face4	Face1;:T-2558:5:F 1 0
+Face5	Face4;:T-2558:5:F 1 0
+Face6	Face3;:T-2558:5:F 1 0
+Face7	Face2;:T-2558:5:F 1 0
+Face8	Face5;:M;FUS;:T-2558:5:F 1 0
+Face9	#b;:M2;FUS;:T2561:2:F 2 0 11
+Vertex1	#a;:G2#e;FUS;:T2561:2:V 3 0 14 10
+Vertex10	Vertex6;:T-2558:7:V 1 0
+Vertex11	#a;:G#f;FUS;:T2561:2:V 3 0 15 10
+Vertex12	#5;:T2561:2:V 2 0 5
+Vertex2	#4;:T2561:2:V 2 0 4
+Vertex3	Vertex3;:T-2558:7:V 1 0
+Vertex4	Vertex1;:T-2558:7:V 1 0
+Vertex5	Vertex7;:T-2558:7:V 1 0
+Vertex6	Vertex5;:T-2558:7:V 1 0
+Vertex7	Vertex2;:T-2558:7:V 1 0
+Vertex8	Vertex4;:T-2558:7:V 1 0
+Vertex9	Vertex8;:T-2558:7:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
@@ -965,7 +901,7 @@ TShapes 0
       </Part>
       <ElementMap/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
+    <Property name="Visibility" type="App::PropertyBool" status="649">
       <Bool value="false"/>
     </Property>
     <Property name="Width" type="App::PropertyLength">

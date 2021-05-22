@@ -3,10 +3,10 @@
 <Document SchemaVersion="4" FileVersion="2">
 <Object name="Fillet001">
   <Properties Count="17" TransientCount="2">
-    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658241"/>
+    <_Property name="_Body" type="App::PropertyLinkHidden" status="251658240"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AddSubShape" type="Part::PropertyPartShape" status="128">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -26,10 +26,10 @@ TShapes 0
     </Property>
     <Property name="Base" type="App::PropertyLinkSub">
       <LinkSub value="Box003" count="4">
-        <Sub value="Edge14" shadow=";Edge5;:H-a21,E.Edge14"/>
-        <Sub value="Edge12" shadow=";Edge7;:H-a21,E.Edge12"/>
-        <Sub value="Edge8" shadow=";Edge1;:H-a21,E.Edge8"/>
-        <Sub value="Edge9" shadow=";Edge3;:H-a21,E.Edge9"/>
+        <Sub value="Edge14" shadow=";Edge5;:T-2593:5:E.Edge14"/>
+        <Sub value="Edge12" shadow=";Edge7;:T-2593:5:E.Edge12"/>
+        <Sub value="Edge8" shadow=";Edge1;:T-2593:5:E.Edge8"/>
+        <Sub value="Edge9" shadow=";Edge3;:T-2593:5:E.Edge9"/>
       </LinkSub>
     </Property>
     <Property name="BaseFeature" type="App::PropertyLink" status="8">
@@ -61,7 +61,7 @@ TShapes 0
       <Bool value="false"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -409,7 +409,7 @@ Wi
 Fa
 0  1e-07 2 0
 
-0101000
+0111000
 +56 3 *
 Ve
 1e-07
@@ -444,7 +444,7 @@ Wi
 Fa
 0  0 3 0
 
-0101000
+0111000
 +51 0 *
 Ve
 1e-07
@@ -479,7 +479,7 @@ Wi
 Fa
 0  0 4 0
 
-0101000
+0111000
 +46 0 *
 Ve
 1e-07
@@ -514,7 +514,7 @@ Wi
 Fa
 0  1e-07 5 0
 
-0101000
+0111000
 +41 3 *
 Ve
 1e-07
@@ -549,7 +549,7 @@ Wi
 Fa
 0  1e-07 6 0
 
-0101000
+0111000
 +36 3 *
 Ve
 1e-07
@@ -584,7 +584,7 @@ Wi
 Fa
 0  0 7 0
 
-0101000
+0111000
 +31 0 *
 Ve
 1e-07
@@ -619,7 +619,7 @@ Wi
 Fa
 0  0 8 0
 
-0101000
+0111000
 +26 0 *
 Ed
  1e-07 1 1 0
@@ -637,7 +637,7 @@ Wi
 Fa
 0  1e-07 9 0
 
-0101000
+0111000
 +23 3 *
 Ve
 1e-07
@@ -670,7 +670,7 @@ Wi
 Fa
 0  1e-07 10 6
 
-0101000
+0111000
 +18 0 *
 Wi
 
@@ -699,7 +699,7 @@ Wi
 Fa
 0  1e-07 11 0
 
-0101000
+0111000
 +16 3 +13 0 *
 Wi
 
@@ -708,7 +708,7 @@ Wi
 Fa
 0  1e-07 12 0
 
-0101000
+0111000
 +11 0 *
 Ve
 1e-07
@@ -741,7 +741,7 @@ Wi
 Fa
 0  1e-07 10 6
 
-0101000
+0111000
 +6 0 *
 Wi
 
@@ -750,7 +750,7 @@ Wi
 Fa
 0  1e-07 13 0
 
-0101000
+0111000
 -4 0 *
 Sh
 
@@ -764,118 +764,74 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="64">
+      <ElementMap count="64">
 <![CDATA[
-21 PostfixCount 15
-Edge
-Face
-Vertex
-;:Ha21,E
-;:Ha21,F
-;:M;FLT;:Ha21:7,F
-;:M;FLT;:Ha21:7,E
-;:G;FLT;:Ha21:7,F
-;:U2;FLT;:Ha21:8,E
-;:U3;FLT;:Ha21:8,E
-;:U4;FLT;:Ha21:8,E
-;:U;FLT;:Ha21:7,E
-;:Ha21,V
-;:U2;FLT;:Ha21:8,V
-;:U;FLT;:Ha21:7,V
-
-MapCount 1
-
-ElementMap 1 21 3
-
-Edge
-
-ChildCount 0
-
-NameCount 31
-0
-$#862.7 0
-$#887.c 0
-$#887.9 0
-$#863.7 0
-$#864.7 0
-$#887.a 0
-$#887.b 0
-$#865.7 0
-$#85a.4 0
-$#88e.c 0
-$#88e.9 0
-$#872.7 0
-$#894.c 0
-$#88f.c 0
-$#895.c 0
-$#891.c 0
-$#873.7 0
-$#88f.9 0
-$#875.7 0
-$#891.9 0
-$#898.c 0
-$#893.c 0
-$#89a.c 0
-$#893.9 0
-$#877.7 0
-$#855.4 0
-$#85c.4 0
-$#87d.4 0
-$#857.4 0
-$#880.4 0
-
-Face
-
-ChildCount 0
-
-NameCount 15
-0
-$#85e.6 0
-$#86a.6 0
-$#870.8 0
-$#871.8 0
-$#86b.6 0
-$#86d.6 0
-$#874.8 0
-$#876.8 0
-$#86f.6 0
-$#859.5 0
-$#87a.6 0
-$#860.5 0
-$#87f.5 0
-$#881.5 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 21
-0
-$#b7a.f 0
-$#b7a.e 0
-$#b95.f 0
-$#b99.f 0
-$#b95.e 0
-$#b99.e 0
-$#b7b.f 0
-$#b7b.e 0
-$#b75.d 0
-$#b7c.f 0
-$#b7c.e 0
-$#b96.f 0
-$#b9a.f 0
-$#b96.e 0
-$#b9a.e 0
-$#b7e.f 0
-$#b7e.e 0
-$#b77.d 0
-$#b78.d 0
-$#b79.d 0
-
-EndMap
+Edge1	#37;:M;FLT;:T2593:3:E 2 0 55
+Edge10	#49;:U;FLT;:T2593:3:E 3 0 65 73
+Edge11	#49;:U2;FLT;:T2593:3:E 3 0 65 73
+Edge12	#38;:M;FLT;:T2593:3:E 2 0 56
+Edge13	#4a;:U;FLT;:T2593:3:E 3 0 64 74
+Edge14	#4b;:U3;FLT;:T2593:3:E 3 0 66 75
+Edge15	#4a;:U2;FLT;:T2593:3:E 3 0 64 74
+Edge16	#4c;:U3;FLT;:T2593:3:E 3 0 67 76
+Edge17	#39;:M;FLT;:T2593:3:E 2 0 57
+Edge18	#4d;:U2;FLT;:T2593:3:E 3 0 68 77
+Edge19	#3a;:M;FLT;:T2593:3:E 2 0 58
+Edge2	#4e;:U;FLT;:T2593:3:E 3 0 63 78
+Edge20	#4f;:U2;FLT;:T2593:3:E 3 0 69 79
+Edge21	#4a;:U3;FLT;:T2593:3:E 3 0 64 74
+Edge22	#50;:U3;FLT;:T2593:3:E 3 0 70 80
+Edge23	#4a;:U4;FLT;:T2593:3:E 3 0 64 74
+Edge24	#51;:U3;FLT;:T2593:3:E 3 0 71 81
+Edge25	#3b;:M;FLT;:T2593:3:E 2 0 59
+Edge26	#2d;:T2593:3:E 3 0 35 45
+Edge27	#2f;:T2593:3:E 3 0 31 47
+Edge28	#30;:T2593:3:E 4 36 0 37 48
+Edge29	#31;:T2593:3:E 3 0 35 49
+Edge3	#4e;:U2;FLT;:T2593:3:E 3 0 63 78
+Edge30	#32;:T2593:3:E 3 0 32 50
+Edge4	#3c;:M;FLT;:T2593:3:E 2 0 60
+Edge5	#3d;:M;FLT;:T2593:3:E 2 0 61
+Edge6	#4e;:U3;FLT;:T2593:3:E 3 0 63 78
+Edge7	#4e;:U4;FLT;:T2593:3:E 3 0 63 78
+Edge8	#3e;:M;FLT;:T2593:3:E 2 0 62
+Edge9	#2e;:T2593:3:E 4 36 0 38 46
+Face1	#3f;:M;FLT;:T2593:3:F 2 0 63
+Face10	#33;:T2593:3:F 3 0 36 51
+Face11	#40;:M;FLT;:T2593:3:F 2 0 64
+Face12	#34;:T2593:3:F 3 0 33 52
+Face13	#35;:T2593:3:F 3 0 36 53
+Face14	#36;:T2593:3:F 3 0 34 54
+Face2	#41;:M;FLT;:T2593:3:F 2 0 65
+Face3	#42;:G;FLT;:T2593:3:F 2 0 66
+Face4	#43;:G;FLT;:T2593:3:F 2 0 67
+Face5	#44;:M;FLT;:T2593:3:F 2 0 68
+Face6	#45;:M;FLT;:T2593:3:F 2 0 69
+Face7	#46;:G;FLT;:T2593:3:F 2 0 70
+Face8	#47;:G;FLT;:T2593:3:F 2 0 71
+Face9	#48;:M;FLT;:T2593:3:F 2 0 72
+Vertex1	#52;:U;FLT;:T2593:3:V 3 0 55 82
+Vertex10	#53;:U;FLT;:T2593:3:V 3 0 56 83
+Vertex11	#53;:U2;FLT;:T2593:3:V 3 0 56 83
+Vertex12	#54;:U;FLT;:T2593:3:V 3 0 57 84
+Vertex13	#55;:U;FLT;:T2593:3:V 3 0 58 85
+Vertex14	#54;:U2;FLT;:T2593:3:V 3 0 57 84
+Vertex15	#55;:U2;FLT;:T2593:3:V 3 0 58 85
+Vertex16	#56;:U;FLT;:T2593:3:V 3 0 59 86
+Vertex17	#56;:U2;FLT;:T2593:3:V 3 0 59 86
+Vertex18	#2a;:T2593:3:V 3 0 29 42
+Vertex19	#2b;:T2593:3:V 4 0 40 35 43
+Vertex2	#52;:U2;FLT;:T2593:3:V 3 0 55 82
+Vertex20	#2c;:T2593:3:V 3 0 30 44
+Vertex3	#57;:U;FLT;:T2593:3:V 3 0 60 87
+Vertex4	#58;:U;FLT;:T2593:3:V 3 0 61 88
+Vertex5	#57;:U2;FLT;:T2593:3:V 3 0 60 87
+Vertex6	#58;:U2;FLT;:T2593:3:V 3 0 61 88
+Vertex7	#59;:U;FLT;:T2593:3:V 3 0 62 89
+Vertex8	#59;:U2;FLT;:T2593:3:V 3 0 62 89
+Vertex9	#29;:T2593:3:V 4 0 39 35 41
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="SupportTransform" type="App::PropertyBool">
       <Bool value="false"/>
@@ -884,7 +840,7 @@ EndMap
       <Bool value="false"/>
     </Property>
     <Property name="SuppressedShape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision

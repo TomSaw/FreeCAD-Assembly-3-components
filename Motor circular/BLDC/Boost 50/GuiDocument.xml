@@ -10,16 +10,16 @@
   </Expand>
 </Expand>
 >
-  <Camera extra="0" id="9" binding="0">
+  <Camera extra="0" id="52" binding="0">
 <![CDATA[
 PerspectiveCamera {
   viewportMapping ADJUST_CAMERA
-  position 92.731384 -221.90503 166.28909
-  orientation 0.86492187 0.23175442 0.44519675  1.0835806
-  nearDistance 238.80859
-  farDistance 351.70111
+  position 64.730881 -64.707138 49.822189
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance 47.246433
+  farDistance 164.93547
   aspectRatio 1
-  focalDistance 290.78094
+  focalDistance 112.0761
   heightAngle 0.78539819
 
 }

@@ -8,14 +8,14 @@
   <Expand name="Revolve001"/>
 </Expand>
 >
-  <Camera extra="0" id="46" binding="0">
+  <Camera extra="0" id="48" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 7.2165875 -4.7165852 9.461586
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
+  position 7.2165871 -4.7165847 9.461586
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
   nearDistance 1.0410979
-  farDistance 15.866461
+  farDistance 16.087889
   aspectRatio 1
   focalDistance 8.1693659
   height 16.338732

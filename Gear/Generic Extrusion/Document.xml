@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="57217dc2-aecb-4525-b945-bdefd2648709" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="170">
+<![CDATA[
+1 0 0:Force sync pattern placements even when array elements are expanded
+2 0 0:Angle to cover with copies
+3 0 3:The type of array to create.
+- Ortho: places the copies in the direction of the global X, Y, Z axes.
+- Polar: places the copies along a circular arc, up to a specified angle, and with certain orientation defined by a center and an axis.
+- Circular: places the copies in concentric circular layers around the base object.
+4 0 0:The axis direction around which the elements in a polar or a circular array will be created
+5 0 2:The axis object that overrides the value of 'Axis' and 'Center', for example, a datum line.
+Its placement, position and rotation, will be used when creating polar and circular arrays.
+Leave this property empty to be able to set 'Axis' and 'Center' manually.
+6 0 0:The base object that will be duplicated
+7 0 1:Center point for polar and circular arrays.
+The 'Axis' passes through this point.
+8 0 1:Total number of elements in the array.
+This property is read-only, as the number depends on the parameters of the array.
+9 0 0:Show the individual array elements (only for Link arrays)
+10 0 0:Specifies if the copies should be fused together if they touch each other (slower)
+11 0 0:Distance and orientation of intervals in 'Axis' direction
+12 0 0:Distance and orientation of intervals in X direction
+13 0 0:Distance and orientation of intervals in Y direction
+14 0 0:Distance and orientation of intervals in Z direction
+15 0 0:Number of circular layers. The 'Base' object counts as one layer.
+16 0 0:Number of copies in the polar direction
+17 0 0:Number of copies in X direction
+18 0 0:Number of copies in Y direction
+19 0 0:Number of copies in Z direction
+20 0 0:Distance between circular layers
+21 0 0:A parameter that determines how many symmetry planes  the circular array will have.
+22 0 0:Distance between copies in the same circular layer
+23 0 0:Object to be connectded.
+24 0 0:True = refine resulting shape. False = output as is.
+25 0 0:Tolerance when intersecting (fuzzy value). In addition to tolerances of the shapes.
+152 0 0:Edge1;:T409:5:E
+153 0 0:Vertex1;:T409:7:V
+154 0 0:Vertex35;:T409:8:V
+155 0 0:Vertex36;:T409:8:V
+156 0 0:Vertex5;:T409:7:V
+157 0 0:Vertex6;:T409:7:V
+158 0 0:Vertex7;:T409:7:V
+159 0 0:Vertex2;:T409:7:V
+160 0 0:Vertex8;:T409:7:V
+161 0 0:Vertex9;:T409:7:V
+162 0 0:Vertex10;:T409:8:V
+163 0 0:Vertex11;:T409:8:V
+164 0 0:Vertex12;:T409:8:V
+165 0 0:Vertex13;:T409:8:V
+166 0 0:Vertex14;:T409:8:V
+167 0 0:Vertex15;:T409:8:V
+168 0 0:Vertex16;:T409:8:V
+169 0 0:Vertex17;:T409:8:V
+170 0 0:Vertex3;:T409:7:V
+171 0 0:Vertex18;:T409:8:V
+172 0 0:Vertex19;:T409:8:V
+173 0 0:Vertex20;:T409:8:V
+174 0 0:Vertex21;:T409:8:V
+175 0 0:Vertex22;:T409:8:V
+176 0 0:Vertex23;:T409:8:V
+177 0 0:Vertex24;:T409:8:V
+178 0 0:Vertex25;:T409:8:V
+179 0 0:Vertex26;:T409:8:V
+180 0 0:Vertex27;:T409:8:V
+181 0 0:Vertex4;:T409:7:V
+182 0 0:Vertex28;:T409:8:V
+183 0 0:Vertex29;:T409:8:V
+184 0 0:Vertex30;:T409:8:V
+185 0 0:Vertex31;:T409:8:V
+186 0 0:Vertex32;:T409:8:V
+187 0 0:Vertex33;:T409:8:V
+188 0 0:Vertex34;:T409:8:V
+189 0 0:Edge10;:T409:6:E
+190 0 0:Edge11;:T409:6:E
+191 0 0:Edge12;:T409:6:E
+192 0 0:Edge13;:T409:6:E
+193 0 0:Edge14;:T409:6:E
+194 0 0:Edge15;:T409:6:E
+195 0 0:Edge16;:T409:6:E
+196 0 0:Edge17;:T409:6:E
+197 0 0:Edge18;:T409:6:E
+198 0 0:Edge19;:T409:6:E
+199 0 0:Edge2;:T409:5:E
+200 0 0:Edge20;:T409:6:E
+201 0 0:Edge21;:T409:6:E
+202 0 0:Edge22;:T409:6:E
+203 0 0:Edge23;:T409:6:E
+204 0 0:Edge24;:T409:6:E
+205 0 0:Edge25;:T409:6:E
+206 0 0:Edge26;:T409:6:E
+207 0 0:Edge27;:T409:6:E
+208 0 0:Edge28;:T409:6:E
+209 0 0:Edge29;:T409:6:E
+210 0 0:Edge3;:T409:5:E
+211 0 0:Edge30;:T409:6:E
+212 0 0:Edge31;:T409:6:E
+213 0 0:Edge32;:T409:6:E
+214 0 0:Edge33;:T409:6:E
+215 0 0:Edge34;:T409:6:E
+216 0 0:Edge35;:T409:6:E
+217 0 0:Edge36;:T409:6:E
+218 0 0:#98;FAC;:T409:3:F
+219 0 0:Edge4;:T409:5:E
+220 0 0:Edge5;:T409:5:E
+221 0 0:Edge6;:T409:5:E
+222 0 0:Edge7;:T409:5:E
+223 0 0:Edge8;:T409:5:E
+224 0 0:Edge9;:T409:5:E
+225 0 0:#d2;:G;XTR;:T409:3:F
+226 0 0:#d6;:G;XTR;:T409:3:F
+227 0 0:#d7;:G;XTR;:T409:3:F
+228 0 0:#d8;:G;XTR;:T409:3:F
+229 0 0:#d9;:G;XTR;:T409:3:F
+230 0 0:#db;:G;XTR;:T409:3:F
+231 0 0:#dc;:G;XTR;:T409:3:F
+232 0 0:#dd;:G;XTR;:T409:3:F
+233 0 0:#de;:G;XTR;:T409:3:F
+234 0 0:#df;:G;XTR;:T409:3:F
+235 0 0:#e0;:G;XTR;:T409:3:F
+236 0 0:#bd;:G;XTR;:T409:3:F
+237 0 0:#be;:G;XTR;:T409:3:F
+238 0 0:#bf;:G;XTR;:T409:3:F
+239 0 0:#98;:G;XTR;:T409:3:F
+240 0 0:#c0;:G;XTR;:T409:3:F
+241 0 0:#c1;:G;XTR;:T409:3:F
+242 0 0:#c2;:G;XTR;:T409:3:F
+243 0 0:#c3;:G;XTR;:T409:3:F
+244 0 0:#c4;:G;XTR;:T409:3:F
+245 0 0:#c5;:G;XTR;:T409:3:F
+246 0 0:#c6;:G;XTR;:T409:3:F
+247 0 0:#c8;:G;XTR;:T409:3:F
+248 0 0:#c9;:G;XTR;:T409:3:F
+249 0 0:#ca;:G;XTR;:T409:3:F
+250 0 0:#c7;:G;XTR;:T409:3:F
+251 0 0:#cb;:G;XTR;:T409:3:F
+252 0 0:#cc;:G;XTR;:T409:3:F
+253 0 0:#cd;:G;XTR;:T409:3:F
+254 0 0:#ce;:G;XTR;:T409:3:F
+255 0 0:#cf;:G;XTR;:T409:3:F
+256 0 0:#d0;:G;XTR;:T409:3:F
+257 0 0:#d1;:G;XTR;:T409:3:F
+258 0 0:#d3;:G;XTR;:T409:3:F
+259 0 0:#d4;:G;XTR;:T409:3:F
+260 0 0:#d5;:G;XTR;:T409:3:F
+261 0 0:#9c;:G;XTR;:T409:3:E
+262 0 0:#9d;:G;XTR;:T409:3:E
+263 0 0:#9e;:G;XTR;:T409:3:E
+264 0 0:#a0;:G;XTR;:T409:3:E
+265 0 0:#a1;:G;XTR;:T409:3:E
+266 0 0:#99;:G;XTR;:T409:3:E
+267 0 0:#a2;:G;XTR;:T409:3:E
+268 0 0:#a3;:G;XTR;:T409:3:E
+269 0 0:#a4;:G;XTR;:T409:3:E
+270 0 0:#a5;:G;XTR;:T409:3:E
+271 0 0:#a6;:G;XTR;:T409:3:E
+272 0 0:#a7;:G;XTR;:T409:3:E
+273 0 0:#a8;:G;XTR;:T409:3:E
+274 0 0:#a9;:G;XTR;:T409:3:E
+275 0 0:#ab;:G;XTR;:T409:3:E
+276 0 0:#ac;:G;XTR;:T409:3:E
+277 0 0:#9f;:G;XTR;:T409:3:E
+278 0 0:#ad;:G;XTR;:T409:3:E
+279 0 0:#ae;:G;XTR;:T409:3:E
+280 0 0:#af;:G;XTR;:T409:3:E
+281 0 0:#b0;:G;XTR;:T409:3:E
+282 0 0:#b1;:G;XTR;:T409:3:E
+283 0 0:#b2;:G;XTR;:T409:3:E
+284 0 0:#b3;:G;XTR;:T409:3:E
+285 0 0:#b4;:G;XTR;:T409:3:E
+286 0 0:#b6;:G;XTR;:T409:3:E
+287 0 0:#b7;:G;XTR;:T409:3:E
+288 0 0:#aa;:G;XTR;:T409:3:E
+289 0 0:#b8;:G;XTR;:T409:3:E
+290 0 0:#b9;:G;XTR;:T409:3:E
+291 0 0:#ba;:G;XTR;:T409:3:E
+292 0 0:#bb;:G;XTR;:T409:3:E
+293 0 0:#bc;:G;XTR;:T409:3:E
+294 0 0:#9a;:G;XTR;:T409:3:E
+295 0 0:#9b;:G;XTR;:T409:3:E
+296 0 0:#b5;:G;XTR;:T409:3:E
+]]>
+  </StringHasher>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString" status="1">
+      <String value="TomSaw"/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-08-16T10:10:11Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="Generic Extrusion"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+      <String value="Thomas Sommer"/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-10-03T15:08:08Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="57217dc2-aecb-4525-b945-bdefd2648709"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="4" Dependencies="1">
+    <ObjectDeps Name="Sketch" Count="0"/>
+    <ObjectDeps Name="Array" Count="1">
+      <Dep Name="Sketch"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Connect" Count="1">
+      <Dep Name="Array"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Extrude" Count="1">
+      <Dep Name="Connect"/>
+    </ObjectDeps>
+    <Object type="Sketcher::SketchObject" name="Sketch" id="405" revision="64" file="Sketch.xml" />
+    <Object type="Part::FeaturePython" name="Array" id="406" revision="90" ViewType="Gui::ViewProviderLinkPython" file="Array.xml" />
+    <Object type="Part::FeaturePython" name="Connect" id="409" revision="12" file="Connect.xml" />
+    <Object type="Part::Extrusion" name="Extrude" id="410" revision="19" file="Extrude.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

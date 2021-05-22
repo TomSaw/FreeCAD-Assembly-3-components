@@ -56,7 +56,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -64,7 +64,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -72,7 +72,7 @@
         <Geometry type="Part::GeomLineSegment" id="10" ref="Box005.Edge7" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="10" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box005.Edge7"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box005.Edge7" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="129" StartY="0" StartZ="0" EndX="129" EndY="30" EndZ="0"/>
           <Construction value="1"/>
@@ -135,19 +135,19 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="8" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
           </GeoExtensions>
-          <LineSegment StartX="126.5000000000187" StartY="12.74999999998027" StartZ="0" EndX="129.0000000000002" EndY="12.74999999998027" EndZ="0"/>
+          <LineSegment StartX="126.5000000000187" StartY="12.75" StartZ="0" EndX="129.0000000000002" EndY="12.75" EndZ="0"/>
           <Construction value="0"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="9" migrated="1">
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="9" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
           </GeoExtensions>
-          <LineSegment StartX="126.4999999999562" StartY="16.25" StartZ="0" EndX="128.9999999999794" EndY="16.24999999999283" EndZ="0"/>
+          <LineSegment StartX="126.4999999999562" StartY="16.25" StartZ="0" EndX="128.9999999999794" EndY="16.24999999998064" EndZ="0"/>
           <Construction value="0"/>
         </Geometry>
       </GeometryList>
     </Property>
-    <Property name="Label" type="App::PropertyString" status="134217729">
+    <Property name="Label" type="App::PropertyString" status="134217728">
       <String value="LRS-100-36 Fixtures right Sketch"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
@@ -166,7 +166,7 @@
       <PropertyPlacement Px="106" Py="0" Pz="0" Q0="0.5" Q1="0.5" Q2="0.5" Q3="0.5" A="2.094395102393196" Ox="0.5773502691896257" Oy="0.5773502691896257" Oz="0.5773502691896257"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -182,9 +182,9 @@ Curves 8
 2 109 6 0 0 0 1 1 0 -0 -0 1 0 1.5
 2 7 25.5 0 0 0 1 1 0 -0 -0 1 0 1.75
 2 126.5 14.5 0 0 0 1 1 0 -0 -0 1 0 1.75
-1 126.50000000001872 12.749999999980266 0 1 0 0 
-2 129 14.499999999980641 0 0 0 1 1 0 -0 -0 1 0 1.75
-1 126.49999999995624 16.25 0 1 -2.8677504815012422e-12 0 
+1 126.50000000001872 12.75 0 1 0 0 
+2 129 14.499999999980639 0 0 0 1 1 0 -0 -0 1 0 1.75
+1 126.49999999995624 16.25 0 1 -7.7449158197133761e-12 0 
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
@@ -271,8 +271,8 @@ Ve
 0101101
 *
 Ve
-1.00009866774064e-07
-126.500000000019 12.7499999999901 0
+1e-07
+126.500000000019 12.75 0
 0 0
 
 0101101
@@ -285,22 +285,22 @@ Ed
 0101000
 +10 0 -9 0 *
 Ve
-1.00000187943674e-07
-129 12.7499999999805 0
+1.0000968029832e-07
+129 12.7499999999903 0
 0 0
 
 0101101
 *
 Ed
  1e-07 1 1 0
-1  6 0 0 2.49999999998151
+1  6 0 0 2.49999999998148
 0
 
 0101000
 +9 0 -7 0 *
 Ve
-1.00006094680316e-07
-128.999999999979 16.2499999999867 0
+1.00000014210855e-07
+128.999999999979 16.2499999999806 0
 0 0
 
 0101101
@@ -314,7 +314,7 @@ Ed
 +7 0 -5 0 *
 Ed
  1e-07 1 1 0
-1  8 0 0 2.50000000002312
+1  8 0 0 2.50000000002315
 0
 
 0101000
@@ -330,58 +330,37 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="16">
+      <ElementMap count="20">
 <![CDATA[
-6 PostfixCount 3
-Edge
-Vertex
-;SKT
-
-MapCount 1
-
-ElementMap 1 6 2
-
-Edge
-
-ChildCount 0
-
-NameCount 9
-0
-;g2.3 0
-;g3.3 0
-;g4.3 0
-;g5.3 0
-;g6.3 0
-;g8.3 0
-;g7.3 0
-;g9.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 9
-0
-;g2v1.3 0
-;g3v1.3 0
-;g4v1.3 0
-;g5v1.3 0
-;g6v1.3 0
-;g6v2.3 0
-;g8v2.3 0
-;g7v2.3 0
-
-EndMap
+Edge1	g2;SKT 0
+Edge2	g3;SKT 0
+Edge3	g4;SKT 0
+Edge4	g5;SKT 0
+Edge5	g6;SKT 0
+Edge6	g8;SKT 0
+Edge7	g7;SKT 0
+Edge8	g9;SKT 0
+Vertex1	g2v1;SKT 0
+Vertex2	g3v1;SKT 0
+Vertex3	g4v1;SKT 0
+Vertex4	g5v1;SKT 0
+Vertex5	g6v1;SKT 0
+Vertex5	g9v1;SKT 0
+Vertex6	g6v2;SKT 0
+Vertex6	g8v1;SKT 0
+Vertex7	g8v2;SKT 0
+Vertex7	g7v1;SKT 0
+Vertex8	g7v2;SKT 0
+Vertex8	g9v2;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
         <Link obj="Box005" sub="Face2"/>
       </LinkSubList>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="649">
+    <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
     </Property>
   </Properties>

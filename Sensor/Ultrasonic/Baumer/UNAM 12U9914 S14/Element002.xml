@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="14" TransientCount="1">
+  <Properties Count="15" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
       <LinkSub value="" count="0">
@@ -40,7 +40,7 @@
       <Python  module="freecad.asm3.assembly" class="AsmElement" value="null"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -50,9 +50,9 @@ Locations 2
               0               1               0               0 
               0               0               1               0 
 1
--1.68587397819664e-07               0 -0.999999999999986               0 
+-1.6858739715353e-07               0 -0.999999999999986               0 
               0               1               0               0 
-0.999999999999986               0 -1.68587397819664e-07               0 
+0.999999999999986               0 -1.6858739715353e-07               0 
 Curve2ds 0
 Curves 1
 2 -70 -7.8600000000000007e-15 5.9100000000000002e-15 -1 -5.1999999999999997e-16 3.8999999999999998e-16 -5.1999999999999997e-16 1 -6.0000000000000001e-17 -3.8999999999999993e-16 -6.0000000000000198e-17 -1 4.3319851171331001
@@ -87,37 +87,13 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="2">
-<![CDATA[
-7 PostfixCount 2
-Edge
-Vertex
-
-MapCount 1
-
-ElementMap 1 7 2
-
-Edge
-
-ChildCount 1
-1 0 1 0 0 ;:H,E;:H:5,E;:H:c,E 0
-
-NameCount 0
-
-Vertex
-
-ChildCount 1
-1 0 1 0 0 ;:H,V;:H:5,V;:H:c,V 0
-
-NameCount 0
-
-EndMap
-]]>
-      </ElementMap2>
+      <ElementMap/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

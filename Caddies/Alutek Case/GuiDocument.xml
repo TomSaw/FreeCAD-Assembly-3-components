@@ -8,14 +8,14 @@
   <Expand name="Body001"/>
 </Expand>
 >
-  <Camera extra="0" id="47" binding="0">
+  <Camera extra="0" id="8" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
   position 120.47954 -106.54537 81.312065
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 53.459061
-  farDistance 274.02835
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance 48.169708
+  farDistance 274.20068
   aspectRatio 1
   focalDistance 164.37164
   height 332.01178

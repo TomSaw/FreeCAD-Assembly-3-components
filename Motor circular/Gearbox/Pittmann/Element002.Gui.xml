@@ -8,13 +8,13 @@
   </Extensions>
   <Properties Count="32" TransientCount="0">
     <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
-      <Float value="28.5"/>
+      <Float value="28.65"/>
     </Property>
     <Property name="BoundingBox" type="App::PropertyBool" status="1">
       <Bool value="false"/>
     </Property>
     <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
-      <Float value="0.5"/>
+      <Float value="0.2"/>
     </Property>
     <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
       <ColorList count="1" >
@@ -31,7 +31,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="Lighting" type="App::PropertyEnumeration" status="1">
-      <Integer value="0"/>
+      <Integer value="1"/>
     </Property>
     <Property name="LineColor" type="App::PropertyColor" status="1">
       <PropertyColor value="1023409920"/>
@@ -97,7 +97,7 @@
     <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
       <PropertyMaterial ambientColor="858993408" diffuseColor="1023409920" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.5"/>
     </Property>
-    <Property name="ShowCS" type="App::PropertyBool" group="" attr="0" ro="0" hide="0" docID="1" status="2097152">
+    <Property name="ShowCS" type="App::PropertyBool" group="" attr="0" ro="0" hide="0" docID="1" status="2097153">
       <Bool value="false"/>
     </Property>
     <Property name="ShowInTree" type="App::PropertyBool" status="1">

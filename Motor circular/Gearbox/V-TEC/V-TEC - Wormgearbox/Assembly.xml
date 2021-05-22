@@ -6,7 +6,7 @@
     <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
     </Extension>
   </Extensions>
-  <Properties Count="18" TransientCount="2">
+  <Properties Count="22" TransientCount="2">
     <_Property name="Shape" type="Part::PropertyPartShape" status="16"/>
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="AutoRelax" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097152">
@@ -49,18 +49,30 @@
     <Property name="Placement" type="App::PropertyPlacement" status="8388864">
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
+    <Property name="Price" type="App::PropertyFloat" group="Resources" attr="0" ro="0" hide="0" docID="1" status="2097152">
+      <Float value="26.3"/>
+    </Property>
+    <Property name="Product" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="2" status="2097152">
+      <String value="https://eckstein-shop.de/V-TEC-DC-Motor-Gleichstrom-Schneckengetriebemotor-Single-Dual-Welle-6V-12V-24V-6-260RPM"/>
+    </Property>
     <Property name="Proxy" type="App::PropertyPythonObject">
       <Python  module="freecad.asm3.assembly" class="Assembly" value="null"/>
+    </Property>
+    <Property name="SKU" type="App::PropertyString" group="Resources" attr="0" ro="0" hide="0" docID="3" status="2097152">
+      <String value="MO00001-020"/>
     </Property>
     <Property name="SolverType" type="App::PropertyEnumeration" group="Solver" attr="2" ro="0" hide="0" doc="" status="35651584"></Property>
     <Property name="Verbose" type="App::PropertyBool" group="Solver" attr="0" ro="0" hide="0" doc="" status="2097152">
       <Bool value="false"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
     <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" attr="0" ro="0" hide="0" doc="" status="2099082">
       <BoolList value="111"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
     </Property>
     <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
       <Integer value="1"/>

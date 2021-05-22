@@ -59,7 +59,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -67,7 +67,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -167,7 +167,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -334,77 +334,36 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="18">
+      <ElementMap count="26">
 <![CDATA[
-13 PostfixCount 5
-Edge
-Vertex
-;:H,E;SKT
-;:H,V;SKT
-;SKT
-
-MapCount 2
-
-ElementMap 1 14 2
-
-Edge
-
-ChildCount 0
-
-NameCount 2
-0
-;g120.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 2
-0
-;g120v1.4 0
-
-EndMap
-
-ElementMap 2 13 2
-
-Edge
-
-ChildCount 1
-1 0 1 0 1 ;:H,E 0
-
-NameCount 10
-0
-0
-;g121.5 0
-;g122.5 0
-;g123.5 0
-;g124.5 0
-;g125.5 0
-;g126.5 0
-;g127.5 0
-;g128.5 0
-
-Vertex
-
-ChildCount 1
-1 0 1 0 1 ;:H,V 0
-
-NameCount 10
-0
-0
-;g121v1.5 0
-;g121v2.5 0
-;g122v2.5 0
-;g123v2.5 0
-;g124v2.5 0
-;g125v2.5 0
-;g126v2.5 0
-;g127v2.5 0
-
-EndMap
+Edge1	g120;SKT 0
+Edge2	g121;SKT 0
+Edge3	g122;SKT 0
+Edge4	g123;SKT 0
+Edge5	g124;SKT 0
+Edge6	g125;SKT 0
+Edge7	g126;SKT 0
+Edge8	g127;SKT 0
+Edge9	g128;SKT 0
+Vertex1	g120v1;SKT 0
+Vertex2	g121v1;SKT 0
+Vertex2	g128v2;SKT 0
+Vertex3	g121v2;SKT 0
+Vertex3	g122v1;SKT 0
+Vertex4	g122v2;SKT 0
+Vertex4	g123v1;SKT 0
+Vertex5	g123v2;SKT 0
+Vertex5	g124v1;SKT 0
+Vertex6	g124v2;SKT 0
+Vertex6	g125v1;SKT 0
+Vertex7	g125v2;SKT 0
+Vertex7	g126v1;SKT 0
+Vertex8	g126v2;SKT 0
+Vertex8	g127v1;SKT 0
+Vertex9	g127v2;SKT 0
+Vertex9	g128v1;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="0">

@@ -2,15 +2,14 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="abcb7468-8eba-4d55-8d30-cd280b8eba69" StringHasher="1">
-  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="3">
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="abcb7468-8eba-4d55-8d30-cd280b8eba69" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="3">
 <![CDATA[
--1.0 0:Price of product or material (currency not specified yet)
--1.0 0:Manufacturers SKU
--1.0 0:URL or String of the product or machine to source from
+1 0 0:Price of product or material (currency not specified yet)
+2 0 0:Manufacturers SKU
+3 0 0:URL or String of the product or machine to source from
 ]]>
-  </StringHasher2>
+  </StringHasher>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -40,7 +39,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T07:59:37Z"/>
+      <String value="2021-09-29T04:24:01Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -71,58 +70,74 @@
     <Property name="Uid" type="App::PropertyUUID" status="16777217">
       <Uuid value="abcb7468-8eba-4d55-8d30-cd280b8eba69"/>
     </Property>
-    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
   </Properties>
-  <Objects Count="10" Dependencies="1">
+  <Objects Count="12" Dependencies="1">
     <ObjectDeps Name="Part__Feature" Count="0"/>
     <ObjectDeps Name="Assembly" Count="3">
+      <Dep Name="Parts"/>
       <Dep Name="Elements"/>
       <Dep Name="Constraints"/>
-      <Dep Name="Parts"/>
     </ObjectDeps>
     <ObjectDeps Name="Constraints" Count="0"/>
-    <ObjectDeps Name="Elements" Count="5">
+    <ObjectDeps Name="Elements" Count="7">
       <Dep Name="Element"/>
-      <Dep Name="Element004"/>
-      <Dep Name="Element002"/>
       <Dep Name="Element001"/>
+      <Dep Name="Group"/>
+      <Dep Name="Element004"/>
       <Dep Name="Element003"/>
+      <Dep Name="Element002"/>
+      <Dep Name="Element005"/>
     </ObjectDeps>
     <ObjectDeps Name="Parts" Count="1">
       <Dep Name="Part__Feature"/>
     </ObjectDeps>
     <ObjectDeps Name="Element" Count="2">
-      <Dep Name="Part__Feature"/>
       <Dep Name="Elements"/>
+      <Dep Name="Part__Feature"/>
     </ObjectDeps>
     <ObjectDeps Name="Element001" Count="2">
-      <Dep Name="Part__Feature"/>
       <Dep Name="Elements"/>
+      <Dep Name="Part__Feature"/>
     </ObjectDeps>
     <ObjectDeps Name="Element002" Count="2">
-      <Dep Name="Part__Feature"/>
       <Dep Name="Elements"/>
+      <Dep Name="Part__Feature"/>
     </ObjectDeps>
     <ObjectDeps Name="Element003" Count="2">
-      <Dep Name="Part__Feature"/>
       <Dep Name="Elements"/>
+      <Dep Name="Part__Feature"/>
     </ObjectDeps>
     <ObjectDeps Name="Element004" Count="2">
-      <Dep Name="Part__Feature"/>
       <Dep Name="Elements"/>
+      <Dep Name="Part__Feature"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element005" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Part__Feature"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Group" Count="6">
+      <Dep Name="Element"/>
+      <Dep Name="Element001"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Element004"/>
+      <Dep Name="Element003"/>
+      <Dep Name="Element002"/>
     </ObjectDeps>
     <Object type="Part::Feature" name="Part__Feature" id="1357" revision="1" file="Part__Feature.xml" />
-    <Object type="Part::FeaturePython" name="Assembly" id="1366" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="1366" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
     <Object type="App::FeaturePython" name="Constraints" id="1367" revision="0" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
-    <Object type="App::FeaturePython" name="Elements" id="1368" revision="1" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="1368" revision="19" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
     <Object type="Part::FeaturePython" name="Parts" id="1369" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
-    <Object type="Part::FeaturePython" name="Element" id="1370" revision="5" file="Element.xml" />
-    <Object type="Part::FeaturePython" name="Element001" id="1371" revision="5" file="Element001.xml" />
-    <Object type="Part::FeaturePython" name="Element002" id="1372" revision="5" file="Element002.xml" />
-    <Object type="Part::FeaturePython" name="Element003" id="1373" revision="5" file="Element003.xml" />
-    <Object type="Part::FeaturePython" name="Element004" id="1374" revision="5" file="Element004.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="1370" revision="10" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="Element001" id="1371" revision="10" file="Element001.xml" />
+    <Object type="Part::FeaturePython" name="Element002" id="1372" revision="10" file="Element002.xml" />
+    <Object type="Part::FeaturePython" name="Element003" id="1373" revision="10" file="Element003.xml" />
+    <Object type="Part::FeaturePython" name="Element004" id="1374" revision="10" file="Element004.xml" />
+    <Object type="Part::FeaturePython" name="Element005" id="1375" revision="10" file="Element005.xml" />
+    <Object type="App::DocumentObjectGroupPython" name="Group" id="1376" revision="11" file="Group.xml" />
   </Objects>
   <ObjectData Count="0">
   </ObjectData>

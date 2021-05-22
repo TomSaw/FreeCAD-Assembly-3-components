@@ -537,79 +537,11 @@ So
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="47">
+      <ElementMap count="1">
 <![CDATA[
-8 PostfixCount 3
-Edge
-Face
-Vertex
-
-MapCount 1
-
-ElementMap 1 8 3
-
-Edge
-
-ChildCount 0
-
-NameCount 18
-0
-;#40;:G;RVL;:T2420:3:E.0.40 0
-;#7c;:G;RVL;:T2420:3:E.0.7c 0
-;#7d;:G;RVL;:T2420:3:E.0.7d 0
-;g145;SKT;:T2420:8:E.0 0
-;#47;:G;RVL;:T2420:3:E.0.47 0
-;g147;SKT;:T2420:8:E.0 0
-;#48;:G;RVL;:T2420:3:E.0.48 0
-;#49;:G;RVL;:T2420:3:E.0.49 0
-;g139;SKT;:T2420:8:E.0 0
-;#41;:G;RVL;:T2420:3:E.0.41 0
-;#42;:G;RVL;:T2420:3:E.0.42 0
-;g141;SKT;:T2420:8:E.0 0
-;#43;:G;RVL;:T2420:3:E.0.43 0
-;g142;SKT;:T2420:8:E.0 0
-;#44;:G;RVL;:T2420:3:E.0.44 0
-;g143;SKT;:T2420:8:E.0 0
-;g148;SKT;:T2420:8:E.0 0
-
-Face
-
-ChildCount 0
-
-NameCount 11
-0
-;#51;Edge1;:L;RVL;:T2420:3:F.0.40.51 0
-;#4b;:G;RVL;:T2420:3:F.0.4b 0
-;#4c;:G;RVL;:T2420:3:F.0.4c 0
-;#52;Edge7;:L;RVL;:T2420:3:F.0.52.48 0
-;#4d;:G;RVL;:T2420:3:F.0.4d 0
-;#53;Edge8;:L;RVL;:T2420:3:F.0.53.49 0
-;#4e;:G;RVL;:T2420:3:F.0.4e 0
-;#4f;:G;RVL;:T2420:3:F.0.4f 0
-;#50;:G;RVL;:T2420:3:F.0.50 0
-;#4a;:G;RVL;:T2420:3:F.0.4a 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 11
-0
-;g144v1;SKT;:T2420:10:V.0 ;g148v1;SKT;:T2420:10:V.0 0
-;g144v2;SKT;:T2420:10:V.0 ;g145v1;SKT;:T2420:10:V.0 0
-;g145v2;SKT;:T2420:10:V.0 ;g147v1;SKT;:T2420:10:V.0 0
-;g146v2;SKT;:T2420:10:V.0 ;g147v2;SKT;:T2420:10:V.0 0
-;g138v2;SKT;:T2420:10:V.0 ;g139v1;SKT;:T2420:10:V.0 0
-;g139v2;SKT;:T2420:10:V.0 ;g140v1;SKT;:T2420:10:V.0 0
-;g140v2;SKT;:T2420:10:V.0 ;g141v1;SKT;:T2420:10:V.0 0
-;g141v2;SKT;:T2420:10:V.0 ;g142v1;SKT;:T2420:10:V.0 0
-;g142v2;SKT;:T2420:10:V.0 ;g143v1;SKT;:T2420:10:V.0 0
-;g143v2;SKT;:T2420:10:V.0 ;g148v2;SKT;:T2420:10:V.0 0
-
-EndMap
+Dummy	Dummy 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Solid" type="App::PropertyBool">
       <Bool value="true"/>

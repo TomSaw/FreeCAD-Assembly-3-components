@@ -53,7 +53,7 @@
         <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
           <Construction value="1"/>
@@ -61,7 +61,7 @@
         <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
           <Construction value="1"/>
@@ -69,7 +69,7 @@
         <Geometry type="Part::GeomLineSegment" id="8" ref="Box005.Edge11" migrated="1">
           <GeoExtensions count="2">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="8" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
-            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box005.Edge11"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Box005.Edge11" Flags="0"/>
           </GeoExtensions>
           <LineSegment StartX="0" StartY="-129" StartZ="0" EndX="106" EndY="-129" EndZ="0"/>
           <Construction value="1"/>
@@ -156,7 +156,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="1" Q1="0" Q2="0" Q3="0" A="3.141592653589793" Ox="1" Oy="0" Oz="0"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -301,49 +301,28 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="14">
+      <ElementMap count="18">
 <![CDATA[
-7 PostfixCount 3
-Edge
-Vertex
-;SKT
-
-MapCount 1
-
-ElementMap 1 7 2
-
-Edge
-
-ChildCount 0
-
-NameCount 8
-0
-;g1.3 0
-;g2.3 0
-;g3.3 0
-;g4.3 0
-;g6.3 0
-;g5.3 0
-;g7.3 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 8
-0
-;g1v1.3 0
-;g2v1.3 0
-;g3v1.3 0
-;g4v1.3 0
-;g4v2.3 0
-;g6v2.3 0
-;g5v2.3 0
-
-EndMap
+Edge1	g1;SKT 0
+Edge2	g2;SKT 0
+Edge3	g3;SKT 0
+Edge4	g4;SKT 0
+Edge5	g6;SKT 0
+Edge6	g5;SKT 0
+Edge7	g7;SKT 0
+Vertex1	g1v1;SKT 0
+Vertex2	g2v1;SKT 0
+Vertex3	g3v1;SKT 0
+Vertex4	g4v1;SKT 0
+Vertex4	g7v1;SKT 0
+Vertex5	g4v2;SKT 0
+Vertex5	g6v1;SKT 0
+Vertex6	g6v2;SKT 0
+Vertex6	g5v1;SKT 0
+Vertex7	g5v2;SKT 0
+Vertex7	g7v2;SKT 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">

@@ -43,21 +43,21 @@
       <Float value="10"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="-1.4210854715202e-14" Py="2.630171213100073e-14" Pz="70.00000000000001" Q0="0.5000000000000001" Q1="0.4999999999999999" Q2="0.5" Q3="0.5000000000000001" A="2.094395102393195" Ox="0.577350269189626" Oy="0.5773502691896256" Oz="0.5773502691896258"/>
+      <PropertyPlacement Px="-1.4210854715202e-14" Py="3.034609600642097e-14" Pz="70.00000000000003" Q0="0.5" Q1="0.4999999999999999" Q2="0.5" Q3="0.5000000000000001" A="2.094395102393195" Ox="0.5773502691896258" Oy="0.5773502691896256" Oz="0.5773502691896258"/>
     </Property>
     <Property name="ResizeMode" type="App::PropertyEnumeration" status="134217728">
       <Integer value="0"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part ElementMap="0.15.70200.4" brep="1">
+      <Part ElementMap="0.15.70200.3" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-2.22044604925031e-16 -1.11022302462516e-16               1 -1.4210854715202e-14 
-              1 -1.11022302462516e-16 -2.22044604925031e-16 2.63017121310007e-14 
-1.11022302462516e-16               1 1.11022302462516e-16              70 
+2.22044604925031e-16 -2.22044604925031e-16               1 -1.4210854715202e-14 
+              1 4.93038065763132e-32 -2.22044604925031e-16 3.0346096006421e-14 
+              0               1 2.22044604925031e-16              70 
 Curve2ds 0
 Curves 1
 1 0 0 0 0 0 1 
@@ -81,7 +81,7 @@ Ed
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Pad001" sub="Face1" shadow=";#d7;:G;XTR;:Hbce:7,F;:H-bcf,F.Face1"/>
+        <Link obj="Pad001" sub="Face1" shadow=";#10e;:T-3023:4:F.Face1"/>
       </LinkSubList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

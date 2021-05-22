@@ -2,779 +2,764 @@
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
-<Document SchemaVersion="4" ProgramVersion="2021.412R22506 +5327 (Git)" FileVersion="2" Uid="be56b691-1809-4050-a0f1-ba0603bc7226" StringHasher="1">
-  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
-  <StringHasher2  count="767">
+<Document SchemaVersion="4" ProgramVersion="2021.922R24301 +3888 (Git)" FileVersion="2" Uid="be56b691-1809-4050-a0f1-ba0603bc7226" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="753">
 <![CDATA[
--1.0 0:backlash
--1.0 0:beta 
--1.0 0:clearance
--1.0 0:double helix
--1.0 0:pitch diameter
--1.0 0:test
--1.0 0:head_value * modul_value = additional length of head
--1.0 0:height
--1.0 0:module
--1.0 0:number of points for spline
--1.0 0:pressure angle
--1.0 0:if beta is given and properties_from_tool is enabled,             gear parameters are internally recomputed for the rotated gear
--1.0 0:backlash direction
--1.0 0:shift
--1.0 0:simple
--1.0 0:number of teeth
--1.0 0:transverse_pitch
--1.0 0:undercut
--1.0 0:;:M;FUS;:H59a:7,V
--1.c.1 Vertex1
--1.0 0:;:H59a,V
--1.c.1 Vertex2
--1.0 0:;:H59b,V
--1.c.1 Vertex1
--1.c.0 Vertex3
--1.c.0 Vertex239
--1.c.0 Vertex5
--1.c.0 Vertex237
--1.c.0 Vertex7
--1.c.0 Vertex235
--1.c.0 Vertex9
--1.c.0 Vertex233
--1.c.0 Vertex11
--1.c.0 Vertex231
--1.c.0 Vertex13
--1.c.0 Vertex229
--1.c.0 Vertex15
--1.c.0 Vertex227
--1.c.0 Vertex17
--1.c.0 Vertex225
--1.c.0 Vertex19
--1.c.0 Vertex223
--1.c.0 Vertex21
--1.c.0 Vertex221
--1.c.0 Vertex23
--1.c.0 Vertex219
--1.c.0 Vertex25
--1.c.0 Vertex217
--1.c.0 Vertex27
--1.c.0 Vertex215
--1.c.0 Vertex29
--1.c.0 Vertex213
--1.c.0 Vertex31
--1.c.0 Vertex211
--1.c.0 Vertex33
--1.c.0 Vertex209
--1.c.0 Vertex35
--1.c.0 Vertex207
--1.c.0 Vertex37
--1.c.0 Vertex205
--1.c.0 Vertex39
--1.c.0 Vertex203
--1.c.0 Vertex41
--1.c.0 Vertex201
--1.c.0 Vertex43
--1.c.0 Vertex199
--1.c.0 Vertex45
--1.c.0 Vertex197
--1.c.0 Vertex47
--1.c.0 Vertex195
--1.c.0 Vertex49
--1.c.0 Vertex193
--1.c.0 Vertex51
--1.c.0 Vertex191
--1.c.0 Vertex53
--1.c.0 Vertex189
--1.c.0 Vertex55
--1.c.0 Vertex187
--1.c.0 Vertex57
--1.c.0 Vertex185
--1.c.0 Vertex59
--1.c.0 Vertex183
--1.c.0 Vertex61
--1.c.0 Vertex181
--1.c.0 Vertex63
--1.c.0 Vertex179
--1.c.0 Vertex65
--1.c.0 Vertex177
--1.c.0 Vertex67
--1.c.0 Vertex175
--1.c.0 Vertex69
--1.c.0 Vertex173
--1.c.0 Vertex71
--1.c.0 Vertex171
--1.c.0 Vertex73
--1.c.0 Vertex169
--1.c.0 Vertex75
--1.c.0 Vertex167
--1.c.0 Vertex77
--1.c.0 Vertex165
--1.c.0 Vertex79
--1.c.0 Vertex163
--1.c.0 Vertex81
--1.c.0 Vertex161
--1.c.0 Vertex83
--1.c.0 Vertex159
--1.c.0 Vertex85
--1.c.0 Vertex157
--1.c.0 Vertex87
--1.c.0 Vertex155
--1.c.0 Vertex89
--1.c.0 Vertex153
--1.c.0 Vertex91
--1.c.0 Vertex151
--1.c.0 Vertex93
--1.c.0 Vertex149
--1.c.0 Vertex95
--1.c.0 Vertex147
--1.c.0 Vertex97
--1.c.0 Vertex145
--1.c.0 Vertex99
--1.c.0 Vertex143
--1.c.0 Vertex101
--1.c.0 Vertex141
--1.c.0 Vertex103
--1.c.0 Vertex139
--1.c.0 Vertex105
--1.c.0 Vertex137
--1.c.0 Vertex107
--1.c.0 Vertex135
--1.c.0 Vertex109
--1.c.0 Vertex133
--1.c.0 Vertex111
--1.c.0 Vertex131
--1.c.0 Vertex113
--1.c.0 Vertex129
--1.c.0 Vertex115
--1.c.0 Vertex127
--1.c.0 Vertex117
--1.c.0 Vertex125
--1.c.0 Vertex119
--1.c.0 Vertex123
--1.c.0 Vertex121
--1.c.0 Vertex2
--1.c.0 Vertex4
--1.c.0 Vertex240
--1.c.0 Vertex6
--1.c.0 Vertex238
--1.c.0 Vertex8
--1.c.0 Vertex236
--1.c.0 Vertex10
--1.c.0 Vertex234
--1.c.0 Vertex12
--1.c.0 Vertex232
--1.c.0 Vertex14
--1.c.0 Vertex230
--1.c.0 Vertex16
--1.c.0 Vertex228
--1.c.0 Vertex18
--1.c.0 Vertex226
--1.c.0 Vertex20
--1.c.0 Vertex224
--1.c.0 Vertex22
--1.c.0 Vertex222
--1.c.0 Vertex24
--1.c.0 Vertex220
--1.c.0 Vertex26
--1.c.0 Vertex218
--1.c.0 Vertex28
--1.c.0 Vertex216
--1.c.0 Vertex30
--1.c.0 Vertex214
--1.c.0 Vertex32
--1.c.0 Vertex212
--1.c.0 Vertex34
--1.c.0 Vertex210
--1.c.0 Vertex36
--1.c.0 Vertex208
--1.c.0 Vertex38
--1.c.0 Vertex206
--1.c.0 Vertex40
--1.c.0 Vertex204
--1.c.0 Vertex42
--1.c.0 Vertex202
--1.c.0 Vertex44
--1.c.0 Vertex200
--1.c.0 Vertex46
--1.c.0 Vertex198
--1.c.0 Vertex48
--1.c.0 Vertex196
--1.c.0 Vertex50
--1.c.0 Vertex194
--1.c.0 Vertex52
--1.c.0 Vertex192
--1.c.0 Vertex54
--1.c.0 Vertex190
--1.c.0 Vertex56
--1.c.0 Vertex188
--1.c.0 Vertex58
--1.c.0 Vertex186
--1.c.0 Vertex60
--1.c.0 Vertex184
--1.c.0 Vertex62
--1.c.0 Vertex182
--1.c.0 Vertex64
--1.c.0 Vertex180
--1.c.0 Vertex66
--1.c.0 Vertex178
--1.c.0 Vertex68
--1.c.0 Vertex176
--1.c.0 Vertex70
--1.c.0 Vertex174
--1.c.0 Vertex72
--1.c.0 Vertex172
--1.c.0 Vertex74
--1.c.0 Vertex170
--1.c.0 Vertex76
--1.c.0 Vertex168
--1.c.0 Vertex78
--1.c.0 Vertex166
--1.c.0 Vertex80
--1.c.0 Vertex164
--1.c.0 Vertex82
--1.c.0 Vertex162
--1.c.0 Vertex84
--1.c.0 Vertex160
--1.c.0 Vertex86
--1.c.0 Vertex158
--1.c.0 Vertex88
--1.c.0 Vertex156
--1.c.0 Vertex90
--1.c.0 Vertex154
--1.c.0 Vertex92
--1.c.0 Vertex152
--1.c.0 Vertex94
--1.c.0 Vertex150
--1.c.0 Vertex96
--1.c.0 Vertex148
--1.c.0 Vertex98
--1.c.0 Vertex146
--1.c.0 Vertex100
--1.c.0 Vertex144
--1.c.0 Vertex102
--1.c.0 Vertex142
--1.c.0 Vertex104
--1.c.0 Vertex140
--1.c.0 Vertex106
--1.c.0 Vertex138
--1.c.0 Vertex108
--1.c.0 Vertex136
--1.c.0 Vertex110
--1.c.0 Vertex134
--1.c.0 Vertex112
--1.c.0 Vertex132
--1.c.0 Vertex114
--1.c.0 Vertex130
--1.c.0 Vertex116
--1.c.0 Vertex128
--1.c.0 Vertex118
--1.c.0 Vertex126
--1.c.0 Vertex120
--1.c.0 Vertex124
--1.c.0 Vertex122
--1.0 0:;:M;FUS;:H59a:7,E
--1.c.1 Edge1
--1.c.0 Edge2
--1.0 0:;:H59a,E
--1.c.1 Edge3
--1.0 0:;:H59b,E
--1.c.1 Edge3
--1.c.0 Edge359
--1.c.0 Edge6
--1.c.0 Edge357
--1.c.0 Edge9
--1.c.0 Edge354
--1.c.0 Edge12
--1.c.0 Edge351
--1.c.0 Edge15
--1.c.0 Edge348
--1.c.0 Edge18
--1.c.0 Edge345
--1.c.0 Edge21
--1.c.0 Edge342
--1.c.0 Edge24
--1.c.0 Edge339
--1.c.0 Edge27
--1.c.0 Edge336
--1.c.0 Edge30
--1.c.0 Edge333
--1.c.0 Edge33
--1.c.0 Edge330
--1.c.0 Edge36
--1.c.0 Edge327
--1.c.0 Edge39
--1.c.0 Edge324
--1.c.0 Edge42
--1.c.0 Edge321
--1.c.0 Edge45
--1.c.0 Edge318
--1.c.0 Edge48
--1.c.0 Edge315
--1.c.0 Edge51
--1.c.0 Edge312
--1.c.0 Edge54
--1.c.0 Edge309
--1.c.0 Edge57
--1.c.0 Edge306
--1.c.0 Edge60
--1.c.0 Edge303
--1.c.0 Edge63
--1.c.0 Edge300
--1.c.0 Edge66
--1.c.0 Edge297
--1.c.0 Edge69
--1.c.0 Edge294
--1.c.0 Edge72
--1.c.0 Edge291
--1.c.0 Edge75
--1.c.0 Edge288
--1.c.0 Edge78
--1.c.0 Edge285
--1.c.0 Edge81
--1.c.0 Edge282
--1.c.0 Edge84
--1.c.0 Edge279
--1.c.0 Edge87
--1.c.0 Edge276
--1.c.0 Edge90
--1.c.0 Edge273
--1.c.0 Edge93
--1.c.0 Edge270
--1.c.0 Edge96
--1.c.0 Edge267
--1.c.0 Edge99
--1.c.0 Edge264
--1.c.0 Edge102
--1.c.0 Edge261
--1.c.0 Edge105
--1.c.0 Edge258
--1.c.0 Edge108
--1.c.0 Edge255
--1.c.0 Edge111
--1.c.0 Edge252
--1.c.0 Edge114
--1.c.0 Edge249
--1.c.0 Edge117
--1.c.0 Edge246
--1.c.0 Edge120
--1.c.0 Edge243
--1.c.0 Edge123
--1.c.0 Edge240
--1.c.0 Edge126
--1.c.0 Edge237
--1.c.0 Edge129
--1.c.0 Edge234
--1.c.0 Edge132
--1.c.0 Edge231
--1.c.0 Edge135
--1.c.0 Edge228
--1.c.0 Edge138
--1.c.0 Edge225
--1.c.0 Edge141
--1.c.0 Edge222
--1.c.0 Edge144
--1.c.0 Edge219
--1.c.0 Edge147
--1.c.0 Edge216
--1.c.0 Edge150
--1.c.0 Edge213
--1.c.0 Edge153
--1.c.0 Edge210
--1.c.0 Edge156
--1.c.0 Edge207
--1.c.0 Edge159
--1.c.0 Edge204
--1.c.0 Edge162
--1.c.0 Edge201
--1.c.0 Edge165
--1.c.0 Edge198
--1.c.0 Edge168
--1.c.0 Edge195
--1.c.0 Edge171
--1.c.0 Edge192
--1.c.0 Edge174
--1.c.0 Edge189
--1.c.0 Edge177
--1.c.0 Edge186
--1.c.0 Edge180
--1.c.0 Edge183
--1.c.0 Edge1
--1.c.0 Edge2
--1.c.0 Edge4
--1.c.0 Edge356
--1.c.0 Edge360
--1.c.0 Edge5
--1.c.0 Edge7
--1.c.0 Edge353
--1.c.0 Edge358
--1.c.0 Edge8
--1.c.0 Edge10
--1.c.0 Edge350
--1.c.0 Edge355
--1.c.0 Edge11
--1.c.0 Edge13
--1.c.0 Edge347
--1.c.0 Edge352
--1.c.0 Edge14
--1.c.0 Edge16
--1.c.0 Edge344
--1.c.0 Edge349
--1.c.0 Edge17
--1.c.0 Edge19
--1.c.0 Edge341
--1.c.0 Edge346
--1.c.0 Edge20
--1.c.0 Edge22
--1.c.0 Edge338
--1.c.0 Edge343
--1.c.0 Edge23
--1.c.0 Edge25
--1.c.0 Edge335
--1.c.0 Edge340
--1.c.0 Edge26
--1.c.0 Edge28
--1.c.0 Edge332
--1.c.0 Edge337
--1.c.0 Edge29
--1.c.0 Edge31
--1.c.0 Edge329
--1.c.0 Edge334
--1.c.0 Edge32
--1.c.0 Edge34
--1.c.0 Edge326
--1.c.0 Edge331
--1.c.0 Edge35
--1.c.0 Edge37
--1.c.0 Edge323
--1.c.0 Edge328
--1.c.0 Edge38
--1.c.0 Edge40
--1.c.0 Edge320
--1.c.0 Edge325
--1.c.0 Edge41
--1.c.0 Edge43
--1.c.0 Edge317
--1.c.0 Edge322
--1.c.0 Edge44
--1.c.0 Edge46
--1.c.0 Edge314
--1.c.0 Edge319
--1.c.0 Edge47
--1.c.0 Edge49
--1.c.0 Edge311
--1.c.0 Edge316
--1.c.0 Edge50
--1.c.0 Edge52
--1.c.0 Edge308
--1.c.0 Edge313
--1.c.0 Edge53
--1.c.0 Edge55
--1.c.0 Edge305
--1.c.0 Edge310
--1.c.0 Edge56
--1.c.0 Edge58
--1.c.0 Edge302
--1.c.0 Edge307
--1.c.0 Edge59
--1.c.0 Edge61
--1.c.0 Edge299
--1.c.0 Edge304
--1.c.0 Edge62
--1.c.0 Edge64
--1.c.0 Edge296
--1.c.0 Edge301
--1.c.0 Edge65
--1.c.0 Edge67
--1.c.0 Edge293
--1.c.0 Edge298
--1.c.0 Edge68
--1.c.0 Edge70
--1.c.0 Edge290
--1.c.0 Edge295
--1.c.0 Edge71
--1.c.0 Edge73
--1.c.0 Edge287
--1.c.0 Edge292
--1.c.0 Edge74
--1.c.0 Edge76
--1.c.0 Edge284
--1.c.0 Edge289
--1.c.0 Edge77
--1.c.0 Edge79
--1.c.0 Edge281
--1.c.0 Edge286
--1.c.0 Edge80
--1.c.0 Edge82
--1.c.0 Edge278
--1.c.0 Edge283
--1.c.0 Edge83
--1.c.0 Edge85
--1.c.0 Edge275
--1.c.0 Edge280
--1.c.0 Edge86
--1.c.0 Edge88
--1.c.0 Edge272
--1.c.0 Edge277
--1.c.0 Edge89
--1.c.0 Edge91
--1.c.0 Edge269
--1.c.0 Edge274
--1.c.0 Edge92
--1.c.0 Edge94
--1.c.0 Edge266
--1.c.0 Edge271
--1.c.0 Edge95
--1.c.0 Edge97
--1.c.0 Edge263
--1.c.0 Edge268
--1.c.0 Edge98
--1.c.0 Edge100
--1.c.0 Edge260
--1.c.0 Edge265
--1.c.0 Edge101
--1.c.0 Edge103
--1.c.0 Edge257
--1.c.0 Edge262
--1.c.0 Edge104
--1.c.0 Edge106
--1.c.0 Edge254
--1.c.0 Edge259
--1.c.0 Edge107
--1.c.0 Edge109
--1.c.0 Edge251
--1.c.0 Edge256
--1.c.0 Edge110
--1.c.0 Edge112
--1.c.0 Edge248
--1.c.0 Edge253
--1.c.0 Edge113
--1.c.0 Edge115
--1.c.0 Edge245
--1.c.0 Edge250
--1.c.0 Edge116
--1.c.0 Edge118
--1.c.0 Edge242
--1.c.0 Edge247
--1.c.0 Edge119
--1.c.0 Edge121
--1.c.0 Edge239
--1.c.0 Edge244
--1.c.0 Edge122
--1.c.0 Edge124
--1.c.0 Edge236
--1.c.0 Edge241
--1.c.0 Edge125
--1.c.0 Edge127
--1.c.0 Edge233
--1.c.0 Edge238
--1.c.0 Edge128
--1.c.0 Edge130
--1.c.0 Edge230
--1.c.0 Edge235
--1.c.0 Edge131
--1.c.0 Edge133
--1.c.0 Edge227
--1.c.0 Edge232
--1.c.0 Edge134
--1.c.0 Edge136
--1.c.0 Edge224
--1.c.0 Edge229
--1.c.0 Edge137
--1.c.0 Edge139
--1.c.0 Edge221
--1.c.0 Edge226
--1.c.0 Edge140
--1.c.0 Edge142
--1.c.0 Edge218
--1.c.0 Edge223
--1.c.0 Edge143
--1.c.0 Edge145
--1.c.0 Edge215
--1.c.0 Edge220
--1.c.0 Edge146
--1.c.0 Edge148
--1.c.0 Edge212
--1.c.0 Edge217
--1.c.0 Edge149
--1.c.0 Edge151
--1.c.0 Edge209
--1.c.0 Edge214
--1.c.0 Edge152
--1.c.0 Edge154
--1.c.0 Edge206
--1.c.0 Edge211
--1.c.0 Edge155
--1.c.0 Edge157
--1.c.0 Edge203
--1.c.0 Edge208
--1.c.0 Edge158
--1.c.0 Edge160
--1.c.0 Edge200
--1.c.0 Edge205
--1.c.0 Edge161
--1.c.0 Edge163
--1.c.0 Edge197
--1.c.0 Edge202
--1.c.0 Edge164
--1.c.0 Edge166
--1.c.0 Edge194
--1.c.0 Edge199
--1.c.0 Edge167
--1.c.0 Edge169
--1.c.0 Edge191
--1.c.0 Edge196
--1.c.0 Edge170
--1.c.0 Edge172
--1.c.0 Edge188
--1.c.0 Edge193
--1.c.0 Edge173
--1.c.0 Edge175
--1.c.0 Edge185
--1.c.0 Edge190
--1.c.0 Edge176
--1.c.0 Edge178
--1.c.0 Edge182
--1.c.0 Edge187
--1.c.0 Edge179
--1.c.0 Edge181
--1.c.0 Edge184
--1.0 0:;:M;FUS;:H59a:7,F
--1.c.1 Face1
--1.0 0:;:M;FUS;:H59b:7,F
--1.c.1 Face121
--1.0 0:;:H59b,F
--1.c.1 Face1
--1.c.0 Face120
--1.c.0 Face2
--1.c.0 Face119
--1.c.0 Face3
--1.c.0 Face118
--1.c.0 Face4
--1.c.0 Face117
--1.c.0 Face5
--1.c.0 Face116
--1.c.0 Face6
--1.c.0 Face115
--1.c.0 Face7
--1.c.0 Face114
--1.c.0 Face8
--1.c.0 Face113
--1.c.0 Face9
--1.c.0 Face112
--1.c.0 Face10
--1.c.0 Face111
--1.c.0 Face11
--1.c.0 Face110
--1.c.0 Face12
--1.c.0 Face109
--1.c.0 Face13
--1.c.0 Face108
--1.c.0 Face14
--1.c.0 Face107
--1.c.0 Face15
--1.c.0 Face106
--1.c.0 Face16
--1.c.0 Face105
--1.c.0 Face17
--1.c.0 Face104
--1.c.0 Face18
--1.c.0 Face103
--1.c.0 Face19
--1.c.0 Face102
--1.c.0 Face20
--1.c.0 Face101
--1.c.0 Face21
--1.c.0 Face100
--1.c.0 Face22
--1.c.0 Face99
--1.c.0 Face23
--1.c.0 Face98
--1.c.0 Face24
--1.c.0 Face97
--1.c.0 Face25
--1.c.0 Face96
--1.c.0 Face26
--1.c.0 Face95
--1.c.0 Face27
--1.c.0 Face94
--1.c.0 Face28
--1.c.0 Face93
--1.c.0 Face29
--1.c.0 Face92
--1.c.0 Face30
--1.c.0 Face91
--1.c.0 Face31
--1.c.0 Face90
--1.c.0 Face32
--1.c.0 Face89
--1.c.0 Face33
--1.c.0 Face88
--1.c.0 Face34
--1.c.0 Face87
--1.c.0 Face35
--1.c.0 Face86
--1.c.0 Face36
--1.c.0 Face85
--1.c.0 Face37
--1.c.0 Face84
--1.c.0 Face38
--1.c.0 Face83
--1.c.0 Face39
--1.c.0 Face82
--1.c.0 Face40
--1.c.0 Face81
--1.c.0 Face41
--1.c.0 Face80
--1.c.0 Face42
--1.c.0 Face79
--1.c.0 Face43
--1.c.0 Face78
--1.c.0 Face44
--1.c.0 Face77
--1.c.0 Face45
--1.c.0 Face76
--1.c.0 Face46
--1.c.0 Face75
--1.c.0 Face47
--1.c.0 Face74
--1.c.0 Face48
--1.c.0 Face73
--1.c.0 Face49
--1.c.0 Face72
--1.c.0 Face50
--1.c.0 Face71
--1.c.0 Face51
--1.c.0 Face70
--1.c.0 Face52
--1.c.0 Face69
--1.c.0 Face53
--1.c.0 Face68
--1.c.0 Face54
--1.c.0 Face67
--1.c.0 Face55
--1.c.0 Face66
--1.c.0 Face56
--1.c.0 Face65
--1.c.0 Face57
--1.c.0 Face64
--1.c.0 Face58
--1.c.0 Face63
--1.c.0 Face59
--1.c.0 Face62
--1.c.0 Face60
--1.c.0 Face61
--1.0 0:;:H59a,F
--1.c.1 Face3
--1.c.-79 Face122
--1.0 0:;:G;OFS;:H5ab:7,F
--1.c.1 Edge1
--1.c.0 Face1
--1.c.0 Edge3
--1.0 0:;:U3;OFS;:H5ab:8,E
--1.2c.1.4
--1.0 0:;:U2;OFS;:H5ab:8,E
--1.2c.1.5
--1.2c.0.-1
--1.2c.0.2
+1 0 0:backlash
+2 0 0:beta 
+3 0 0:clearance
+4 0 0:double helix
+5 0 0:pitch diameter
+6 0 0:test
+7 0 0:head_value * modul_value = additional length of head
+8 0 0:height
+9 0 0:module
+10 0 0:number of points for spline
+11 0 0:pressure angle
+12 0 0:if beta is given and properties_from_tool is enabled,             gear parameters are internally recomputed for the rotated gear
+13 0 0:backlash direction
+14 0 0:shift
+15 0 0:simple
+16 0 0:number of teeth
+17 0 0:transverse_pitch
+18 0 0:undercut
+19 0 0:Vertex1;:T1435:7:V
+20 0 0:Vertex2;:T1435:7:V
+21 0 0:Vertex3;:T1435:7:V
+22 0 0:Vertex4;:T1435:7:V
+23 0 0:Vertex239;:T1435:9:V
+24 0 0:Vertex240;:T1435:9:V
+25 0 0:Vertex5;:T1435:7:V
+26 0 0:Vertex6;:T1435:7:V
+27 0 0:Vertex237;:T1435:9:V
+28 0 0:Vertex7;:T1435:7:V
+29 0 0:Vertex235;:T1435:9:V
+30 0 0:Vertex9;:T1435:7:V
+31 0 0:Vertex233;:T1435:9:V
+32 0 0:Vertex11;:T1435:8:V
+33 0 0:Vertex231;:T1435:9:V
+34 0 0:Vertex13;:T1435:8:V
+35 0 0:Vertex229;:T1435:9:V
+36 0 0:Vertex15;:T1435:8:V
+37 0 0:Vertex227;:T1435:9:V
+38 0 0:Vertex17;:T1435:8:V
+39 0 0:Vertex225;:T1435:9:V
+40 0 0:Vertex19;:T1435:8:V
+41 0 0:Vertex223;:T1435:9:V
+42 0 0:Vertex21;:T1435:8:V
+43 0 0:Vertex221;:T1435:9:V
+44 0 0:Vertex23;:T1435:8:V
+45 0 0:Vertex219;:T1435:9:V
+46 0 0:Vertex25;:T1435:8:V
+47 0 0:Vertex217;:T1435:9:V
+48 0 0:Vertex27;:T1435:8:V
+49 0 0:Vertex215;:T1435:9:V
+50 0 0:Vertex29;:T1435:8:V
+51 0 0:Vertex213;:T1435:9:V
+52 0 0:Vertex31;:T1435:8:V
+53 0 0:Vertex211;:T1435:9:V
+54 0 0:Vertex33;:T1435:8:V
+55 0 0:Vertex209;:T1435:9:V
+56 0 0:Vertex35;:T1435:8:V
+57 0 0:Vertex207;:T1435:9:V
+58 0 0:Vertex37;:T1435:8:V
+59 0 0:Vertex205;:T1435:9:V
+60 0 0:Vertex39;:T1435:8:V
+61 0 0:Vertex203;:T1435:9:V
+62 0 0:Vertex41;:T1435:8:V
+63 0 0:Vertex201;:T1435:9:V
+64 0 0:Vertex43;:T1435:8:V
+65 0 0:Vertex199;:T1435:9:V
+66 0 0:Vertex45;:T1435:8:V
+67 0 0:Vertex197;:T1435:9:V
+68 0 0:Vertex47;:T1435:8:V
+69 0 0:Vertex195;:T1435:9:V
+70 0 0:Vertex49;:T1435:8:V
+71 0 0:Vertex193;:T1435:9:V
+72 0 0:Vertex51;:T1435:8:V
+73 0 0:Vertex191;:T1435:9:V
+74 0 0:Vertex53;:T1435:8:V
+75 0 0:Vertex189;:T1435:9:V
+76 0 0:Vertex55;:T1435:8:V
+77 0 0:Vertex187;:T1435:9:V
+78 0 0:Vertex57;:T1435:8:V
+79 0 0:Vertex185;:T1435:9:V
+80 0 0:Vertex59;:T1435:8:V
+81 0 0:Vertex183;:T1435:9:V
+82 0 0:Vertex61;:T1435:8:V
+83 0 0:Vertex181;:T1435:9:V
+84 0 0:Vertex63;:T1435:8:V
+85 0 0:Vertex179;:T1435:9:V
+86 0 0:Vertex65;:T1435:8:V
+87 0 0:Vertex177;:T1435:9:V
+88 0 0:Vertex67;:T1435:8:V
+89 0 0:Vertex175;:T1435:9:V
+90 0 0:Vertex69;:T1435:8:V
+91 0 0:Vertex173;:T1435:9:V
+92 0 0:Vertex71;:T1435:8:V
+93 0 0:Vertex171;:T1435:9:V
+94 0 0:Vertex73;:T1435:8:V
+95 0 0:Vertex169;:T1435:9:V
+96 0 0:Vertex75;:T1435:8:V
+97 0 0:Vertex167;:T1435:9:V
+98 0 0:Vertex77;:T1435:8:V
+99 0 0:Vertex165;:T1435:9:V
+100 0 0:Vertex79;:T1435:8:V
+101 0 0:Vertex163;:T1435:9:V
+102 0 0:Vertex81;:T1435:8:V
+103 0 0:Vertex161;:T1435:9:V
+104 0 0:Vertex83;:T1435:8:V
+105 0 0:Vertex159;:T1435:9:V
+106 0 0:Vertex85;:T1435:8:V
+107 0 0:Vertex157;:T1435:9:V
+108 0 0:Vertex87;:T1435:8:V
+109 0 0:Vertex155;:T1435:9:V
+110 0 0:Vertex89;:T1435:8:V
+111 0 0:Vertex153;:T1435:9:V
+112 0 0:Vertex91;:T1435:8:V
+113 0 0:Vertex151;:T1435:9:V
+114 0 0:Vertex93;:T1435:8:V
+115 0 0:Vertex149;:T1435:9:V
+116 0 0:Vertex95;:T1435:8:V
+117 0 0:Vertex147;:T1435:9:V
+118 0 0:Vertex97;:T1435:8:V
+119 0 0:Vertex145;:T1435:9:V
+120 0 0:Vertex99;:T1435:8:V
+121 0 0:Vertex143;:T1435:9:V
+122 0 0:Vertex101;:T1435:9:V
+123 0 0:Vertex141;:T1435:9:V
+124 0 0:Vertex103;:T1435:9:V
+125 0 0:Vertex139;:T1435:9:V
+126 0 0:Vertex105;:T1435:9:V
+127 0 0:Vertex137;:T1435:9:V
+128 0 0:Vertex107;:T1435:9:V
+129 0 0:Vertex135;:T1435:9:V
+130 0 0:Vertex109;:T1435:9:V
+131 0 0:Vertex133;:T1435:9:V
+132 0 0:Vertex111;:T1435:9:V
+133 0 0:Vertex131;:T1435:9:V
+134 0 0:Vertex113;:T1435:9:V
+135 0 0:Vertex129;:T1435:9:V
+136 0 0:Vertex115;:T1435:9:V
+137 0 0:Vertex127;:T1435:9:V
+138 0 0:Vertex117;:T1435:9:V
+139 0 0:Vertex125;:T1435:9:V
+140 0 0:Vertex119;:T1435:9:V
+141 0 0:Vertex123;:T1435:9:V
+142 0 0:Vertex121;:T1435:9:V
+143 0 0:Vertex1;:T1434:7:V
+144 0 0:Vertex8;:T1435:7:V
+145 0 0:Vertex10;:T1435:8:V
+146 0 0:Vertex12;:T1435:8:V
+147 0 0:Vertex14;:T1435:8:V
+148 0 0:Vertex16;:T1435:8:V
+149 0 0:Vertex18;:T1435:8:V
+150 0 0:Vertex20;:T1435:8:V
+151 0 0:Vertex22;:T1435:8:V
+152 0 0:Vertex24;:T1435:8:V
+153 0 0:Vertex26;:T1435:8:V
+154 0 0:Vertex28;:T1435:8:V
+155 0 0:Vertex30;:T1435:8:V
+156 0 0:Vertex32;:T1435:8:V
+157 0 0:Vertex34;:T1435:8:V
+158 0 0:Vertex36;:T1435:8:V
+159 0 0:Vertex38;:T1435:8:V
+160 0 0:Vertex40;:T1435:8:V
+161 0 0:Vertex42;:T1435:8:V
+162 0 0:Vertex44;:T1435:8:V
+163 0 0:Vertex46;:T1435:8:V
+164 0 0:Vertex48;:T1435:8:V
+165 0 0:Vertex50;:T1435:8:V
+166 0 0:Vertex52;:T1435:8:V
+167 0 0:Vertex54;:T1435:8:V
+168 0 0:Vertex56;:T1435:8:V
+169 0 0:Vertex58;:T1435:8:V
+170 0 0:Vertex60;:T1435:8:V
+171 0 0:Vertex62;:T1435:8:V
+172 0 0:Vertex64;:T1435:8:V
+173 0 0:Vertex66;:T1435:8:V
+174 0 0:Vertex68;:T1435:8:V
+175 0 0:Vertex70;:T1435:8:V
+176 0 0:Vertex72;:T1435:8:V
+177 0 0:Vertex74;:T1435:8:V
+178 0 0:Vertex76;:T1435:8:V
+179 0 0:Vertex78;:T1435:8:V
+180 0 0:Vertex80;:T1435:8:V
+181 0 0:Vertex82;:T1435:8:V
+182 0 0:Vertex84;:T1435:8:V
+183 0 0:Vertex86;:T1435:8:V
+184 0 0:Vertex88;:T1435:8:V
+185 0 0:Vertex90;:T1435:8:V
+186 0 0:Vertex92;:T1435:8:V
+187 0 0:Vertex94;:T1435:8:V
+188 0 0:Vertex96;:T1435:8:V
+189 0 0:Vertex98;:T1435:8:V
+190 0 0:Vertex100;:T1435:9:V
+191 0 0:Vertex102;:T1435:9:V
+192 0 0:Vertex104;:T1435:9:V
+193 0 0:Vertex106;:T1435:9:V
+194 0 0:Vertex108;:T1435:9:V
+195 0 0:Vertex110;:T1435:9:V
+196 0 0:Vertex112;:T1435:9:V
+197 0 0:Vertex114;:T1435:9:V
+198 0 0:Vertex116;:T1435:9:V
+199 0 0:Vertex118;:T1435:9:V
+200 0 0:Vertex120;:T1435:9:V
+201 0 0:Vertex122;:T1435:9:V
+202 0 0:Vertex124;:T1435:9:V
+203 0 0:Vertex126;:T1435:9:V
+204 0 0:Vertex128;:T1435:9:V
+205 0 0:Vertex130;:T1435:9:V
+206 0 0:Vertex132;:T1435:9:V
+207 0 0:Vertex134;:T1435:9:V
+208 0 0:Vertex136;:T1435:9:V
+209 0 0:Vertex138;:T1435:9:V
+210 0 0:Vertex140;:T1435:9:V
+211 0 0:Vertex142;:T1435:9:V
+212 0 0:Vertex144;:T1435:9:V
+213 0 0:Vertex146;:T1435:9:V
+214 0 0:Vertex148;:T1435:9:V
+215 0 0:Vertex150;:T1435:9:V
+216 0 0:Vertex152;:T1435:9:V
+217 0 0:Vertex154;:T1435:9:V
+218 0 0:Vertex156;:T1435:9:V
+219 0 0:Vertex158;:T1435:9:V
+220 0 0:Vertex160;:T1435:9:V
+221 0 0:Vertex162;:T1435:9:V
+222 0 0:Vertex164;:T1435:9:V
+223 0 0:Vertex166;:T1435:9:V
+224 0 0:Vertex168;:T1435:9:V
+225 0 0:Vertex170;:T1435:9:V
+226 0 0:Vertex172;:T1435:9:V
+227 0 0:Vertex174;:T1435:9:V
+228 0 0:Vertex176;:T1435:9:V
+229 0 0:Vertex178;:T1435:9:V
+230 0 0:Vertex180;:T1435:9:V
+231 0 0:Vertex182;:T1435:9:V
+232 0 0:Vertex184;:T1435:9:V
+233 0 0:Vertex186;:T1435:9:V
+234 0 0:Vertex188;:T1435:9:V
+235 0 0:Vertex190;:T1435:9:V
+236 0 0:Vertex192;:T1435:9:V
+237 0 0:Vertex194;:T1435:9:V
+238 0 0:Vertex196;:T1435:9:V
+239 0 0:Vertex198;:T1435:9:V
+240 0 0:Vertex200;:T1435:9:V
+241 0 0:Vertex202;:T1435:9:V
+242 0 0:Vertex204;:T1435:9:V
+243 0 0:Vertex206;:T1435:9:V
+244 0 0:Vertex208;:T1435:9:V
+245 0 0:Vertex210;:T1435:9:V
+246 0 0:Vertex212;:T1435:9:V
+247 0 0:Vertex214;:T1435:9:V
+248 0 0:Vertex216;:T1435:9:V
+249 0 0:Vertex218;:T1435:9:V
+250 0 0:Vertex220;:T1435:9:V
+251 0 0:Vertex222;:T1435:9:V
+252 0 0:Vertex224;:T1435:9:V
+253 0 0:Vertex226;:T1435:9:V
+254 0 0:Vertex228;:T1435:9:V
+255 0 0:Vertex230;:T1435:9:V
+256 0 0:Vertex232;:T1435:9:V
+257 0 0:Vertex234;:T1435:9:V
+258 0 0:Vertex236;:T1435:9:V
+259 0 0:Vertex238;:T1435:9:V
+260 0 0:Vertex2;:T1434:7:V
+261 0 0:Edge1;:T1435:5:E
+262 0 0:Edge2;:T1435:5:E
+263 0 0:Edge3;:T1435:5:E
+264 0 0:Edge4;:T1435:5:E
+265 0 0:Edge356;:T1435:7:E
+266 0 0:Edge359;:T1435:7:E
+267 0 0:Edge360;:T1435:7:E
+268 0 0:Edge5;:T1435:5:E
+269 0 0:Edge6;:T1435:5:E
+270 0 0:Edge7;:T1435:5:E
+271 0 0:Edge357;:T1435:7:E
+272 0 0:Edge9;:T1435:5:E
+273 0 0:Edge354;:T1435:7:E
+274 0 0:Edge12;:T1435:6:E
+275 0 0:Edge351;:T1435:7:E
+276 0 0:Edge15;:T1435:6:E
+277 0 0:Edge348;:T1435:7:E
+278 0 0:Edge18;:T1435:6:E
+279 0 0:Edge345;:T1435:7:E
+280 0 0:Edge21;:T1435:6:E
+281 0 0:Edge342;:T1435:7:E
+282 0 0:Edge24;:T1435:6:E
+283 0 0:Edge339;:T1435:7:E
+284 0 0:Edge27;:T1435:6:E
+285 0 0:Edge336;:T1435:7:E
+286 0 0:Edge30;:T1435:6:E
+287 0 0:Edge333;:T1435:7:E
+288 0 0:Edge33;:T1435:6:E
+289 0 0:Edge330;:T1435:7:E
+290 0 0:Edge36;:T1435:6:E
+291 0 0:Edge327;:T1435:7:E
+292 0 0:Edge39;:T1435:6:E
+293 0 0:Edge324;:T1435:7:E
+294 0 0:Edge42;:T1435:6:E
+295 0 0:Edge321;:T1435:7:E
+296 0 0:Edge45;:T1435:6:E
+297 0 0:Edge318;:T1435:7:E
+298 0 0:Edge48;:T1435:6:E
+299 0 0:Edge315;:T1435:7:E
+300 0 0:Edge51;:T1435:6:E
+301 0 0:Edge312;:T1435:7:E
+302 0 0:Edge54;:T1435:6:E
+303 0 0:Edge309;:T1435:7:E
+304 0 0:Edge57;:T1435:6:E
+305 0 0:Edge306;:T1435:7:E
+306 0 0:Edge60;:T1435:6:E
+307 0 0:Edge303;:T1435:7:E
+308 0 0:Edge63;:T1435:6:E
+309 0 0:Edge300;:T1435:7:E
+310 0 0:Edge66;:T1435:6:E
+311 0 0:Edge297;:T1435:7:E
+312 0 0:Edge69;:T1435:6:E
+313 0 0:Edge294;:T1435:7:E
+314 0 0:Edge72;:T1435:6:E
+315 0 0:Edge291;:T1435:7:E
+316 0 0:Edge75;:T1435:6:E
+317 0 0:Edge288;:T1435:7:E
+318 0 0:Edge78;:T1435:6:E
+319 0 0:Edge285;:T1435:7:E
+320 0 0:Edge81;:T1435:6:E
+321 0 0:Edge282;:T1435:7:E
+322 0 0:Edge84;:T1435:6:E
+323 0 0:Edge279;:T1435:7:E
+324 0 0:Edge87;:T1435:6:E
+325 0 0:Edge276;:T1435:7:E
+326 0 0:Edge90;:T1435:6:E
+327 0 0:Edge273;:T1435:7:E
+328 0 0:Edge93;:T1435:6:E
+329 0 0:Edge270;:T1435:7:E
+330 0 0:Edge96;:T1435:6:E
+331 0 0:Edge267;:T1435:7:E
+332 0 0:Edge99;:T1435:6:E
+333 0 0:Edge264;:T1435:7:E
+334 0 0:Edge102;:T1435:7:E
+335 0 0:Edge261;:T1435:7:E
+336 0 0:Edge105;:T1435:7:E
+337 0 0:Edge258;:T1435:7:E
+338 0 0:Edge108;:T1435:7:E
+339 0 0:Edge255;:T1435:7:E
+340 0 0:Edge111;:T1435:7:E
+341 0 0:Edge252;:T1435:7:E
+342 0 0:Edge114;:T1435:7:E
+343 0 0:Edge249;:T1435:7:E
+344 0 0:Edge117;:T1435:7:E
+345 0 0:Edge246;:T1435:7:E
+346 0 0:Edge120;:T1435:7:E
+347 0 0:Edge243;:T1435:7:E
+348 0 0:Edge123;:T1435:7:E
+349 0 0:Edge240;:T1435:7:E
+350 0 0:Edge126;:T1435:7:E
+351 0 0:Edge237;:T1435:7:E
+352 0 0:Edge129;:T1435:7:E
+353 0 0:Edge234;:T1435:7:E
+354 0 0:Edge132;:T1435:7:E
+355 0 0:Edge231;:T1435:7:E
+356 0 0:Edge135;:T1435:7:E
+357 0 0:Edge228;:T1435:7:E
+358 0 0:Edge138;:T1435:7:E
+359 0 0:Edge225;:T1435:7:E
+360 0 0:Edge141;:T1435:7:E
+361 0 0:Edge222;:T1435:7:E
+362 0 0:Edge144;:T1435:7:E
+363 0 0:Edge219;:T1435:7:E
+364 0 0:Edge147;:T1435:7:E
+365 0 0:Edge216;:T1435:7:E
+366 0 0:Edge150;:T1435:7:E
+367 0 0:Edge213;:T1435:7:E
+368 0 0:Edge153;:T1435:7:E
+369 0 0:Edge210;:T1435:7:E
+370 0 0:Edge156;:T1435:7:E
+371 0 0:Edge207;:T1435:7:E
+372 0 0:Edge159;:T1435:7:E
+373 0 0:Edge204;:T1435:7:E
+374 0 0:Edge162;:T1435:7:E
+375 0 0:Edge201;:T1435:7:E
+376 0 0:Edge165;:T1435:7:E
+377 0 0:Edge198;:T1435:7:E
+378 0 0:Edge168;:T1435:7:E
+379 0 0:Edge195;:T1435:7:E
+380 0 0:Edge171;:T1435:7:E
+381 0 0:Edge192;:T1435:7:E
+382 0 0:Edge174;:T1435:7:E
+383 0 0:Edge189;:T1435:7:E
+384 0 0:Edge177;:T1435:7:E
+385 0 0:Edge186;:T1435:7:E
+386 0 0:Edge180;:T1435:7:E
+387 0 0:Edge183;:T1435:7:E
+388 0 0:Edge1;:T1434:5:E
+389 0 0:Edge10;:T1435:6:E
+390 0 0:Edge13;:T1435:6:E
+391 0 0:Edge16;:T1435:6:E
+392 0 0:Edge19;:T1435:6:E
+393 0 0:Edge22;:T1435:6:E
+394 0 0:Edge25;:T1435:6:E
+395 0 0:Edge28;:T1435:6:E
+396 0 0:Edge31;:T1435:6:E
+397 0 0:Edge34;:T1435:6:E
+398 0 0:Edge37;:T1435:6:E
+399 0 0:Edge40;:T1435:6:E
+400 0 0:Edge43;:T1435:6:E
+401 0 0:Edge46;:T1435:6:E
+402 0 0:Edge49;:T1435:6:E
+403 0 0:Edge52;:T1435:6:E
+404 0 0:Edge55;:T1435:6:E
+405 0 0:Edge58;:T1435:6:E
+406 0 0:Edge61;:T1435:6:E
+407 0 0:Edge64;:T1435:6:E
+408 0 0:Edge67;:T1435:6:E
+409 0 0:Edge70;:T1435:6:E
+410 0 0:Edge73;:T1435:6:E
+411 0 0:Edge76;:T1435:6:E
+412 0 0:Edge79;:T1435:6:E
+413 0 0:Edge82;:T1435:6:E
+414 0 0:Edge85;:T1435:6:E
+415 0 0:Edge88;:T1435:6:E
+416 0 0:Edge91;:T1435:6:E
+417 0 0:Edge94;:T1435:6:E
+418 0 0:Edge97;:T1435:6:E
+419 0 0:Edge100;:T1435:7:E
+420 0 0:Edge103;:T1435:7:E
+421 0 0:Edge106;:T1435:7:E
+422 0 0:Edge109;:T1435:7:E
+423 0 0:Edge112;:T1435:7:E
+424 0 0:Edge115;:T1435:7:E
+425 0 0:Edge118;:T1435:7:E
+426 0 0:Edge121;:T1435:7:E
+427 0 0:Edge124;:T1435:7:E
+428 0 0:Edge127;:T1435:7:E
+429 0 0:Edge130;:T1435:7:E
+430 0 0:Edge133;:T1435:7:E
+431 0 0:Edge136;:T1435:7:E
+432 0 0:Edge139;:T1435:7:E
+433 0 0:Edge142;:T1435:7:E
+434 0 0:Edge145;:T1435:7:E
+435 0 0:Edge148;:T1435:7:E
+436 0 0:Edge151;:T1435:7:E
+437 0 0:Edge154;:T1435:7:E
+438 0 0:Edge157;:T1435:7:E
+439 0 0:Edge160;:T1435:7:E
+440 0 0:Edge163;:T1435:7:E
+441 0 0:Edge166;:T1435:7:E
+442 0 0:Edge169;:T1435:7:E
+443 0 0:Edge172;:T1435:7:E
+444 0 0:Edge175;:T1435:7:E
+445 0 0:Edge178;:T1435:7:E
+446 0 0:Edge181;:T1435:7:E
+447 0 0:Edge184;:T1435:7:E
+448 0 0:Edge187;:T1435:7:E
+449 0 0:Edge190;:T1435:7:E
+450 0 0:Edge193;:T1435:7:E
+451 0 0:Edge196;:T1435:7:E
+452 0 0:Edge199;:T1435:7:E
+453 0 0:Edge202;:T1435:7:E
+454 0 0:Edge205;:T1435:7:E
+455 0 0:Edge208;:T1435:7:E
+456 0 0:Edge211;:T1435:7:E
+457 0 0:Edge214;:T1435:7:E
+458 0 0:Edge217;:T1435:7:E
+459 0 0:Edge220;:T1435:7:E
+460 0 0:Edge223;:T1435:7:E
+461 0 0:Edge226;:T1435:7:E
+462 0 0:Edge229;:T1435:7:E
+463 0 0:Edge232;:T1435:7:E
+464 0 0:Edge235;:T1435:7:E
+465 0 0:Edge238;:T1435:7:E
+466 0 0:Edge241;:T1435:7:E
+467 0 0:Edge244;:T1435:7:E
+468 0 0:Edge247;:T1435:7:E
+469 0 0:Edge250;:T1435:7:E
+470 0 0:Edge253;:T1435:7:E
+471 0 0:Edge256;:T1435:7:E
+472 0 0:Edge259;:T1435:7:E
+473 0 0:Edge262;:T1435:7:E
+474 0 0:Edge265;:T1435:7:E
+475 0 0:Edge268;:T1435:7:E
+476 0 0:Edge271;:T1435:7:E
+477 0 0:Edge274;:T1435:7:E
+478 0 0:Edge277;:T1435:7:E
+479 0 0:Edge280;:T1435:7:E
+480 0 0:Edge283;:T1435:7:E
+481 0 0:Edge286;:T1435:7:E
+482 0 0:Edge289;:T1435:7:E
+483 0 0:Edge292;:T1435:7:E
+484 0 0:Edge295;:T1435:7:E
+485 0 0:Edge298;:T1435:7:E
+486 0 0:Edge301;:T1435:7:E
+487 0 0:Edge304;:T1435:7:E
+488 0 0:Edge307;:T1435:7:E
+489 0 0:Edge310;:T1435:7:E
+490 0 0:Edge313;:T1435:7:E
+491 0 0:Edge316;:T1435:7:E
+492 0 0:Edge319;:T1435:7:E
+493 0 0:Edge322;:T1435:7:E
+494 0 0:Edge325;:T1435:7:E
+495 0 0:Edge328;:T1435:7:E
+496 0 0:Edge331;:T1435:7:E
+497 0 0:Edge334;:T1435:7:E
+498 0 0:Edge337;:T1435:7:E
+499 0 0:Edge340;:T1435:7:E
+500 0 0:Edge343;:T1435:7:E
+501 0 0:Edge346;:T1435:7:E
+502 0 0:Edge349;:T1435:7:E
+503 0 0:Edge352;:T1435:7:E
+504 0 0:Edge355;:T1435:7:E
+505 0 0:Edge358;:T1435:7:E
+506 0 0:Edge353;:T1435:7:E
+507 0 0:Edge8;:T1435:5:E
+508 0 0:Edge350;:T1435:7:E
+509 0 0:Edge11;:T1435:6:E
+510 0 0:Edge347;:T1435:7:E
+511 0 0:Edge14;:T1435:6:E
+512 0 0:Edge344;:T1435:7:E
+513 0 0:Edge17;:T1435:6:E
+514 0 0:Edge341;:T1435:7:E
+515 0 0:Edge20;:T1435:6:E
+516 0 0:Edge338;:T1435:7:E
+517 0 0:Edge23;:T1435:6:E
+518 0 0:Edge335;:T1435:7:E
+519 0 0:Edge26;:T1435:6:E
+520 0 0:Edge332;:T1435:7:E
+521 0 0:Edge29;:T1435:6:E
+522 0 0:Edge329;:T1435:7:E
+523 0 0:Edge32;:T1435:6:E
+524 0 0:Edge326;:T1435:7:E
+525 0 0:Edge35;:T1435:6:E
+526 0 0:Edge323;:T1435:7:E
+527 0 0:Edge38;:T1435:6:E
+528 0 0:Edge320;:T1435:7:E
+529 0 0:Edge41;:T1435:6:E
+530 0 0:Edge317;:T1435:7:E
+531 0 0:Edge44;:T1435:6:E
+532 0 0:Edge314;:T1435:7:E
+533 0 0:Edge47;:T1435:6:E
+534 0 0:Edge311;:T1435:7:E
+535 0 0:Edge50;:T1435:6:E
+536 0 0:Edge308;:T1435:7:E
+537 0 0:Edge53;:T1435:6:E
+538 0 0:Edge305;:T1435:7:E
+539 0 0:Edge56;:T1435:6:E
+540 0 0:Edge302;:T1435:7:E
+541 0 0:Edge59;:T1435:6:E
+542 0 0:Edge299;:T1435:7:E
+543 0 0:Edge62;:T1435:6:E
+544 0 0:Edge296;:T1435:7:E
+545 0 0:Edge65;:T1435:6:E
+546 0 0:Edge293;:T1435:7:E
+547 0 0:Edge68;:T1435:6:E
+548 0 0:Edge290;:T1435:7:E
+549 0 0:Edge71;:T1435:6:E
+550 0 0:Edge287;:T1435:7:E
+551 0 0:Edge74;:T1435:6:E
+552 0 0:Edge284;:T1435:7:E
+553 0 0:Edge77;:T1435:6:E
+554 0 0:Edge281;:T1435:7:E
+555 0 0:Edge80;:T1435:6:E
+556 0 0:Edge278;:T1435:7:E
+557 0 0:Edge83;:T1435:6:E
+558 0 0:Edge275;:T1435:7:E
+559 0 0:Edge86;:T1435:6:E
+560 0 0:Edge272;:T1435:7:E
+561 0 0:Edge89;:T1435:6:E
+562 0 0:Edge269;:T1435:7:E
+563 0 0:Edge92;:T1435:6:E
+564 0 0:Edge266;:T1435:7:E
+565 0 0:Edge95;:T1435:6:E
+566 0 0:Edge263;:T1435:7:E
+567 0 0:Edge98;:T1435:6:E
+568 0 0:Edge260;:T1435:7:E
+569 0 0:Edge101;:T1435:7:E
+570 0 0:Edge257;:T1435:7:E
+571 0 0:Edge104;:T1435:7:E
+572 0 0:Edge254;:T1435:7:E
+573 0 0:Edge107;:T1435:7:E
+574 0 0:Edge251;:T1435:7:E
+575 0 0:Edge110;:T1435:7:E
+576 0 0:Edge248;:T1435:7:E
+577 0 0:Edge113;:T1435:7:E
+578 0 0:Edge245;:T1435:7:E
+579 0 0:Edge116;:T1435:7:E
+580 0 0:Edge242;:T1435:7:E
+581 0 0:Edge119;:T1435:7:E
+582 0 0:Edge239;:T1435:7:E
+583 0 0:Edge122;:T1435:7:E
+584 0 0:Edge236;:T1435:7:E
+585 0 0:Edge125;:T1435:7:E
+586 0 0:Edge233;:T1435:7:E
+587 0 0:Edge128;:T1435:7:E
+588 0 0:Edge230;:T1435:7:E
+589 0 0:Edge131;:T1435:7:E
+590 0 0:Edge227;:T1435:7:E
+591 0 0:Edge134;:T1435:7:E
+592 0 0:Edge224;:T1435:7:E
+593 0 0:Edge137;:T1435:7:E
+594 0 0:Edge221;:T1435:7:E
+595 0 0:Edge140;:T1435:7:E
+596 0 0:Edge218;:T1435:7:E
+597 0 0:Edge143;:T1435:7:E
+598 0 0:Edge215;:T1435:7:E
+599 0 0:Edge146;:T1435:7:E
+600 0 0:Edge212;:T1435:7:E
+601 0 0:Edge149;:T1435:7:E
+602 0 0:Edge209;:T1435:7:E
+603 0 0:Edge152;:T1435:7:E
+604 0 0:Edge206;:T1435:7:E
+605 0 0:Edge155;:T1435:7:E
+606 0 0:Edge203;:T1435:7:E
+607 0 0:Edge158;:T1435:7:E
+608 0 0:Edge200;:T1435:7:E
+609 0 0:Edge161;:T1435:7:E
+610 0 0:Edge197;:T1435:7:E
+611 0 0:Edge164;:T1435:7:E
+612 0 0:Edge194;:T1435:7:E
+613 0 0:Edge167;:T1435:7:E
+614 0 0:Edge191;:T1435:7:E
+615 0 0:Edge170;:T1435:7:E
+616 0 0:Edge188;:T1435:7:E
+617 0 0:Edge173;:T1435:7:E
+618 0 0:Edge185;:T1435:7:E
+619 0 0:Edge176;:T1435:7:E
+620 0 0:Edge182;:T1435:7:E
+621 0 0:Edge179;:T1435:7:E
+622 0 0:Edge2;:T1434:5:E
+623 0 0:Edge3;:T1434:5:E
+624 0 0:Face1;:T1435:5:F
+625 0 0:Face120;:T1435:7:F
+626 0 0:Face2;:T1435:5:F
+627 0 0:Face121;:M;FUS;:T1435:7:F
+628 0 0:Face119;:T1435:7:F
+629 0 0:Face3;:T1435:5:F
+630 0 0:Face118;:T1435:7:F
+631 0 0:Face4;:T1435:5:F
+632 0 0:Face117;:T1435:7:F
+633 0 0:Face5;:T1435:5:F
+634 0 0:Face116;:T1435:7:F
+635 0 0:Face6;:T1435:5:F
+636 0 0:Face115;:T1435:7:F
+637 0 0:Face7;:T1435:5:F
+638 0 0:Face114;:T1435:7:F
+639 0 0:Face8;:T1435:5:F
+640 0 0:Face113;:T1435:7:F
+641 0 0:Face9;:T1435:5:F
+642 0 0:Face112;:T1435:7:F
+643 0 0:Face10;:T1435:6:F
+644 0 0:Face111;:T1435:7:F
+645 0 0:Face11;:T1435:6:F
+646 0 0:Face110;:T1435:7:F
+647 0 0:Face12;:T1435:6:F
+648 0 0:Face109;:T1435:7:F
+649 0 0:Face13;:T1435:6:F
+650 0 0:Face108;:T1435:7:F
+651 0 0:Face14;:T1435:6:F
+652 0 0:Face107;:T1435:7:F
+653 0 0:Face15;:T1435:6:F
+654 0 0:Face106;:T1435:7:F
+655 0 0:Face16;:T1435:6:F
+656 0 0:Face105;:T1435:7:F
+657 0 0:Face17;:T1435:6:F
+658 0 0:Face104;:T1435:7:F
+659 0 0:Face18;:T1435:6:F
+660 0 0:Face103;:T1435:7:F
+661 0 0:Face19;:T1435:6:F
+662 0 0:Face102;:T1435:7:F
+663 0 0:Face20;:T1435:6:F
+664 0 0:Face101;:T1435:7:F
+665 0 0:Face21;:T1435:6:F
+666 0 0:Face100;:T1435:7:F
+667 0 0:Face22;:T1435:6:F
+668 0 0:Face99;:T1435:6:F
+669 0 0:Face23;:T1435:6:F
+670 0 0:Face98;:T1435:6:F
+671 0 0:Face24;:T1435:6:F
+672 0 0:Face97;:T1435:6:F
+673 0 0:Face25;:T1435:6:F
+674 0 0:Face96;:T1435:6:F
+675 0 0:Face26;:T1435:6:F
+676 0 0:Face95;:T1435:6:F
+677 0 0:Face27;:T1435:6:F
+678 0 0:Face94;:T1435:6:F
+679 0 0:Face28;:T1435:6:F
+680 0 0:Face93;:T1435:6:F
+681 0 0:Face29;:T1435:6:F
+682 0 0:Face92;:T1435:6:F
+683 0 0:Face30;:T1435:6:F
+684 0 0:Face91;:T1435:6:F
+685 0 0:Face31;:T1435:6:F
+686 0 0:Face90;:T1435:6:F
+687 0 0:Face32;:T1435:6:F
+688 0 0:Face89;:T1435:6:F
+689 0 0:Face33;:T1435:6:F
+690 0 0:Face88;:T1435:6:F
+691 0 0:Face34;:T1435:6:F
+692 0 0:Face87;:T1435:6:F
+693 0 0:Face35;:T1435:6:F
+694 0 0:Face86;:T1435:6:F
+695 0 0:Face36;:T1435:6:F
+696 0 0:Face85;:T1435:6:F
+697 0 0:Face37;:T1435:6:F
+698 0 0:Face84;:T1435:6:F
+699 0 0:Face38;:T1435:6:F
+700 0 0:Face83;:T1435:6:F
+701 0 0:Face39;:T1435:6:F
+702 0 0:Face82;:T1435:6:F
+703 0 0:Face40;:T1435:6:F
+704 0 0:Face81;:T1435:6:F
+705 0 0:Face41;:T1435:6:F
+706 0 0:Face80;:T1435:6:F
+707 0 0:Face42;:T1435:6:F
+708 0 0:Face79;:T1435:6:F
+709 0 0:Face43;:T1435:6:F
+710 0 0:Face78;:T1435:6:F
+711 0 0:Face44;:T1435:6:F
+712 0 0:Face77;:T1435:6:F
+713 0 0:Face45;:T1435:6:F
+714 0 0:Face76;:T1435:6:F
+715 0 0:Face46;:T1435:6:F
+716 0 0:Face75;:T1435:6:F
+717 0 0:Face47;:T1435:6:F
+718 0 0:Face74;:T1435:6:F
+719 0 0:Face48;:T1435:6:F
+720 0 0:Face73;:T1435:6:F
+721 0 0:Face49;:T1435:6:F
+722 0 0:Face72;:T1435:6:F
+723 0 0:Face50;:T1435:6:F
+724 0 0:Face71;:T1435:6:F
+725 0 0:Face51;:T1435:6:F
+726 0 0:Face70;:T1435:6:F
+727 0 0:Face52;:T1435:6:F
+728 0 0:Face69;:T1435:6:F
+729 0 0:Face53;:T1435:6:F
+730 0 0:Face68;:T1435:6:F
+731 0 0:Face54;:T1435:6:F
+732 0 0:Face67;:T1435:6:F
+733 0 0:Face55;:T1435:6:F
+734 0 0:Face66;:T1435:6:F
+735 0 0:Face56;:T1435:6:F
+736 0 0:Face65;:T1435:6:F
+737 0 0:Face57;:T1435:6:F
+738 0 0:Face64;:T1435:6:F
+739 0 0:Face58;:T1435:6:F
+740 0 0:Face63;:T1435:6:F
+741 0 0:Face59;:T1435:6:F
+742 0 0:Face62;:T1435:6:F
+743 0 0:Face60;:T1435:6:F
+744 0 0:Face61;:T1435:6:F
+745 0 0:Face1;:T1434:5:F
+746 0 0:Face3;:T1434:5:F
+747 0 0:Face122;:T1435:7:F
+748 0 0:Edge1;:G;OFS;:T1451:5:F
+749 0 0:Edge3;:G;OFS;:T1451:5:F
+750 0 0:#2ec;:U3;OFS;:T1451:4:E
+751 0 0:#2ed;:U;OFS;:T1451:4:E
+752 0 0:#2ed;:U2;OFS;:T1451:4:E
+753 0 0:#2ec;:U2;OFS;:T1451:4:E
 ]]>
-  </StringHasher2>
+  </StringHasher>
   <Properties Count="19" TransientCount="3">
     <_Property name="FileName" type="App::PropertyString" status="50331649"/>
     <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
@@ -804,7 +789,7 @@
       <String value="Thomas Sommer"/>
     </Property>
     <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-      <String value="2021-04-16T09:32:26Z"/>
+      <String value="2021-10-03T15:09:09Z"/>
     </Property>
     <Property name="License" type="App::PropertyString" status="1">
       <String value="All rights reserved"/>
@@ -835,7 +820,7 @@
     <Property name="Uid" type="App::PropertyUUID" status="16777217">
       <Uuid value="be56b691-1809-4050-a0f1-ba0603bc7226"/>
     </Property>
-    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+    <Property name="UseHasher" type="App::PropertyBool" status="1">
       <Bool value="true"/>
     </Property>
   </Properties>
@@ -857,22 +842,22 @@
       <Dep Name="Fusion"/>
     </ObjectDeps>
     <ObjectDeps Name="Part" Count="8">
-      <Dep Name="Cylinder001"/>
-      <Dep Name="Cylinder002"/>
-      <Dep Name="Fusion"/>
-      <Dep Name="Cut"/>
-      <Dep Name="Origin"/>
       <Dep Name="Cylinder"/>
+      <Dep Name="Origin"/>
+      <Dep Name="Cylinder001"/>
+      <Dep Name="Fusion"/>
       <Dep Name="involutegear"/>
+      <Dep Name="Cut"/>
       <Dep Name="Offset"/>
+      <Dep Name="Cylinder002"/>
     </ObjectDeps>
     <ObjectDeps Name="Origin" Count="6">
-      <Dep Name="XZ_Plane"/>
-      <Dep Name="YZ_Plane"/>
-      <Dep Name="XY_Plane"/>
-      <Dep Name="X_Axis"/>
-      <Dep Name="Y_Axis"/>
       <Dep Name="Z_Axis"/>
+      <Dep Name="Y_Axis"/>
+      <Dep Name="XZ_Plane"/>
+      <Dep Name="X_Axis"/>
+      <Dep Name="XY_Plane"/>
+      <Dep Name="YZ_Plane"/>
     </ObjectDeps>
     <ObjectDeps Name="X_Axis" Count="0"/>
     <ObjectDeps Name="Y_Axis" Count="0"/>
@@ -889,10 +874,10 @@
     </ObjectDeps>
     <Object type="Part::Cylinder" name="Cylinder" id="1434" revision="2" file="Cylinder.xml" />
     <Object type="Part::FeaturePython" name="involutegear" id="1435" revision="2" file="involutegear.xml" />
-    <Object type="Part::MultiFuse" name="Fusion" id="1436" revision="2" file="Fusion.xml" />
+    <Object type="Part::MultiFuse" name="Fusion" id="1436" revision="4" file="Fusion.xml" />
     <Object type="Part::Cylinder" name="Cylinder001" id="1437" revision="2" file="Cylinder001.xml" />
-    <Object type="Part::Cut" name="Cut" id="1438" revision="2" file="Cut.xml" />
-    <Object type="App::Part" name="Part" id="1443" revision="1" file="Part.xml" />
+    <Object type="Part::Cut" name="Cut" id="1438" revision="5" file="Cut.xml" />
+    <Object type="App::Part" name="Part" id="1443" revision="5" file="Part.xml" />
     <Object type="App::Origin" name="Origin" id="1444" revision="0" file="Origin.xml" />
     <Object type="App::Line" name="X_Axis" id="1445" revision="0" file="X_Axis.xml" />
     <Object type="App::Line" name="Y_Axis" id="1446" revision="0" file="Y_Axis.xml" />
@@ -901,7 +886,7 @@
     <Object type="App::Plane" name="XZ_Plane" id="1449" revision="0" file="XZ_Plane.xml" />
     <Object type="App::Plane" name="YZ_Plane" id="1450" revision="0" file="YZ_Plane.xml" />
     <Object type="Part::Cylinder" name="Cylinder002" id="1451" revision="2" file="Cylinder002.xml" />
-    <Object type="Part::Offset" name="Offset" id="1452" revision="2" file="Offset.xml" />
+    <Object type="Part::Offset" name="Offset" id="1452" revision="4" file="Offset.xml" />
   </Objects>
   <ObjectData Count="0">
   </ObjectData>

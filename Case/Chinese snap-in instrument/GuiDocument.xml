@@ -9,17 +9,17 @@
   </Expand>
 </Expand>
 >
-  <Camera extra="0" id="49" binding="0">
+  <Camera extra="0" id="11" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
   position 26.949036 -26.949022 16.449026
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance -2.383909
-  farDistance 89.201469
+  orientation 0.74290603 0.30772206 0.59447277  1.2171158
+  nearDistance -4.0388875
+  farDistance 89.201454
   aspectRatio 1
   focalDistance 46.677082
-  height 93.354164
+  height 90.214745
 
 }
 ## overrideMode: As Is]]>

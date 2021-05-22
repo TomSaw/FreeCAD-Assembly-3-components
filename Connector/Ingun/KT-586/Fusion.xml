@@ -25,7 +25,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
-      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+      <Part HasherIndex="0" ElementMap="1.15.70200.3.0" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
@@ -52,8 +52,8 @@ Locations 8
               0               1               0               0 
               0               0               1               3 
 2  5 1 6 1 0
-2  6 -1 5 -1 0
-Curve2ds 12
+2  2 1 3 1 6 -1 5 -1 0
+Curve2ds 13
 1 0 3.1000000000000001 1 0 
 2 0 0 1 0 -0 1 2
 1 6.2831853071795862 -0 0 1 
@@ -61,6 +61,7 @@ Curve2ds 12
 1 0 0 1 0 
 2 0 0 1 0 -0 1 2
 1 0 0 1 0 
+2 0 0 1 0 -0 1 1.2
 2 0 0 1 0 -0 1 1.2
 1 0 15 1 0 
 2 0 0 1 0 -0 1 1.2
@@ -140,7 +141,7 @@ Wi
 +23 4 *
 Ve
 1e-07
-1.2 -2.93915231795365e-16 3
+1.2 -2.93915231795365e-16 0
 0 0
 
 0101101
@@ -150,10 +151,11 @@ Ed
 1  4 0 0 6.28318530717959
 2  7 4 0 0 6.28318530717959
 2  8 5 0 0 6.28318530717959
+2  9 2 8 0 6.28318530717959
 0
 
 0101000
-+16 8 -16 8 *
++16 0 -16 0 *
 Wi
 
 0101100
@@ -182,8 +184,8 @@ Ve
 Ed
  1e-07 1 1 0
 1  5 0 0 6.28318530717959
-2  9 4 0 0 6.28318530717959
-2  10 6 0 0 6.28318530717959
+2  10 4 0 0 6.28318530717959
+2  11 6 0 0 6.28318530717959
 0
 
 0101000
@@ -191,19 +193,19 @@ Ed
 Ed
  1e-07 1 1 0
 1  6 0 0 15
-3  11 12CN 4 0 0 15
+3  12 13CN 4 0 0 15
 0
 
 0101000
-+16 8 -10 0 *
+-10 0 +16 0 *
 Wi
 
 0101100
--9 7 +8 7 +15 7 -8 7 *
+-9 0 +8 0 +15 0 -8 0 *
 Fa
-0  1e-07 4 7
+0  1e-07 4 0
 
-0101000
+0111000
 +7 0 *
 Wi
 
@@ -217,7 +219,7 @@ Fa
 Sh
 
 0101100
-+18 4 +13 0 -11 4 +6 0 +4 7 *
++18 4 +13 0 -11 4 +6 7 +4 7 *
 So
 
 0100000
@@ -229,67 +231,25 @@ Co
 
 +1 1 ]]>
       </Part>
-      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
-      <ElementMap2 count="15">
+      <ElementMap count="15">
 <![CDATA[
-1 PostfixCount 13
-Edge
-Face
-Vertex
-;:H113a,E
-;:H113b,E
-;:M;FUS;:H113b:7,E
-;:H113a,F
-;:M;FUS;:H113b:7,F
-;:H113b,F
-;:M;FUS;:H113a:7,F
-;:H113a,V
-;:H113b,V
-;:M;FUS;:H113b:7,V
-
-MapCount 1
-
-ElementMap 1 1 3
-
-Edge
-
-ChildCount 0
-
-NameCount 7
-0
-:1.1.4 0
-:1.2.4 0
-:1.3.4 0
-:1.3.6 0
-:1.1.5 0
-:1.2.6 0
-
-Face
-
-ChildCount 0
-
-NameCount 6
-0
-:2.1.7 0
-:2.2.a 0
-:2.3.7 0
-:2.1.8 0
-:2.2.9 0
-
-Vertex
-
-ChildCount 0
-
-NameCount 5
-0
-:3.1.b 0
-:3.2.b 0
-:3.2.d 0
-:3.1.c 0
-
-EndMap
+Edge1	Edge1;:T4410:5:E 1 0
+Edge2	Edge2;:T4410:5:E 1 0
+Edge3	Edge3;:T4410:5:E 1 0
+Edge4	Edge3;:T4411:5:E 1 0
+Edge5	Edge1;:T4411:5:E 1 0
+Edge6	Edge2;:T4411:5:E 1 0
+Face1	Face1;:T4410:5:F 1 0
+Face2	Face2;:M;FUS;:T4410:5:F 1 0
+Face3	Face3;:T4410:5:F 1 0
+Face4	Face1;:T4411:5:F 1 0
+Face5	Face2;:T4411:5:F 1 0
+Vertex1	Vertex1;:T4410:7:V 1 0
+Vertex2	Vertex2;:T4410:7:V 1 0
+Vertex3	Vertex2;:T4411:7:V 1 0
+Vertex4	Vertex1;:T4411:7:V 1 0
 ]]>
-      </ElementMap2>
+      </ElementMap>
     </Property>
     <Property name="Shapes" type="App::PropertyLinkList">
       <LinkList count="2">
@@ -297,8 +257,8 @@ EndMap
         <Link value="Cylinder001"/>
       </LinkList>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="false"/>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="true"/>
     </Property>
   </Properties>
 </Object>
